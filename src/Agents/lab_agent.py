@@ -1,73 +1,95 @@
-from typing import Dict, Optional
+# src/agents/lab_agent.py
+from typing import Dict, List
 import pandas as pd
 from langchain_groq import ChatGroq
 from langchain_core.prompts import PromptTemplate
-from dotenv import load_dotenv
-load_dotenv()
+from prompts import LAB_ANALYSIS_PROMPT
+from schemas import LabResult, LabFlags
 
+def analyze_patient_labs(patient_name: str, fetch_data_func) -> Dict:
+    """
+    Reasoning Agent: Analyze lab data for a patient across multiple visits.
+    Detects risky trends and abnormalities.
+    Returns a validated LabResult dictionary.
+    """
 
-class LabInterpretationAgent:
-    def __init__(self, db_agent):
-        self.db_agent = db_agent
-        self.llm = ChatGroq(model="openai/gpt-oss-20b", temperature=0.1)
+    print(f"[LOG] Analyzing labs for patient: {patient_name}")
 
-    def detect_health_flags(self, df: pd.DataFrame) -> Dict:
-        flags = {}
+    # -----------------------------
+    # Fetch lab data
+    # -----------------------------
+    df = fetch_data_func(name=patient_name, gender=None, unique_id=None)
+    if isinstance(df, list):
+        df = pd.DataFrame(df)
 
-        # Check for diseases that are high-risk
-        risky_diseases = ["Asthma", "Diabetes", "Bronchitis", "Anxiety Disorders"]
-        df_risk = df[df["Disease"].isin(risky_diseases)]
-        if not df_risk.empty:
-            flags["HighRiskDiseases"] = df_risk["Disease"].unique().tolist()
+    if df.empty:
+        print(f"[LOG] No lab records found for {patient_name}")
+        return LabResult(
+            patient_name=patient_name,
+            flags=LabFlags(),
+            explanation="No lab records found."
+        ).dict()
 
-        # Check abnormal Blood Pressure
+    # -----------------------------
+    # Detect health flags
+    # -----------------------------
+    flags = LabFlags()
+
+    # High-risk diseases
+    risky_diseases = ["Asthma", "Diabetes", "Bronchitis", "Anxiety Disorders"]
+    df_risk = df[df["Disease"].isin(risky_diseases)]
+    if not df_risk.empty:
+        flags.HighRiskDiseases = df_risk["Disease"].unique().tolist()
+
+    # Abnormal blood pressure
+    if "Blood Pressure" in df.columns:
         abnormal_bp = df[df["Blood Pressure"].str.lower().isin(["high", "low"])]
         if not abnormal_bp.empty:
-            flags["AbnormalBloodPressure"] = abnormal_bp["Blood Pressure"].unique().tolist()
+            flags.AbnormalBloodPressure = abnormal_bp["Blood Pressure"].unique().tolist()
 
-        # Check abnormal Cholesterol Level
+    # Abnormal cholesterol
+    if "Cholesterol Level" in df.columns:
         abnormal_chol = df[df["Cholesterol Level"].str.lower().isin(["high", "low"])]
         if not abnormal_chol.empty:
-            flags["AbnormalCholesterol"] = abnormal_chol["Cholesterol Level"].unique().tolist()
+            flags.AbnormalCholesterol = abnormal_chol["Cholesterol Level"].unique().tolist()
 
-        # Check Outcome Variable (Positive findings)
+    # Positive outcomes
+    if "Outcome Variable" in df.columns:
         positive_outcomes = df[df["Outcome Variable"].str.lower() == "positive"]
         if not positive_outcomes.empty:
-            flags["PositiveFindings"] = positive_outcomes["Disease"].unique().tolist()
+            flags.PositiveFindings = positive_outcomes["Disease"].unique().tolist()
 
-        return flags
+    # -----------------------------
+    # LLM explanation for reasoning agent
+    # -----------------------------
+    llm = ChatGroq(model="openai/gpt-oss-20b", temperature=0.1)
 
-    def explain_with_llm(self, patient_name: str, flags: Dict) -> str:
-        if not flags:
-            return "No abnormal findings detected for this patient."
-
-        flags_text = "\n".join([f"{k}: {v}" for k, v in flags.items()])
-
+    if all(not getattr(flags, attr) for attr in flags.__fields__):
+        explanation = "No abnormal findings detected for this patient."
+        print(f"[LOG] {patient_name}: {explanation}")
+    else:
+        # Flatten flags for LLM prompt
+        flags_text = "\n".join([f"{k}: {getattr(flags, k)}" for k in flags.__fields__])
         template = PromptTemplate(
             input_variables=["patient_name", "flags_text"],
-            template=(
-                "You are a concise clinical assistant.\n"
-                "Patient Name: {patient_name}\n\n"
-                "Detected findings:\n{flags_text}\n\n"
-                "Write a short, accurate medical summary of what this means "
-                "and include one recommended next step for the clinician."
-            ),
+            template=LAB_ANALYSIS_PROMPT
         )
+        chain = template | llm
+        try:
+            result = chain.invoke({"patient_name": patient_name, "flags_text": flags_text})
+            explanation = result.content.strip()
+        except Exception as e:
+            explanation = f"LLM explanation failed: {str(e)}"
+            print(f"[ERROR] {patient_name}: {explanation}")
 
-        chain = template | self.llm
-        result = chain.invoke({"patient_name": patient_name, "flags_text": flags_text})
-        return result.content.strip()
+    # -----------------------------
+    # Build LabResult
+    # -----------------------------
+    lab_result = LabResult(
+        patient_name=patient_name,
+        flags=flags,
+        explanation=explanation
+    )
 
-    def analyze(self, patient_name: str) -> Dict:
-        df = self.db_agent.fetch_patient_labs(patient_name)
-        if df.empty:
-            return {"patient_name": patient_name, "message": "No lab records found."}
-
-        flags = self.detect_health_flags(df)
-        explanation = self.explain_with_llm(patient_name, flags)
-
-        return {
-            "patient_name": patient_name,
-            "flags": flags,
-            "explanation": explanation
-        }
+    print(f"[LOG] Lab analysis complete for {patient_name}: {lab_result.dict()}")
+    return lab_result.dict()
