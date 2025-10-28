@@ -1,0 +1,36 @@
+# Core web framework
+fastapi
+uvicorn[standard]
+
+# Data handling
+pandas
+pydantic
+sqlalchemy
+
+# LangChain core (latest modular setup)
+langchain
+langchain-core
+langchain-community
+
+# LLM providers / integrations
+langchain-openai           # for OpenAI models
+langchain-groq             # for Groq integration
+langchain-google-genai     # for Gemini integration
+
+# Vector stores / embeddings
+chromadb                   # lightweight vector DB
+faiss-cpu                  # optional faster embeddings (choose one)
+tiktoken                   # token counting
+
+# Environment variables
+python-dotenv
+
+# Genomic / bioinformatics (you mentioned pysam & geneimpacts)
+pysam
+geneimpacts
+cython
+
+# Optional: evaluation / debugging / dev tools
+rich
+ipython
+jupyter
