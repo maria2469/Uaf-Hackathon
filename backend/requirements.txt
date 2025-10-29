@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+langchain-groq
+python-dotenv
+sqlite3
+pydantic
+email-validator

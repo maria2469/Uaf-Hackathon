@@ -1,0 +1,6553 @@
+{
+  "UID_00001": {
+    "patient_info": {},
+    "report_details": {},
+    "test_results": {
+      "Platelet Indices": {
+        "Platelet Count": {
+          "Result": 125000,
+          "Unit": "/cumm"
+        },
+        "PDW": {
+          "Result": 10.9,
+          "Unit": "fL"
+        },
+        "MPV": {
+          "Result": 10.6,
+          "Unit": "fL"
+        },
+        "P-LCR": {
+          "Result": 30.0,
+          "Unit": "%"
+        },
+        "PCT": {
+          "Result": 0.13,
+          "Unit": "%"
+        }
+      },
+      "PSSR.MO": "Mild Anisocytosis, Mild Microcytosis, Mild Hypochromia, few pencil cells seen.",
+      "PSSW.MO": "Within Normal Limits.",
+      "Peripheral Smear Study": {
+        "Platelets": "Mild Reduction.",
+        "Parasite": "Not detected",
+        "Note": ""
+      },
+      "Hemoglobin": {
+        "Result": 11.0,
+        "Unit": "gm%"
+      },
+      "RBC Count": {
+        "Result": 4.83,
+        "Unit": "mil/cumm"
+      },
+      "Packed Cell Volume(PCV)": {
+        "Result": 35.3,
+        "Unit": "%"
+      },
+      "RBC Indices": {
+        "MCV": {
+          "Result": 73.08,
+          "Unit": "fL"
+        },
+        "MCH": {
+          "Result": 22.77,
+          "Unit": "pgm"
+        },
+        "MCHC": {
+          "Result": 31.16,
+          "Unit": "g/dL"
+        },
+        "R.D.W.-SD": {
+          "Result": 44.9,
+          "Unit": ""
+        },
+        "R.D.W.-CV": {
+          "Result": 16.9,
+          "Unit": ""
+        }
+      },
+      "WBC": {
+        "Result": 6220,
+        "Unit": "/cumm"
+      }
+    },
+    "reference_ranges": {},
+    "remarks": {
+      "summary": "",
+      "abnormal_findings": "",
+      "doctor_comment": ""
+    }
+  },
+  "UID_00002": {
+    "patient_info": {
+      "name": "",
+      "patient_id": "10437984",
+      "age": "",
+      "gender": "",
+      "date_of_birth": "",
+      "contact": "",
+      "address": "",
+      "doctor": "Dr. Bhavesh Chauhan MD"
+    },
+    "report_details": {
+      "report_date": "",
+      "report_time": "12:52:39",
+      "sample_collection_time": "11:04:45",
+      "lab_name": "Shree Diagnostic Centre",
+      "lab_address": "Shree Hospital, Ganesh Baug, Murbad Road, Kalyan (W)",
+      "technician": "Atul S. Vadhavkar",
+      "doctor_name": "Dr. A. J. Ranadive"
+    },
+    "test_results": {
+      "CRP": {
+        "result": 267.8,
+        "unit": "mg/L"
+      }
+    },
+    "reference_ranges": {
+      "CRP": {
+        "adults": "< 5 mg/L",
+        "new_born_up_to_3_weeks": "< 4.1 mg/L",
+        "infants_and_children": "< 2.8 mg/L"
+      }
+    },
+    "remarks": {}
+  },
+  "UID_00003": {
+    "patient_info": {
+      "name": "",
+      "patient_id": "10436879",
+      "age": "",
+      "gender": "",
+      "date_of_birth": "",
+      "contact": "",
+      "address": ""
+    },
+    "report_details": {
+      "report_date": "",
+      "report_time": "13:42:13",
+      "referred_by": "Dr. BHAVESH CHAUHAN MD",
+      "lab_name": "Shree Diagnostic Centre",
+      "technician": "Atul S. Vadhavkar",
+      "doctor_name": "Dr. A. J. Ranadive"
+    },
+    "test_results": {
+      "hematology": {
+        "Hemoglobin": 9.1,
+        "Total R.B.C. Count": 3.19,
+        "Haematocrit (PCV/HCT)": 27.2,
+        "Mean Corpuscular Volume (M.C.V.)": 85.3,
+        "Mean Corpuscular Hb (M.C.H.)": 28.5,
+        "Mean Corpuscular Hb Conc (M.C.H.C.)": 33.5,
+        "Red cell Distribution Width (R.D.W.-CV)": 16.5,
+        "Total W.B.C. Count": 10560,
+        "Neutrophils": 87.7,
+        "Lymphocytes": 5.9,
+        "Eosinophils": 0.7,
+        "Monocytes": 5.5,
+        "Basophils": 0.2,
+        "Platelet Count": 370,
+        "MPV": 9.4,
+        "IMMATURE PLATELET FRACTION": 2.9,
+        "Neutrophils (abs)": 9261.12,
+        "Lymphocytes (abs)": 623.04,
+        "Eosinophils (abs)": 73.92,
+        "Monocytes (abs)": 580.8,
+        "Basophils (abs)": 21.12
+      }
+    },
+    "reference_ranges": {
+      "Hemoglobin": "13.0-17.0 gm/dl",
+      "Total R.B.C. Count": "4.5-5.5 mill/cmm",
+      "Haematocrit (PCV/HCT)": "40.0-50.0 %",
+      "Mean Corpuscular Volume (M.C.V.)": "83.0-95.0 fl",
+      "Mean Corpuscular Hb (M.C.H.)": "27.0-32.0 Pg",
+      "Mean Corpuscular Hb Conc (M.C.H.C.)": "31.5-34.5 g/dl",
+      "Red cell Distribution Width (R.D.W.-CV)": "11.6-14.6 %",
+      "Total W.B.C. Count": "4000-10000 /ul",
+      "Neutrophils": "40-70 %",
+      "Lymphocytes": "20-40 %",
+      "Eosinophils": "1-6 %",
+      "Monocytes": "2-10 %",
+      "Basophils": "0-1 %",
+      "Platelet Count": "150-450 /uL",
+      "MPV": "6.78-13.46 fL",
+      "IMMATURE PLATELET FRACTION": "0-5 %",
+      "Neutrophils (abs)": "1575-8800 /uL",
+      "Lymphocytes (abs)": "1125-4950 /uL",
+      "Eosinophils (abs)": "0-400 /uL",
+      "Monocytes (abs)": "0-1000 /uL",
+      "Basophils (abs)": "0-100 /uL"
+    },
+    "remarks": {
+      "summary": "",
+      "abnormal_findings": "",
+      "doctor_comment": ""
+    }
+  },
+  "UID_00004": {
+    "patient_info": {
+      "name": "",
+      "patient_id": "27012",
+      "age": "",
+      "gender": "Male",
+      "date_of_birth": "",
+      "contact": "9372696384",
+      "address": "K.P. Patil Building, Near Shivaji Maharaj Statue, Mohopada, Tal. Khalapur, Dist. Raigad - 410 222."
+    },
+    "report_details": {
+      "report_date": "27-Apr-2025",
+      "report_time": "10:18 AM",
+      "referred_by": "Dr. Ramesh",
+      "lab_name": "Shree Diagnostic Clinical Laboratory",
+      "technician": "",
+      "doctor_name": "Dr. Swapnil V. Sirmukaddam"
+    },
+    "test_results": {
+      "hematology": {
+        "Hemoglobin": 11.6,
+        "Packed Cell Volume (HCT)": 45.2,
+        "R.B.C. Count": 5.1,
+        "Mean Cell Volume(MCV)": 88.6,
+        "Mean Cell Hemoglobin(MCH)": 22.7,
+        "Mean Cell Hb Conc(MCHC)": 25.7,
+        "Total WBC Count": 9200,
+        "Differential % WBCs count": {
+          "Neutrophils": 66,
+          "Lymphocytes": 24,
+          "Eosinophils": 4,
+          "Monocytes": 6
+        },
+        "Absolute Differential Count": {
+          "Absolute Neutrophils Count": 6072,
+          "Absolute Lymphocytes Count": 2208,
+          "Absolute Monocytes Count": 552,
+          "Absolute Eosinophils Count, AEC": 368
+        },
+        "Platelet Count": 398000
+      }
+    },
+    "reference_ranges": {
+      "Hemoglobin": "13.0-17.0 gm/dl",
+      "Packed Cell Volume (HCT)": "40-50 %",
+      "R.B.C. Count": "4.5 - 5.5 mill/cmm",
+      "Mean Cell Volume(MCV)": "83-101 fL",
+      "Mean Cell Hemoglobin(MCH)": "27-33 pg",
+      "Mean Cell Hb Conc(MCHC)": "32-38 %",
+      "Total WBC Count": "4000-11000 cells/cumm",
+      "Differential % WBCs count": {
+        "Neutrophils": "50-70 %",
+        "Lymphocytes": "20 -40 %",
+        "Eosinophils": "1-6 %",
+        "Monocytes": "0 -10 %"
+      },
+      "Absolute Differential Count": {
+        "Absolute Neutrophils Count": "2000-7000 / cumm",
+        "Absolute Lymphocytes Count": "1000-3000 / cumm",
+        "Absolute Monocytes Count": "200-1000 / cumm",
+        "Absolute Eosinophils Count, AEC": "20-500 / cumm"
+      },
+      "Platelet Count": ""
+    },
+    "remarks": {
+      "summary": "",
+      "abnormal_findings": "",
+      "doctor_comment": ""
+    }
+  },
+  "UID_00005": {
+    "patient_info": {
+      "patient_id": "230425003"
+    },
+    "report_details": {
+      "lab_name": "SHREE DIAGNOSTIC CLINICAL LABORATORY",
+      "referred_by": "Dr. Ramesh Mhatre",
+      "doctor_name": "Dr. Swapnil V. Sirmukaddam"
+    },
+    "test_results": {
+      "hematology": {
+        "Hemoglobin": 12.1,
+        "Packed Cell Volume (HCT)": 42.5,
+        "R.B.C. Count": 4.9,
+        "Mean Cell Volume(MCV)": 86.7,
+        "Mean Cell Hemoglobin(MCH)": 24.7,
+        "Mean Cell Hb Conc(MCHC)": 28.5,
+        "Total WBC Count": 13600,
+        "Neutrophils": 66,
+        "Lymphocytes": 24,
+        "Eosinophils": 4,
+        "Monocytes": 6,
+        "Absolute Neutrophils Count": 8976,
+        "Absolute Lymphocytes Count": 3264,
+        "Absolute Monocytes Count": 816,
+        "Absolute Eosinophils Count, AEC": 544,
+        "Platelet Count": 502000
+      }
+    },
+    "reference_ranges": {
+      "Hemoglobin": "13.0-17.0 gm/dl",
+      "Packed Cell Volume (HCT)": "40-50 %",
+      "R.B.C. Count": "4.5 - 5.5 mill/cmm",
+      "Mean Cell Volume(MCV)": "83-101 fl",
+      "Mean Cell Hemoglobin(MCH)": "27-33 pg",
+      "Mean Cell Hb Conc(MCHC)": "32 -38 %",
+      "Total WBC Count": "4000-11000 cells/cumm",
+      "Neutrophils": "50-70 %",
+      "Lymphocytes": "20 -40 %",
+      "Eosinophils": "1-6 %",
+      "Monocytes": "0 -10 %",
+      "Absolute Neutrophils Count": "2000-7000 / cumm",
+      "Absolute Lymphocytes Count": "1000-3000 / cumm",
+      "Absolute Monocytes Count": "200-1000 / cumm",
+      "Absolute Eosinophils Count, AEC": "20-500 / cumm",
+      "Platelet Count": ""
+    }
+  },
+  "UID_00006": {
+    "patient_info": {
+      "name": "",
+      "patient_id": "AIGG.20825010",
+      "age": "",
+      "gender": "",
+      "date_of_birth": "",
+      "contact": "",
+      "address": ""
+    },
+    "report_details": {
+      "report_date": "18/04/25",
+      "report_time": "13:42",
+      "referred_by": "Dr. ARABIND PANDA",
+      "lab_name": "AIG Hospitals",
+      "technician": "",
+      "doctor_name": "Dr. ARABIND PANDA"
+    },
+    "test_results": {
+      "haematology": {
+        "hemoglobin": 13.7,
+        "RBC": 4.51,
+        "PCV": 42.6,
+        "MCV": 94.4,
+        "MCH": 30.4,
+        "MCHC": 32.2,
+        "RDW": 12.8,
+        "TOTAL WBC": 8120,
+        "differential_count": {
+          "neutrophils": 76.8,
+          "lymphocytes": 13.3,
+          "eosinophils": 0.3,
+          "monocytes": 9.5,
+          "basophils": 0.1
+        }
+      }
+    },
+    "reference_ranges": {
+      "hemoglobin": "13.0 - 17.0 g/dl",
+      "RBC": "4.5 - 5.5 cells/cumm",
+      "PCV": "40.0 - 50.0 %",
+      "MCV": "83.0 - 101.0 fl",
+      "MCH": "27.0 - 32.0 pg",
+      "MCHC": "31.5 - 34.5 g/dl",
+      "RDW": "11.6 - 14 %",
+      "TOTAL WBC": "4000 - 10000 cells/cumm",
+      "differential_count": {
+        "neutrophils": "40 - 80 %",
+        "lymphocytes": "20 - 40 %",
+        "eosinophils": "1.0 - 6.0 %",
+        "monocytes": "2.0 - 10.0 %",
+        "basophils": "0 - 2.0 %"
+      }
+    },
+    "remarks": {
+      "summary": "",
+      "abnormal_findings": "",
+      "doctor_comment": ""
+    }
+  },
+  "UID_00007": {
+    "patient_info": {
+      "name": "",
+      "patient_id": "AIGG.20965929",
+      "age": "",
+      "gender": "",
+      "date_of_birth": "",
+      "contact": "",
+      "address": ""
+    },
+    "report_details": {
+      "report_date": "",
+      "report_time": "08:25",
+      "referred_by": "Dr. G V RAO",
+      "lab_name": "AIG Hospitals",
+      "technician": "",
+      "doctor_name": "Dr. Safia Sultana Mustafa"
+    },
+    "test_results": {
+      "hematology": {
+        "absolute_eosinophil_count": 36,
+        "absolute_monocyte_count": 436,
+        "absolute_basophil_count": 9,
+        "neutrophil_lymphocyte_ratio": 15.9,
+        "platelet_count": 233,
+        "mpv": 10.0,
+        "peripheral_smear": {
+          "rbc_morphology": "Normocytic Normochromic",
+          "wbc_morphology": "Neutrophilia",
+          "platelets": "Adequate",
+          "abnormal_cells": "Nil",
+          "hemoparasites": "Nil"
+        }
+      }
+    },
+    "reference_ranges": {
+      "absolute_eosinophil_count": "20 - 500 cells/cum m",
+      "absolute_monocyte_count": "200 - 1000 cells/cum m",
+      "absolute_basophil_count": "20 - 100 cells/cum m",
+      "platelet_count": "150 - 410 10^3/mm^3",
+      "mpv": "7.4-10.4 fl"
+    },
+    "remarks": {
+      "summary": "",
+      "abnormal_findings": "",
+      "doctor_comment": ""
+    }
+  },
+  "UID_00008": {
+    "patient_info": {
+      "name": "",
+      "patient_id": "AIGG.20965929",
+      "age": "",
+      "gender": "",
+      "date_of_birth": "",
+      "contact": "",
+      "address": ""
+    },
+    "report_details": {
+      "report_date": "",
+      "report_time": "23:07",
+      "referred_by": "Dr. RUPA BANERJEE",
+      "lab_name": "AIG Hospitals",
+      "technician": "",
+      "doctor_name": "Dr. G. DEEPIKA"
+    },
+    "test_results": {
+      "biochemistry": {
+        "uric_acid": 5.7
+      }
+    },
+    "reference_ranges": {
+      "uric_acid": "3.5 - 7.2 mg/dL"
+    },
+    "remarks": {
+      "summary": "",
+      "abnormal_findings": "",
+      "doctor_comment": ""
+    }
+  },
+  "UID_00009": {
+    "patient_info": {
+      "name": "",
+      "patient_id": "AIGG.20965929",
+      "age": "",
+      "gender": "",
+      "date_of_birth": "",
+      "contact": "",
+      "address": "",
+      "episode": "IP"
+    },
+    "report_details": {
+      "report_date": "",
+      "report_time": "03:33",
+      "referred_by": "Dr. RUPA BANERJEE",
+      "lab_name": "AIG Hospitals",
+      "technician": "",
+      "doctor_name": "Dr. VISHNU VARDHAN KOMMU",
+      "facility": "AIG Hospitals, Gachibowli"
+    },
+    "test_results": {
+      "coagulation": {
+        "prothrombin_time": 12.3,
+        "mean_normal_prothrombin_time": 12.1,
+        "INR": 1.02
+      }
+    },
+    "reference_ranges": {
+      "prothrombin_time": "10.8 - 13.3 seconds",
+      "INR": "Normal <1.3, Therapeutic Range 2.0-3.5, Critical Alert >4.0"
+    },
+    "remarks": {
+      "summary": "",
+      "abnormal_findings": "",
+      "doctor_comment": "Prothrombin time measures the extrinsic coagulation pathway which consists of activated Factor VII (VIIa), tissue factor and proteins of the common pathway (Factors X, V, II & Fibrinogen). Prolonged PT Administration of oral anticoagulant drugs. Liver disease, particularly obstructive jaundice. Vitamin K deficiency. Disseminated intravascular coagulation. Inherited deficiency of factors in extrinsic pathway (V, X, prothrombin and fibrinogen).International Normalized Ratio (endash) is used for defining the therapeutic ranges for anticoagulant therapy. Appropriate therapeutic range varies with the disease and treatment intensity. Recommended Therapeutic range for Oral Anticoagulant therapy INR 2.0-3.5.Treatment of Venous thrombosis & Pulmonary embolism, Prophylaxis of Venous thrombosis (High risk surgery), Prevention of systemic embolism in tissue heart valves, AMI, Valvular heart disease & Atrial fibrillation, Bileaflet mechanical valve in aortic position. Note : 1. Results should be clinically correlated. 2. Test done on citrated plasma."
+    }
+  },
+  "UID_00010": {
+    "patient_info": {
+      "name": "",
+      "patient_id": "AIGG.20965929",
+      "age": "",
+      "gender": "",
+      "date_of_birth": "",
+      "contact": "",
+      "address": ""
+    },
+    "report_details": {
+      "report_date": "",
+      "report_time": "23:07",
+      "referred_by": "Dr. RUPA BANERJEE",
+      "lab_name": "AIG Hospitals",
+      "technician": "Y SUBASH CHANDRA BOSE",
+      "doctor_name": "Dr. G. DEEPIKA"
+    },
+    "test_results": {},
+    "reference_ranges": {},
+    "remarks": {
+      "summary": "",
+      "abnormal_findings": "",
+      "doctor_comment": ""
+    }
+  },
+  "UID_00011": {
+    "patient_info": {
+      "name": "Mr. Bipul Chakraborty",
+      "patient_id": "AIGG.20968030",
+      "age": 32,
+      "gender": "Male"
+    },
+    "report_details": {
+      "lab_name": "AIG Hospitals",
+      "report_date": "",
+      "referred_by": "Dr. Siddhant Mathur",
+      "technician": "A Thirupathaiah",
+      "doctor_name": "Dr. Siddhant Mathur"
+    },
+    "test_results": {
+      "coagulation": {
+        "prothrombin_time": 11.1,
+        "mean_normal_prothrombin_time": 12.1,
+        "INR": 0.92,
+        "APTT": 33.8
+      }
+    },
+    "reference_ranges": {
+      "prothrombin_time": "10.8 - 13.3",
+      "INR": "<1.3",
+      "APTT": "26.8 - 36.1"
+    }
+  },
+  "UID_00012": {
+    "patient_info": {
+      "name": "",
+      "patient_id": "AIGG.20968030",
+      "age": "32",
+      "gender": "Male",
+      "date_of_birth": "",
+      "contact": "",
+      "address": ""
+    },
+    "report_details": {
+      "report_date": "",
+      "report_time": "12:03",
+      "referred_by": "Dr. Siddhant Mathur",
+      "lab_name": "AIG Hospitals",
+      "technician": "Namburu Veeraiah",
+      "doctor_name": "Dr. G. Deepika"
+    },
+    "test_results": {
+      "biochemistry": {
+        "RBS (RANDOM BLOOD SUGAR)": 126
+      }
+    },
+    "reference_ranges": {
+      "RBS (RANDOM BLOOD SUGAR)": "70 - 140 mg/dL"
+    },
+    "remarks": {
+      "summary": "",
+      "abnormal_findings": "",
+      "doctor_comment": ""
+    }
+  },
+  "UID_00013": {
+    "patient_info": {
+      "name": "Mr. Bipul Chakraborty",
+      "patient_id": "AIGG.20968030",
+      "age": "32",
+      "gender": "Male",
+      "date_of_birth": "",
+      "contact": "",
+      "address": ""
+    },
+    "report_details": {
+      "report_date": "",
+      "report_time": "12:03",
+      "referred_by": "Dr. Siddhant Mather",
+      "lab_name": "AIG Hospitals",
+      "technician": "Namburu Veeralah",
+      "doctor_name": "Dr. G. Deepika"
+    },
+    "test_results": {
+      "biochemistry": {
+        "serum_creatinine": 1.04
+      }
+    },
+    "reference_ranges": {
+      "serum_creatinine": "0.67 - 1.17 mg/dL"
+    },
+    "remarks": {
+      "summary": "",
+      "abnormal_findings": "",
+      "doctor_comment": ""
+    }
+  },
+  "UID_00014": {
+    "patient_info": {
+      "name": "S. H",
+      "patient_id": "",
+      "age": "",
+      "gender": "",
+      "date_of_birth": "",
+      "contact": "",
+      "address": "KJ-7, Kavi Nagar, Ghaziabad (U.P.)"
+    },
+    "report_details": {
+      "report_date": "23/Apr/2025",
+      "report_time": "8:54:48AM",
+      "referred_by": "S. H",
+      "lab_name": "",
+      "technician": "",
+      "doctor_name": "Dr. (Capt) Atul Kapila (Retd.) MD Path"
+    },
+    "test_results": {
+      "liver_function": {
+        "bilirubin_total": 8.21,
+        "conjugated_bilirubin": 7.43,
+        "unconjugated_bilirubin": "",
+        "sgot": 113,
+        "sgpt": 89,
+        "alkaline_phosphatase": 438,
+        "total_protein": 5.0,
+        "albumin": 3.2,
+        "globulin": 1.8,
+        "a/g_ratio": 1.78,
+        "gamat_gt": ""
+      }
+    },
+    "reference_ranges": {
+      "bilirubin_total": "0.30-1.20",
+      "conjugated_bilirubin": "0.00-0.30",
+      "unconjugated_bilirubin": "0.00-0.70",
+      "sgot": "0.00-40.00",
+      "sgpt": "0.00-49.00",
+      "alkaline_phosphatase": "42.00-128.00",
+      "total_protein": "6.20-8.00",
+      "albumin": "3.80-5.40",
+      "globulin": "1.50-3.60",
+      "a/g_ratio": "1.0-2.0",
+      "gamat_gt": "11.00-50.00"
+    },
+    "remarks": {
+      "summary": "",
+      "abnormal_findings": "",
+      "doctor_comment": ""
+    }
+  },
+  "UID_00015": {
+    "patient_info": {
+      "name": "",
+      "patient_id": "",
+      "age": "",
+      "gender": "",
+      "date_of_birth": "",
+      "contact": "",
+      "address": ""
+    },
+    "report_details": {
+      "lab_name": "Diagnostic Point Pathology Labs",
+      "report_date": "",
+      "report_time": "8:29:07AM",
+      "referred_by": "VERMA",
+      "technician": "",
+      "doctor_name": "Dr. (Capt) Atul Kapila (Retd.) MD Path"
+    },
+    "test_results": {
+      "hematology": {
+        "PT(PROTHROMBIN TIME)": {
+          "patient_value": 17.5,
+          "unit": "second(s)",
+          "normal_control_value": 13.0,
+          "international_normalized_ratio": 1.37
+        }
+      }
+    },
+    "reference_ranges": {
+      "PT(PROTHROMBIN TIME)": {
+        "normal_control_value": "13.0 second(s)",
+        "therapeutic_range": "INR 2.0-3.0"
+      }
+    },
+    "remarks": {
+      "summary": "",
+      "abnormal_findings": "",
+      "doctor_comment": "INR is the parameter of choice in monitoring adequacy of oral anticoagulant therapy. Appropriate therapeutic range varies with the disease and treatment intensity. Prolonged INR suggests potential bleeding disorder/bleeding complications. Results should be clinically correlated. Test conducted on Citrated plasma."
+    }
+  },
+  "UID_00016": {
+    "patient_info": {
+      "name": "",
+      "patient_id": "0223/391503",
+      "age": "",
+      "gender": "",
+      "date_of_birth": "",
+      "contact": "",
+      "address": ""
+    },
+    "report_details": {
+      "report_date": "",
+      "report_time": "16:13:21",
+      "referred_by": "",
+      "lab_name": "Diagnostic Point Pathology Labs",
+      "technician": "",
+      "doctor_name": "Dr. (Capt) Atul Kapila (Retd.)"
+    },
+    "test_results": {
+      "hematology": {
+        "RBC": "Mild Anisocytosis Mild hypochromia, few micro and macrocytes no nucleated RBCs. No target cells seen.",
+        "WBC": "No immature cells seen.",
+        "platelets": "platelets are adequate."
+      }
+    },
+    "remarks": {
+      "summary": "",
+      "abnormal_findings": "",
+      "doctor_comment": ""
+    }
+  },
+  "UID_00017": {
+    "patient_info": {
+      "patient_id": "XXXXXXXXXXXXXX",
+      "CR_UHD_No": "0223/391503"
+    },
+    "report_details": {
+      "lab_name": "Diagnostic Point Pathology Labs",
+      "report_date": "18/Apr/2025",
+      "report_time": "3:17:39PM",
+      "referred_by": "VERMA",
+      "lab_serial_no": "19",
+      "doctor_name": "Dr. Atul Kapila"
+    },
+    "test_results": {
+      "serology": {
+        "ammonia": 119.8
+      }
+    },
+    "reference_ranges": {
+      "ammonia": "17.00 - 90.00 ug/dl"
+    },
+    "remarks": {
+      "doctor_comment": "NOTE : ABOVE MENTIONED FINDINGS ARE A PROFESSIONAL OPINION AND NOT A FINAL DIAGNOSIS, ALL LABORATORY TESTS & OTHER INVESTIGATION RESULTS ARE TO BE CORRELATED CLINIC-PATHOLOGICALLY, DISCREPANCIES, IF ANY, NECESSITATE REVIEW/REPEAT OF THE TESTS. NOT VAILD FOR MEDICO LEGAL PURPOSE CLINICAL CORELATION IS MANDATORY"
+    }
+  },
+  "UID_00018": {
+    "patient_info": {},
+    "report_details": {
+      "lab_name": "Diagnostic Point Pathology Labs",
+      "doctor_name": "Dr. (Capt) Atul Kapila (Retd.)"
+    },
+    "test_results": {
+      "liver_function_test": {
+        "bilirubin_total": 9.42,
+        "conjugated_bilirubin": 7.79,
+        "unconjugated_bilirubin": 1.63,
+        "sgot": 162,
+        "sgpt": 86,
+        "alkaline_phosphatase": 396,
+        "total_protein": 6.2,
+        "albumin": 3.7,
+        "globulin": 2.5,
+        "a_g_ratio": 1.48,
+        "gammagt": 263
+      }
+    },
+    "reference_ranges": {
+      "bilirubin_total": "0.30 - 1.20",
+      "conjugated_bilirubin": "0.00 - 0.30",
+      "unconjugated_bilirubin": "0.00 - 0.70",
+      "sgot": "0.00 - 46.00",
+      "sgpt": "0.00 - 49.00",
+      "alkaline_phosphatase": "42.00 - 128.00",
+      "total_protein": "6.20 - 8.00",
+      "albumin": "3.60 - 5.40",
+      "globulin": "1.50 - 3.60",
+      "a_g_ratio": "1.0 - 2.0",
+      "gammagt": "11.00 - 50.00"
+    },
+    "remarks": {}
+  },
+  "UID_00019": {
+    "patient_info": {
+      "name": "Nithin Thumbethodika",
+      "date_of_birth": "",
+      "age": "",
+      "gender": "",
+      "patient_id": "",
+      "contact": "",
+      "address": ""
+    },
+    "report_details": {
+      "lab_name": "Aster MIMS HOSPITAL",
+      "report_date": "",
+      "referred_by": "",
+      "technician": "",
+      "doctor_name": "Dr. SABARINATH MENON"
+    },
+    "test_results": {
+      "coagulation": {
+        "APTT": 66.9
+      },
+      "hematology": {
+        "hemoglobin": 15.3,
+        "TLC": 9.9,
+        "Platelet Count": 107,
+        "RBC Count": 5.33,
+        "PCV": 44.5,
+        "MCV": 83.4,
+        "MCH": 28.7,
+        "MCHC": 34.4,
+        "RDW": 14.9,
+        "PDW": 15.7,
+        "MPV": 8.7,
+        "Neutrophils": 68
+      }
+    },
+    "reference_ranges": {
+      "APTT": "26 - 36",
+      "hemoglobin": "11.1 - 14.1 g/dL",
+      "TLC": "6 - 18 K/uL",
+      "Platelet Count": "200 - 550 K/uL",
+      "RBC Count": "4.1 - 5.3 10^6/\u03bcL",
+      "PCV": "30 - 40 %",
+      "MCV": "68 - 84 fL",
+      "MCH": "24 - 30 pg",
+      "MCHC": "30 - 36 g/dL",
+      "RDW": "11.6 - 14 %",
+      "PDW": "8.5 - 14.1 fL",
+      "MPV": "7.44 - 10.26 fL",
+      "Neutrophils": "20 - 65 %"
+    },
+    "remarks": {
+      "summary": "",
+      "abnormal_findings": "",
+      "doctor_comment": ""
+    }
+  },
+  "UID_00020": {
+    "patient_info": {
+      "name": "",
+      "patient_id": "",
+      "age": "",
+      "gender": "",
+      "date_of_birth": "",
+      "contact": "",
+      "address": "",
+      "bed_no_ward": "102-3/IMCU"
+    },
+    "report_details": {
+      "report_date": "",
+      "report_time": "08:12 PM",
+      "referred_by": "Dr. Raghunath R, MBBS, MD",
+      "lab_name": "Kauvery Hospital",
+      "technician": "",
+      "doctor_name": "ANNIE ROSE L, MBBS, DNB (CONSULTANT PATHOLOGIST)"
+    },
+    "test_results": {
+      "electrolytes": {
+        "sodium": 131,
+        "potassium": 5.6,
+        "chloride": 102
+      },
+      "blood_glucose": {
+        "random_blood_glucose": 94
+      },
+      "serology": {
+        "c_reactive_protein": ">90.0"
+      }
+    },
+    "reference_ranges": {
+      "sodium": "132-146 mmol/L",
+      "potassium": "3.5-5 mmol/L",
+      "chloride": "98-107 mmol/L",
+      "random_blood_glucose": "70-140 mg/dL",
+      "c_reactive_protein": "0-5 mg/L"
+    },
+    "remarks": {
+      "summary": "",
+      "abnormal_findings": "",
+      "doctor_comment": ""
+    }
+  },
+  "UID_00021": {
+    "patient_info": {
+      "name": "",
+      "patient_id": "IPHS00059614",
+      "age": "",
+      "gender": "",
+      "date_of_birth": "",
+      "contact": "",
+      "address": "",
+      "bed_no": "102-3/IMCU"
+    },
+    "report_details": {
+      "report_date": "",
+      "report_time": "11:20 PM",
+      "referred_by": "Dr. Raghunath R, MBBS, MD",
+      "lab_name": "Sri Kauvery Medical Care (India) Limited",
+      "technician": "Sibiya",
+      "doctor_name": "ANNIE ROSE L, MBBS, DNB"
+    },
+    "test_results": {
+      "urine_analysis": {
+        "crystals": "Nil",
+        "casts": "Nil",
+        "others": "Nil"
+      }
+    },
+    "remarks": {
+      "summary": "",
+      "abnormal_findings": "",
+      "doctor_comment": ""
+    }
+  },
+  "UID_00022": {
+    "patient_info": {
+      "name": "Sireesha",
+      "patient_id": "",
+      "age": "",
+      "gender": "",
+      "date_of_birth": "",
+      "contact": "",
+      "address": ""
+    },
+    "report_details": {
+      "report_date": "21-Apr-25",
+      "report_time": "09:49 am",
+      "referred_by": "Dr. Mahesh A / Giridhar Yadav P",
+      "lab_name": "DEPARTMENT OF PATHOLOGY",
+      "technician": "",
+      "doctor_name": "Dr. Mahesh A / Giridhar Yadav P"
+    },
+    "test_results": {
+      "hematology": {
+        "Platelet count": 2.78,
+        "Mean Cell Volume (MCV)": 106.7,
+        "Mean Cell Haemoglobin (MCH)": 36.1,
+        "Mean Cell Haemoglobin Concentration (MCHC)": 33.8,
+        "RDW": 16.0,
+        "Neutrophils": 58,
+        "Lymphocytes": 26,
+        "Eosinophils": 7,
+        "Monocytes": 9,
+        "Basophils": 0
+      }
+    },
+    "reference_ranges": {
+      "Platelet count": "2.1 - 5.0 Lakhs/Cumm",
+      "Mean Cell Volume (MCV)": "92 - 118 fL",
+      "Mean Cell Haemoglobin (MCH)": "31 - 37 pg",
+      "Mean Cell Haemoglobin Concentration (MCHC)": "29 - 47 g/L",
+      "RDW": "11.6 - 14.0 %",
+      "Neutrophils": "20 - 45 %",
+      "Lymphocytes": "28 - 35 %",
+      "Eosinophils": "1.4 - 4.3 %",
+      "Monocytes": "4 - 7 %",
+      "Basophils": "0 - 1 %"
+    },
+    "remarks": {
+      "summary": "",
+      "abnormal_findings": "",
+      "doctor_comment": ""
+    }
+  },
+  "UID_00023": {
+    "patient_info": {
+      "name": "SIREESHA",
+      "patient_id": "",
+      "age": "",
+      "gender": "",
+      "date_of_birth": "",
+      "contact": "",
+      "address": ""
+    },
+    "report_details": {
+      "report_date": "18-Apr-25",
+      "report_time": "09:22 am",
+      "referred_by": "Dr.MAHESH A / GIRIDHAR YADHAV P",
+      "lab_name": "DEPARTMENT OF BLOOD BANK",
+      "technician": "",
+      "doctor_name": "Dr.MAHESH A / GIRIDHAR YADHAV P"
+    },
+    "test_results": {
+      "blood_grouping_and_rh": {
+        "blood_group": "A",
+        "rh_d_typing": "Positive (+Ve)",
+        "method": "Slide Agglutination Method"
+      }
+    },
+    "reference_ranges": {},
+    "remarks": {
+      "summary": "",
+      "abnormal_findings": "",
+      "doctor_comment": ""
+    }
+  },
+  "UID_00024": {
+    "patient_info": {
+      "name": "",
+      "patient_id": "4312180",
+      "age": "",
+      "gender": "",
+      "date_of_birth": "",
+      "contact": "",
+      "address": "",
+      "requisition": "4312180",
+      "bed": "2320-02"
+    },
+    "report_details": {
+      "report_date": "21-Apr-2025",
+      "report_time": "06:23",
+      "referred_by": "Dr Satender Pal Singh",
+      "lab_name": "INSTITUTE OF LIVER & BILIARY SCIENCES",
+      "technician": "",
+      "doctor_name": ""
+    },
+    "test_results": {
+      "liver_function": {
+        "eGFR": 125,
+        "Bilirubin Total": 1.18,
+        "Bilirubin Direct": 0.3,
+        "Bilirubin Indirect": 0.88,
+        "AST/SGOT": 33,
+        "ALT/SGPT": 23,
+        "Alkaline Phosphatase": 79,
+        "GGT": 12,
+        "Total Protein": 5.29,
+        "Albumin": 2.38,
+        "Globulin": 2.91,
+        "A/G Ratio": 0.82
+      },
+      "magnesium_serum": {
+        "Magnesium": 3.1
+      },
+      "coagulation": {
+        "Prothrombin Time(PT)": 16,
+        "Mean Normal Prothrombin Time(MNPT)": 12,
+        "INR": 1.36
+      }
+    },
+    "reference_ranges": {
+      "eGFR": "ml/min/1.73m^2",
+      "Bilirubin Total": "0.1 - 1.2",
+      "Bilirubin Direct": "0 - 0.2",
+      "Bilirubin Indirect": "0.2 - 0.8",
+      "AST/SGOT": "5 - 40",
+      "ALT/SGPT": "< 30",
+      "Alkaline Phosphatase": "50 - 116",
+      "GGT": "< 55",
+      "Total Protein": "6.4 - 8.3",
+      "Albumin": "3.5 - 5.2",
+      "A/G Ratio": "1.5 - 2.5",
+      "Magnesium": "1.7 - 2.4"
+    },
+    "remarks": {
+      "summary": "PLEASE CORRELATE CLINICALLY.",
+      "abnormal_findings": "",
+      "doctor_comment": ""
+    }
+  },
+  "UID_00025": {
+    "patient_info": {
+      "name": "SUNITA LAMBA",
+      "patient_id": "",
+      "age": "",
+      "gender": "",
+      "date_of_birth": "",
+      "contact": "",
+      "address": "",
+      "referred_by": "UDHRAN HOSPITAL"
+    },
+    "report_details": {
+      "report_date": "",
+      "report_time": "",
+      "lab_name": "PARIDHI PATHOLOGY",
+      "technician": "",
+      "doctor_name": "Dr. SANJAY KUMAR"
+    },
+    "test_results": {
+      "liver_function_test": {
+        "serum_bilirubin": {
+          "total_bilirubin": 1.8,
+          "direct_bilirubin": 1.0,
+          "indirect_bilirubin": 0.8
+        },
+        "serum_sgot_ast": 74,
+        "serum_sgpt_alt": 89,
+        "serum_total_protein": 5.5,
+        "serum_albumin": 3.11,
+        "serum_globulin": 2.39,
+        "a_g_ratio": 1.3,
+        "alkaline_phosphatase": 169
+      }
+    },
+    "reference_ranges": {
+      "total_bilirubin": "0.4-1.0 mg/dl",
+      "direct_bilirubin": "0.1-0.5 mg/dl",
+      "indirect_bilirubin": "0.2-0.8 mg/dl",
+      "serum_sgot_ast": "5-40 IU/L",
+      "serum_sgpt_alt": "5-55 IU/L",
+      "serum_total_protein": "6.0-8.0 gm/dl",
+      "serum_albumin": "3.5-5.5 gm/dl",
+      "serum_globulin": "2.0-4.0 gm/dl",
+      "a_g_ratio": "1.0-1.85 RATIO",
+      "alkaline_phosphatase": "up to 280 IU/L"
+    },
+    "remarks": {
+      "summary": "",
+      "abnormal_findings": "",
+      "doctor_comment": ""
+    }
+  },
+  "UID_00026": {
+    "patient_info": {},
+    "report_details": {
+      "lab_name": "Good Life Diagnostic Centre",
+      "doctor_name": "Dr Vishwabharath Reddy",
+      "referred_by": ""
+    },
+    "test_results": {
+      "renal_function_test": {
+        "blood_urea": 22,
+        "serum_creatinine": 0.9,
+        "uric_acid": 6.5
+      },
+      "random_blood_sugar": 92,
+      "liver_function_test": {
+        "total_bilirubin": 1.2,
+        "direct_bilirubin": 0.5,
+        "indirect_bilirubin": 0.7,
+        "ast_sgot": 38,
+        "alt_sgpt": 21,
+        "alp_alkaline_phosphatase": 76
+      }
+    },
+    "reference_ranges": {
+      "blood_urea": "10-45",
+      "serum_creatinine": "0.5-1.5",
+      "uric_acid": "3.5-6.5",
+      "random_blood_sugar": "60-160",
+      "total_bilirubin": "0.2-1.1",
+      "direct_bilirubin": "0-0.3",
+      "indirect_bilirubin": "0-0.8",
+      "ast_sgot": "up to 41",
+      "alt_sgpt": "0.3-1.2 up to 35",
+      "alp_alkaline_phosphatase": {
+        "1 month to 9 yrs": "82-383",
+        "10 yrs to 15 yrs": "42-390",
+        "16 yrs to 18 yrs": "52-171",
+        "adults": "53-141"
+      }
+    },
+    "remarks": {
+      "summary": "",
+      "abnormal_findings": "",
+      "doctor_comment": "Suggested Clinical Correlation, If Necessary Kindly Discuss With Signatory"
+    }
+  },
+  "UID_00027": {
+    "patient_info": {
+      "name": "",
+      "patient_id": "IP20252388",
+      "age": "",
+      "gender": "",
+      "date_of_birth": "",
+      "contact": "",
+      "address": ""
+    },
+    "report_details": {
+      "report_date": "",
+      "report_time": "12:53:10",
+      "referred_by": "",
+      "lab_name": "Good Life Diagnostic Centre",
+      "technician": "",
+      "doctor_name": "Dr. Vishwabharath Reddy"
+    },
+    "test_results": {
+      "CUE (Complete Urine Examination)": {
+        "physical_examination": {
+          "quantity": "10 ml",
+          "colour": "Pale Yellow",
+          "appearance": "Clear",
+          "reaction": "Acidic",
+          "albumin": "TRACE"
+        },
+        "chemical_examination": {
+          "proteins": "Nil",
+          "sugar": "Nil",
+          "ketone_bodies": "NEGATIVE",
+          "bile_salts_and_bile_pigments": "NEGATIVE",
+          "urobilirubinogen": "",
+          "chyluria": ""
+        },
+        "microscopic_examination": {
+          "red_blood_cells": "Nil",
+          "pus_cells": "2-4 /HPF",
+          "epithelial_cells": "1-2 /HPF",
+          "casts": "Nil",
+          "crystals": "Nil",
+          "other_findings": "Nil"
+        }
+      }
+    },
+    "reference_ranges": {},
+    "remarks": {
+      "summary": "",
+      "abnormal_findings": "",
+      "doctor_comment": "Suggested Clinical Correlation, If Necessary Kindly Discuss With Signatory"
+    }
+  },
+  "UID_00028": {
+    "patient_info": {
+      "name": "",
+      "patient_id": "",
+      "age": "",
+      "gender": "",
+      "date_of_birth": "",
+      "contact": "",
+      "address": ""
+    },
+    "report_details": {
+      "report_date": "22-Apr-25",
+      "report_time": "09:47 am",
+      "referred_by": "Dr.CHENNA VIJAY MD, DM (NEUROLOG)",
+      "lab_name": "DEPARTMENT OF CLINICAL BIOCHEMISTRY",
+      "technician": "",
+      "doctor_name": "Dr.CHENNA VIJAY MD, DM (NEUROLOG"
+    },
+    "test_results": {
+      "liver_function": {
+        "SGPT/ALT": 13,
+        "SGOT/AST": 26,
+        "Alkaline Phosphatase": 169
+      },
+      "protein": {
+        "TOTAL PROTEIN": 5.8,
+        "ALBUMIN": 3.5,
+        "Globulin": 2.3,
+        "A/G Ratio": 1.52
+      },
+      "inflammation": {
+        "CRP": 2.6
+      },
+      "electrolytes": {
+        "Calcium": 7.5,
+        "Phosphorous": 2.9,
+        "Magnesium": 2.06
+      },
+      "hormones": {
+        "PRO CALCITONIN": {
+          "Procalcitonin": 0.861
+        }
+      }
+    },
+    "reference_ranges": {
+      "SGPT/ALT": "0 - 50 U/L",
+      "SGOT/AST": "0 - 50 U/L",
+      "Alkaline Phosphatase": "30 - 120 U/L",
+      "TOTAL PROTEIN": "6.3 - 8.2 gm/dl",
+      "ALBUMIN": "3.5 - 5.2 g/dl",
+      "Globulin": "2.0 - 3.5 gm/dl",
+      "CRP": "0 - 6.0 mg/L",
+      "Calcium": "8.8 - 10.6 mg/dl",
+      "Phosphorous": "2.5 - 4.5 mg/dl",
+      "Magnesium": "1.8 - 2.6 mg/dl",
+      "Procalcitonin": "Low Risk for Sepsis: < 0.5 - High risk for sepsis:>2.0 ng/mL"
+    },
+    "remarks": {
+      "summary": "",
+      "abnormal_findings": "",
+      "doctor_comment": ""
+    }
+  },
+  "UID_00029": {
+    "patient_info": {},
+    "report_details": {
+      "lab_name": "KIMS-ICON HOSPITAL",
+      "report_date": "22-Apr-25",
+      "report_time": "10:23 PM",
+      "referred_by": "Dr. Chenna Vijay MD, DM (Neurology)",
+      "technician": "",
+      "doctor_name": "Dr. Chenna Vijay MD, DM (Neurology)"
+    },
+    "test_results": {
+      "blood_gas_values": {
+        "pH": 7.38,
+        "pCO2": 38,
+        "pO2": 173
+      },
+      "electrolyte_values": {
+        "cNa+": 125,
+        "cK+": 6.0,
+        "cCa++": 1.86
+      },
+      "metabolite_values": {
+        "cLac": 1.8,
+        "cGlu": 140
+      },
+      "oximetry_values": {
+        "sO2": 100
+      },
+      "FO2Hbe": -2.3,
+      "blood_parameters": {
+        "cGlu": 137,
+        "sO2": 99,
+        "FO2Hbe": -2.9,
+        "FHHbe": -3.8,
+        "ctHb": 11.5,
+        "Hctc": 37,
+        "ctO2e": 21.3,
+        "cBase(Ecf)c": 20.4,
+        "cHCO3(P,st)c": 22.7,
+        "cCa++(7.4)c": 1.92
+      }
+    },
+    "reference_ranges": {
+      "blood_gas_values": {
+        "pH": "7.350 - 7.450",
+        "pCO2": "32.0 - 45.0 mmHg",
+        "pO2": "80.0 - 100.0 mmHg"
+      },
+      "electrolyte_values": {
+        "cNa+": "134.0 - 146.0 mmol/L",
+        "cK+": "3.5 - 5.5 mmol/L",
+        "cCa++": "1.15 - 1.32 mEq/L"
+      },
+      "metabolite_values": {
+        "cLac": "0.5 - 1.6 mmol/L"
+      }
+    },
+    "remarks": {}
+  },
+  "UID_00030": {
+    "patient_info": {},
+    "report_details": {
+      "lab_name": "KIMS-ICON HOSPITAL",
+      "report_date": "23-Apr-25",
+      "report_time": "5:06 PM",
+      "referred_by": "Dr. Chenna Vijay MD, DM (NEUROLOGY)",
+      "technician": "",
+      "doctor_name": "Dr. Chenna Vijay"
+    },
+    "test_results": {
+      "blood_gas_values": {
+        "pH": 7.29,
+        "pCO2": 53,
+        "pO2": 418
+      },
+      "electrolyte_values": {
+        "cNa+": 134,
+        "cK+": 4.3,
+        "cCa++": 2.08
+      },
+      "metabolite_values": {
+        "cLac": 2.2,
+        "cGlu": 224
+      },
+      "arterial_blood_gases": {
+        "ctHb": 10.9,
+        "Hctc": 35,
+        "ctO2e": 25.7
+      },
+      "calculated_values": {
+        "cBase(Ecf)c": 24.3,
+        "cHCO3(P,st)c": 23.6,
+        "cCa++(7.4)c": 1.7
+      },
+      "oximetry_values": {
+        "sO2": 100,
+        "FO2Hbe": -1.6,
+        "FHHbe": -1.1,
+        "ctHb": 11.2,
+        "Hctc": 36,
+        "ctO2e": 27.1
+      }
+    },
+    "reference_ranges": {
+      "pH": "7.350 - 7.450",
+      "pCO2": "32.0 - 45.0 mmHg",
+      "pO2": "80.0 - 100.0 mmHg",
+      "cNa+": "134.0 - 146.0 mmol/L",
+      "cK+": "3.5 - 5.5 mmol/L",
+      "cCa++": "1.15 - 1.32 mEq/L",
+      "cLac": "0.5 - 1.6 mmol/L"
+    },
+    "remarks": {}
+  },
+  "UID_00031": {
+    "patient_info": {
+      "name": "",
+      "patient_id": "12348",
+      "age": "",
+      "gender": "",
+      "date_of_birth": "",
+      "contact": "",
+      "address": "Plot No.19, Adhav Nagar, Near Narayan Bapu Chowk, Old Saikheda"
+    },
+    "report_details": {
+      "report_date": "",
+      "report_time": "",
+      "referred_by": "",
+      "lab_name": "KamLa Pathology Laboratory",
+      "technician": "",
+      "doctor_name": "Dr.Ajit Junagade"
+    },
+    "test_results": {
+      "serology": {
+        "Widal Test": {
+          "S.Typhi - O (TO)": "Absent",
+          "S.Typhi - H (TH)": "Absent",
+          "S.Paratyphi A-H (AH)": "Absent",
+          "S.Paratyphi B-H (BH)": "Absent"
+        }
+      },
+      "haematology": {
+        "Malaria Test (Optimal Maleria Test)": "Sample is Non-Reactive For P.Falciparum and other Plasmodium Species ( P.Vivax / P.Malariae / P.Ovale )"
+      }
+    },
+    "remarks": {
+      "summary": "WIDAL TEST NEGATIVE",
+      "doctor_comment": ""
+    }
+  },
+  "UID_00032": {
+    "patient_info": {},
+    "report_details": {
+      "report_date": "",
+      "report_time": "",
+      "referred_by": "Dr K Hemanth Kumar",
+      "lab_name": "",
+      "technician": "",
+      "doctor_name": "Dr K Hemanth Kumar"
+    },
+    "test_results": {
+      "hematology": {
+        "Platelet Count": 197000,
+        "Neutrophils": 68.8,
+        "Lymphocytes": 16,
+        "Eosinophils": 8.1,
+        "Basophils": 0.4,
+        "Monocytes": 6.7,
+        "RDW": 13.9,
+        "IPF": 20.1,
+        "Neutrophil Absolute": 6288.3,
+        "Lymphocyte Absolute": 1462.4,
+        "Monocyte Absolute": 612.4,
+        "Eosinophil Absolute": 740.3,
+        "Basophil Absolute": 36.6
+      },
+      "Renal Panel - I - Random": {
+        "SERUM BICARBONATE(Enzymatic)": 23,
+        "SERUM SODIUM (Indirect ISE)": 143,
+        "SERUM POTASSIUM (Indirect ISE)": 3.48,
+        "SERUM CHLORIDE (ISE / IMT)": 103.2,
+        "Blood Urea Nitrogen (Urease/GLDH)": 9.1,
+        "SERUM CREATININE (mod.Jaffe)": 0.72,
+        "GLUCOSE- Random (Hexokinase)": 131,
+        "eGFR": 92
+      },
+      "Prothrombin Time -PT ( Automated/ Clotting Assay )": {
+        "INR": 0.94,
+        "Prothrombin Time Test": 12.2,
+        "PT CONTROL": 13,
+        "ISI Value": 1.08
+      },
+      "HBsAG (Rapid Test)": {
+        "TEST RESULT": "Negative"
+      },
+      "HIV I & II Antibody (Rapid Test)": {
+        "TEST RESULT": "Negative"
+      }
+    },
+    "reference_ranges": {
+      "Platelet Count": "150000 - 400000",
+      "Neutrophils": "40.0 - 75.0",
+      "Lymphocytes": "20.0 - 45.0",
+      "Eosinophils": "0.0 - 7.0",
+      "Basophils": "0.0 - 1.0",
+      "Monocytes": "2.0 - 10.0",
+      "RDW": "11.6 - 14.0",
+      "IPF": "0.70 - 9.10",
+      "Neutrophil Absolute": "2000.0 - 7000.0",
+      "Lymphocyte Absolute": "1000.0 - 3000.0",
+      "Monocyte Absolute": "200.0 - 1000.0",
+      "Eosinophil Absolute": "40.0 - 440.0",
+      "Basophil Absolute": "20.0 - 100.0",
+      "SERUM BICARBONATE(Enzymatic)": "22.0 - 29.0",
+      "SERUM SODIUM (Indirect ISE)": "135.0 - 145.0",
+      "SERUM POTASSIUM (Indirect ISE)": "3.50 - 5.10",
+      "SERUM CHLORIDE (ISE / IMT)": "98.0 - 107.0",
+      "Blood Urea Nitrogen (Urease/GLDH)": "6.00 - 20.00",
+      "SERUM CREATININE (mod.Jaffe)": "0.60 - 1.40",
+      "GLUCOSE- Random (Hexokinase)": "70 - 140",
+      "eGFR": ">60.0",
+      "INR": "11.4 - 15.2",
+      "Prothrombin Time Test": "11.4 - 15.2"
+    },
+    "remarks": {
+      "summary": "",
+      "abnormal_findings": "",
+      "doctor_comment": ""
+    }
+  },
+  "UID_00033": {
+    "patient_info": {
+      "name": "Mr. Mohd Uvais",
+      "age": "27",
+      "gender": "Male",
+      "date_of_birth": "",
+      "contact": "",
+      "address": "",
+      "patient_id": "MHN 12268249",
+      "UHID": "MHN 12268249 955679"
+    },
+    "report_details": {
+      "lab_name": "Apollo Hospitals",
+      "report_date": "24-APR-2025",
+      "referred_by": "Dr. Prashant Pati",
+      "technician": "",
+      "doctor_name": "Dr. Abhishek Sanjay Laul"
+    },
+    "test_results": {
+      "hematology": {
+        "hemoglobin": 14.3,
+        "hematocrit": 43.2,
+        "RBC_COUNT": 5.02,
+        "MCV": 88.1,
+        "MCH": 28.6,
+        "MCHC": 33.2,
+        "RDW": 16.2,
+        "platelet_count": 240,
+        "TLC_Count": 5.32,
+        "differential_count": {
+          "neutrophils": 72,
+          "lymphocytes": 21,
+          "eosinophils": 3,
+          "monocytes": 4,
+          "basophils": 0
+        }
+      }
+    },
+    "reference_ranges": {
+      "hemoglobin": "13.0 - 18.0 g/dl",
+      "hematocrit": "39.0 - 54.0 %",
+      "RBC_COUNT": "4.2 - 6.5 Million/ul",
+      "MCV": "75.0 - 95.0 fl",
+      "MCH": "26.0 - 32.0 pg",
+      "MCHC": "31.0 - 36.0 g/dl",
+      "RDW": "11 - 16 %",
+      "platelet_count": "140 - 440 10^3/mm^3",
+      "TLC_Count": "4.0 - 11.0 10^3/mm^3",
+      "differential_count": {
+        "neutrophils": "45 - 75 %",
+        "lymphocytes": "20 - 45 %",
+        "eosinophils": "1 - 6 %",
+        "monocytes": "1 - 10 %",
+        "basophils": "0 - 1 %"
+      }
+    },
+    "remarks": {
+      "summary": "",
+      "abnormal_findings": "RDW: 16.2 * (11 - 16 %)",
+      "doctor_comment": ""
+    }
+  },
+  "UID_00034": {
+    "patient_info": {
+      "name": "Mr. [REDACTED]",
+      "patient_id": "[REDACTED]",
+      "age": "",
+      "gender": "Male",
+      "date_of_birth": "",
+      "contact": "",
+      "address": ""
+    },
+    "report_details": {
+      "report_date": "",
+      "lab_name": "EVYA MULTI SPECIALITY HOSPITALS",
+      "technician": "",
+      "doctor_name": "DR. P. PRATHIMA"
+    },
+    "test_results": {
+      "hematology": {
+        "hemoglobin": 12.5,
+        "RBC": 4.62,
+        "PCV": 37.3,
+        "WBC": 10300,
+        "platelet_count": 3.05,
+        "MCV": 80.7,
+        "MCH": 27.0,
+        "MCHC": 33.4,
+        "neutrophils": 60,
+        "lymphocytes": 34,
+        "monocytes": 2,
+        "eosinophils": 4,
+        "basophils": 0,
+        "ESR_I_Hr": 32,
+        "ESR_II_Hr": 60
+      }
+    },
+    "reference_ranges": {
+      "hemoglobin": "Female: 11.5 - 16.0 gms%",
+      "RBC": "Female: 4.5 - 5.1 mil/cu mm",
+      "PCV": "41.5 - 50.4 %",
+      "WBC": "4000 - 11000 cells/cu mm",
+      "platelet_count": "1.5 - 4.5 lakhs/cumm",
+      "MCV": "80 - 96 fL",
+      "MCH": "27 - 32 pg",
+      "MCHC": "33.4 - 35.5 gms %",
+      "neutrophils": "> 14 Y: 40 - 75 %",
+      "lymphocytes": "> 14 Y: 20 - 45 %",
+      "monocytes": "> 14 Y: 2 - 10 %",
+      "eosinophils": "2 - 10 %",
+      "basophils": "0 - 5 %",
+      "ESR_I_Hr": "0 - 15 mm",
+      "ESR_II_Hr": "5 - 20 mm"
+    },
+    "remarks": {
+      "summary": "",
+      "abnormal_findings": "",
+      "doctor_comment": "Kindly Correlate Clinically. Discuss with the Treating Doctor for any Clarifications."
+    }
+  },
+  "UID_00035": {
+    "patient_info": {},
+    "report_details": {
+      "report_date": "24-Apr-2025",
+      "report_time": "12:38PM",
+      "lab_name": "GANDHI HOSPITAL (UN)",
+      "technician": "",
+      "doctor_name": "Dr. Charu Agrawal, Dr. S. P. Singh, Dr. Sunita Kansal"
+    },
+    "test_results": {
+      "autoimmune_profile": {
+        "Speckled": "AC-18,19,20",
+        "Discrete/dots/GW body like": "AC-18 SGW182,Su/Ago2",
+        "Densefine speckled": "AC-19 PL-7,PL-12,ribosomal P protein",
+        "Rinespeckled": "AC-20 Jo-1/histidyl-tRNA synthetase",
+        "Reticular /AMA(Mitochondrial)": "AC-21 PDC-E2/M2, BCOADC-E2 OGDC-E2,E1asubunit ofPDC,E3BP/ProteinX",
+        "Polar/Golgi like": "AC-22 Giantin/macroglobulin, golgin -97, golgin - 245",
+        "Rods and rings": "AC-23 IMPDH2,others",
+        "MITOTIC PATTERNS": {
+          "Centrosome": "AC-24 Pericentrin, ninein,Cep250,Cep110",
+          "Spindlefibres": "AC-25 HsEg5",
+          "NUMALIKE": "AC-26 Centrophilin",
+          "Intracellular bridges": "AC-27 Aurora kinase B, CENP-E, MSA-2,KIF-14, MKL-1",
+          "Mitotoc chromosomecoat": "AC-28 Modifiedhistone H3,MCA-1"
+        }
+      }
+    },
+    "remarks": {
+      "summary": "",
+      "abnormal_findings": "",
+      "doctor_comment": ""
+    }
+  },
+  "UID_00036": {
+    "patient_info": {
+      "name": "",
+      "patient_id": "",
+      "age": "",
+      "gender": "",
+      "date_of_birth": "",
+      "contact": "",
+      "address": ""
+    },
+    "report_details": {
+      "report_date": "",
+      "report_time": "",
+      "referred_by": "Dr. Dushyant Wamanrao Khedikar",
+      "lab_name": "Jupiter Hospital",
+      "technician": "",
+      "doctor_name": "Dr. Sonam Joshi"
+    },
+    "test_results": {
+      "hematology": {
+        "hemoglobin": 14.1,
+        "Red_Cell_Count": 4.95,
+        "Hematocrit": 44.7,
+        "MCV": 90.3,
+        "MCH": 28.6,
+        "MCHC": 31.6,
+        "RDW": 13.9,
+        "WBC_Count": 9.44,
+        "Platelet_Count": 183,
+        "Neutrophils": 67,
+        "Lymphocytes": 26,
+        "Eosinophils": 2,
+        "Monocytes": 5,
+        "Basophils": 0,
+        "Absolute_Neutrophils": 6.32,
+        "Absolute_Lymphocytes": 2.45,
+        "Absolute_Eosinophils": 0.19,
+        "Absolute_Monocytes": 0.47
+      }
+    },
+    "reference_ranges": {
+      "hemoglobin": "13.00 - 18.00",
+      "Red_Cell_Count": "4.50 - 6.50",
+      "Hematocrit": "40.00 - 54.00",
+      "MCV": "76.00 - 96.00",
+      "MCH": "27.00 - 32.00",
+      "MCHC": "30.00 - 35.00",
+      "RDW": "11.50 - 14.50",
+      "WBC_Count": "4.00 - 11.00",
+      "Platelet_Count": "150.00 - 450.00",
+      "Neutrophils": "40.00 - 70.00",
+      "Lymphocytes": "15.00 - 40.00",
+      "Eosinophils": "2.00 - 6.00",
+      "Monocytes": "2.00 - 8.00",
+      "Basophils": "0.00 - 2.00",
+      "Absolute_Neutrophils": "1.60 - 7.70",
+      "Absolute_Lymphocytes": "0.60 - 4.40",
+      "Absolute_Eosinophils": "0.00 - 0.45",
+      "Absolute_Monocytes": "0.08 - 0.88"
+    },
+    "remarks": {
+      "summary": "",
+      "abnormal_findings": "",
+      "doctor_comment": ""
+    }
+  },
+  "UID_00037": {
+    "patient_info": {},
+    "report_details": {
+      "lab_name": "AMCARE HOSPITAL",
+      "report_date": "26-Apr-2025",
+      "report_time": "06:39 AM",
+      "referred_by": "Dr. Pawan Kumar Bansal",
+      "technician": "LOVISH",
+      "doctor_name": "Nidhi Vashist"
+    },
+    "test_results": {
+      "complete_blood_count": {
+        "hemoglobin": 11.3,
+        "total_leukocyte_count": 16.3,
+        "neutrophils": 74,
+        "lymphocyte": 16,
+        "monocyte": 6,
+        "eosinophil": 4,
+        "basophil": 0,
+        "platelet_count": 201,
+        "rbc_count": 4.1,
+        "hematocrit": 34,
+        "mean_corpuscular_volume": 83.2,
+        "mean_corpuscular_hemo": 27.5,
+        "mean_corpuscular_hemoglobin_concentration": 33.1,
+        "red_cell_distribution_width": 15.1
+      }
+    },
+    "reference_ranges": {
+      "hemoglobin": "13.0-17.0 gm/dl",
+      "total_leukocyte_count": "4.0-11.0 10^3/cumm",
+      "neutrophils": "45-70 %",
+      "lymphocyte": "20-40 %",
+      "monocyte": "2-10 %",
+      "eosinophil": "1-6 %",
+      "basophil": "0-1 %",
+      "platelet_count": "150-450 10^3/cumm",
+      "rbc_count": "4.0-5.5 million cells/cumm",
+      "hematocrit": "40-50 %",
+      "mean_corpuscular_volume": "82-102 fl",
+      "mean_corpuscular_hemo": "27-33 picogram",
+      "mean_corpuscular_hemoglobin_concentration": "31.5-34.5 g/dl",
+      "red_cell_distribution_width": "11.5-14.5 %"
+    },
+    "remarks": {}
+  },
+  "UID_00038": {
+    "patient_info": {
+      "name": "MR. K. SURESH",
+      "patient_id": "201022"
+    },
+    "report_details": {
+      "lab_name": "SRIVEN HOSPITAL MULTI SPECIALITY",
+      "report_date": "",
+      "technician": "",
+      "doctor_name": "Dr. V. VIJAYA SREE"
+    },
+    "test_results": {
+      "physical_properties": {
+        "colour": "Dark Yellow",
+        "appearance": "Turbid"
+      },
+      "chemical_examination": {
+        "glucose": "NEGATIVE",
+        "bilirubin": "NEGATIVE",
+        "urobilinogen": "NEGATIVE",
+        "ketone_bodies": "NEGATIVE",
+        "specific_gravity": 1.029,
+        "blood": "NEGATIVE",
+        "reaction_pH": 7.9,
+        "protein": "NEGATIVE",
+        "nitrites": "NEGATIVE",
+        "leukocyte_esterase": "NEGATIVE"
+      },
+      "microscopic_examination": {
+        "pus_wbc_cells": "Plenty",
+        "red_blood_cells": "02-04",
+        "u_epithelial_cells": "15-20"
+      }
+    },
+    "reference_ranges": {
+      "colour": "Straw Colour / Pale Yellow/Dark Yellow",
+      "appearance": "Clear/Slightly Hazy/Hazy/Turbid",
+      "specific_gravity": "1.005 - 1.030",
+      "reaction_pH": "5.0 - 8.0",
+      "pus_wbc_cells": "0-5/HPF",
+      "red_blood_cells": "0-2/HPF",
+      "u_epithelial_cells": "0-5/HPF"
+    },
+    "remarks": {
+      "doctor_comment": ""
+    }
+  },
+  "UID_00039": {
+    "patient_info": {},
+    "report_details": {
+      "lab_name": "BOKARO PATHOLOGICAL LABORATORY",
+      "report_date": "",
+      "referred_by": "Dr. SHIVAM HOSPITAL",
+      "technician": "Medical Technologist",
+      "doctor_name": "DR R. Shankar, DR Prem Narain"
+    },
+    "test_results": {
+      "coagulation": {
+        "PTI Test": 14.0,
+        "PTI Control": 11.0,
+        "PTI INR": 1.3
+      }
+    },
+    "reference_ranges": {
+      "PTI Test": "10 - 14 Sec."
+    },
+    "remarks": {
+      "summary": "Please Correlate with the clinical condition",
+      "doctor_comment": ""
+    }
+  },
+  "UID_00040": {
+    "patient_info": {
+      "name": "Mr. Kaushal H Vachhani",
+      "address": "Matrix West, Wings 406, Kambala Cross Road, Alake, Mangalore, Alake, Dakshina Kannada, PIN No: 575001"
+    },
+    "report_details": {
+      "lab_name": "A.J. Hospital & Research Centre",
+      "report_date": "",
+      "report_time": "03:13:21 PM",
+      "sample_collected_at": "AJ HOSPITAL & RESEARCH CENTRE MANGALORE. 575004",
+      "sample_collected_time": "01:31:32 PM",
+      "referred_by": "Dr. Mayur Rai",
+      "registered_time": "12:51:48 PM"
+    },
+    "test_results": {
+      "blood_prothrombin_time": {
+        "prothrombin_time": 12.0,
+        "control": 12.2,
+        "ratio": 0.98,
+        "pt_inr_value": 0.98
+      },
+      "blood_routine": {
+        "haemoglobin": 15.4,
+        "erythrocyte_count": 4.94,
+        "pcv": 43.2,
+        "mcv": 87.4
+      }
+    },
+    "reference_ranges": {
+      "prothrombin_time": "11-16 seconds",
+      "ratio": "0-100",
+      "pt_inr_value": "0.8-1.2",
+      "haemoglobin": "13.5-18 g/dl",
+      "erythrocyte_count": "4.5-5.5 million/cu.mm",
+      "pcv": "40-54 %",
+      "mcv": "78-98 fl"
+    }
+  },
+  "UID_00041": {
+    "patient_info": {
+      "name": "Mr. Kaushal H Vachhani",
+      "patient_id": "MR651016",
+      "age": "",
+      "gender": "",
+      "date_of_birth": "",
+      "contact": "",
+      "address": "WINGS 406, KAMBALA CROSS ROAD, ALAKE, MANGALORE, ALAKE, DAKSHINA KANNADA"
+    },
+    "report_details": {
+      "report_date": "",
+      "report_time": "03:13:21 PM",
+      "referred_by": "Dr. Mayur Rai",
+      "lab_name": "A J HOSPITAL & RESEARCH CENTRE MANGALORE",
+      "technician": "",
+      "doctor_name": ""
+    },
+    "test_results": {
+      "hematology": {
+        "APTT Activated Partial Thromboplastin Time": 32.8
+      }
+    },
+    "reference_ranges": {
+      "APTT Activated Partial Thromboplastin Time": "22.7-32.3"
+    },
+    "remarks": {
+      "summary": "",
+      "abnormal_findings": "",
+      "doctor_comment": ""
+    }
+  },
+  "UID_00042": {
+    "patient_info": {
+      "name": "Mr. Kaushal H Vachhani",
+      "patient_id": "MR651016",
+      "age": "",
+      "gender": "",
+      "date_of_birth": "",
+      "contact": "",
+      "address": "Matrix West, Wings 406, Kambala Cross Road, Alake, Mangalore, Alake, Dakshina Kannada, PIN No: 575001"
+    },
+    "report_details": {
+      "report_date": "",
+      "report_time": "03:13:21 PM",
+      "referred_by": "Dr. Mayur Rai",
+      "lab_name": "A J Hospital & Research Centre",
+      "technician": "",
+      "doctor_name": "Dr. Mayur Rai"
+    },
+    "test_results": {
+      "hematology": {
+        "MCH": 31.2,
+        "MCHC": 35.6,
+        "RDW": 11.9,
+        "Blood_TC": 8.8,
+        "Absolute_Neutrophils_Count": 6.83,
+        "Absolute_Lymphocyte_Count": 1.65,
+        "Absolute_Monocyte_Count": 0.26,
+        "Absolute_Eosinophils_Count": 0.03,
+        "Absolute_Basophils_Count": 0.03,
+        "Neutrophils": 77.6,
+        "Lymphocytes": 18.8,
+        "Monocytes": 3.0,
+        "Eosinophils": 0.3,
+        "Basophils": 0.3,
+        "Blood_Platelet_count": 302,
+        "Nucleated_RBC": 0.0,
+        "MPV": 9.0
+      }
+    },
+    "reference_ranges": {
+      "MCH": "27-32",
+      "MCHC": "30-35",
+      "RDW": "11.5-14",
+      "Blood_TC": "4-10",
+      "Absolute_Neutrophils_Count": "2-7",
+      "Absolute_Lymphocyte_Count": "1-3",
+      "Absolute_Monocyte_Count": "0.2-1",
+      "Absolute_Eosinophils_Count": "0.04-0.45",
+      "Absolute_Basophils_Count": "0.02-0.1",
+      "Neutrophils": "40-80",
+      "Lymphocytes": "20-40",
+      "Monocytes": "2-10",
+      "Eosinophils": "1-6",
+      "Basophils": "0-1",
+      "Blood_Platelet_count": "150-450",
+      "Nucleated_RBC": "NRBCS / 100 WBC'S",
+      "MPV": "6-9.5"
+    },
+    "remarks": {
+      "summary": "",
+      "abnormal_findings": "",
+      "doctor_comment": ""
+    }
+  },
+  "UID_00043": {
+    "patient_info": {
+      "name": "Mr. Kaushal H Vachhani",
+      "address": "Matrix West, Wings 406, Kambala Cross Road, Alake, Mangalore, Alake, Dakshina Kannada, PIN No: 575001"
+    },
+    "report_details": {
+      "lab_name": "A J Hospital & Research Centre Mangalore",
+      "report_date": "",
+      "referred_by": "Dr. Mayur Rai",
+      "sample_collection_time": "01:31:32 PM",
+      "report_time": "03:13:21 PM"
+    },
+    "test_results": {
+      "biochemistry": {
+        "blood_glucose_random_plasma": 86,
+        "creatinine_serum": 0.67
+      }
+    },
+    "reference_ranges": {
+      "blood_glucose_random_plasma": "70-140 mg/dL",
+      "creatinine_serum": "0.9-1.3 mg/dL"
+    }
+  },
+  "UID_00044": {
+    "patient_info": {
+      "name": "Mr. Kaushal H Vachhani",
+      "patient_id": "",
+      "age": "",
+      "gender": "",
+      "date_of_birth": "",
+      "contact": "",
+      "address": "D.No. WINGS 406, Kambala Cross Road, Alake, Mangalore, Alake, Dakshina Kannada"
+    },
+    "report_details": {
+      "report_date": "",
+      "report_time": "03:13:21 PM",
+      "referred_by": "Dr. Mayur Rai",
+      "lab_name": "A J Hospital & Research Centre",
+      "technician": "",
+      "doctor_name": ""
+    },
+    "test_results": {
+      "Blood - ESR": 11
+    },
+    "reference_ranges": {
+      "Blood - ESR": "1-14 mm/hr"
+    },
+    "remarks": {
+      "summary": "",
+      "abnormal_findings": "",
+      "doctor_comment": ""
+    }
+  },
+  "UID_00045": {
+    "patient_info": {
+      "name": "Mr. Kaushal H Vachhani",
+      "address": "Matrix West, Wings 406, Kambala Cross Road, Alake, Mangalore, Alake, Dakshina Kannada, PIN No: 575001"
+    },
+    "report_details": {
+      "lab_name": "AJ Hospital & Research Centre",
+      "report_date": "",
+      "referred_by": "Dr. Mayur Rai",
+      "Sample_Collected_At": "AJ Hospital & Research Centre Mangalore. 575004",
+      "Collected_On": "01:31:32 PM",
+      "Reported_On": "03:13:21 PM"
+    },
+    "test_results": {
+      "blood_prothrombin_time": {
+        "Prothrombin Time (PT)": 12.0,
+        "Control (MNPT)": 12.2,
+        "Ratio": 0.98,
+        "PT(INR) Value": 0.98
+      },
+      "blood_routine": {
+        "Haemoglobin": 15.4,
+        "Erythrocyte (RBC) Count": 4.94,
+        "PCV (Packed Cell Volume)": 43.2,
+        "MCV Blood": 87.4
+      }
+    },
+    "reference_ranges": {
+      "Prothrombin Time (PT)": "11-16",
+      "PT(INR) Value": "0.8-1.2",
+      "Haemoglobin": "13.5-18",
+      "Erythrocyte (RBC) Count": "4.5-5.5",
+      "PCV (Packed Cell Volume)": "40-54",
+      "MCV Blood": "78-98"
+    }
+  },
+  "UID_00046": {
+    "patient_info": {},
+    "report_details": {
+      "lab_name": "KD Hospital",
+      "report_date": "25-Apr-25",
+      "referred_by": "Dr. Vivek Nanda",
+      "technician": "",
+      "doctor_name": "Dr. Vivek Nanda"
+    },
+    "test_results": {
+      "hematology": {
+        "hemoglobin": 11.7,
+        "WBC Count": 7220,
+        "Platelet count": 218000,
+        "RBC Count": 4.06,
+        "Haematocrit (PCV)": 36.2,
+        "MCV": 89.2,
+        "MCH": 28.8,
+        "MCHC": 32.3,
+        "RDW-CV": 11.3,
+        "MPV": 8.9,
+        "P-LCR": 16.5,
+        "Neutrophils": 74.5,
+        "Lymphocytes": 16.2,
+        "Eosinophils": 3.7,
+        "Monocytes": 5.3,
+        "Basophils": 0.3,
+        "IG (Immature Granulocytes)": 0.3,
+        "NRBC": 0
+      }
+    },
+    "reference_ranges": {
+      "hemoglobin": "12.0-15.0 g/dL",
+      "WBC Count": "4000-11000 /uL",
+      "Platelet count": "150000-450000 /uL",
+      "RBC Count": "3.8-4.8 Millions/cumm",
+      "Haematocrit (PCV)": "36.0-46.0 %",
+      "MCV": "80-97 fL",
+      "MCH": "26.5-33.5 pg",
+      "MCHC": "31.5-35.0 g/dL",
+      "RDW-CV": "11.6-15 %",
+      "MPV": "6.5-12.0 fL",
+      "P-LCR": "15-35 %",
+      "Neutrophils": "40-70 %",
+      "Lymphocytes": "20-40 %",
+      "Eosinophils": "1-6 %",
+      "Monocytes": "2-10 %",
+      "Basophils": "0-1 %",
+      "IG (Immature Granulocytes)": "0-0.5 %",
+      "NRBC": "0-0 /WBCs"
+    },
+    "remarks": {}
+  },
+  "UID_00047": {
+    "urine_examination": {
+      "colour": "Pale yellow",
+      "urobilinogen": "Normal",
+      "blood": "Negative",
+      "nitrite": "Negative",
+      "leucocytes": "Negative",
+      "ascorbic_acid": "Negative",
+      "epithelial_cells": "6-8/HPF",
+      "pus_cells": "2-3/HPF",
+      "r_b_c": "1-2/HPF",
+      "casts": "Nil",
+      "crystals": "Nil",
+      "appearance": "Slightly Turbid",
+      "others": "Nil",
+      "reaction_ph": 5.5,
+      "specific_gravity": 1.025,
+      "glucose": "Negative",
+      "protein": "Negative",
+      "ketone_bodies": "Negative",
+      "bile_salts": "Negative",
+      "bilirubin": "Negative"
+    },
+    "complete_blood_picture": {
+      "haemoglobin": 9.2,
+      "rdw": 18.6,
+      "polymorphs": 75,
+      "lymphocytes": 18,
+      "eosinophils": 1,
+      "haematocrit_pcv": 29.5,
+      "monocytes": 6,
+      "basophils": 0,
+      "rbc_count": 4.4
+    },
+    "reference_ranges": {
+      "urine_examination": {
+        "colour": "Pale yellow",
+        "urobilinogen": "Negative",
+        "blood": "Negative",
+        "nitrite": null,
+        "leucocytes": "Negative",
+        "ascorbic_acid": "Negative",
+        "epithelial_cells": "Negative or rare <= 2/HPF",
+        "pus_cells": "Negative (<=2/HPF)",
+        "r_b_c": "Negative or rare (<=2/HPF)",
+        "casts": "0 - 5 hyaline casts/ HPF",
+        "crystals": "Negative - occasional",
+        "appearance": "Clear",
+        "reaction_ph": "4.5 to 8.0",
+        "specific_gravity": "1.005 to 1.025",
+        "glucose": "Negative",
+        "protein": "Negative",
+        "ketone_bodies": "Negative",
+        "bile_salts": "Negative",
+        "bilirubin": "Negative"
+      },
+      "complete_blood_picture": {
+        "haemoglobin": "12.0 - 15.0 gm/dL",
+        "rdw": "11.6 - 14.0 %",
+        "polymorphs": "40 - 80 %",
+        "lymphocytes": "20 - 40 %",
+        "eosinophils": "1 - 6 %",
+        "haematocrit_pcv": "40.0 - 50.0 Vol%",
+        "monocytes": "2 - 10 %",
+        "basophils": "0 - 2 %",
+        "rbc_count": "3.8 - 4.8 Millions/cumm"
+      }
+    }
+  },
+  "UID_00048": {
+    "patient_info": {
+      "name": "",
+      "patient_id": "14735",
+      "age": "",
+      "gender": "",
+      "date_of_birth": "",
+      "contact": "",
+      "address": "",
+      "referred_by": "DR SANKET"
+    },
+    "report_details": {
+      "report_date": "",
+      "report_time": "03:03 PM",
+      "lab_name": "ASHRAYA DIAGNOSTICS",
+      "technician": "",
+      "doctor_name": "Dr. Ayesha Siddique"
+    },
+    "test_results": {
+      "hematology": {
+        "hemoglobin": 12.6,
+        "WBC": 10900,
+        "neutrophil": 55,
+        "lymphocytes": 40,
+        "eosinophil": 2,
+        "monocytes": 3,
+        "basophils": 0,
+        "haematocrit_(HCT)": 38.6,
+        "RBC_count": 4.23,
+        "MCV": 91.25,
+        "MCH": 29.79,
+        "MCHC": 32.64,
+        "RDW_CV": 46.5,
+        "RDW_SD": "",
+        "platelet_count": 361000,
+        "MPV": 9.1,
+        "PDW": 14.9,
+        "PCT": 0.33
+      }
+    },
+    "reference_ranges": {
+      "hemoglobin": "12.0 - 15.0 gms/dl",
+      "WBC": "4500 - 11000 /uL",
+      "neutrophil": "40 - 70 %",
+      "lymphocytes": "20 - 40 %",
+      "eosinophil": "1 - 6 %",
+      "monocytes": "2 - 8 %",
+      "basophils": "0 - 1 %",
+      "haematocrit_(HCT)": "37.0 - 47.0 %",
+      "RBC_count": "4.5 - 6.5 mil./cmm",
+      "MCV": "80 - 100 fL",
+      "MCH": "27 - 34 pg",
+      "MCHC": "32 - 36 gm/dl",
+      "RDW_CV": "36 - 56 fL",
+      "platelet_count": "150000 - 450000 /cmm",
+      "MPV": "6.5 - 12 fL",
+      "PDW": "9 - 17 fL",
+      "PCT": "0.10 - 0.50 %"
+    },
+    "remarks": {
+      "RBC_morphology": "Normocytic Normochromic",
+      "WBC_morphology": "Within Normal Limits",
+      "platelet": "Adequate on smear"
+    }
+  },
+  "UID_00049": {
+    "patient_info": {
+      "name": "VANITHA U",
+      "patient_id": "P22725544859097",
+      "age": 38,
+      "gender": "Female",
+      "date_of_birth": "",
+      "contact": "",
+      "address": ""
+    },
+    "report_details": {
+      "report_date": "25/04/2025",
+      "report_time": "08:40 AM",
+      "referred_by": "DR. DR MAMATHA",
+      "lab_name": "Metropolis Healthcare Ltd.",
+      "technician": "",
+      "doctor_name": "Dr. Bharathi N S"
+    },
+    "test_results": {
+      "lipid_profile": {
+        "VLDL Cholesterol": 20.4,
+        "LDL/HDL Ratio": 3.8,
+        "Cholestrol / HDL Ratio": 5.8,
+        "Urea, Serum": 17.3
+      }
+    },
+    "reference_ranges": {
+      "VLDL Cholesterol": "upto 40",
+      "LDL/HDL Ratio": "2.5-3.5",
+      "Cholestrol / HDL Ratio": "< 5.0",
+      "Urea, Serum": {
+        "New born": "9-26",
+        "Children": "10-43",
+        "Adult": "10-50"
+      }
+    },
+    "remarks": {
+      "summary": "",
+      "abnormal_findings": "VLDL Cholesterol: Very High: >= 190 ( flagged as very high but value 20.4 is within range )",
+      "doctor_comment": ""
+    }
+  },
+  "UID_00050": {
+    "patient_info": {
+      "name": "VANITHA U",
+      "patient_id": "25024250354549",
+      "age": 38,
+      "gender": "Female",
+      "date_of_birth": "",
+      "contact": "",
+      "address": ""
+    },
+    "report_details": {
+      "report_date": "",
+      "report_time": "08:40 PM",
+      "referred_by": "DR.DR MAMATHA",
+      "lab_name": "Vijaya Poly Clinic And Diagnostic Centre",
+      "technician": "",
+      "doctor_name": "Dr. Bharathi NS"
+    },
+    "test_results": {
+      "hematology": {
+        "Haemoglobin (Hb)": 9.6,
+        "MCV (Mean Corpuscular Volume)": 79.7,
+        "MCH (Mean Corpuscular Hb)": 26.4,
+        "MCHC (Mean Corpuscular Hb Concn.)": 33.1,
+        "RDW (Red Cell Distribution Width)": 14.5,
+        "Absolute Lymphocyte Count": 2894.6,
+        "Absolute Monocyte Count": 451.0,
+        "Absolute Neutrophils Count": 4698.6,
+        "Absolute Eosinophil Count": 106.6,
+        "Absolute Basophil Count": 49.2,
+        "Neutrophils": 57.3,
+        "Lymphocytes": 35.3,
+        "Monocytes": 5.5,
+        "Eosinophils": 1.3,
+        "Basophils": 0.6
+      },
+      "peripheral_blood_smear": {
+        "RBCs": "predominantly normocytic normochromic/normocytic hypochromic. No immature RBCs seen. No evidence of haemolysis seen.",
+        "WBCs": "normal in number; distribution and morphology.",
+        "Platelets": "count is at upper limit of normal range."
+      }
+    },
+    "reference_ranges": {
+      "Haemoglobin (Hb)": "11.5-16.5",
+      "MCV (Mean Corpuscular Volume)": "76-96",
+      "MCH (Mean Corpuscular Hb)": "27-32",
+      "MCHC (Mean Corpuscular Hb Concn.)": "30-35",
+      "RDW (Red Cell Distribution Width)": "< 15",
+      "Absolute Lymphocyte Count": "Upto 4600",
+      "Absolute Monocyte Count": "Upto 1380",
+      "Absolute Neutrophils Count": "Upto 8625",
+      "Absolute Eosinophil Count": "Upto 444",
+      "Absolute Basophil Count": "Upto 110",
+      "Neutrophils": "40-75",
+      "Lymphocytes": "20-40",
+      "Monocytes": "2-12",
+      "Eosinophils": "3-8",
+      "Basophils": "0-2"
+    },
+    "remarks": {
+      "summary": "NORMOCYTIC HYPochromic ANAEMIA.",
+      "abnormal_findings": "",
+      "doctor_comment": "Suggested: Clinical correlation"
+    }
+  },
+  "UID_00051": {
+    "patient_info": {},
+    "report_details": {
+      "lab_name": "",
+      "report_date": "",
+      "referred_by": "Dr. Nephrology Team",
+      "technician": "",
+      "doctor_name": ""
+    },
+    "test_results": {
+      "hematology": {
+        "RBC_COUNT": 4.14,
+        "RDW": 13.0,
+        "TOTAL_WBC_COUNT": 6.97,
+        "ABSOLUTE_BASOPHILS": 0.03,
+        "ABSOLUTE_EOSINOPHILS": 0.31,
+        "ABSOLUTE_LYMPHOCYTES": 2.14,
+        "ABSOLUTE_MONOCYTES": 0.46,
+        "ABSOLUTE_NEUTROPHILS": 4.03,
+        "BASOPHILS": 0.4,
+        "HAEMOGLOBIN": 11.8,
+        "LYMPHOCYTES": 30.7,
+        "MCH": 28.4,
+        "MCHC": 32.5,
+        "MCV": 87.6,
+        "MONOCYTES": 6.6,
+        "NEUTROPHILS": 57.8,
+        "PCV": 36.3,
+        "PLATELET_COUNT": 129
+      },
+      "renal_profile": {
+        "BICARBONATE": 18.6,
+        "CHLORIDE": 103.5,
+        "CREATININE": 3.9,
+        "POTASSIUM": 5.0,
+        "SODIUM": 138.0
+      }
+    },
+    "reference_ranges": {
+      "RBC_COUNT": "3.8-4.8 mil/cmm",
+      "RDW": "11.6-14.0 %",
+      "TOTAL_WBC_COUNT": "4.0-10.0 K/uL",
+      "ABSOLUTE_BASOPHILS": "0.02-0.1 K/uL",
+      "ABSOLUTE_EOSINOPHILS": "0.02-0.5 K/uL",
+      "ABSOLUTE_LYMPHOCYTES": "1-3 K/uL",
+      "ABSOLUTE_MONOCYTES": "0.2-1 K/uL",
+      "ABSOLUTE_NEUTROPHILS": "2-7 K/uL",
+      "BASOPHILS": "0-1 %",
+      "HAEMOGLOBIN": "11.5-15.0 gm/dl",
+      "LYMPHOCYTES": "20-40 %",
+      "MCH": "27-32 pg",
+      "MCHC": "31.5-34.5 g/dL",
+      "MCV": "83-101 fl",
+      "MONOCYTES": "2-10 %",
+      "NEUTROPHILS": "40-80 %",
+      "PCV": "36-46 %",
+      "PLATELET_COUNT": "150-400 K/uL",
+      "BICARBONATE": "22-29 mmol/L",
+      "CHLORIDE": "98-107 mmol/L",
+      "CREATININE": "0.6-1.2 mg/dl",
+      "POTASSIUM": "3.5-5.5 mmol/L",
+      "SODIUM": "135-148 mmol/L"
+    },
+    "remarks": {}
+  },
+  "UID_00052": {
+    "patient_info": {},
+    "report_details": {
+      "lab_name": "",
+      "report_date": "",
+      "study_date": "",
+      "report_time": "",
+      "referred_by": "Dr. Nephrology Team",
+      "technician": "",
+      "doctor_name": ""
+    },
+    "test_results": {
+      "culture": {
+        "culture_method": "<OBX.5.1><OBX.5.1.1>Aerobic Culture, ID</OBX.5.1.1><OBX.5.1.2> AST performed by VITEK 2 Compact.</OBX.5.1.2>",
+        "specimen_type": "Pus",
+        "remarks": "Moderate growth."
+      },
+      "renal_profile": {
+        "albumin": 3.8,
+        "bicarbonate": 17,
+        "calcium": 7.4,
+        "chloride": 98.1,
+        "creatinine": 4.26,
+        "phosphorus": 4.65,
+        "potassium": 6.78,
+        "sodium": 131.7
+      }
+    },
+    "reference_ranges": {
+      "albumin": "3.97-4.94 g/dL",
+      "bicarbonate": "22-29 mmol/L",
+      "calcium": {
+        "cord_blood": "8.2-11.2 mg/dL",
+        "newborn": "6.2-11.0 mg/dL",
+        "children_0_10_days": "7.6-10.4 mg/dL",
+        "children_10_days_2_years": "9.0-11.0 mg/dL",
+        "children_2_12_years": "8.8-10.8 mg/dL",
+        "children_12_18_years": "8.4-10.2 mg/dL",
+        "adults_18_60_years": "8.6-10.0 mg/dL",
+        "adults_60_90_years": "8.8-10.2 mg/dL",
+        "adults_over_90_years": "8.2-9.6 mg/dL"
+      },
+      "chloride": "98-107 mmol/L",
+      "creatinine": "0.6-1.2 mg/dL",
+      "phosphorus": "2.6-4.5 mg/dL",
+      "potassium": "3.5-5.5 mmol/L",
+      "sodium": "135-148 mmol/L"
+    }
+  },
+  "UID_00053": {
+    "patient_info": {
+      "patient_id": "FH.13813036",
+      "address": "FORTIS HOSPITAL-NAGARBHAVI 23, 80 FEET ROAD, GURUKRUPA LAYOUT, BANGALORE 560072"
+    },
+    "report_details": {
+      "lab_name": "Agilus Diagnostics Ltd",
+      "report_date": "",
+      "technician": "",
+      "doctor_name": "Dr.Sarvj ot Kaur"
+    },
+    "test_results": {
+      "kidney_function": {
+        "creatinine": 0.92,
+        "creatinine_egfr_epi": 37,
+        "filtration_rate_male": 109.87
+      }
+    },
+    "reference_ranges": {
+      "creatinine": "0.90 - 1.30 mg/dL"
+    },
+    "remarks": {
+      "doctor_comment": ""
+    }
+  },
+  "UID_00054": {
+    "patient_info": {
+      "name": "",
+      "patient_id": "MH001579265",
+      "age": "",
+      "gender": "",
+      "date_of_birth": "",
+      "contact": "",
+      "address": ""
+    },
+    "report_details": {
+      "report_date": "",
+      "report_time": "",
+      "referred_by": "",
+      "lab_name": "",
+      "technician": "",
+      "doctor_name": "Dr Shrinivas R P"
+    },
+    "test_results": {
+      "routine_urine_analysis": {
+        "colour": "PALE YELLOW",
+        "appearance": "SLIGHTLY TURBID",
+        "reaction_pH": 8.0,
+        "specific_gravity": 1.015,
+        "protein_albumin": "NIL",
+        "glucose": "NIL",
+        "ketone_bodies": "NIL",
+        "urobilinogen": "NIL",
+        "bile_salts": "NIL",
+        "bile_pigments": "NIL",
+        "wbc_pus_cells": "4-6 /hpf",
+        "red_blood_cells": "NIL",
+        "epithelial_cells": "1-2 /hpf",
+        "casts": "HYALINE CAST",
+        "crystals": "NIL"
+      },
+      "complete_blood_count": {
+        "wbc_count": 9000,
+        "rbc_count": 5.15,
+        "haemoglobin": 15.0,
+        "haematocrit": 42.6,
+        "mcv": 82.6,
+        "mch": 29.1,
+        "mchc": 35.2,
+        "platelet_count": 242000,
+        "rdw": 13.2,
+        "neutrophils": 55.1,
+        "lymphocytes": 36.9,
+        "monocytes": 5.6,
+        "eosinophils": 1.8,
+        "basophils": 0.6
+      },
+      "serum_creatinine": {
+        "serum_creatinine": 0.84,
+        "egfr": 105.7
+      }
+    },
+    "reference_ranges": {
+      "routine_urine_analysis": {
+        "colour": "Pale Yellow - Yellow",
+        "appearance": "",
+        "reaction_pH": "(4.6-8.8)",
+        "specific_gravity": "(1.015-1.025)",
+        "protein_albumin": "(NIL-TRACE)",
+        "glucose": "(NIL)",
+        "ketone_bodies": "(NIL)",
+        "urobilinogen": "(NORMAL)",
+        "bile_salts": "(NEGATIVE)",
+        "bile_pigments": "(NIL)",
+        "wbc_pus_cells": "(4-6)",
+        "red_blood_cells": "(1-2)",
+        "epithelial_cells": "(2-4)",
+        "casts": "(NIL)",
+        "crystals": "(NIL)"
+      },
+      "complete_blood_count": {
+        "wbc_count": "[4400-11000]",
+        "rbc_count": "[4.50-5.50]",
+        "haemoglobin": "[13.0-17.0]",
+        "haematocrit": "[40.0-50.0]",
+        "mcv": "[83.0-101.0]",
+        "mch": "[27.0-32.0]",
+        "mchc": "[31.5-34.5]",
+        "platelet_count": "[150000-400000]",
+        "rdw": "[11.6-14.0]",
+        "neutrophils": "[40.0-75.0]",
+        "lymphocytes": "[20.0-45.0]",
+        "monocytes": "[2.0-10.0]",
+        "eosinophils": "[0.0-7.0]",
+        "basophils": "[0.0-1.0]"
+      },
+      "serum_creatinine": {
+        "serum_creatinine": "[0.80-1.60]",
+        "egfr": "[>60.0]"
+      }
+    },
+    "remarks": {
+      "summary": "",
+      "abnormal_findings": "",
+      "doctor_comment": ""
+    }
+  },
+  "UID_00055": {
+    "patient_info": {
+      "name": "ROHAN AUGUSTINE",
+      "patient_id": "MH004929753"
+    },
+    "report_details": {
+      "lab_name": "",
+      "report_date": "23/04/2025",
+      "referred_by": "",
+      "technician": "",
+      "doctor_name": "Dr. ROOPA MURGOD,MD (Biochem), Dr. Hemantha Kumara D.S"
+    },
+    "test_results": {
+      "kidney_function": {
+        "Post HD BUN (Urease/GLDH)": 2.1,
+        "Blood Urea Nitrogen (Urease/GLDH)": 5.5,
+        "SERUM CREATININE": 3.33,
+        "eGFR": 13
+      },
+      "liver_function": {
+        "Albumin": 2.4,
+        "SERUM ALBUMIN (BCG)": 2.4
+      },
+      "electrolytes": {
+        "SERUM CALCIUM (ARSENAZO III)": 7.67
+      }
+    },
+    "reference_ranges": {
+      "Post HD BUN (Urease/GLDH)": "6.00-20.00",
+      "Blood Urea Nitrogen (Urease/GLDH)": "6.00-20.00",
+      "SERUM CREATININE": "0.60-1.40",
+      "eGFR": ">60.0",
+      "Albumin": "3.5-5.2",
+      "SERUM ALBUMIN (BCG)": "3.5-5.2",
+      "SERUM CALCIUM (ARSENAZO III)": "8.60-10.30"
+    },
+    "remarks": {
+      "summary": "",
+      "abnormal_findings": "",
+      "doctor_comment": ""
+    }
+  },
+  "UID_00056": {
+    "patient_info": {
+      "name": "Nandha Kumar R",
+      "patient_id": "AH-15399 /UHID15399",
+      "age": "",
+      "gender": "",
+      "date_of_birth": "",
+      "contact": "",
+      "address": ""
+    },
+    "report_details": {
+      "report_date": "Mar 28 2025",
+      "lab_name": "AAROGYA HASTHA HOSPITALS PVT LTD.",
+      "referred_by": "SELF",
+      "technician": "",
+      "doctor_name": "Dr. Jahnabi Barm",
+      "report_time": "9:20AM"
+    },
+    "test_results": {
+      "microscopy": {
+        "casts": "Absent",
+        "crystals": "Absent",
+        "bacteria": "Absent",
+        "others": "Absent"
+      }
+    },
+    "remarks": {
+      "summary": "",
+      "abnormal_findings": "",
+      "doctor_comment": ""
+    }
+  },
+  "UID_00057": {
+    "patient_info": {
+      "name": "JAYALAKSHMI",
+      "patient_id": "13813531",
+      "age": "",
+      "gender": "",
+      "date_of_birth": "",
+      "contact": "",
+      "address": "FORTIS - NAGARBHAVI - IPD FORTIS HOSPITAL - NAGARBHAVI 23, 80 FEET ROAD, GURUKRUPA LAYOUT, BANGALORE 560072"
+    },
+    "report_details": {
+      "report_date": "27/04/2025",
+      "report_time": "10:14:57",
+      "referred_by": "",
+      "lab_name": "Agilus Diagnostics Ltd",
+      "technician": "",
+      "doctor_name": "DR. DAYANANDA K"
+    },
+    "test_results": {
+      "haematology": {
+        "WBC": 5.4,
+        "RBC": 4.21,
+        "Hemoglobin": 11.7,
+        "PCV": 36.4,
+        "MCV": 87,
+        "MCH": 27.9,
+        "MCHC": 32.2,
+        "MENTZER INDEX": 20.7,
+        "MPV": 10,
+        "RDW": 15.3,
+        "Neutrophils": 58,
+        "Absolute Neutrophil Count": 3.13,
+        "Lymphocytes": 29,
+        "Absolute Lymphocyte Count": 1.57
+      }
+    },
+    "reference_ranges": {
+      "WBC": "4.0 - 10.0 thou/\u03bcL",
+      "RBC": "3.8 - 4.8 mil/\u03bcL",
+      "Hemoglobin": "12.0 - 15.0 g/dL",
+      "PCV": "36 - 46 %",
+      "MCV": "83 - 101 fL",
+      "MCH": "27.0 - 32.0 pg",
+      "MCHC": "31.5 - 34.5 g/dL",
+      "MENTZER INDEX": "",
+      "MPV": "6.8 - 10.9 fL",
+      "RDW": "11.6 - 14.0 %",
+      "Neutrophils": "40 - 80 %",
+      "Absolute Neutrophil Count": "2.0 - 7.0 thou/\u03bcL",
+      "Lymphocytes": "20 - 40 %",
+      "Absolute Lymphocyte Count": "1.0 - 3.0 thou/\u03bcL"
+    },
+    "remarks": {
+      "summary": "",
+      "abnormal_findings": "",
+      "doctor_comment": ""
+    }
+  },
+  "UID_00058": {
+    "patient_info": {
+      "name": "",
+      "patient_id": "MCH0425675",
+      "IPD No": "IP0425063",
+      "Ward/Floor/Room/Bed": "ICU/3rd Floor/ICU/Bed-36"
+    },
+    "report_details": {
+      "lab_name": "METRO CURE HOSPITALS",
+      "report_date": "",
+      "referred_by": "Mrs. SUNITA SISTER",
+      "doctor_name": "Dr. Mohd. Irshad Ahmed (MD) Consultation Pathologist",
+      "Collected Date": "07:09 PM",
+      "Collected Time": "08:15 PM"
+    },
+    "test_results": {
+      "microbiology": {
+        "Hcv": "NON-REACTIVE",
+        "HIV 1 & 2": "NON-REACTIVE"
+      }
+    },
+    "remarks": {
+      "verified_by": "Dr. Mohd. Irshad Ahmed (MD) Consultation Pathologist"
+    }
+  },
+  "UID_00059": {
+    "patient_info": {
+      "name": "K B CHUNCHAIAH",
+      "patient_id": "FH.13286271",
+      "age": "",
+      "gender": "",
+      "date_of_birth": "",
+      "contact": "",
+      "address": "FORTIS - NAGARBHAVI - IPD FORTIS HOSPITAL-NAGARBHAVI 23, 80 FEET ROAD, GURUKRUPA LAYOUT, BANGALORE - 560072"
+    },
+    "report_details": {
+      "report_date": "",
+      "report_time": "10:43:02",
+      "referred_by": "",
+      "lab_name": "Agilus Diagnostics Ltd",
+      "technician": "",
+      "doctor_name": "Dr.Somashekhar C M"
+    },
+    "test_results": {
+      "hematology": {
+        "Neutrophil Lymphocyte Ratio (NLR)": 5.9,
+        "Monocytes": 4,
+        "Eosinophils": 3,
+        "Platelet Count": 365
+      }
+    },
+    "reference_ranges": {
+      "Monocytes": "2 - 10 %",
+      "Eosinophils": "1 - 6 %",
+      "Platelet Count": "150 - 410 thou/uL"
+    },
+    "remarks": {
+      "summary": "",
+      "abnormal_findings": "",
+      "doctor_comment": ""
+    }
+  },
+  "UID_00060": {
+    "patient_info": {},
+    "report_details": {
+      "lab_name": "KIMS HEALTH LABORATORY MEDICINE",
+      "report_date": "25-Apr-2025",
+      "report_time": "09:48 PM",
+      "sample_collection_time": "09:11 PM",
+      "sample_receipt_time": "09:29 PM"
+    },
+    "test_results": {
+      "hematology": {
+        "RDW": 13.7,
+        "Platelet Count": 299,
+        "MPV": 9.2
+      },
+      "biochemistry": {
+        "Glucose Random": 99,
+        "Beta HCG": "<0.2",
+        "CRP": 14.5
+      }
+    },
+    "reference_ranges": {
+      "RDW": "11.60-13.70",
+      "Platelet Count": "150-400",
+      "MPV": "7.80-11",
+      "Glucose Random": "70-140",
+      "Beta HCG": "0.1-5.7 for non-pregnant, varies by pregnancy week",
+      "CRP": "0-5"
+    }
+  },
+  "UID_00061": {
+    "patient_info": {
+      "name": "",
+      "patient_id": "IV-00152850",
+      "age": "6Y6M 24D",
+      "gender": "F",
+      "date_of_birth": "",
+      "contact": "",
+      "address": ""
+    },
+    "report_details": {
+      "lab_name": "Rainbow Children's Hospital",
+      "report_date": "",
+      "report_time": "",
+      "referred_by": "Dr. B. M. SHA",
+      "technician": "",
+      "doctor_name": "Dr. B. B. C. P RAJU"
+    },
+    "test_results": {
+      "hematology": {
+        "hemoglobin": 9.9,
+        "PCV": 31.0,
+        "RBC": 5.28,
+        "WBC": 2700,
+        "N/L": "57.1/31.3",
+        "platelets": 4.62,
+        "CRP": 2
+      }
+    },
+    "reference_ranges": {},
+    "remarks": {}
+  },
+  "UID_00062": {
+    "patient_info": {
+      "patient_id": "5605934",
+      "name": "",
+      "age": "",
+      "gender": "",
+      "date_of_birth": "",
+      "contact": "",
+      "address": "",
+      "reg_no": "ADMIT-1014665"
+    },
+    "report_details": {
+      "lab_name": "Bhandari Group of Hospitals",
+      "report_date": "",
+      "report_time": "",
+      "referred_by": "",
+      "technician": "Prakash",
+      "doctor_name": "Dr. Mahak Bhandari"
+    },
+    "test_results": {
+      "AFB_ZN_Stain_Routine": {
+        "Sample": "Pleural Fluid",
+        "Result": "No AFB seen in the given sample."
+      },
+      "Gram_Stain_Routine": {
+        "Sample": "Pleural Fluid",
+        "Leucocyte": "No pus cells seen.",
+        "Organism": "No micro-organism seen."
+      },
+      "Culture_and_Sensitivity": {
+        "Sample": "Pleural Fluid C/S.",
+        "Culture_Report": "No aerobic pathogen grown after 48 hours of incubation."
+      }
+    },
+    "remarks": {
+      "AFB_ZN_Stain_Routine": [
+        "ZN stain provides only presumptive diagnosis of Mycobacterial disease; TB culture is regarded as gold standard for diagnosis.",
+        "False negative results expected in case of low bacterial load or during early infection.",
+        "Accuracy of sputum AFB test depends on the quality of sputum sample submitted.",
+        "Clinical correlation is essential if suspicion is high and AFB report is negative. Culture & molecular methods like CBNAAT/TrueNAT is recommended for confirmation."
+      ],
+      "Gram_Stain_Routine": [
+        "Gram stain provides only the presumptive diagnosis; Findings of Gram stain should be confirmed through culture method.",
+        "Positive Gram stain report indicates the type of microorganism and its morphology based on the type of cells seen.",
+        "False negative Gram stain report may be due to:",
+        "> Poor sensitivity of Microscopy method.",
+        "> Paucibacillary nature of specimen or during the presence of organisms like Treponema, Mycoplasma, Chlamydia & Rickettsia which do not stain as they lack cell walls or are too small in size.",
+        "Difficult interpretation of anaerobic bacteria, Legionella, Brucella, Francisella & bacteria exhibiting the effects of antibiotics."
+      ],
+      "Culture_and_Sensitivity": [
+        "TEXT"
+      ]
+    }
+  },
+  "UID_00063": {
+    "patient_info": {},
+    "report_details": {
+      "report_date": "",
+      "lab_name": "",
+      "technician": "",
+      "doctor_name": "Dr Akshatha Hegde"
+    },
+    "test_results": {
+      "glucose": {
+        "fasting_glucose": 103
+      },
+      "lipid_profile": {
+        "total_cholesterol": 129,
+        "triglycerides": 99,
+        "hdl_cholesterol": 53,
+        "vldl_cholesterol": 20,
+        "ldl_cholesterol": 75,
+        "t_chol_hdl_chol_ratio": 2.4,
+        "ldl_chol_hdl_chol_ratio": 1.4
+      },
+      "c_reactive_protein": {
+        "crp": 2.46
+      },
+      "hbAlc": 7.8
+    },
+    "reference_ranges": {
+      "fasting_glucose": "[70-100]",
+      "total_cholesterol": "[<200]",
+      "triglycerides": "[<150]",
+      "hdl_cholesterol": "[30-60]",
+      "vldl_cholesterol": "[10-40]",
+      "ldl_cholesterol": "[<100]",
+      "t_chol_hdl_chol_ratio": "[<4.0]",
+      "ldl_chol_hdl_chol_ratio": "[<3]",
+      "crp": "[<5.00]",
+      "hbAlc": "[4.0-6.5]"
+    }
+  },
+  "UID_00064": {
+    "patient_info": {
+      "name": "",
+      "patient_id": "",
+      "age": "",
+      "gender": "",
+      "date_of_birth": "",
+      "contact": "",
+      "address": ""
+    },
+    "report_details": {
+      "lab_name": "Manipal Hospitals",
+      "report_date": "27 Apr 2025",
+      "report_time": "10:19",
+      "referred_by": "Dr. Shashi Vadhan",
+      "technician": "",
+      "collection_date": "27 Apr 2025",
+      "collection_time": "08:28"
+    },
+    "test_results": {
+      "biochemistry": {
+        "plasma_glucose": 126,
+        "serum_bicarbonate": 19.8,
+        "bun": 4.9,
+        "serum_creatinine": 1.0,
+        "eGFR": 93.7,
+        "serum_sodium": 137.0,
+        "serum_potassium": 4.49,
+        "serum_chloride": 101.1,
+        "serum_uric_acid": 7.0,
+        "serum_calcium": 9.52,
+        "serum_phosphorus": 3.03,
+        "total_cholesterol": 171,
+        "bilirubin_total": 10.36,
+        "bilirubin_direct": 5.38,
+        "total_protein": 7.2,
+        "serum_albumin": 4.7,
+        "serum_globulin": 2.5,
+        "alb_glob_ratio": 1.92,
+        "sgpt_alt": 356,
+        "sgot_ast": 249,
+        "alp": 129,
+        "ldh": 287
+      }
+    },
+    "reference_ranges": {
+      "plasma_glucose": "70-140 mg/dl",
+      "serum_bicarbonate": "22.0-29.0 mmol/L",
+      "bun": "6.00-20.00 mg/dl",
+      "serum_creatinine": "0.80-1.60 mg/dl",
+      "eGFR": ">60.0 ml/min/1.73sq.m",
+      "serum_sodium": "135.0-145.0 mmol/L",
+      "serum_potassium": "3.50-5.10 mmol/L",
+      "serum_chloride": "98.0-107.0 mmol/L",
+      "serum_uric_acid": "3.5-7.2 mg/dl",
+      "serum_calcium": "8.60-10.30 mg/dl",
+      "serum_phosphorus": "2.50-4.50 mg/dl",
+      "total_cholesterol": "<200 mg/dl",
+      "bilirubin_total": "0.10-1.20 mg/dl",
+      "bilirubin_direct": "<0.2 mg/dl",
+      "total_protein": "6.4-8.3 g/dl",
+      "serum_albumin": "3.5-5.2 g/dl",
+      "serum_globulin": "1.8-3.4 g/dl",
+      "alb_glob_ratio": "1.10-1.80",
+      "sgpt_alt": "10-50 U/L",
+      "sgot_ast": "5-37 U/L",
+      "alp": "45-135 U/L",
+      "ldh": "135-225 U/L"
+    },
+    "remarks": {
+      "summary": "",
+      "abnormal_findings": "",
+      "doctor_comment": ""
+    }
+  },
+  "UID_00065": {
+    "patient_info": {
+      "name": "Jayashree",
+      "age": "",
+      "gender": "Male",
+      "patient_id": "1117",
+      "date_of_birth": "",
+      "contact": "",
+      "address": "",
+      "weight": "3.16 kg"
+    },
+    "report_details": {
+      "report_date": "25/4/25",
+      "lab_name": "",
+      "technician": "",
+      "doctor_name": ""
+    },
+    "test_results": {
+      "blood_glucose": [
+        {
+          "time": "3:30pm",
+          "result": "78 mg/dl"
+        },
+        {
+          "time": "5:30pm",
+          "result": "171 mg/dl"
+        },
+        {
+          "time": "6:30pm",
+          "result": "132 mg/dl"
+        },
+        {
+          "time": "10:20pm",
+          "result": "149 mg/dl"
+        },
+        {
+          "time": "8:30am",
+          "result": "118 mg/dl"
+        },
+        {
+          "time": "6:30am",
+          "result": "102 mg/dl"
+        },
+        {
+          "time": "10:30am",
+          "result": "113 mg/dl"
+        },
+        {
+          "time": "2:00pm",
+          "result": "120 mg/dl"
+        },
+        {
+          "time": "10:00",
+          "result": "76 mg/dl"
+        }
+      ],
+      "bilirubin": [
+        {
+          "time": "9:00am",
+          "result": "26 mg/l"
+        },
+        {
+          "time": "6:00am",
+          "result": "80 mg/l"
+        },
+        {
+          "time": "10:00am",
+          "result": "90mg/l"
+        }
+      ]
+    },
+    "remarks": {
+      "summary": "",
+      "abnormal_findings": "",
+      "doctor_comment": ""
+    }
+  },
+  "UID_00066": {
+    "patient_info": {},
+    "report_details": {
+      "lab_name": "Spandana Heart & Super Speciality Hospital",
+      "report_date": "",
+      "referred_by": "Dr. Praveen Reddy M.B.B.S",
+      "technician": "",
+      "doctor_name": "Dr. Geetha S"
+    },
+    "test_results": {
+      "urine": {
+        "urine_others": "Nil",
+        "urine_blood": "Absent"
+      }
+    },
+    "reference_ranges": {
+      "urine_others": "Nil",
+      "urine_blood": "Absent"
+    },
+    "remarks": {}
+  },
+  "UID_00067": {
+    "patient_info": {
+      "name": "Mr. Omprakash Hawale",
+      "patient_id": "4064030",
+      "age": "51",
+      "gender": "Male",
+      "date_of_birth": "",
+      "contact": "",
+      "address": ""
+    },
+    "report_details": {
+      "report_date": "27-Apr-2025",
+      "report_time": "10:43 AM",
+      "referred_by": "",
+      "lab_name": "D Y Patil Hospital",
+      "technician": "",
+      "doctor_name": "Dr. Shirish Khatu"
+    },
+    "test_results": {
+      "hematology": {
+        "Basophils": 0,
+        "Absolute Neutrophils": 4.4,
+        "Absolute Lymphocytes": 0.8,
+        "Absolute Eosinophils": 0.2,
+        "Absolute Monocytes": 0.4,
+        "Absolute Basophils": 0.1,
+        "RBC MORPHOLOGY": "Normocytic, Normochromic",
+        "WBC MORPHOLOGY": "Nil",
+        "PLATELET MORPHOLOGY": "Adequate"
+      }
+    },
+    "reference_ranges": {
+      "Basophils": "0 - 1",
+      "Absolute Neutrophils": "2.0-7.0",
+      "Absolute Lymphocytes": "2.0-8.0",
+      "Absolute Eosinophils": "0.02-0.50",
+      "Absolute Monocytes": "0.2-1.0",
+      "Absolute Basophils": "0.01 - 0.10"
+    },
+    "remarks": {
+      "summary": "",
+      "abnormal_findings": "",
+      "doctor_comment": ""
+    }
+  },
+  "UID_00068": {
+    "patient_info": {
+      "patient_id": "4064030",
+      "UHID_NO": "IP250426307"
+    },
+    "report_details": {
+      "lab_name": "D Y PATIL HOSPITAL",
+      "report_date": "27-Apr-2025",
+      "report_time": "10:44 AM",
+      "doctor_name": "Dr.SHIRISH KHATU",
+      "technician": "User : 305"
+    },
+    "test_results": {
+      "electrolytes": {
+        "sodium": 133,
+        "potassium": 3.61,
+        "chloride": 101
+      }
+    },
+    "reference_ranges": {
+      "sodium": "135-148 mmol/l",
+      "potassium": "3.5-5.5 mmol/l",
+      "chloride": "85 - 108 mmol/l"
+    }
+  },
+  "UID_00069": {
+    "patient_info": {
+      "name": "",
+      "patient_id": "889090",
+      "age": "",
+      "gender": "",
+      "date_of_birth": "",
+      "contact": "",
+      "address": "GW-301-07"
+    },
+    "report_details": {
+      "report_date": "",
+      "report_time": "3:18PM",
+      "referred_by": "Dr. BALAGOPAL S",
+      "lab_name": "KANCHI KAMAKOTI CHILDS TRUST HOSPITAL",
+      "technician": "",
+      "doctor_name": "Dr. SEYED RABIA .M.D"
+    },
+    "test_results": {
+      "blood_group": {
+        "blood_group": "O",
+        "rh": "Positive"
+      }
+    },
+    "reference_ranges": {},
+    "remarks": {
+      "summary": "",
+      "abnormal_findings": "",
+      "doctor_comment": ""
+    }
+  },
+  "UID_00070": {
+    "patient_info": {
+      "patient_id": "R-00038815"
+    },
+    "report_details": {
+      "lab_name": "",
+      "report_date": "",
+      "report_time": "10:06:22 AM",
+      "referred_by": "Dr.ANEEZ A",
+      "technician": "LAB TECHNICIAN",
+      "doctor_name": ""
+    },
+    "test_results": {
+      "hematology": {
+        "hemoglobin": 10,
+        "total_leucocyte_count": 16700,
+        "differential_count": {
+          "neutrophils": 79.3,
+          "lymphocytes": 11.6,
+          "eosinophils": 1.3,
+          "monocytes": 7.3,
+          "basophils": 0.5
+        },
+        "platelet_count": 4.78
+      }
+    },
+    "reference_ranges": {
+      "hemoglobin": "",
+      "total_leucocyte_count": "4000 - 11000",
+      "differential_count": {
+        "neutrophils": "50 - 70 %",
+        "lymphocytes": "20 - 40%",
+        "eosinophils": "01 - 06 %",
+        "monocytes": "2-10",
+        "basophils": "0-1"
+      },
+      "platelet_count": "1.50 - 4"
+    },
+    "remarks": {
+      "summary": "",
+      "abnormal_findings": "",
+      "doctor_comment": ""
+    }
+  },
+  "UID_00071": {
+    "patient_info": {
+      "gender": "Female"
+    },
+    "report_details": {
+      "lab_name": "G.K. HOSPITAL & CLINICAL LAB",
+      "referred_by": "G.K HOSPITAL"
+    },
+    "test_results": {
+      "hematology": {
+        "WBC": 6.7,
+        "Lymph#": 1.8,
+        "Mid#": 0.7,
+        "Gran#": 4.2,
+        "Lymph%": 27.4,
+        "Mid%": 10.6,
+        "Gran%": 62,
+        "RBC": 5.32,
+        "HGB": 11.4,
+        "HCT": 39,
+        "MCV": 73.4,
+        "MCH": 21.4,
+        "RDW-CV": 17,
+        "RDW-SD": 45,
+        "PLT": 136,
+        "MPV": 10.7,
+        "PDW": 16.1,
+        "PCT": 0.145
+      }
+    },
+    "reference_ranges": {
+      "WBC": "4.0-10.0",
+      "Lymph#": "0.8-4.0",
+      "Mid#": "0.1-1.5",
+      "Gran#": "2.0-7.0",
+      "Lymph%": "20.0-40.0",
+      "Mid%": "3.0-15.0",
+      "Gran%": "50.0-70.0",
+      "RBC": "3.50-5.50",
+      "HGB": "11.0-15.0",
+      "HCT": "37.0-47.0",
+      "MCV": "80.0-100.0",
+      "MCH": "27.0-34.0",
+      "RDW-CV": "11.0-16.0",
+      "RDW-SD": "35.0-56.0",
+      "PLT": "150-400",
+      "MPV": "6.5-12.0",
+      "PDW": "9.0-17.0",
+      "PCT": "0.108-0.282"
+    }
+  },
+  "UID_00072": {
+    "patient_info": {},
+    "report_details": {
+      "lab_name": "G.K. HOSPITAL & CLINICAL LAB",
+      "report_date": "",
+      "technician": "",
+      "doctor_name": ""
+    },
+    "test_results": {
+      "pancreatic_function_test": {
+        "Glucose": 210
+      },
+      "blood_type": {
+        "ABO": "O",
+        "Rh": "POSITIVE"
+      },
+      "serology": {
+        "V.D.R.L.": "Non-Reactive",
+        "HbsAG": "Negative",
+        "HIV (1+2)": "Negative",
+        "HCV": "Negative"
+      }
+    },
+    "reference_ranges": {
+      "Glucose": "70-140mg/dl"
+    },
+    "remarks": {}
+  },
+  "UID_00073": {
+    "patient_info": {},
+    "report_details": {
+      "lab_name": "G.K. HOSPITAL & CLINICAL LAB",
+      "report_date": "",
+      "referred_by": "",
+      "technician": "",
+      "doctor_name": ""
+    },
+    "test_results": {
+      "renal_function": {
+        "blood_urea": 28,
+        "s_creatinine": 0.8
+      },
+      "liver_function": {
+        "s_protein_t": 7.2,
+        "albumin": 4.1,
+        "globulin": 3.1,
+        "s_bilirubin_t": 0.6,
+        "s_bilirubin_d": 0.2,
+        "sgot": 36,
+        "sgpt": 20,
+        "alk_phosphatase": 205
+      }
+    },
+    "reference_ranges": {
+      "blood_urea": "20\u201340 mg/dl",
+      "s_creatinine": "0.2\u20131.0 mg/dl",
+      "s_protein_t": "6.0\u20138.0 gm/dl",
+      "albumin": "3.5\u20135.5 gm/dl",
+      "globulin": "3.5\u20135.0 gm/dl",
+      "s_bilirubin_t": "0.2\u20131.0 mg/dl",
+      "s_bilirubin_d": "0.0\u20130.3 mg/dl",
+      "sgot": "05\u201335 U/L",
+      "sgpt": "05\u201335 U/L",
+      "alk_phosphatase": "30\u2013120 U/L"
+    },
+    "remarks": {}
+  },
+  "UID_00074": {
+    "patient_info": {
+      "name": "",
+      "patient_id": "SGRD-4257751",
+      "age": "",
+      "gender": "",
+      "date_of_birth": "",
+      "contact": "",
+      "address": ""
+    },
+    "report_details": {
+      "report_date": "27-Apr-2025",
+      "report_time": "10:42 am",
+      "referred_by": "Dr.EMERGENCY MEDICINE",
+      "lab_name": "Department of Pathology",
+      "technician": "ANOOP",
+      "doctor_name": ""
+    },
+    "test_results": {
+      "urinalysis": {
+        "proteins": "",
+        "glucose": "",
+        "ketones": "",
+        "blood": "",
+        "leukocytes": "",
+        "nitrite": "",
+        "pH": "",
+        "specific_gravity": "",
+        "urobilirinogen": ""
+      }
+    },
+    "reference_ranges": {},
+    "remarks": {}
+  },
+  "UID_00075": {
+    "patient_info": {},
+    "report_details": {
+      "lab_name": "Ishita Pathology Lab",
+      "report_date": "",
+      "referred_by": "Dr. Suraj Shoor",
+      "technician": "",
+      "doctor_name": "Dr. Rana A C Pal"
+    },
+    "test_results": {
+      "liver_function_test": {
+        "SGOT": 34,
+        "SGPT": 29,
+        "TOTAL PROTEIN": 6.9,
+        "ALBUMIN": 3.9,
+        "GLOBULIN": 3.0,
+        "A/G RATIO": 1.3,
+        "ALKALINE PHOSPHATASE": 102,
+        "BILIRUBIN TOTAL": 0.8,
+        "CONJUGATED (D. Bilirubin)": 0.2,
+        "UNCONJUGATED (I.D. Bilirubin)": 0.6,
+        "SERUM SODIUM": 135.3,
+        "SERUM POTASSIUM": 4.5,
+        "CALCIUM": 8.3
+      }
+    },
+    "reference_ranges": {
+      "SGOT": "0 - 37",
+      "SGPT": "0 - 40",
+      "TOTAL PROTEIN": "5.5 - 8.0",
+      "ALBUMIN": "3.5 - 5.5",
+      "GLOBULIN": "",
+      "A/G RATIO": "2.5 - 3.5",
+      "ALKALINE PHOSPHATASE": "37 - 143",
+      "BILIRUBIN TOTAL": "0.1 - 1.2",
+      "CONJUGATED (D. Bilirubin)": "0.00 - 0.3",
+      "UNCONJUGATED (I.D. Bilirubin)": "",
+      "SERUM SODIUM": "135.0 - 150.0",
+      "SERUM POTASSIUM": "3.5 - 5.5",
+      "CALCIUM": "8.5 - 11.0"
+    },
+    "remarks": {}
+  },
+  "UID_00076": {
+    "patient_info": {
+      "patient_id": "5715623",
+      "name": "",
+      "age": "",
+      "gender": "",
+      "date_of_birth": "",
+      "contact": "",
+      "address": "",
+      "UHID": "5715623",
+      "Reg No": "ADMIT-1007849"
+    },
+    "report_details": {
+      "report_date": "",
+      "lab_name": "BHANDARI GROUP OF HOSPITALS",
+      "technician": "DR SANJANA AHUJA",
+      "doctor_name": "Dr. HIMANSHU KELKAR"
+    },
+    "test_results": {
+      "bilirubin": {
+        "BILIRUBIN TOTAL, Serum": [
+          11.8,
+          12.1
+        ],
+        "BILIRUBIN DIRECT, Serum": [
+          0.9,
+          0.7
+        ],
+        "BILIRUBIN INDIRECT,Serum": [
+          10.9,
+          11.4
+        ]
+      }
+    },
+    "reference_ranges": {
+      "BILIRUBIN TOTAL, Serum": "Adult 0.2 - 1.2",
+      "BILIRUBIN DIRECT, Serum": "upto 0.3",
+      "BILIRUBIN INDIRECT,Serum": "0.2-1.0"
+    },
+    "remarks": {
+      "remark": "On Vitros Dry chemistry as per the method instructions ,since Total , Direct and Indirect bilirubin are measured independently it can mean that sum of direct bilirubin and Indirect bilirubin may not be exactly equal to Total bilirubin result. The normally expected variability in the independent measurements of Tbil, BU( Indirect), BC( Direct) will occasionally produce a sum of BU+BC that may be slightly greater or slightly less than (upto +/-0.3mg/dl) the TBII, even when the true concentrations of Bu+Bc and tbil are identical. Conjugated Bilirubin in plasma reacts to form the bilirubin-albumin conjugate called as delta bilirubin. Delta bilirubin remains elevated for longer duration. Delta bilirubin remains elevated long after biliary obstruction is cleared. Kindly correlate clinically."
+    },
+    "Accession No": [
+      3536558,
+      3541132,
+      3544211
+    ],
+    "Ward": [
+      "NICU - 1F",
+      "NICU - 1F",
+      "NICU - 1F"
+    ],
+    "Reported": [
+      "11:43",
+      "21:31",
+      "10:20"
+    ]
+  },
+  "UID_00077": {
+    "patient_info": {
+      "patient_id": "5715623",
+      "name": "",
+      "age": "",
+      "gender": "",
+      "date_of_birth": "",
+      "contact": "",
+      "address": "",
+      "UHID": "5715623",
+      "Reg No": "ADMIT-1007849"
+    },
+    "report_details": {
+      "lab_name": "BHANDARI GROUP OF HOSPITALS",
+      "report_date": "",
+      "report_time": [
+        "11:43",
+        "21:31",
+        "10:20"
+      ],
+      "referred_by": "",
+      "technician": "DR SANJANA AHUJA",
+      "doctor_name": "Dr. HIMANSHU KELKAR"
+    },
+    "test_results": {
+      "bilirubin": [
+        {
+          "investigation": "BILIRUBIN TOTAL, Serum",
+          "result": 11.8,
+          "unit": "mg/dL",
+          "bio_ref_interval": "Adult 0.2 - 1.2"
+        },
+        {
+          "investigation": "BILIRUBIN DIRECT, Serum",
+          "result": 0.9,
+          "unit": "mg/dL",
+          "bio_ref_interval": "upto 0.3"
+        },
+        {
+          "investigation": "BILIRUBIN INDIRECT,Serum",
+          "result": 10.9,
+          "unit": "mg/dL",
+          "bio_ref_interval": "0.2-1.0"
+        },
+        {
+          "investigation": "BILIRUBIN TOTAL, Serum",
+          "result": 12.1,
+          "unit": "mg/dL",
+          "bio_ref_interval": "Adult 0.2 - 1.2"
+        },
+        {
+          "investigation": "BILIRUBIN DIRECT, Serum",
+          "result": 0.7,
+          "unit": "mg/dL",
+          "bio_ref_interval": "upto 0.3"
+        },
+        {
+          "investigation": "BILIRUBIN INDIRECT,Serum",
+          "result": 11.4,
+          "unit": "mg/dL",
+          "bio_ref_interval": "0.2-1.0"
+        }
+      ]
+    },
+    "reference_ranges": {
+      "BILIRUBIN TOTAL, Serum": "Adult 0.2 - 1.2",
+      "BILIRUBIN DIRECT, Serum": "upto 0.3",
+      "BILIRUBIN INDIRECT,Serum": "0.2-1.0"
+    },
+    "remarks": {
+      "remark": "On Vitros Dry chemistry as per the method instructions ,since Total , Direct and Indirect bilirubin are measured independently it can mean that sum of direct bilirubin and Indirect bilirubin may not be exactly equal to Total bilirubin result. The normally expected variability in the independent measurements of Tbil, BU( Indirect), BC( Direct) will occasionally produce a sum of BU+BC that may be slightly greater or slightly less than (upto +/-0.3mg/dl) the TBII, even when the true concentrations of Bu+Bc and tbil are identical. Conjugated Bilirubin in plasma reacts to form the bilirubin- albumin conjugate called as delta bilirubin. Delta bilirubin remains elevated for longer duration. Delta bilirubin remains elevated long after biliary obstruction is cleared. Kindly correlate clinically."
+    }
+  },
+  "UID_00078": {
+    "patient_info": {
+      "name": "Mr. Marju Nathan K L",
+      "patient_id": "AHISF0239989",
+      "age": "",
+      "gender": "Male",
+      "date_of_birth": "",
+      "contact": "",
+      "address": ""
+    },
+    "report_details": {
+      "lab_name": "Apollo Hospitals Enterprise Ltd",
+      "report_date": "4/23/2025",
+      "referred_by": "",
+      "technician": "",
+      "doctor_name": ""
+    },
+    "test_results": {
+      "blood_gas_analysis": {
+        "pH": 7.36,
+        "pO2": 45,
+        "pCO2": 20,
+        "HCO3": 29,
+        "Base Excess": 0.2,
+        "Base Excess (BE)": 0.4,
+        "Sodium (Na+K)": 141,
+        "Potassium (K+)": 4.0,
+        "Chloride (Cl-)": 108,
+        "Ionized Calcium (iCa2+)": 1.28,
+        "Lactate": 1,
+        "Arterial Oxygen Saturation (SpO2)": 27,
+        "Total Hemoglobin (tHb)": 9.1
+      }
+    },
+    "reference_ranges": {
+      "pH": "7.35-7.45",
+      "pO2": "32-45",
+      "pCO2": "75-100 mmHg",
+      "HCO3": "21-31 mmol/L",
+      "Base Excess": "-2 to 2 mmol/L",
+      "Base Excess (BE)": "-2 to 2 mmol/L",
+      "Sodium (Na+K)": "130-140 mmol/L",
+      "Potassium (K+)": "3.5-5.0 mmol/L",
+      "Chloride (Cl-)": "101-109 mmol/L",
+      "Ionized Calcium (iCa2+)": "1.15-1.33 mmol/L",
+      "Lactate": "< 2.0 mmol/L",
+      "Arterial Oxygen Saturation (SpO2)": "> 94%",
+      "Total Hemoglobin (tHb)": "13.5-17.5 g/dL"
+    },
+    "remarks": {}
+  },
+  "UID_00079": {
+    "patient_info": {},
+    "report_details": {
+      "lab_name": "THE MADRAS MEDICAL MISSION CLINICAL LABORATORY SERVICES",
+      "report_date": "",
+      "referred_by": "Dr.ULHAS M PANDURANGI",
+      "technician": "",
+      "doctor_name": "Dr. CHITRA SREE. V. MBBS, DCP"
+    },
+    "test_results": {
+      "hematology": {
+        "hemoglobin": 8.4
+      }
+    },
+    "reference_ranges": {
+      "hemoglobin": {
+        "male": "13.7 - 17.5",
+        "female": "11.2 - 15.7"
+      }
+    },
+    "remarks": {
+      "doctor_comment": ""
+    }
+  },
+  "UID_00080": {
+    "patient_info": {
+      "patient_id": "AHJN.0000311592"
+    },
+    "report_details": {
+      "report_date": "24-Apr-2025",
+      "report_time": "01:28 PM"
+    },
+    "test_results": {
+      "hematology": {
+        "Hemoglobin": 11.3,
+        "Platelet Count": 266,
+        "RBC COUNT": 4.2,
+        "Packed cell volume": 34.5,
+        "WBC count": 14.2,
+        "Neutrophils": 93,
+        "Lymphocytes": 5,
+        "Monocytes": 1,
+        "Eosinophils": 1,
+        "Basophils": 0
+      },
+      "hemoglobin_automation": {
+        "Hemoglobin": 9.7
+      },
+      "pcv_packed_cell_volume": {
+        "Packed cell volume": 28.6
+      },
+      "microbiology": {
+        "HBS ANTIGEN": "",
+        "HCV - HEPATITIS C VIRUS": "",
+        "HIV I AND II RAPID": ""
+      }
+    },
+    "reference_ranges": {
+      "Hemoglobin": "11.5 - 14.5",
+      "Platelet Count": "150-450",
+      "RBC COUNT": "3.8-4.8",
+      "Packed cell volume": "30 - 46",
+      "WBC count": "4-11",
+      "Neutrophils": "40 - 75",
+      "Lymphocytes": "20-40",
+      "Monocytes": "0 - 10",
+      "Eosinophils": "1 - 6",
+      "Basophils": "0-1",
+      "Hemoglobin_automation": "11.5 - 14.5",
+      "PCV-Packed_Cell_Volume": "30 - 46"
+    }
+  },
+  "UID_00081": {
+    "patient_info": {},
+    "report_details": {
+      "lab_name": "",
+      "report_date": "",
+      "report_time": "01:03PM",
+      "referred_by": "Dr.S.Rajasekaran",
+      "technician": "KOKILA G",
+      "doctor_name": "Dr. N. Bharathi Santihose MD., Dr. M. Shyam Kumar M.B.B.S., D.C.P."
+    },
+    "test_results": {
+      "hematology": {
+        "haematocrit": 40.0,
+        "MCV": 82,
+        "MCH": 26.2,
+        "MCHC": 32.0,
+        "platelet_count": 259000,
+        "total_WBC_count": 9200,
+        "neutrophils": 63.0,
+        "lymphocytes": 26.1,
+        "monocytes": 5.7,
+        "eosinophils": 4.7
+      }
+    },
+    "reference_ranges": {
+      "haematocrit": "36 to 46",
+      "MCV": "83 to 101",
+      "MCH": "27 to 32",
+      "MCHC": "31.5 to 34.5",
+      "platelet_count": "150000 to 410000",
+      "total_WBC_count": "4000 to 10,000",
+      "neutrophils": "40 to 80",
+      "lymphocytes": "20 to 40",
+      "monocytes": "2 to 10",
+      "eosinophils": "1 to 6"
+    },
+    "remarks": {}
+  },
+  "UID_00082": {
+    "patient_info": {
+      "name": "",
+      "patient_id": "IPHS00059670",
+      "age": "",
+      "gender": "",
+      "date_of_birth": "",
+      "contact": "",
+      "address": ""
+    },
+    "report_details": {
+      "report_date": "",
+      "report_time": "07:13 AM",
+      "referred_by": "Dr. K, MBBS, DRCOG(London), MRCOG",
+      "lab_name": "Sri Kauvery Medical Care (India) Limited",
+      "technician": "",
+      "doctor_name": "ANNIE ROSE L, MBBS, DNB (CONSULTANT PATHOLOGIST)"
+    },
+    "test_results": {
+      "electrolytes": {
+        "sodium": 133,
+        "potassium": 3.3,
+        "chloride": 110
+      }
+    },
+    "reference_ranges": {
+      "sodium": "136-145",
+      "potassium": "3.5-5",
+      "chloride": "98-107"
+    },
+    "remarks": {
+      "summary": "",
+      "abnormal_findings": "",
+      "doctor_comment": "PLEASE CORRELATE CLINICALLY"
+    }
+  },
+  "UID_00083": {
+    "patient_info": {
+      "name": "TANUJ JAIN",
+      "patient_id": "IP338782",
+      "age": 35,
+      "gender": "Male",
+      "date_of_birth": "",
+      "contact": "",
+      "address": ""
+    },
+    "report_details": {
+      "lab_name": "Sarodaya Hospital and Research Centre Lab",
+      "report_date": "",
+      "referred_by": "Dr. R V S BHALLA",
+      "technician": "Mr. VIPIN KUMAR",
+      "doctor_name": "Dr. Deepika Parwan"
+    },
+    "test_results": {
+      "serology": {
+        "Typhi Dot (By Card)": {
+          "TYPHI DOT IgM": "Negative",
+          "TYPHI DOT IgG": "Negative"
+        }
+      }
+    },
+    "reference_ranges": {
+      "TYPHI DOT IgM": "Negative",
+      "TYPHI DOT IgG": "Negative"
+    },
+    "remarks": {
+      "summary": "",
+      "abnormal_findings": "",
+      "doctor_comment": ""
+    }
+  },
+  "UID_00084": {
+    "patient_info": {
+      "name": "",
+      "patient_id": "",
+      "age": "",
+      "gender": "",
+      "date_of_birth": "",
+      "contact": "",
+      "address": ""
+    },
+    "report_details": {
+      "lab_name": "SRV MAMATA HOSPITAL",
+      "report_date": "24-APR",
+      "technician": "",
+      "doctor_name": "R. NIKHIL MAKARAND VAIDYA"
+    },
+    "test_results": {
+      "hematology": {
+        "Red Cell Count": 4.51,
+        "Haemoglobin": 13.1,
+        "Haematocrit": 38.6,
+        "MCV": 85.6,
+        "MCH": 29.0,
+        "MCHC": 33.9,
+        "RDW(SD)": 40.1,
+        "Total WBC Count": 6.45,
+        "Platelet Count": 321,
+        "Neutrophils %": 55.2,
+        "Eosinophils %": 1.4,
+        "Lymphocytes %": 36.1,
+        "Monocytes %": 6.8,
+        "Basophils %": 0.5,
+        "RDW(CV)": 12.7,
+        "Mean Platelet volume(MPV)": 8.4,
+        "Platelet Distribution Width(PDW)": 8.2,
+        "Plateletocrit (PCT)": 0.27,
+        "P-LCR": 12.0,
+        "RBC Morphology": "Normocytic Normochromic",
+        "WBC Morphology": "Normal",
+        "Platelets on Smear": "Adequate"
+      },
+      "electrolytes": {
+        "Chloride, Serum": 100.0,
+        "Potassium, Serum": 3.9,
+        "Sodium, Serum": 136.0
+      },
+      "coagulation": {
+        "Prothrombin Time (PT)": 15.6,
+        "INR Value": 0.98
+      },
+      "urine_routine_examination": {
+        "Colour": "Pale yellow",
+        "Appearance": "Clear",
+        "Specific gravity": 1.015,
+        "pH(Reaction)": 6.5,
+        "Occult Blood": "Absent",
+        "Bile Salts": "Absent",
+        "Urobilinogen": "Absent",
+        "Ketone": "Absent",
+        "Protein": "Absent",
+        "Glucose": "Absent"
+      },
+      "rapid_tests": {
+        "HCV Rapid": "NON REACTIVE",
+        "HIV-1": "NON REACTIVE",
+        "HIV-2": "NON REACTIVE"
+      }
+    },
+    "reference_ranges": {},
+    "remarks": {
+      "doctor_comment": ""
+    }
+  },
+  "UID_00085": {
+    "patient_info": {
+      "name": "NIKHIL MAKARAND VAIDYA",
+      "patient_id": "SRVD-9491",
+      "age": "37",
+      "gender": "Male",
+      "date_of_birth": "",
+      "contact": "",
+      "address": ""
+    },
+    "report_details": {
+      "report_date": "24-04-2025",
+      "report_time": "09:22 PM",
+      "referred_by": "Dr. UJWAL RAMTEKE",
+      "lab_name": "SRV HOSPITALS",
+      "technician": "Ms. NAMRATA ASHOK KAMBLE",
+      "doctor_name": "DR.FURQAN MURUMKAR"
+    },
+    "test_results": {
+      "hematology": {
+        "hemoglobin": 13.1,
+        "Red_Cell_Count": 4.51,
+        "Hematocrit": 38.6,
+        "MCV": 85.6,
+        "MCH": 29.0,
+        "MCHC": 33.9,
+        "RDW(SD)": 40.1,
+        "RDW(CV)": 12.7,
+        "RBC_Morphology": "Normocytic Normochromic",
+        "Total_WBC_Count": 6.45,
+        "Neutrophils_%": 55.2,
+        "Lymphocytes_%": 36.1,
+        "Monocytes_%": 6.8,
+        "Eosinophils_%": 1.4,
+        "Basophils_%": 0.5,
+        "WBC_Morphology": "Normal",
+        "Platelet_Count": 321,
+        "Mean_Platelet_volume(MPV)": 8.4,
+        "Platelet_Distribution_Width(PDW)": 8.2,
+        "Platelets_on_Smear": 12.0
+      }
+    },
+    "reference_ranges": {
+      "hemoglobin": "13.5\u201318.0 g/dL",
+      "Red_Cell_Count": "4.6\u20136.1 x10^6/uL",
+      "Hematocrit": "39\u201350 %",
+      "MCV": "81\u201395 fL",
+      "MCH": "27.6\u201333.2 pg",
+      "MCHC": "32\u201336 g/dL",
+      "RDW(SD)": "37\u201354 %",
+      "Total_WBC_Count": "4\u201311 10^3 cells/uL",
+      "Neutrophils_%": "43\u201378 %",
+      "Lymphocytes_%": "14\u201345 %",
+      "Monocytes_%": "4.4\u201312 %",
+      "Eosinophils_%": "0\u20137 %",
+      "Basophils_%": "0\u20131 %",
+      "Platelet_Count": "150\u2013450 10^3 cells/uL",
+      "Mean_Platelet_volume(MPV)": "6.5\u201312 fL",
+      "Platelet_Distribution_Width(PDW)": "9\u201317 %",
+      "Platelets_on_Smear": "11\u201345 %"
+    },
+    "remarks": {
+      "summary": "",
+      "abnormal_findings": "",
+      "doctor_comment": ""
+    }
+  },
+  "UID_00086": {
+    "patient_info": {
+      "name": "NIKHIL MAKARAND VAIDYA",
+      "patient_id": "SRVD-9491",
+      "age": 37,
+      "gender": "Male"
+    },
+    "report_details": {
+      "lab_name": "SRV HOSPITALS",
+      "report_date": "24-04-2025",
+      "referred_by": "Dr. UJWAL RAMTEKE",
+      "technician": "Ms. NAMRATA ASHOK KAMBLE",
+      "doctor_name": "DR.FURQAN MURUMKAR"
+    },
+    "test_results": {
+      "serology": {
+        "HIV I AND II RAPID": {
+          "HIV -1": "NON REACTIVE",
+          "HIV -2": "NON REACTIVE"
+        },
+        "AUSTRALIAN ANTIGEN(HBsAg)": "NON REACTIVE",
+        "HCV Rapid": "NON REACTIVE"
+      }
+    },
+    "reference_ranges": {
+      "HIV I AND II RAPID": {
+        "HIV -1": "NON REACTIVE",
+        "HIV -2": "NON REACTIVE"
+      },
+      "AUSTRALIAN ANTIGEN(HBsAg)": "Non-Reactive",
+      "HCV Rapid": "Non-Reactive"
+    },
+    "remarks": {
+      "summary": "HIV I & II Rapid, HBSAG Rapid and HCV Rapid are screening tests. Positive results have to be confirmed by Quantitative assay (ELISA Western Blot)."
+    }
+  },
+  "UID_00087": {
+    "patient_info": {
+      "name": "Mrs. KALIAMMAL M",
+      "patient_id": "MMHIP137802",
+      "age": "",
+      "gender": "",
+      "date_of_birth": "",
+      "contact": "",
+      "address": "",
+      "UHID": "",
+      "SIN_LRN": "51227380 17018164"
+    },
+    "report_details": {
+      "report_date": "25-APR-2025",
+      "report_time": "09:33:27 PM",
+      "referred_by": "Dr.RAJESH PRABHUP",
+      "lab_name": "DEPARTMENT OF BIOCHEMISTRY",
+      "technician": "",
+      "doctor_name": "Dr. Elamathi M"
+    },
+    "test_results": {
+      "electrolytes": {
+        "Sodium (Na)": 135
+      }
+    },
+    "reference_ranges": {
+      "Sodium (Na)": "136 - 145 mEq/L"
+    },
+    "remarks": {
+      "summary": "",
+      "abnormal_findings": "",
+      "doctor_comment": ""
+    },
+    "additional_info": {
+      "specimen": "Blood",
+      "collected_on": "25-APR-2025 07:24:29 PM",
+      "received_on": "25-APR-2025 08:54:40 PM"
+    }
+  },
+  "UID_00088": {
+    "patient_info": {
+      "name": "Mrs. KALIAMMAL M",
+      "patient_id": "MMHIP137802",
+      "SIN_LRN": "51180468 17001330",
+      "Specimen": "Blood"
+    },
+    "report_details": {
+      "report_date": "22-APR-2025",
+      "lab_name": "DEPARTMENT OF BIOCHEMISTRY",
+      "referred_by": "Dr.RAJESH PRABHUP",
+      "doctor_name": "Dr. Elamathi M"
+    },
+    "test_results": {
+      "BILIRUBIN (DIRECT) - SERUM (DCA WITH ATCS)": 0.6,
+      "BILIRUBIN UNCONJUGATED - SERUM(Calculated)": 1.0
+    },
+    "reference_ranges": {
+      "BILIRUBIN (DIRECT) - SERUM (DCA WITH ATCS)": "0.0 - 0.2 mg/dL",
+      "BILIRUBIN UNCONJUGATED - SERUM(Calculated)": "0.0 - 1.0 mg/dL"
+    }
+  },
+  "UID_00089": {
+    "patient_info": {
+      "name": "Mrs. KALIAMMAL M",
+      "patient_id": "MMHIP137802",
+      "age": 59,
+      "gender": "Female",
+      "date_of_birth": "",
+      "contact": "",
+      "address": "",
+      "UHID": "",
+      "SIN_LRN": "51181610 17001857"
+    },
+    "report_details": {
+      "report_date": "22-APR-2025",
+      "report_time": "07:39:23 PM",
+      "referred_by": "Dr.RAJESH PRABHUP",
+      "lab_name": "DEPARTMENT OF BIOCHEMISTRY",
+      "technician": "",
+      "doctor_name": "Dr Elamathi M"
+    },
+    "test_results": {
+      "Lipase - Serum": 2010
+    },
+    "reference_ranges": {
+      "Lipase - Serum": "6 - 51 U/L"
+    },
+    "remarks": {
+      "summary": "",
+      "abnormal_findings": "",
+      "doctor_comment": ""
+    },
+    "additional_info": {
+      "specimen": "Serum",
+      "collected_on": "22-APR-2025 06:33:30 PM",
+      "received_on": "22-APR-2025 06:41:38 PM"
+    }
+  },
+  "UID_00090": {
+    "patient_info": {
+      "name": "Mrs. KALIAMMAL M",
+      "patient_id": "ASM / MMHIP137802",
+      "SIN_ILRN": "51180467 17001330",
+      "date_of_birth": "",
+      "gender": "",
+      "contact": "",
+      "address": "",
+      "specimen": "Whole Blood (EDTA)"
+    },
+    "report_details": {
+      "report_date": "22-APR-2025",
+      "report_time": "05:26:45 PM",
+      "referred_by": "Dr. RAJESH PRABHU P",
+      "lab_name": "DEPARTMENT OF HAEMATOLOGY",
+      "technician": "",
+      "doctor_name": "DR. B. NANDHINI BALA"
+    },
+    "test_results": {
+      "hematology": {
+        "Hemoglobin (Automation)": 12.0,
+        "Packed cell volume": 37,
+        "WBC Count": 11.7,
+        "Platelet Count": 271,
+        "RBC COUNT": 4.16,
+        "MCV": 88,
+        "MCH": 29,
+        "MCHC": 33,
+        "Neutrophils": 93,
+        "Lymphocytes": 4,
+        "Monocytes": 3
+      }
+    },
+    "reference_ranges": {
+      "Hemoglobin (Automation)": "11.5 - 16.0 gm%",
+      "Packed cell volume": "37 - 47 %",
+      "WBC Count": "4 - 11 10^3/mm^3",
+      "Platelet Count": "150 - 450 10^3/mm^3",
+      "RBC COUNT": "3.7 - 5.6 Million/ul",
+      "MCV": "75 - 95 fl",
+      "MCH": "26 - 32 pg",
+      "MCHC": "31 - 36 g/dl",
+      "Neutrophils": "40 - 80 %",
+      "Lymphocytes": "20 - 40 %",
+      "Monocytes": "2 - 10 %"
+    },
+    "remarks": {
+      "summary": "",
+      "abnormal_findings": "",
+      "doctor_comment": ""
+    }
+  },
+  "UID_00091": {
+    "patient_info": {
+      "name": "Soocha Prakash",
+      "patient_id": "20240951965",
+      "age": "",
+      "gender": "",
+      "date_of_birth": "",
+      "contact": "",
+      "address": ""
+    },
+    "report_details": {
+      "lab_name": "delta HOSPITALS",
+      "report_date": "",
+      "referred_by": "",
+      "technician": "",
+      "doctor_name": ""
+    },
+    "test_results": {
+      "blood_sugar": {
+        "RBS": "",
+        "FBS": "",
+        "PPBS": "",
+        "HBA,C": ""
+      },
+      "RFT": {
+        "UREA": 28.5,
+        "CREATININE": 1.02,
+        "SODIUM": 135,
+        "POTASSIUM": 4,
+        "CHLORIDE": 102,
+        "MAGNESIUM": "",
+        "CALCIUM": "",
+        "BICARBONATE": 19,
+        "URIC ACID": ""
+      },
+      "LFT": {
+        "Total Bilirubin": 8.8,
+        "Direct": 6.4,
+        "Indirect": 2.4,
+        "SGPT": 152.48,
+        "SGOT": 364.9,
+        "T. Protein": 6.1,
+        "Albumin": 2.8,
+        "Globulin": 2.3,
+        "AlkPo": "0289"
+      },
+      "WIDAL TEST": "",
+      "URINE ANALYSIS": "Normal",
+      "CRP": 318,
+      "OAG,BT": "",
+      "CT": "",
+      "Hep A IgM": 11.83,
+      "IgG": 1.86,
+      "Anti HCV": "NR",
+      "HbsAg": "NR",
+      "PT": 12.3,
+      "APTT": 30.5,
+      "INR": 1.09
+    },
+    "reference_ranges": {
+      "UREA": "",
+      "CREATININE": "",
+      "SODIUM": "",
+      "POTASSIUM": "",
+      "CHLORIDE": "",
+      "MAGNESIUM": "",
+      "CALCIUM": "",
+      "BICARBONATE": "",
+      "URIC ACID": "",
+      "Total Bilirubin": "7.71",
+      "Direct": "5.94",
+      "Indirect": "1.77",
+      "SGPT": "75.5",
+      "SGOT": "161",
+      "T. Protein": "6.9",
+      "Albumin": "4.0",
+      "Globulin": "2.9",
+      "AlkPo": "152"
+    },
+    "remarks": {
+      "summary": "",
+      "abnormal_findings": "",
+      "doctor_comment": ""
+    }
+  },
+  "UID_00092": {
+    "patient_info": {},
+    "report_details": {
+      "lab_name": "Neuberg Diagnostics",
+      "report_date": "24-Apr-2025",
+      "report_time": "02:08",
+      "referred_by": "Dr. Dhenesh .R, M.B.B.S., D.A., DNB.",
+      "technician": "",
+      "doctor_name": "KUMBHAT M"
+    },
+    "test_results": {
+      "haematology": {
+        "activated_partial_thromboplastin_time": 29.0
+      }
+    },
+    "reference_ranges": {
+      "activated_partial_thromboplastin_time": ""
+    },
+    "remarks": {}
+  },
+  "UID_00093": {
+    "patient_info": {},
+    "report_details": {
+      "lab_name": "Neuberg Diagnostics",
+      "report_date": "24-Apr-2025",
+      "referred_by": "Dr. Dhenesh .R, M.B.B.S., D.A., DNB.",
+      "technician": "",
+      "doctor_name": "Dr. M. Sowmiya"
+    },
+    "test_results": {
+      "Anti HAV IgM,Serum": {
+        "result": "Reactive",
+        "value": 11.83,
+        "unit": "S/CO"
+      }
+    },
+    "reference_ranges": {
+      "Anti HAV IgM,Serum": {
+        "< 0.8": "Non Reactive",
+        "0.8 - 1.2": "Grayzone",
+        ">= 1.2": "Reactive"
+      }
+    },
+    "remarks": {
+      "summary": "Patients exhibiting Grayzone Reactivity should be monitored at weekly intervals. This will distinguish rising Anti HAVIgM levels associated with Acute Hepatitis A infection from decreasing or unchanging levels often associated with recovery. Reactive results suggest recent HAV infection. Rheumatoid factor can give rise to false positive results. False negative / positive results are observed in patients receiving mouse monoclonal antibodies for diagnosis or therapy. For heparinized patients, draw specimen prior to heparin therapy as presence of fibrin leads to erroneous results."
+    }
+  },
+  "UID_00094": {
+    "patient_info": {
+      "name": "KAVERI C",
+      "patient_id": "",
+      "age": "",
+      "gender": "",
+      "date_of_birth": "",
+      "contact": "",
+      "address": ""
+    },
+    "report_details": {
+      "report_date": "26-Apr-2025",
+      "report_time": "09:41",
+      "referred_by": "Dr. Dhenesh .R",
+      "lab_name": "Neuberg Diagnostics",
+      "technician": "",
+      "doctor_name": "Dr. Selvi R"
+    },
+    "test_results": {
+      "liver_function_test": {
+        "Bilirubin Total": 7.71,
+        "Bilirubin Direct": 5.99,
+        "Bilirubin Indirect": 1.72,
+        "S.G.P.T.": 755,
+        "S.G.O.T.": 161,
+        "Alkaline Phosphatase": 152,
+        "Gamma Glutamyl Transferase": 177,
+        "Proteins (Total)": 6.9,
+        "Albumin": 4.0,
+        "Globulin": 2.9,
+        "A/G Ratio": 1.4
+      }
+    },
+    "reference_ranges": {
+      "Bilirubin Total": "0.2 - 1.2",
+      "Bilirubin Direct": "0 - 0.5",
+      "Bilirubin Indirect": "0.1 - 1",
+      "S.G.P.T.": "0 - 45",
+      "S.G.O.T.": "11 - 34",
+      "Alkaline Phosphatase": "40-150",
+      "Gamma Glutamyl Transferase": "0 - 55",
+      "Proteins (Total)": "6.4 - 8.3",
+      "Albumin": "3.5-5.0",
+      "Globulin": "2.0 - 3.5",
+      "A/G Ratio": "1.0 - 2.0"
+    },
+    "remarks": {
+      "summary": "",
+      "abnormal_findings": "",
+      "doctor_comment": ""
+    }
+  },
+  "UID_00095": {
+    "patient_info": {
+      "name": "KAVERI C",
+      "patient_id": "",
+      "age": "",
+      "gender": "",
+      "date_of_birth": "",
+      "contact": "",
+      "address": ""
+    },
+    "report_details": {
+      "lab_name": "Neuberg Diagnostics",
+      "report_date": "26-Apr-2025",
+      "referred_by": "Dr. Dhenesh .R",
+      "technician": "",
+      "doctor_name": "Dr. Selvi R"
+    },
+    "test_results": {
+      "liver_function_test": {
+        "Bilirubin Total": 7.71,
+        "Bilirubin Direct": 5.99,
+        "Bilirubin Indirect": 1.72,
+        "S.G.P.T.": 755,
+        "S.G.O.T.": 161,
+        "Alkaline Phosphatase": 152,
+        "Gamma Glutamyl Transferase": 177,
+        "Proteins (Total)": 6.9,
+        "Albumin": 4.0,
+        "Globulin": 2.9,
+        "A/G Ratio": 1.4
+      }
+    },
+    "reference_ranges": {
+      "Bilirubin Total": "0.2 - 1.2",
+      "Bilirubin Direct": "0 - 0.5",
+      "Bilirubin Indirect": "0.1 - 1",
+      "S.G.P.T.": "0 - 45",
+      "S.G.O.T.": "11 - 34",
+      "Alkaline Phosphatase": "40-150",
+      "Gamma Glutamyl Transferase": "0 - 55",
+      "Proteins (Total)": "6.4 - 8.3",
+      "Albumin": "3.5-5.0",
+      "Globulin": "2.0 - 3.5",
+      "A/G Ratio": "1.0 - 2.0"
+    },
+    "remarks": {
+      "summary": "",
+      "abnormal_findings": "",
+      "doctor_comment": ""
+    }
+  },
+  "UID_00096": {
+    "patient_info": {},
+    "report_details": {
+      "lab_name": "Sugam Hospitals",
+      "report_date": "",
+      "referred_by": "",
+      "technician": "",
+      "doctor_name": ""
+    },
+    "test_results": {
+      "lipid_profile": {
+        "total_cholesterol": 232,
+        "triglyceride": 589,
+        "hdl": 55,
+        "vldl": 118,
+        "ldl": 59,
+        "risk_factor": 4.2
+      },
+      "endocrinology": {
+        "tsh": 0.62,
+        "free_t3": 1.96,
+        "free_t4": 1.13
+      },
+      "biochemistry": {
+        "blood_urea": 79
+      }
+    },
+    "reference_ranges": {
+      "total_cholesterol": "< 200",
+      "triglyceride": "< 150",
+      "hdl": "Male > 40, Female > 50",
+      "vldl": "2 to 30",
+      "ldl": "< 130",
+      "risk_factor": "2.5-5.0",
+      "tsh": {
+        "adults": "0.35 - 5.50",
+        "newborn": "0.70 - 15.2",
+        "pregnancy": {
+          "first_trimester": "0.1 - 2.5",
+          "second_trimester": "0.2 - 3.0",
+          "third_trimester": "0.3 - 3.0"
+        }
+      },
+      "free_t3": {
+        "adults": "2.0 - 4.4",
+        "newborn": "1.73 - 6.3"
+      },
+      "free_t4": {
+        "adults": "0.93 - 1.7",
+        "newborn": "0.86 - 2.49",
+        "pregnancy": {
+          "first_trimester": "0.9 - 1.5",
+          "second_trimester": "0.8 - 1.3",
+          "third_trimester": "0.7 - 1.2"
+        }
+      },
+      "blood_urea": "12-40"
+    }
+  },
+  "UID_00097": {
+    "patient_info": {
+      "name": "Mrs PREMA.K.R",
+      "patient_id": "01002270"
+    },
+    "report_details": {
+      "lab_name": "SRINIVASAN RAJALAKSHMI MEMORIAL HOSPITAL",
+      "report_date": "",
+      "referred_by": "Dr. S.KRISHNAN, MD.",
+      "technician": "",
+      "doctor_name": "Dr. S.KRISHNAN, MD."
+    },
+    "test_results": {
+      "serology": {
+        "1 HOUR (WESTERGREN)": 20,
+        "LEPTOSPIRA IGG (SERUM / ELISA)": "NEGATIVE [7.23]",
+        "LEPTOSPIRA IGM (SERUM / ELISA)": "NEGATIVE [6.99]",
+        "SCRUB TYPHUS IGM (SERUM / ELISA)": "NEGATIVE",
+        "WIDAL (AGGLUTINATION) (SERUM / AGGLUTINATION)": {
+          "S.TYPHI \"O\"": "NEGATIVE 1 in 20 DILUTIONS",
+          "S.TYPHI \"H\"": "NEGATIVE 1 in 20 DILUTIONS",
+          "S.PARATYPHA \"AH\"": "NEGATIVE 1 in 20 DILUTIONS"
+        }
+      }
+    },
+    "reference_ranges": {
+      "1 HOUR (WESTERGREN)": "5 - 20",
+      "LEPTOSPIRA IGG (SERUM / ELISA)": {
+        "Negative": "Less than 9 NTU",
+        "Equivocal": "9 - 11 NTU",
+        "Positive": "More than 11 NTU"
+      },
+      "LEPTOSPIRA IGM (SERUM / ELISA)": {
+        "Negative": "Less than 9 Units",
+        "Equivocal": "9 - 11 Units",
+        "Positive": "More than 11 Units"
+      },
+      "SCRUB TYPHUS IGM (SERUM / ELISA)": {
+        "Negative": "< 9",
+        "Equivocal": "9-11",
+        "Positive": "> 11"
+      },
+      "WIDAL (AGGLUTINATION) (SERUM / AGGLUTINATION)": "NEGATIVE 1 in 20 DILUTIONS"
+    },
+    "remarks": {}
+  },
+  "UID_00098": {
+    "patient_info": {
+      "name": "MRS. GEETHA PRABHAKAR",
+      "patient_id": "AHB.0001306673",
+      "age": "73Yr 10Mth 12Days",
+      "gender": "Female",
+      "date_of_birth": "",
+      "contact": "",
+      "address": ""
+    },
+    "report_details": {
+      "lab_name": "Apollo Hospitals",
+      "report_date": "25-APR-2025",
+      "referred_by": "Dr. Venkukmar K N, Dr. Sunder, Dr. Girish, Dr. Navasundi, Dr. Venkatesh T K, Dr. Praneeth, Dr. Maria",
+      "technician": "",
+      "doctor_name": "Dr. Girish Navasoundi, Dr. Venkatesh T K, Dr. Praneeth, Dr. Maria"
+    },
+    "test_results": {
+      "biochemistry": {
+        "chloride": 109,
+        "creatinine": 0.86,
+        "glucose": 115,
+        "potassium": 4.4,
+        "sodium": 141,
+        "urea": 34,
+        "uric_acid": 6.0
+      }
+    },
+    "reference_ranges": {
+      "chloride": "101-109",
+      "creatinine": "Female: 0.6-1.2",
+      "glucose": "70-140",
+      "potassium": "3.5-5.1",
+      "sodium": "135-145",
+      "urea": "15-45",
+      "uric_acid": "Female: 2.5-6.0"
+    },
+    "remarks": {
+      "summary": "",
+      "abnormal_findings": "",
+      "doctor_comment": ""
+    }
+  },
+  "UID_00099": {
+    "patient_info": {
+      "name": "Jayaraman.MK",
+      "patient_id": "MRN : 03000 IP/OP No : IP/25000218"
+    },
+    "report_details": {
+      "lab_name": "Surendra Multispeciality Hospital",
+      "report_date": "",
+      "technician": "",
+      "doctor_name": ""
+    },
+    "test_results": {
+      "biochemistry": {
+        "S.Sodium": 130.0,
+        "S.Potassium": 3.24,
+        "S.Chloride": 107.5
+      }
+    },
+    "reference_ranges": {
+      "S.Sodium": "130 - 145",
+      "S.Potassium": "3.5 - 5.0",
+      "S.Chloride": "95 - 100"
+    }
+  },
+  "UID_00100": {
+    "patient_info": {
+      "name": "Mr. Jayaraman.MK",
+      "age": "85",
+      "gender": "MALE",
+      "patient_id": "MRN 63696, IP/OP No OP/25004145",
+      "date_of_birth": "",
+      "contact": "142-236999 / 237333 Cell : 91500 23851 / 52",
+      "address": "9, Imperial Road, Cuddalore - 607 001"
+    },
+    "report_details": {
+      "report_date": "25/04/2025",
+      "report_time": "8:25 PM",
+      "referred_by": "Dr. ER PHYSICIAN",
+      "lab_name": "SURENDRA MULTISPECIALITY HOSPITAL",
+      "technician": "",
+      "doctor_name": ""
+    },
+    "test_results": {
+      "liver_function_test": {
+        "S.Creatinine": 0.57,
+        "Total Bilirubin": 0.5,
+        "Direct Bilirubin": 0.24,
+        "Indirect Bilirubin": 0.26,
+        "AST (SGOT)": 14.1,
+        "ALT (SGPT)": 14.2,
+        "Alkaline Phosphatase": 61,
+        "Total Protein": 6.43,
+        "Albumin": 4.12,
+        "Globulin": 2.31,
+        "Albumin/Globulin Ratio": 1.7
+      },
+      "electrolytes": {
+        "S.Sodium": 135.4,
+        "S.Potassium": 3.78,
+        "S.Chloride": 105.6
+      }
+    },
+    "reference_ranges": {
+      "S.Creatinine": "0.6-1.2",
+      "Total Bilirubin": "0.2-1.2",
+      "Direct Bilirubin": "up to 0.40",
+      "Indirect Bilirubin": "up to 0.75",
+      "AST (SGOT)": "0-35",
+      "ALT (SGPT)": "up to 45",
+      "Alkaline Phosphatase": "0-250",
+      "Total Protein": "6.4-8.3",
+      "Albumin": "3.5-5.0",
+      "Globulin": "2.3-3.5",
+      "Albumin/Globulin Ratio": "1.1:1",
+      "S.Sodium": "136-145",
+      "S.Potassium": "3.5-5.0",
+      "S.Chloride": "95-106"
+    },
+    "remarks": {
+      "summary": "",
+      "abnormal_findings": "",
+      "doctor_comment": ""
+    }
+  },
+  "UID_00101": {
+    "patient_info": {},
+    "report_details": {
+      "report_date": "25 Apr 2025",
+      "report_time": "14:08",
+      "referred_by": "TEJAS SURESH RAO",
+      "lab_name": "",
+      "technician": "",
+      "doctor_name": "DR SOUMYA GUPTA"
+    },
+    "test_results": {
+      "biochemistry": {
+        "C-Reactive Protein (Quantitative)": 16.17
+      }
+    },
+    "reference_ranges": {
+      "C-Reactive Protein (Quantitative)": "<0.5"
+    },
+    "remarks": {}
+  },
+  "UID_00102": {
+    "patient_info": {},
+    "report_details": {
+      "report_date": "27/04/2025",
+      "report_time": "16 AM",
+      "referred_by": "SUBRAMANIAN , MBBS , MD ( Pulmonology )",
+      "lab_name": "Kauver hospital",
+      "technician": "",
+      "doctor_name": "SUBRAMANIAN , MBBS , MD ( Pulmonology )"
+    },
+    "test_results": {
+      "hematology": {
+        "Haemoglobin": 12.9,
+        "Hematocrit": 38.5,
+        "Total RBC Count": 4.65,
+        "Mean Corpuscular Volume (MCV)": 82.8,
+        "Mean Corpuscular Haemoglobin (MCH)": 27.7,
+        "Mean Corpuscular Haemoglobin Concentration (MCHC)": 33.5,
+        "RDW - CV": 15.9,
+        "Total WBC Count": 14.63,
+        "Neutrophil": 83.6,
+        "Lymphocyte": 11.4,
+        "Monocyte": 4.9,
+        "Eosinophil": 0,
+        "Basophil": 0.1,
+        "Absolute Neutrophil Count (ANC)": 12.23,
+        "Absolute Lymphocyte Count (ALC)": 1.67,
+        "Absolute Monocyte Count (AMC)": 0.71,
+        "Absolute Eosinophil Count (AEC)": 0,
+        "Absolute Basophil Count (ABC)": 0.02,
+        "Platelet Count": 212
+      }
+    },
+    "reference_ranges": {
+      "Haemoglobin": "12.0-15.0 g/dL",
+      "Hematocrit": "36-52 %",
+      "Total RBC Count": "3.8-4.8 10^6/\u03bcL",
+      "Mean Corpuscular Volume (MCV)": "83-101 fL",
+      "Mean Corpuscular Haemoglobin (MCH)": "27-32 pg",
+      "Mean Corpuscular Haemoglobin Concentration (MCHC)": "31.5-34.5 g/dL",
+      "RDW - CV": "12.2-16.1 %",
+      "Total WBC Count": "4-11 10^3/\u03bcL",
+      "Neutrophil": "40-75 %",
+      "Lymphocyte": "20-40 %",
+      "Monocyte": "2-10 %",
+      "Eosinophil": "1-6 %",
+      "Basophil": "0-1 %",
+      "Absolute Neutrophil Count (ANC)": "2-7 10^3/\u03bcL",
+      "Absolute Lymphocyte Count (ALC)": "1-3 10^3/\u03bcL",
+      "Absolute Monocyte Count (AMC)": "0.2-1 10^3/\u03bcL",
+      "Absolute Eosinophil Count (AEC)": "0.02-0.5 10^3/\u03bcL",
+      "Absolute Basophil Count (ABC)": "0.02-0.1 10^3/\u03bcL",
+      "Platelet Count": "150-410 10^3/\u03bcL"
+    },
+    "remarks": {}
+  },
+  "UID_00103": {
+    "patient_info": {
+      "name": "",
+      "patient_id": "IPCM00098195(IP)",
+      "age": "",
+      "gender": "",
+      "date_of_birth": "",
+      "contact": "",
+      "address": "",
+      "bed_no/ward": "100-F/EMERGENCY"
+    },
+    "report_details": {
+      "report_date": "",
+      "report_time": "12:03 AM",
+      "referred_by": "Dr. ANANTHA",
+      "lab_name": "Kauvery Hospital",
+      "technician": "",
+      "doctor_name": "Dr. ANANTHA"
+    },
+    "test_results": {
+      "haematology": {
+        "haemoglobin": 12.5,
+        "haematocrit": 37.5,
+        "total_rbc_count": 4.52,
+        "mean_corpuscular_volume_(mcv)": 83,
+        "mean_corpuscular_haemoglobin_(mch)": 27.7,
+        "mean_corpuscular_haemoglobin_concentration_(mchc)": 33.3,
+        "rdw_cv": 15.8,
+        "total_wbc_count": 17.53,
+        "neutrophil": 69.3,
+        "lymphocyte": 18.3,
+        "monocyte": 12.2,
+        "eosinophil": 0,
+        "basophil": 0.2,
+        "absolute_neutrophil_count_(anc)": 12.15,
+        "absolute_lymphocyte_count_(alc)": 3.21,
+        "absolute_monocyte_count_(amc)": 2.14,
+        "absolute_eosinophil_count_(aec)": 0,
+        "absolute_basophil_count_(abc)": 0.03,
+        "platelet_count": 224,
+        "erythrocyte_sedimentation_rate_(esr)": 55
+      }
+    },
+    "reference_ranges": {
+      "haemoglobin": "12.0-15.0 g/dL",
+      "haematocrit": "36-52 %",
+      "total_rbc_count": "3.8-4.8 10^6/\u03bcL",
+      "mean_corpuscular_volume_(mcv)": "83-101 fL",
+      "mean_corpuscular_haemoglobin_(mch)": "27-32 pg",
+      "mean_corpuscular_haemoglobin_concentration_(mchc)": "31.5-34.5 g/dL",
+      "rdw_cv": "12.2-16.1 %",
+      "total_wbc_count": "4-11 10^3/\u03bcL",
+      "neutrophil": "40-75 %",
+      "lymphocyte": "20-40 %",
+      "monocyte": "2-10 %",
+      "eosinophil": "0-1 %",
+      "basophil": "2-7 %",
+      "absolute_neutrophil_count_(anc)": "1-3 10^3/\u03bcL",
+      "absolute_lymphocyte_count_(alc)": "0.2-1 10^3/\u03bcL",
+      "absolute_monocyte_count_(amc)": "0.02-0.5 10^3/\u03bcL",
+      "absolute_eosinophil_count_(aec)": "0.02-0.1 10^3/\u03bcL",
+      "platelet_count": "150-410 10^3/\u03bcL",
+      "erythrocyte_sedimentation_rate_(esr)": "0-30 mm/1hr"
+    },
+    "remarks": {
+      "summary": "",
+      "abnormal_findings": "",
+      "doctor_comment": ""
+    }
+  },
+  "UID_00104": {
+    "patient_info": {},
+    "report_details": {},
+    "test_results": {
+      "coagulation": {
+        "prothrombin_time": [
+          {
+            "date": "22/04/2025 08:13PM",
+            "result": 15.5,
+            "unit": "sec",
+            "reference_range": "0.9 to 13.5 sec",
+            "INR": 1.1
+          },
+          {
+            "date": "23/Apr/2025 08:23AM",
+            "result": 14.1,
+            "unit": "sec",
+            "reference_range": "0.9 to 13.5 sec",
+            "INR": 1.0
+          },
+          {
+            "date": "24/Apr/2025 08:19PM",
+            "result": 17.8,
+            "unit": "sec",
+            "reference_range": "0.9 to 13.5 sec",
+            "INR": 1.3
+          },
+          {
+            "date": "25/Apr/2025 07:48AM",
+            "result": 14.6,
+            "unit": "sec",
+            "reference_range": "0.9 to 13.5 sec",
+            "INR": 1.0
+          }
+        ]
+      },
+      "biochemistry": {
+        "sugar": [
+          {
+            "date": "22/04/2025",
+            "result": 188,
+            "unit": "mg/dl",
+            "reference_range": "80 to 120 mg/dl"
+          },
+          {
+            "date": "23/04/2025 07:31AM",
+            "result": 128,
+            "unit": "mg/dl",
+            "reference_range": "80 to 120 mg/dl"
+          },
+          {
+            "date": "23/04/2025",
+            "result": 160,
+            "unit": "mg/dl",
+            "reference_range": "80 to 120 mg/dl"
+          },
+          {
+            "date": "23/04/2025",
+            "result": 153,
+            "unit": "mg/dl",
+            "reference_range": "80 to 120 mg/dl"
+          },
+          {
+            "date": "24/04/2025 07:23AM",
+            "result": 185,
+            "unit": "mg/dl",
+            "reference_range": "80 to 120 mg/dl"
+          },
+          {
+            "date": "24/04/2025 07:23AM",
+            "result": 137,
+            "unit": "mg/dl",
+            "reference_range": "80 to 120 mg/dl"
+          },
+          {
+            "date": "24/04/2025",
+            "result": 81,
+            "unit": "mg/dl",
+            "reference_range": "80 to 120 mg/dl"
+          },
+          {
+            "date": "24/04/2025",
+            "result": 172,
+            "unit": "mg/dl",
+            "reference_range": "80 to 120 mg/dl"
+          },
+          {
+            "date": "25/04/2025 07:48AM",
+            "result": 238,
+            "unit": "mg/dl",
+            "reference_range": "80 to 120 mg/dl"
+          },
+          {
+            "date": "25/Apr/2025",
+            "result": 83,
+            "unit": "mg/dl",
+            "reference_range": "80 to 120 mg/dl"
+          }
+        ]
+      },
+      "renal_function": {
+        "urea": 27,
+        "creatinine": 1.5
+      }
+    },
+    "reference_ranges": {
+      "prothrombin_time": "0.9 to 13.5 sec",
+      "INR": "lab control 13.5",
+      "sugar": "80 to 120 mg/dl",
+      "urea": "10 to 50 mg/dl",
+      "creatinine": "0.5 to 1.2 mg/dl"
+    },
+    "microbiology": {
+      "urine_culture": "OUTSOURCELAB"
+    },
+    "remarks": {}
+  },
+  "UID_00105": {
+    "patient_info": {
+      "name": "",
+      "patient_id": "BIL5578145"
+    },
+    "report_details": {
+      "lab_name": "Tenet Diagnostics",
+      "report_date": "19-Apr-2025",
+      "report_time": "11:05 AM",
+      "referred_by": "DR K KISHORE",
+      "doctor_name": "Dr. Abdur Rehman Asil"
+    },
+    "test_results": {
+      "CA-125 (Ovarian Cancer Marker), Serum": 69.5
+    },
+    "reference_ranges": {
+      "CA-125 (Ovarian Cancer Marker), Serum": "0-35 U/mL"
+    },
+    "remarks": {
+      "summary": "Kindly correlate clinically"
+    }
+  },
+  "UID_00106": {
+    "patient_info": {
+      "name": "Mr. BANTHALAPATI.S LAVAKUMAR RAJU",
+      "age": "25",
+      "gender": "Male"
+    },
+    "report_details": {
+      "lab_name": "CHETHANA HOSPITALS",
+      "doctor_name": "SAMARASIMHA REDDY (MBBS, MD)",
+      "report_time": "09:08:25",
+      "reporting_time": "10:08:02"
+    },
+    "test_results": {
+      "ESR (WESTERNREN'S METHOD)": {
+        "result": 29,
+        "unit": "mm"
+      }
+    },
+    "reference_ranges": {
+      "ESR (WESTERNREN'S METHOD)": {
+        "male": "0 - 10 mm",
+        "female": "0 - 20 mm"
+      }
+    },
+    "remarks": {
+      "comment": "Please Correlate with clinical findings if necessary discuss ..."
+    }
+  },
+  "UID_00107": {
+    "patient_info": {
+      "name": "Mr. BANTHALAPATI.S LAVAKUMAR RAJU",
+      "age": "25",
+      "gender": "Male"
+    },
+    "report_details": {
+      "lab_name": "CHETHANA HOSPITALS",
+      "doctor_name": "DR.G. SAMARASIMHA REDDY (MBBS, MD)"
+    },
+    "test_results": {
+      "serology": {
+        "C-REACTIVE PROTEINS": 31.8
+      }
+    },
+    "reference_ranges": {
+      "C-REACTIVE PROTEINS": "up to 6.0 mg/L"
+    },
+    "remarks": {
+      "summary": "Please Correlate with clinical findings if necessary discuss."
+    }
+  },
+  "UID_00108": {
+    "patient_info": {
+      "name": "",
+      "patient_id": "",
+      "age": "",
+      "gender": "",
+      "date_of_birth": "",
+      "contact": "",
+      "address": ""
+    },
+    "report_details": {
+      "lab_name": "Chethana Hospitals",
+      "report_date": "",
+      "report_time": "16:36:56",
+      "referred_by": "DR. G. SAMARASIMHA REDDY (MBBS, MD)",
+      "technician": "",
+      "doctor_name": "Dr. D. Shanthi Kiran"
+    },
+    "test_results": {
+      "haematology": {
+        "Bleeding Time": "2 min 41 sec",
+        "Clotting Time": "4 min 39 sec"
+      }
+    },
+    "reference_ranges": {
+      "Bleeding Time": "1 - 4 min",
+      "Clotting Time": "3 - 7 min"
+    },
+    "remarks": {
+      "summary": "Please Correlate with clinical findings if necessary discuss.",
+      "abnormal_findings": "",
+      "doctor_comment": ""
+    }
+  },
+  "UID_00109": {
+    "patient_info": {
+      "name": "MRS. GANIPISETTY RAJYALAKSHMI",
+      "patient_id": "IP496459",
+      "age": "",
+      "gender": "",
+      "date_of_birth": "",
+      "contact": "",
+      "address": ""
+    },
+    "report_details": {
+      "report_date": "",
+      "report_time": "",
+      "referred_by": "",
+      "lab_name": "",
+      "technician": "",
+      "doctor_name": ""
+    },
+    "test_results": {
+      "hematology": {
+        "CBC(HB,PCV,TC,DC)": "",
+        "ERYTHROCYTE SEDIMENTATION RATE (ESR)": "",
+        "ACTIVATED PARTIAL THROMBOPLASTIN TIME": "",
+        "FACTOR XIII - SCREENING": "",
+        "PLATELET COUNT": "",
+        "PROTHROMBIN TIME": "",
+        "THROMBIN TIME": ""
+      },
+      "biochemistry": {
+        "ALCALINE PHOSPHATASE - SERUM/PLASMA": "",
+        "ALT(SGPT) - SERUM / PLASMA": "",
+        "AMYLASE - SERUM/PLASMA": "",
+        "BILIRUBIN, TOTAL - SERUM": "",
+        "CALCIUM - SERUM": "",
+        "CARBONDIOXIDE, TOTAL - SERUM/PLASMA": "",
+        "CHLORIDE - SERUM / PLASMA": "",
+        "CHOLESTROL - SERUM / PLASMA": "",
+        "CREATININE - SERUM / PLASMA": "",
+        "GLUCOSE - SERUM / PLASMA (RANDOM/CASUAL)": "",
+        "MAGNESIUM - SERUM": "",
+        "PHOSPHORUS, INORGANIC - SERUM": "",
+        "POTASSIUM - SERUM / PLASMA": "",
+        "PREALBUMIN SERUM": "",
+        "PROTEIN, TOTAL - SERUM / PLASMA": "",
+        "SODIUM - SERUM / PLASMA": "",
+        "UREA - SERUM / PLASMA": "",
+        "URIC ACID - SERUM": ""
+      },
+      "liver_kidney_function": {},
+      "hormones": {},
+      "others": {
+        "URINE ROUTINE (CUE)": "",
+        "ANTI HCV ELISA": "",
+        "HBsAg": "",
+        "H I V - 1+2 SCREENING(Ag+Ab)": "",
+        "VDRL (QUALITATIVE) - BLOOD": ""
+      }
+    },
+    "reference_ranges": {},
+    "remarks": {
+      "summary": "",
+      "abnormal_findings": "",
+      "doctor_comment": ""
+    }
+  },
+  "UID_00110": {
+    "patient_info": {},
+    "report_details": {
+      "lab_name": "Green Cross Genetics Lab PVT. LTD. (Genetics)",
+      "report_date": "24-Apr-2025",
+      "report_time": "09:24 PM",
+      "referred_by": "",
+      "technician": "",
+      "doctor_name": "Dr. Dishaben Patel, Dr. Narendra Patel"
+    },
+    "test_results": {
+      "Ammonia Level (Enzymatic)": {
+        "result": 81,
+        "unit": "\u03bcg/dl"
+      }
+    },
+    "reference_ranges": {
+      "Ammonia Level (Enzymatic)": "18.7-86.9"
+    },
+    "remarks": {}
+  },
+  "UID_00111": {
+    "patient_info": {
+      "name": "Mr. Vikas Tyagi",
+      "patient_id": "220324-32414",
+      "age": "",
+      "gender": "",
+      "date_of_birth": "",
+      "contact": "",
+      "address": "S/O Kumar Tyagi, GZB UP"
+    },
+    "report_details": {
+      "lab_name": "Avantika Pathology Lab LLP",
+      "report_date": "",
+      "referred_by": "",
+      "technician": "",
+      "doctor_name": "Dr. Sanjay Bhambay, Dr. Priti Singhal"
+    },
+    "test_results": {
+      "kidney_function_test": {
+        "Urea": 29.2,
+        "Creatinine": 1.06,
+        "Uric Acid": 7.7,
+        "Sodium": 142.7,
+        "Potassium": 4.64,
+        "Chloride": 103.9,
+        "Calcium": 10.4,
+        "Phosphorus": 4.74,
+        "Total Protein": 8.08,
+        "Albumin": 4.24,
+        "Globulin": 3.84,
+        "A/G Ratio": 1.1
+      }
+    },
+    "reference_ranges": {
+      "Urea": "18 - 45 mg/dl",
+      "Creatinine": "0.7 - 1.3 mg/dl",
+      "Uric Acid": "3.5 - 7.2 mg/dl",
+      "Sodium": "141 - 155 mmol/L",
+      "Potassium": "3.6 - 5.5 mmol/L",
+      "Chloride": "97 - 111 mEq/L",
+      "Calcium": "8.6 - 10.2 mg/dl",
+      "Phosphorus": "2.5 - 4.5 mg/dl",
+      "Total Protein": "6.4 - 8.3 gm/dl",
+      "Albumin": "3.5 - 5 gm/dl",
+      "Globulin": "2.5 - 5.6 gm/dl",
+      "A/G Ratio": "1.3 - 2.1 Ratio"
+    },
+    "remarks": {
+      "summary": "",
+      "abnormal_findings": "",
+      "doctor_comment": "Result to be Co-related with Clinical Findings"
+    }
+  },
+  "UID_00112": {
+    "patient_info": {
+      "name": "PUCHAKAYALA",
+      "patient_id": "SRH0127550",
+      "age": "",
+      "gender": "",
+      "date_of_birth": "",
+      "contact": "",
+      "address": ""
+    },
+    "report_details": {
+      "report_date": "26-Apr-2025",
+      "report_time": "07:01 PM",
+      "referred_by": "",
+      "lab_name": "SRIKARA HOSPITALS",
+      "technician": "",
+      "doctor_name": "Dr. SWETHA M D"
+    },
+    "test_results": {
+      "infection_markers": {
+        "CRP-QUANTITATIVE": 31.1,
+        "PROCALCITONIN (PCT)": 0.13
+      },
+      "liver_function_test": {
+        "BILIRUBIN (TOTAL)": 1.4,
+        "BILIRUBIN (DIRECT)": 0.6,
+        "BILIRUBIN (INDIRECT)": 0.8,
+        "SGPT (ALT)": 10,
+        "SGOT (AST)": 12,
+        "ALCALINE PHOSPHATASE": 70,
+        "TOTAL PROTEINS": 7.1,
+        "ALBUMIN": 3.9,
+        "GLOBULIN": 3.2,
+        "A/G RATIO": 1.2
+      },
+      "renal_function_test": {
+        "BLOOD UREA": 24,
+        "CREATININE": 1.1,
+        "SODIUM": 137,
+        "POTASSIUM": 4.2,
+        "CHLORIDE": 96
+      }
+    },
+    "reference_ranges": {
+      "CRP-QUANTITATIVE": "0.0 - 6.0",
+      "PROCALCITONIN (PCT)": "< 0.50 : Low risk for Sepsis > 2.0 : High risk for Sepsis 0.5 - 2.0 : Clinical correlation",
+      "BILIRUBIN (TOTAL)": "0.2-1.0",
+      "BILIRUBIN (DIRECT)": "0.0 - 0.2",
+      "BILIRUBIN (INDIRECT)": "0.2 - 0.8",
+      "SGPT (ALT)": "0 - 45",
+      "SGOT (AST)": "0 - 35",
+      "ALCALINE PHOSPHATASE": "44 - 280",
+      "TOTAL PROTEINS": "6.0 - 8.0",
+      "ALBUMIN": "3.5-5.0",
+      "GLOBULIN": "2.0 - 3.5",
+      "A/G RATIO": "1.0 - 2.3",
+      "BLOOD UREA": "15 - 45",
+      "CREATININE": "0.4 -1.4",
+      "SODIUM": "134 - 146",
+      "POTASSIUM": "3.5-5.1",
+      "CHLORIDE": "96 - 108"
+    },
+    "remarks": {
+      "summary": "",
+      "abnormal_findings": "",
+      "doctor_comment": ""
+    }
+  },
+  "UID_00113": {
+    "patient_info": {
+      "name": "PUCHAKAYALA",
+      "patient_id": "SRH0127550 / MIP23009163",
+      "age": "",
+      "gender": "",
+      "date_of_birth": "",
+      "contact": "",
+      "address": ""
+    },
+    "report_details": {
+      "report_date": "26-Apr-2025",
+      "report_time": "07:01 PM",
+      "referred_by": "",
+      "lab_name": "SRIKARA HOSPITALS",
+      "technician": "",
+      "doctor_name": "Dr. SWETHA M D"
+    },
+    "test_results": {
+      "hematology": {
+        "hemoglobin": 13.5,
+        "RBC": 5.05,
+        "PCV": 41.3,
+        "MCV": 81.8,
+        "MCH": 26.7,
+        "MCHC": 32.7,
+        "RDW_CV": 11.8,
+        "WBC_Total_Count": 12500,
+        "Platelet_Count": 3.4,
+        "Neutrophils": 74,
+        "Lymphocytes": 16,
+        "Monocytes": 8,
+        "Eosinophils": 2,
+        "Basophils": 0
+      }
+    },
+    "reference_ranges": {
+      "hemoglobin": "13.0 - 17.0 g/dL",
+      "RBC": "4.5 - 5.5 mil/cmm",
+      "PCV": "40 - 50 %",
+      "MCV": "83 - 101 fl",
+      "MCH": "27 - 32 pg",
+      "MCHC": "31.5 - 34.5 g/dL",
+      "RDW_CV": "11.6 - 14.0 %",
+      "WBC_Total_Count": "4000 - 11000 cells/cumm",
+      "Platelet_Count": "1.5 - 4.5 Lakhs/Cumm",
+      "Neutrophils": "40 - 70 %",
+      "Lymphocytes": "20 - 40 %",
+      "Monocytes": "02 - 10 %",
+      "Eosinophils": "01 - 06 %",
+      "Basophils": "00 - 02 %"
+    },
+    "remarks": {
+      "summary": "NORMOCYTIC NORMOCHROMIC, NEUTROPHILIC LEUCOCYTOSIS, ADEQUATE",
+      "abnormal_findings": "NEUTROPHILIC LEUCOCYTOSIS",
+      "doctor_comment": ""
+    }
+  },
+  "UID_00114": {
+    "patient_info": {
+      "name": "RAMALINGAIAH G C",
+      "patient_id": "IP 580378",
+      "age": 71,
+      "gender": "Male",
+      "date_of_birth": "",
+      "contact": "",
+      "address": ""
+    },
+    "report_details": {
+      "lab_name": "JSS HOSPITAL LABORATORY SERVICES",
+      "report_date": "",
+      "referred_by": "Dr MADHU SRINIVASARANGAN",
+      "technician": "",
+      "doctor_name": "Dr Col. VASAN TS"
+    },
+    "test_results": {
+      "microbiology": {
+        "HBs Ag": ""
+      }
+    },
+    "reference_ranges": {},
+    "remarks": {
+      "summary": "",
+      "abnormal_findings": "",
+      "doctor_comment": "PROVISIONAL REPORT : YET TO BE CERTIFIED BY CONSULTANT"
+    }
+  },
+  "UID_00115": {
+    "patient_info": {
+      "name": "Devi M"
+    },
+    "report_details": {
+      "lab_name": "Rela Hospital",
+      "report_date": "",
+      "report_time": "03:09 AM",
+      "referred_by": "",
+      "technician": "",
+      "doctor_name": "Mukul Vij, MD,PDCC"
+    },
+    "test_results": {
+      "hematology": {
+        "RDW": 12.7,
+        "PLATELET COUNT": 238000,
+        "MPV": 6.8,
+        "ABSOLUTE NEUTROPHIL COUNT": 3.9,
+        "ABSOLUTE LYMPHOCYTE COUNT": 1.1,
+        "ABSOLUTE MONOCYTE COUNT": 0.3,
+        "ABSOLUTE EOSINOPHIL COUNT": 0.3,
+        "ABSOLUTE BASOPHIL COUNT": 0.0,
+        "NEUTROPHIL": 67,
+        "LYMPHOCYTE": 21,
+        "MONOCYTE": 6,
+        "EOSINOPHIL": 6,
+        "BASOPHIL": 0
+      }
+    },
+    "reference_ranges": {
+      "RDW": "11.6 - 14",
+      "PLATELET COUNT": "150000 - 410000",
+      "MPV": "7.5 - 12.0",
+      "ABSOLUTE NEUTROPHIL COUNT": "2.0 - 7.0",
+      "ABSOLUTE LYMPHOCYTE COUNT": "1.0 - 3.0",
+      "ABSOLUTE MONOCYTE COUNT": "0.2 - 1.0",
+      "ABSOLUTE EOSINOPHIL COUNT": "0.0 - 0.5",
+      "ABSOLUTE BASOPHIL COUNT": "0.02 - 0.1",
+      "NEUTROPHIL": "40 - 80",
+      "LYMPHOCYTE": "20 - 40",
+      "MONOCYTE": "2 - 10",
+      "EOSINOPHIL": "1 - 6",
+      "BASOPHIL": "1 - 2"
+    },
+    "remarks": {
+      "doctor_comment": ""
+    }
+  },
+  "UID_00116": {
+    "patient_info": {
+      "name": "",
+      "patient_id": "",
+      "age": "",
+      "gender": "",
+      "date_of_birth": "",
+      "contact": "",
+      "address": ""
+    },
+    "report_details": {
+      "lab_name": "Dr. Rela Institute & Medical Centre",
+      "report_date": "03/05",
+      "technician": "",
+      "doctor_name": "Dr. Mukul Vij, MD, PDCC"
+    },
+    "test_results": {
+      "urine_routine": {
+        "CAST_PATHOLOGIAL": 0.0,
+        "NON_SQUAMOUS EPITHELIAL CELLS": 0.0,
+        "SQUAMOUS EPITHELIAL CELLS": 0.0,
+        "YEAST": 0.0,
+        "BACTERIA": 10.7,
+        "BACTERIA COCCI": 10.7,
+        "BACTERIA RODS": 0.0,
+        "MUCUS": 0.5,
+        "COLOUR": "Yellow",
+        "APPEARANCE": "Clear"
+      },
+      "complete_blood_count": {
+        "HAEMOGLOBIN": 11.9,
+        "HAEMATOCRIT": 34,
+        "TOTAL WBC COUNT": 5830,
+        "RBC COUNT": 3.94,
+        "MCV": 87,
+        "MCH": 30,
+        "MCHC": 35
+      }
+    },
+    "reference_ranges": {
+      "CAST_PATHOLOGIAL": "0 - 0.3",
+      "NON_SQUAMOUS EPITHELIAL CELLS": "0 - 0.5",
+      "SQUAMOUS EPITHELIAL CELLS": "0 - 1.1",
+      "YEAST": "0 - 0.7",
+      "BACTERIA": "0 - 29.5",
+      "BACTERIA COCCI": "0 - 29.5",
+      "BACTERIA RODS": "0 - 29.5",
+      "MUCUS": "0 - 60",
+      "HAEMOGLOBIN": "11.5 - 15.5",
+      "HAEMATOCRIT": "46 - 51",
+      "TOTAL WBC COUNT": "4000-10000",
+      "RBC COUNT": "3.8 - 4.8",
+      "MCV": "83 - 101",
+      "MCH": "27 - 32",
+      "MCHC": "31.5 - 34.5"
+    },
+    "remarks": {
+      "doctor_comment": ""
+    }
+  },
+  "UID_00117": {
+    "patient_info": {
+      "name": "",
+      "patient_id": "",
+      "age": "",
+      "gender": "",
+      "date_of_birth": "",
+      "contact": "",
+      "address": ""
+    },
+    "report_details": {
+      "report_date": "",
+      "report_time": "9:33AM",
+      "referred_by": "Dr COL ARUN KUMAR VSM",
+      "lab_name": "PSRI HOSPITAL",
+      "technician": "",
+      "doctor_name": "Dr PRAGYA VERMA"
+    },
+    "test_results": {
+      "hematology": {
+        "TLC (Total Leucocyte Count)": 13.85
+      }
+    },
+    "reference_ranges": {
+      "TLC (Total Leucocyte Count)": "4.00 - 11.00 10^3/\u03bcL"
+    },
+    "remarks": {
+      "summary": "",
+      "abnormal_findings": "",
+      "doctor_comment": ""
+    }
+  },
+  "UID_00118": {
+    "patient_info": {
+      "name": "Mr. RAM",
+      "patient_id": "184100634",
+      "gender": "Male"
+    },
+    "report_details": {
+      "lab_name": "Dr. Lal Path Labs",
+      "report_date": "20/09/2024",
+      "report_time": "07:46:50 PM",
+      "referred_by": "ABHAYANAND KUMAR",
+      "technician": "",
+      "doctor_name": ""
+    },
+    "test_results": {
+      "hiv": {
+        "hiv_1_2": "Negative"
+      }
+    },
+    "remarks": {
+      "summary": "",
+      "abnormal_findings": "",
+      "doctor_comment": ""
+    }
+  },
+  "UID_00119": {
+    "patient_info": {
+      "name": "Mr. MOHIDEEN A.F",
+      "patient_id": "01089581"
+    },
+    "report_details": {
+      "lab_name": "CLOUD CLINICAL LABORATORY",
+      "report_date": "",
+      "referred_by": "VIDAL HEALTH (TTK)",
+      "technician": "",
+      "doctor_name": "Dr. Arun Prasath MBBS., MD"
+    },
+    "test_results": {
+      "biochemistry": {
+        "uric_acid": 8.3,
+        "magnesium": 1.6,
+        "calcium": 8.6
+      }
+    },
+    "reference_ranges": {
+      "uric_acid": "3.5 - 7.2 mg/dL",
+      "magnesium": "1.3 - 2.5 mg/dL",
+      "calcium": "8.6 - 10.2 mg/dL"
+    },
+    "remarks": {
+      "summary": "",
+      "abnormal_findings": "",
+      "doctor_comment": ""
+    }
+  },
+  "UID_00120": {
+    "patient_info": {
+      "name": "",
+      "patient_id": "SER0167447",
+      "UHID": "SER0167447",
+      "IPD": "SHM0027366"
+    },
+    "report_details": {
+      "report_date": "28-Apr-2025",
+      "lab_name": "UNIPATH SPECIALITY LABORATORY (BARODA) LLP",
+      "referred_by": "Dr. Madhu Iyer",
+      "doctor_name": "Dr. Usha Amliyar",
+      "technician": ""
+    },
+    "test_results": {
+      "glucose_random_plasma": 281.0
+    },
+    "reference_ranges": {
+      "glucose_random_plasma": "up to 140 mg/dL"
+    },
+    "remarks": {
+      "summary": "ADV: Kindly correlate clinically. If the patient Random Plasma Glucose value is >=200 mg/dL, Advice Oral Glucose Tolerance test(OGTT)for Further Evaluation.",
+      "abnormal_findings": "H",
+      "doctor_comment": ""
+    }
+  },
+  "UID_00121": {
+    "patient_info": {
+      "name": "",
+      "patient_id": "",
+      "age": "",
+      "gender": "",
+      "date_of_birth": "",
+      "contact": "",
+      "address": ""
+    },
+    "report_details": {
+      "lab_name": "LUXIT LABORATORIES",
+      "report_date": "23-Apr-2025",
+      "referred_by": "Dr. ZENTH HOSPITAL",
+      "technician": "",
+      "doctor_name": "Dr. Kanchan Gulati"
+    },
+    "test_results": {
+      "biochemistry": {
+        "glucose": 356,
+        "creatinine": 1.05,
+        "urea": 27.5,
+        "uric_acid": 3.9,
+        "sodium": 140,
+        "potassium": 3.9,
+        "chloride": 104
+      }
+    },
+    "reference_ranges": {
+      "glucose": "",
+      "creatinine": "0.72-1.25 mg/dL",
+      "urea": "19.0-44.0 mg/dL",
+      "uric_acid": "3.5-7.2 mg/dL",
+      "sodium": "135-145 mmol/L",
+      "potassium": "3.8-5.2 mmol/L",
+      "chloride": "98-107 mmol/L"
+    },
+    "remarks": {
+      "summary": "",
+      "abnormal_findings": "",
+      "doctor_comment": ""
+    }
+  },
+  "UID_00122": {
+    "patient_info": {
+      "name": "PRADEEP KUMAR PARVAT",
+      "patient_id": "IP339099",
+      "age": "39",
+      "gender": "Male"
+    },
+    "report_details": {
+      "lab_name": "SARVODAYA HOSPITAL",
+      "referred_by": "Dr. RAJENDER SINGLA",
+      "technician": "Mr. BIJAN FOGHAT",
+      "doctor_name": "Dr. Ranjan Kumar"
+    },
+    "test_results": {
+      "immunology": {
+        "HCV By ECLIA": 0.04
+      }
+    },
+    "reference_ranges": {
+      "HCV By ECLIA": "0 - 0.9"
+    },
+    "remarks": {
+      "summary": "Non-reactive"
+    }
+  },
+  "UID_00123": {
+    "patient_info": {
+      "name": "PRADEEP KUMAR PARVAT",
+      "patient_id": "IP339099",
+      "age": 39,
+      "gender": "Male",
+      "date_of_birth": "",
+      "contact": "",
+      "address": ""
+    },
+    "report_details": {
+      "report_date": "",
+      "report_time": "",
+      "referred_by": "Dr. RAJENDER SINGLA",
+      "lab_name": "sarvodaya HEALTHCARE",
+      "technician": "",
+      "doctor_name": ""
+    },
+    "test_results": {
+      "urine_r_and_m": {
+        "physical_examination": {
+          "color": "Pale Yellow",
+          "transparency": "Clear"
+        },
+        "chemical_examination": {
+          "pH": 5.0,
+          "specific_gravity": 1.01,
+          "albumin": "Negative",
+          "sugar": "+",
+          "blood": "Negative",
+          "ketone": "Negative",
+          "nitrite": "Negative",
+          "bilirubin": "Negative",
+          "urobilirinogen": "Normal"
+        },
+        "microscopic_examination": {
+          "pus_cells": "1-2 /hpf",
+          "rbc": "00 /hpf",
+          "epithelial_cells": "0-1 /hpf",
+          "cast": "NIL",
+          "crystal": "NIL",
+          "others": {
+            "bacteria": "NIL",
+            "yeast_cells": "NIL"
+          }
+        }
+      }
+    },
+    "reference_ranges": {
+      "pH": "5 - 8",
+      "specific_gravity": "1.010 - 1.035",
+      "albumin": "Negative",
+      "sugar": "Negative",
+      "blood": "Negative",
+      "ketone": "Negative",
+      "nitrite": "Negative",
+      "bilirubin": "Negative",
+      "urobilirinogen": "Normal",
+      "pus_cells": "0 - 5 /hpf",
+      "rbc": "0 - 2 /hpf",
+      "epithelial_cells": "0 - 5 /hpf",
+      "cast": "Nil",
+      "crystal": "Nil",
+      "bacteria": "Nil",
+      "yeast_cells": "Nil"
+    },
+    "remarks": {
+      "summary": "",
+      "abnormal_findings": "",
+      "doctor_comment": ""
+    }
+  },
+  "UID_00124": {
+    "patient_info": {},
+    "report_details": {
+      "lab_name": "Opp. Civil Hospital, Jhajjar",
+      "report_date": ""
+    },
+    "test_results": {
+      "biochemistry": {
+        "cholesterol": 275.06,
+        "HDL cholesterol": 49.21,
+        "LDL cholesterol": 195.776,
+        "VLDL cholesterol": 30.074,
+        "serum triglyceride": 170.37,
+        "cholesterol/HDL ratio": 5.58
+      }
+    },
+    "reference_ranges": {
+      "cholesterol": "140-240",
+      "HDL cholesterol": "30-75",
+      "LDL cholesterol": "50-130",
+      "VLDL cholesterol": "15-40",
+      "serum triglyceride": "25-160",
+      "cholesterol/HDL ratio": "0-3.5"
+    }
+  },
+  "UID_00125": {
+    "patient_info": {
+      "name": "",
+      "patient_id": "",
+      "age": "",
+      "gender": "",
+      "date_of_birth": "",
+      "contact": "",
+      "address": "",
+      "ipd_no": "29211",
+      "mr_no": "MR/25/000647|3108485"
+    },
+    "report_details": {
+      "report_date": "22-Mar-2025",
+      "report_time": "09:09",
+      "lab_name": "Bhagwan Das Hospital",
+      "sample_receiving_date": "22-Mar-2025 08:42 AM",
+      "sample_collection_date": "22-Mar-2025 08:38 AM"
+    },
+    "test_results": {
+      "LFT (Liver Function Test)": {
+        "Bilirubin Total": 0.46,
+        "Conjugated Bilirubin (Direct)": 0.19,
+        "Unconjugated Bilirubin (Indirect)": 0.3,
+        "Total Protein": 7.42,
+        "Albumin, Serum": 4.31,
+        "Globulin": 3.1,
+        "A/G Ratio": 1.2,
+        "SGOT (AST)": 24.3,
+        "SGPT (ALT)": 18.2,
+        "Alkaline Phosphatase": 217.5
+      },
+      "KFT (Kidney Function Test)": {
+        "Blood Urea": 24.5,
+        "Creatinine, Serum": 0.95,
+        "Uric Acid": 3.87
+      },
+      "MCHC": 33.2
+    },
+    "reference_ranges": {
+      "Bilirubin Total": "0.2-1.0 mg/dl",
+      "Conjugated Bilirubin (Direct)": "0-0.2 mg/dl",
+      "Unconjugated Bilirubin (Indirect)": "0.2-1.1 mg/dl",
+      "Total Protein": "5.7-8.0 gm/dl",
+      "Albumin, Serum": "3.5-5.2 gm/dl",
+      "Globulin": "2-3.5 gm/dl",
+      "A/G Ratio": "0.8-2.0",
+      "SGOT (AST)": "0.0-35 U/L",
+      "SGPT (ALT)": "0-30 U/L",
+      "Alkaline Phosphatase": "74-390 U/L",
+      "Blood Urea": "18-45 mg/dl",
+      "Creatinine, Serum": "0.5-1.2 mg/dl",
+      "Uric Acid": "3.1-7.0 mg/dl",
+      "MCHC": "31.5-34.5 gm/dl"
+    }
+  },
+  "UID_00126": {
+    "patient_info": {},
+    "report_details": {
+      "lab_name": "Opp. Civil Hospital, Jhajjar",
+      "report_date": "",
+      "report_time": "01:47:47 pm"
+    },
+    "test_results": {
+      "hematology": {
+        "hemoglobin": 14.6,
+        "TLC": 10000,
+        "neutrophils": 70,
+        "lymphocytes": 25,
+        "monocyte": 3,
+        "eosinophils": 2,
+        "basophils": 0,
+        "RBC": 5.14,
+        "PCV": 45.9,
+        "MCV": 88.6,
+        "MCH": 28.3,
+        "MCHC": 32.1,
+        "platelet_count": 2.54,
+        "RDW": 14.7,
+        "MPV": 7.9
+      }
+    },
+    "reference_ranges": {
+      "hemoglobin": "13.5--17.5 gm/dl",
+      "TLC": "4000--11000 /cc.mm",
+      "neutrophils": "40--70 %",
+      "lymphocytes": "20--40 %",
+      "monocyte": "2--8 %",
+      "eosinophils": "1--5 %",
+      "basophils": "0--1 /cumm",
+      "RBC": "4.5--6.5 million/cumm",
+      "PCV": "42--54 %",
+      "MCV": "76--96 fl.",
+      "MCH": "27--32 pg.",
+      "MCHC": "30--35 gm/dl",
+      "platelet_count": "1.5--4.5 lac/cumm",
+      "RDW": "11--16 %",
+      "MPV": "6--10 fl."
+    }
+  },
+  "UID_00127": {
+    "patient_info": {},
+    "report_details": {
+      "lab_name": "Opposite Civil Hospital, Jhajjar",
+      "report_date": "20/03/2025",
+      "report_time": "01:50:02 pm"
+    },
+    "test_results": {
+      "liver_function": {
+        "serum_bilirubin": {
+          "total_bilirubin": 0.78,
+          "direct_bilirubin": 0.32,
+          "indirect_bilirubin": 0.46
+        },
+        "sgot": 33.51,
+        "sgpt": 39.65,
+        "alkaline_phosphatase": 83.62
+      },
+      "protein": {
+        "serum_protein": 6.87,
+        "serum_albumin": 3.95,
+        "serum_globulin": 2.92,
+        "a/g_ratio": 1.35
+      }
+    },
+    "reference_ranges": {
+      "liver_function": {
+        "serum_bilirubin": {
+          "total_bilirubin": "0.2--1.2 mg/dl",
+          "direct_bilirubin": "0--0.4 mg/dl",
+          "indirect_bilirubin": "0.2--0.8 mg/dl"
+        },
+        "sgot": "5--34 U/L",
+        "sgpt": "0--40 U/L",
+        "alkaline_phosphatase": "28--111 IU/L"
+      },
+      "protein": {
+        "serum_protein": "6--8.3 gm/dl",
+        "serum_albumin": "3.5--5 gm/dl",
+        "serum_globulin": "2.5--3.5 gm/dl"
+      }
+    }
+  },
+  "UID_00128": {
+    "patient_info": {
+      "name": "Dinesh Pathak",
+      "patient_id": "2942"
+    },
+    "report_details": {
+      "lab_name": "Rohtak Diagnostic & Path Lab",
+      "report_date": "28/Mar/2025",
+      "report_time": "3:18 PM"
+    },
+    "test_results": {
+      "hematology": {
+        "Hb%": 14.0,
+        "T.L.C": 21400.0,
+        "DLC(Polymorphs)": 90.0,
+        "DLC(Lymphocytes)": 5.0,
+        "DLC(Monocytes)": 3.0,
+        "DLC(Eosinophils)": 2.0,
+        "DLC(Basophils)": 0.0,
+        "R.B.C.": 4.18,
+        "P.C.V.": 42.9,
+        "M.C.V.": 102.7,
+        "M.C.H.": 33.6,
+        "M.C.H.C.": 32.7,
+        "Platelet Count": 1.41,
+        "R.D.W.": 13.8,
+        "PCT": 0.14,
+        "MPV": 11.3
+      }
+    },
+    "reference_ranges": {
+      "Hb%": "13.00 - 17.00",
+      "T.L.C": "4000.00 - 11000.00",
+      "DLC(Polymorphs)": "40.00 - 75.00",
+      "DLC(Lymphocytes)": "20.00 - 45.00",
+      "DLC(Monocytes)": "1.00 - 8.00",
+      "DLC(Eosinophils)": "1.00 - 6.00",
+      "DLC(Basophils)": "0.0 - 1.0",
+      "R.B.C.": "4.50 - 6.00",
+      "P.C.V.": "36.00 - 48.00",
+      "M.C.V.": "76.00 - 96.00",
+      "M.C.H.": "27.00 - 32.00",
+      "M.C.H.C.": "30.00 - 36.00",
+      "Platelet Count": "1.50 - 4.50",
+      "R.D.W.": "11.50 - 14.50",
+      "PCT": "0.08 - 1.00",
+      "MPV": "6.00 - 10.00"
+    }
+  },
+  "UID_00129": {
+    "patient_info": {
+      "name": "",
+      "patient_id": "BGLPJ005",
+      "age": "",
+      "gender": "",
+      "date_of_birth": "",
+      "contact": "",
+      "address": "Panchkula"
+    },
+    "report_details": {
+      "report_date": "18-Apr-2025",
+      "report_time": "04:23 PM",
+      "referred_by": "Panchkula",
+      "lab_name": "InstaHealth Labs",
+      "technician": "",
+      "doctor_name": "Dr. Pratap Patil, Dr. Saumya Gupta, Dr. Balraj Raj"
+    },
+    "test_results": {
+      "thyroid_profile": {
+        "T3 (Triiodothyronine)": 104.0,
+        "T4 (Thyroxine)": 7.5,
+        "TSH (Thyroid Stimulating Hormone)": 3.41
+      }
+    },
+    "reference_ranges": {
+      "T3 (Triiodothyronine)": "70-204 ng/dL",
+      "T4 (Thyroxine)": "3.2-12.6 \u03bcg/dL",
+      "TSH (Thyroid Stimulating Hormone)": "0.35-5.5 \u03bclU/mL"
+    },
+    "remarks": {
+      "summary": "",
+      "abnormal_findings": "",
+      "doctor_comment": ""
+    }
+  },
+  "UID_00130": {
+    "patient_info": {
+      "name": "",
+      "patient_id": "BGLPJ005",
+      "age": "",
+      "gender": "",
+      "date_of_birth": "",
+      "contact": "",
+      "address": "Panchkula"
+    },
+    "report_details": {
+      "report_date": "18-Apr-2025",
+      "report_time": "04:47 PM",
+      "referred_by": "Panchkula",
+      "lab_name": "InstaHealth Labs",
+      "technician": "",
+      "doctor_name": "Dr. Balraj Raj"
+    },
+    "test_results": {
+      "iron_profile": {
+        "iron_fe": 58,
+        "unsaturated_iron_binding_capacity": 232,
+        "total_iron_binding_capacity": 290,
+        "transferrin": 202.8,
+        "iron_saturation": 20
+      }
+    },
+    "reference_ranges": {
+      "iron_fe": "50-170 \u03bcg/dL",
+      "unsaturated_iron_binding_capacity": "155-300 \u03bcg/dL",
+      "total_iron_binding_capacity": "250-425 \u03bcg/dL",
+      "transferrin": "250-380 mg/dL",
+      "iron_saturation": "15-50 %"
+    },
+    "remarks": {
+      "summary": "",
+      "abnormal_findings": "",
+      "doctor_comment": ""
+    }
+  },
+  "UID_00131": {
+    "patient_info": {},
+    "report_details": {
+      "lab_name": "Aakash Hospital Lab",
+      "report_date": "07/03/2025",
+      "referred_by": "Dr. Rahul Trehan",
+      "technician": "Ms. Sabitri",
+      "doctor_name": "Dr. Meena Metre"
+    },
+    "test_results": {
+      "liver_function_test": {
+        "Bilirubin_Total": 0.79,
+        "Direct_Bilirubin": 0.27,
+        "Indirect_Bilirubin": 0.52,
+        "Protein_Total_Serum": 6.85,
+        "Albumin_Serum": 3.44,
+        "Globulin_Serum": 3.41,
+        "A/G_Ratio": 1.01,
+        "SGOT": 41,
+        "SGPT": 49,
+        "Alkaline_Phosphatase_Serum": 118,
+        "GGTP": 235
+      }
+    },
+    "reference_ranges": {
+      "Bilirubin_Total": "0-2 mg/dL",
+      "Direct_Bilirubin": "0-0.4 mg/dL",
+      "Indirect_Bilirubin": "0.2-1.2 mg/dL",
+      "Protein_Total_Serum": "6.4-8.3 g/dL",
+      "Albumin_Serum": "3.5-5.2 g/dL",
+      "Globulin_Serum": "1.8-3.6 g/dL",
+      "A/G_Ratio": "0.8-1.2",
+      "SGOT": "0-35 U/L",
+      "SGPT": "0-45 IU/L",
+      "Alkaline_Phosphatase_Serum": "53-128 U/L",
+      "GGTP": "0-55 U/L"
+    },
+    "remarks": {
+      "summary": "In an asymptomatic patient, Non alcoholic fatty liver disease (NAFLD) is the most common cause of increased AST, ALT levels. NAFLD is considered as hepatic manifestation of metabolic syndrome. In most type of liver disease, ALT activity is higher than that of AST; exception may be seen in Alcoholic Hepatitis, Hepatic Cirrhosis, and Liver neoplasia. In known cases of Chronic Liver disease due to Viral Hepatitis B & C, Alcoholic liver disease or NAFLD, Enhanced liver fibrosis (ELF) test may be used to evaluate liver fibrosis. In a patient with Chronic Liver disease, AFP and Des-gamma carboxyprothrombin (DCP)/PIVKA II can be used to assess risk for development of Hepatocellular Carcinoma."
+    }
+  },
+  "UID_00132": {
+    "patient_info": {
+      "name": "",
+      "patient_id": "234751 300325",
+      "age": "",
+      "gender": "",
+      "date_of_birth": "",
+      "contact": "",
+      "address": "Kirkatwadi"
+    },
+    "report_details": {
+      "report_date": "",
+      "report_time": "",
+      "referred_by": "Dr.Hol KishorKumar",
+      "lab_name": "SAHAYOG PATHOLOGY LABORATORY",
+      "technician": "",
+      "doctor_name": "Dr. Shital Patil"
+    },
+    "test_results": {
+      "biochemistry": {
+        "TOTAL BILIRUBIN": 12.3,
+        "DIRECT BILIRUBIN": 0.49,
+        "INDIRECT BILIRUBIN": 11.81
+      }
+    },
+    "reference_ranges": {
+      "TOTAL BILIRUBIN": "0-1.2 mg/dl",
+      "DIRECT BILIRUBIN": "0-0.6 mg/dl",
+      "INDIRECT BILIRUBIN": "0-0.6 mg/dl"
+    },
+    "remarks": {
+      "summary": "TESTS ARE REPEATED AND VALUES ARE CONFIRMED. TEST DONE ON FULLY AUTOMATED EM 200 BIOCHEMISTRY ANALYSER",
+      "abnormal_findings": "",
+      "doctor_comment": ""
+    }
+  },
+  "UID_00133": {
+    "patient_info": {
+      "name": "",
+      "patient_id": "LDAA01626788",
+      "address": "Simple Saudagar, Pune"
+    },
+    "report_details": {
+      "lab_name": "Lupin Diagnostics",
+      "doctor_name": "Dr. Rohita Kumar"
+    },
+    "test_results": {
+      "vitamin": {
+        "Vitamin B12 (Cyanocobalamin)": 447.8
+      }
+    },
+    "reference_ranges": {
+      "Vitamin B12 (Cyanocobalamin)": "197\u2013771 pg/mL"
+    }
+  },
+  "UID_00134": {
+    "error": "Error code: 413 - {'error': {'message': 'Request Entity Too Large', 'type': 'invalid_request_error', 'code': 'request_too_large'}}"
+  },
+  "UID_00135": {
+    "patient_info": {
+      "name": "",
+      "patient_id": "",
+      "age": "",
+      "gender": "",
+      "date_of_birth": "",
+      "contact": "",
+      "address": ""
+    },
+    "report_details": {
+      "report_date": "",
+      "report_time": "",
+      "referred_by": "",
+      "lab_name": "Swastik Hospital",
+      "technician": "",
+      "doctor_name": "Dr. Gunjan Nain"
+    },
+    "test_results": {
+      "haematology": {
+        "ESR (WESTEGREN's METHOD)": 25
+      },
+      "serology": {
+        "CRP (QUANTITATIVE)": 26.9
+      }
+    },
+    "reference_ranges": {
+      "ESR (WESTEGREN's METHOD)": "0 - 15",
+      "CRP (QUANTITATIVE)": "0 - 8"
+    },
+    "remarks": {
+      "summary": "",
+      "abnormal_findings": "",
+      "doctor_comment": ""
+    }
+  },
+  "UID_00136": {
+    "patient_info": {},
+    "report_details": {
+      "lab_name": "SWASTIK HOSPITAL",
+      "report_date": "",
+      "referred_by": "",
+      "technician": "",
+      "doctor_name": "Dr. Sumit Sharma"
+    },
+    "test_results": {
+      "haematology": {},
+      "serology": {
+        "SERUM VITAMIN B12": 258.9,
+        "VITAMIN D 25 HYDROXY": 14.0
+      }
+    },
+    "reference_ranges": {
+      "SERUM VITAMIN B12": "211.0 - 911.0 pg/ml",
+      "VITAMIN D 25 HYDROXY": "> 30 ng/ml"
+    },
+    "remarks": {
+      "summary": "",
+      "abnormal_findings": "",
+      "doctor_comment": ""
+    }
+  },
+  "UID_00137": {
+    "patient_info": {
+      "name": "",
+      "patient_id": "1058706",
+      "age": "",
+      "gender": "",
+      "date_of_birth": "",
+      "contact": "",
+      "address": ""
+    },
+    "report_details": {
+      "lab_name": "Ishwar Multi Speciality Hospital Lab",
+      "report_date": "10/Apr/2025",
+      "report_time": "02:01PM",
+      "referred_by": "",
+      "technician": "",
+      "doctor_name": "Dr. Hambir Mazumdar"
+    },
+    "test_results": {
+      "hematology": {
+        "RDW_CV": 45.0,
+        "PCT_(Platelet_Crit)": 0.25,
+        "PDW": 32.5
+      },
+      "biochemistry": {
+        "Glucose_RANDOM": 131,
+        "Sodium": 142.0,
+        "Potassium": 4.9,
+        "C-Reactive_Protein": 18.5
+      },
+      "liver_function_test": {
+        "Bilirubin_Total": 1.15,
+        "Bilirubin_Direct": 0.43,
+        "Bilirubin_Indirect": 0.72,
+        "Aspartate_Aminotransferase_(AST/SGOT)": 32.4,
+        "Alanine_Aminotransferase_(ALT/SGPT)": 29.6
+      }
+    },
+    "reference_ranges": {
+      "RDW_CV": "39.0-46.0",
+      "PCT_(Platelet_Crit)": "0.19-0.39",
+      "PDW": "11.9-66.9",
+      "Glucose_RANDOM": "90.0-130.0",
+      "Sodium": "136-145",
+      "Potassium": "3.5-5.7",
+      "C-Reactive_Protein": "0-6",
+      "Bilirubin_Total": "0.2-1.1",
+      "Bilirubin_Direct": "0.0-0.40",
+      "Bilirubin_Indirect": "0.0-0.80",
+      "Aspartate_Aminotransferase_(AST/SGOT)": "0.0-37.0",
+      "Alanine_Aminotransferase_(ALT/SGPT)": "0.0-37.0"
+    },
+    "remarks": {
+      "summary": "",
+      "abnormal_findings": "",
+      "doctor_comment": ""
+    }
+  },
+  "UID_00138": {
+    "patient_info": {},
+    "report_details": {
+      "lab_name": "Ishwar Hospital",
+      "doctor_name": "Dr. Hambir Mazumdar"
+    },
+    "test_results": {
+      "hematology": {
+        "hemoglobin": 11.1,
+        "total_leucocyte_count": 9.6,
+        "neutrophil": 69.8,
+        "lymphocyte": 23.0,
+        "monocyte": 2.8,
+        "eosinophil": 4.1,
+        "platelet_count": 151,
+        "red_blood_cells": 3.7,
+        "mean_corpuscular_volume": 92.8,
+        "mean_corpuscular_hemo": 30.3,
+        "mean_corpuscular_hemoglobin_concentration": 32.3
+      },
+      "biochemistry": {
+        "blood_sugar_random": 108
+      },
+      "electrolytes": {
+        "sodium": 142.0,
+        "potassium": 4.5
+      },
+      "liver_function_test": {
+        "aspartate_transaminase": 46.5,
+        "alanine_transaminase": 42.3,
+        "alkaline_phosphatase": 95.0,
+        "total_bilirubin": 0.63,
+        "conjugated_bilirubin": 0.33,
+        "unconjugated_bilirubin": 0.3,
+        "total_protein": 7.2,
+        "serum_albumin": 3.67
+      },
+      "renal_function_test": {
+        "blood_urea": [
+          42.5,
+          35.3
+        ],
+        "serum_creatinine": [
+          0.95,
+          0.98
+        ],
+        "uric_acid": [
+          4.15,
+          4.12
+        ]
+      },
+      "serological": {
+        "crp_quantitative": [
+          110.0,
+          42.4
+        ],
+        "procalcitonin": [
+          0.93,
+          0.48
+        ]
+      }
+    },
+    "reference_ranges": {},
+    "remarks": {
+      "summary": "ABDOMEN UP RIGHT: No air fluid level seen, no gas under diaphragm. Impacted stools indicative of functional constipation. ABDOMEN: Cystic sol right lobe of liver - S/O simple cyst. Cholelithiasis - oedematous GB (? due to ascites). Left renal calculi & cysts. Prostatomegaly grade-2. Mild - moderate ascites. B/L pleural effusion. Supraumbilical hernia.",
+      "doctor_comment": ""
+    }
+  },
+  "UID_00139": {
+    "patient_info": {},
+    "report_details": {
+      "lab_name": "Ishwar Hospital",
+      "doctor_name": "Dr. Hambir Mazumdar"
+    },
+    "test_results": {
+      "hematology": {
+        "10/4/25": {
+          "hemoglobin": 10.4,
+          "TLC": 9.7,
+          "neutrophil": 52.6,
+          "lymphocyte": 40.8,
+          "monocyte": 3.8,
+          "eosinophil": 2.3,
+          "platelet_count": 142,
+          "RBC": 3.46,
+          "MCV": 92.3,
+          "MCH": 30.1,
+          "MCHC": 32.6
+        },
+        "10/4/25_2": {
+          "hemoglobin": 10.2,
+          "TLC": 8.8,
+          "neutrophil": 68.5,
+          "lymphocyte": 24.8,
+          "monocyte": 4.2,
+          "eosinophil": 2.2,
+          "platelet_count": 231,
+          "RBC": 3.41,
+          "MCV": 93.5,
+          "MCH": 29.9,
+          "MCHC": 32
+        }
+      },
+      "biochemistry": {
+        "10/4/25": {
+          "blood_sugar_random": 110
+        },
+        "10/4/25_2": {
+          "blood_sugar_random": 131
+        }
+      },
+      "electrolytes": {
+        "10/4/25": {
+          "sodium": 145,
+          "potassium": 4.7
+        },
+        "10/4/25_2": {
+          "sodium": 142,
+          "potassium": 4.9
+        }
+      },
+      "liver_function_test": {
+        "10/4/25": {
+          "total_bilirubin": 0.67,
+          "conjugated_bilirubin": 0.35,
+          "unconjugated_bilirubin": 0.32,
+          "total_protein": 7.25,
+          "serum_albumin": 3.61,
+          "AST": 42.1,
+          "ALT": 43.9,
+          "alkaline_phosphatase": 98
+        },
+        "10/4/25_2": {
+          "total_bilirubin": 0.15,
+          "conjugated_bilirubin": 0.43
+        }
+      },
+      "renal_function_test": {
+        "10/4/25": {
+          "blood_urea": 32.7,
+          "serum_creatinine": 0.95,
+          "uric_acid": 4.15
+        }
+      },
+      "serological": {
+        "10/4/25": {
+          "CRP_quantitative": 42.4,
+          "procalcitonin": 0.31
+        }
+      }
+    },
+    "reference_ranges": {},
+    "remarks": {}
+  },
+  "UID_00140": {
+    "patient_info": {
+      "name": "",
+      "patient_id": "10585145",
+      "age": "",
+      "gender": "",
+      "date_of_birth": "",
+      "contact": "",
+      "address": ""
+    },
+    "report_details": {
+      "lab_name": "Ishwar Multi Speciality Hospital Lab",
+      "report_date": "02/Apr/2025",
+      "report_time": "11:07AM",
+      "referred_by": "Ishwar Hospital Cashless",
+      "technician": "",
+      "doctor_name": "Dr. Hambir Mazumdar"
+    },
+    "test_results": {
+      "urine_analysis": {
+        "Epithelial Cells": "Few",
+        "Pus Cells": "< 5.0",
+        "RBCs": "Nil",
+        "Crystals": "Nil",
+        "Casts": "Nil",
+        "Bacteria": "Absent",
+        "Yeast Cells": "Absent",
+        "Deposit": "Absent"
+      }
+    },
+    "remarks": {
+      "summary": "",
+      "abnormal_findings": "",
+      "doctor_comment": ""
+    }
+  },
+  "UID_00141": {
+    "patient_info": {
+      "name": "",
+      "patient_id": "10585398",
+      "age": "",
+      "gender": "",
+      "date_of_birth": "",
+      "contact": "",
+      "address": ""
+    },
+    "report_details": {
+      "report_date": "03/Apr/2025",
+      "report_time": "10:43AM",
+      "referred_by": "",
+      "lab_name": "Ishwar Multi Speciality Hospital Lab",
+      "technician": "",
+      "doctor_name": "Dr. Hambir Mazumdar"
+    },
+    "test_results": {
+      "hematology": {
+        "PCT (Platelet Crit)": 0.1,
+        "MCV": 40.1,
+        "RDW": 45.3
+      },
+      "biochemistry": {
+        "GLUCOSE- RANDOM": 118,
+        "Sodium": 136.0,
+        "Potassium": 4.2,
+        "C-Reactive Protein": 170.5
+      },
+      "liver_function": {
+        "BILIRUBIN (TOTAL)": 0.68,
+        "BILIRUBIN (DIRECT)": 0.32,
+        "BILIRUBIN (INDIRECT)": 0.36,
+        "Aspartate Aminotransferase (AST/SGOT)": 89.6,
+        "Alanine Aminotransferase (ALT/SGPT)": 73.6
+      }
+    },
+    "reference_ranges": {
+      "PCT (Platelet Crit)": "0.19-0.39",
+      "MCV": "39.0-46.0",
+      "RDW": "11.9-66.9",
+      "GLUCOSE- RANDOM": "90.0 - 130.0",
+      "Sodium": "136 - 145",
+      "Potassium": "3.5-5.7",
+      "C-Reactive Protein": "0-6",
+      "BILIRUBIN (TOTAL)": "0.2 - 1.1",
+      "BILIRUBIN (DIRECT)": "0.0-0.40",
+      "BILIRUBIN (INDIRECT)": "0.0-0.80",
+      "Aspartate Aminotransferase (AST/SGOT)": "0.0-37.0",
+      "Alanine Aminotransferase (ALT/SGPT)": "0.0-37.0"
+    },
+    "remarks": {
+      "summary": "",
+      "abnormal_findings": "",
+      "doctor_comment": ""
+    }
+  },
+  "UID_00142": {
+    "patient_info": {
+      "name": "Ishwar Hospital Cashless",
+      "patient_id": "10585398"
+    },
+    "report_details": {
+      "lab_name": "Ishwar Multi Speciality Hospital Lab",
+      "report_date": "03/Apr/2025",
+      "report_time": "10:43AM",
+      "sample_received_time": "07:54AM",
+      "sample_type": "Serum"
+    },
+    "test_results": {
+      "biochemistry": {
+        "alkaline_phosphatase": 112.0,
+        "total_protein": 7.22,
+        "albumin": 3.65,
+        "creatinine": 0.98,
+        "blood_urea": 45.2,
+        "uric_acid": 4.18
+      }
+    },
+    "reference_ranges": {
+      "alkaline_phosphatase": "56.0 - 119.0 U/L",
+      "total_protein": "6.4 - 8.3 g/dl",
+      "albumin": "3.2 - 4.6 g/dl",
+      "creatinine": "0.7 - 1.4 mg/dl",
+      "blood_urea": "18.0 - 55.0 mg/dl",
+      "uric_acid": "3.5 - 7.2 mg/dl"
+    },
+    "doctor_comments": {
+      "doctor_name": "Dr. Ambir Mazumdar, Dr. Mayank"
+    }
+  },
+  "UID_00143": {
+    "patient_info": {},
+    "report_details": {
+      "lab_name": "Ishwar Multi Speciality Hospital Lab",
+      "report_date": "05/Apr/2025",
+      "referred_by": "Ishwar Hospital Cashless",
+      "technician": "",
+      "doctor_name": "Dr. Mayank"
+    },
+    "test_results": {
+      "biochemistry": {
+        "Procalcitonin": 0.93
+      }
+    },
+    "reference_ranges": {
+      "Procalcitonin": "0.0 - 0.50 ng/ml"
+    },
+    "remarks": {
+      "summary": "",
+      "abnormal_findings": "",
+      "doctor_comment": ""
+    }
+  },
+  "UID_00144": {
+    "patient_info": {
+      "name": "Ishwar Hospital Cashless",
+      "patient_id": "10586006"
+    },
+    "report_details": {
+      "lab_name": "Ishwar Multi Speciality Hospital Lab",
+      "report_date": "05/Apr/2025",
+      "reporting_time": "10:29 AM",
+      "sample_received_time": "08:06 AM",
+      "sample_type": "Serum",
+      "referred_by": "",
+      "technician": "",
+      "doctor_name": "Dr. Hambir Mazumdar"
+    },
+    "test_results": {
+      "biochemistry": {
+        "glucose_random": 122,
+        "sodium": 138,
+        "potassium": 4,
+        "creactive_protein": 110,
+        "bilirubin_total": 0.66,
+        "bilirubin_direct": 0.3,
+        "bilirubin_indirect": 0.36,
+        "aspartate_aminotransferase_ast_sgot": 50.7,
+        "alanine_aminotransferase_alt_sgpt": 47.8
+      },
+      "pcr": {
+        "pcr": 38.8,
+        "pct_platelet_crit": 0.13
+      }
+    },
+    "reference_ranges": {
+      "glucose_random": "90-130",
+      "sodium": "136-145",
+      "potassium": "3.5-5.7",
+      "creactive_protein": "0-6",
+      "bilirubin_total": "0.2-1.1",
+      "bilirubin_direct": "0.0-0.4",
+      "bilirubin_indirect": "0.0-0.8",
+      "aspartate_aminotransferase_ast_sgot": "0.0-37.0",
+      "alanine_aminotransferase_alt_sgpt": "0.0-37.0",
+      "pcr": "39.0-46.0",
+      "pct_platelet_crit": "0.19-0.39"
+    },
+    "remarks": {
+      "doctor_comment": ""
+    }
+  },
+  "UID_00145": {
+    "patient_info": {
+      "name": "",
+      "patient_id": "AIGG.20118473",
+      "age": "",
+      "gender": "",
+      "date_of_birth": "",
+      "contact": "",
+      "address": "",
+      "UHID": "AIGG.20118473"
+    },
+    "report_details": {
+      "report_date": "10/04/25",
+      "report_time": "07:52",
+      "referred_by": "Dr. G V RAO",
+      "lab_name": "AIG Hospitals",
+      "technician": "V.KIRAN BABU",
+      "doctor_name": "Dr.G. DEEPIKA",
+      "facility": "AIG Hospitals, Gachibowli"
+    },
+    "test_results": {
+      "RFT-Renal Function Tests": {
+        "BLOOD UREA , Serum": 43,
+        "SERUM CREATININE , Serum": 1.03,
+        "SODIUM , Serum": 136,
+        "POTASSIUM , Serum": 5.1,
+        "CHLORIDE , Serum": 102
+      }
+    },
+    "reference_ranges": {
+      "BLOOD UREA , Serum": "13 - 43",
+      "SERUM CREATININE , Serum": "0.67 - 1.17",
+      "SODIUM , Serum": "136 - 145",
+      "POTASSIUM , Serum": "3.5 - 5.1",
+      "CHLORIDE , Serum": "98 - 107"
+    },
+    "remarks": {
+      "summary": "",
+      "abnormal_findings": "",
+      "doctor_comment": ""
+    }
+  }
+}

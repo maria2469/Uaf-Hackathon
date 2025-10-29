@@ -1,0 +1,3690 @@
+{
+  "UID_00001": {
+    "actions_taken": [
+      "Recommended doctor: Dr. Saad Naveed"
+    ],
+    "flagged_risks": [
+      "Influenza",
+      "Low blood pressure"
+    ],
+    "labs": [
+      {
+        "Age": 19,
+        "Blood Pressure": "Low",
+        "Cholesterol Level": "Normal",
+        "Cough": "No",
+        "Difficulty Breathing": "Yes",
+        "Disease": "Influenza",
+        "Fatigue": "Yes",
+        "Fever": "Yes",
+        "Gender": "Female",
+        "Outcome Variable": "Positive",
+        "name": "Noah Brown",
+        "unique_id": "UID_00001"
+      }
+    ],
+    "patient_id": "UID_00001",
+    "patient_name": "Noah Brown",
+    "summary": "**Patient Overview**  \n- **Name:** Noah Brown  \n- **Age:** 19\u202fyears  \n- **Gender:** Female  \n- **Primary Diagnosis:** Influenza (positive test)  \n- **Key Symptoms:** Fever, fatigue, difficulty breathing; no cough.  \n- **Vital Sign Concern:** Low blood pressure.  \n\n**Urgent Risks**  \n- **Severe Influenza Complications** \u2013 risk of respiratory failure or secondary bacterial infection.  \n- **Hypotension** \u2013 may compromise organ perfusion; requires prompt monitoring and support.  \n\n**Lab Highlights**  \n- **Influenza:** Positive viral test.  \n- **Blood Pressure:** Low (specific value not provided).  \n- **Cholesterol:** Normal.  \n- **Other Labs:** Not reported; assume normal unless otherwise noted.  \n\n**Actions Taken / Recommendations**  \n- **Current Actions:** None taken yet.  \n- **Immediate Recommendations:**  \n  - Initiate antiviral therapy (e.g., oseltamivir) if within 48\u202fh of symptom onset.  \n  - Start supportive care: oral hydration, antipyretics (acetaminophen), and monitor oxygen saturation.  \n  - Place patient on continuous BP monitoring; consider IV fluids if hypotension persists.  \n  - Educate patient on signs of worsening respiratory distress (increased work of breathing, cyanosis).  \n\n**Follow\u2011up**  \n- **Vitals:** Check BP, heart rate, and oxygen saturation every 4\u20136\u202fh until stable.  \n- **Laboratory Tests:** CBC with differential, electrolytes, and renal panel to assess for dehydration or organ dysfunction.  \n- **Imaging:** Chest X\u2011ray if respiratory distress worsens or if hypoxia develops.  \n- **Specialist Referral:** Pulmonology or infectious disease consult if breathing difficulty does not improve within 24\u202fh.  \n- **Discharge Planning:** Provide instructions for home isolation, medication adherence, and when to seek urgent care.  \n\n---"
+  },
+  "UID_00002": {
+    "actions_taken": [
+      "Recommended doctor: Dr. Saad Naveed"
+    ],
+    "flagged_risks": [
+      "Common Cold"
+    ],
+    "labs": [
+      {
+        "Age": 25,
+        "Blood Pressure": "Normal",
+        "Cholesterol Level": "Normal",
+        "Cough": "Yes",
+        "Difficulty Breathing": "No",
+        "Disease": "Common Cold",
+        "Fatigue": "Yes",
+        "Fever": "No",
+        "Gender": "Female",
+        "Outcome Variable": "Negative",
+        "name": "John Williams",
+        "unique_id": "UID_00002"
+      }
+    ],
+    "patient_id": "UID_00002",
+    "patient_name": "John Williams",
+    "summary": "**Patient Overview**  \n- **Name:** John Williams  \n- **Age:** 25\u202fyears  \n- **Gender:** Female  \n- **Chief Complaint:** Cough and fatigue consistent with a common cold.  \n- **Vital Signs & Labs:** Blood pressure and cholesterol within normal limits; no fever or breathing difficulty noted.\n\n**Urgent Risks**  \n- No immediate life\u2011threatening complications identified.  \n- Monitor for development of fever, shortness of breath, or worsening cough that could indicate secondary infection or pneumonia.\n\n**Lab Highlights**  \n- **Fever:** No  \n- **Cough:** Yes  \n- **Fatigue:** Yes  \n- **Difficulty Breathing:** No  \n- **Blood Pressure:** Normal  \n- **Cholesterol Level:** Normal  \n- **Outcome Variable:** Negative (no significant abnormal findings)\n\n**Actions Taken / Recommendations**  \n- **Current Actions:** None taken to date.  \n- **Suggested Next Steps:**  \n  - Rest and adequate hydration.  \n  - Over\u2011the\u2011counter symptomatic relief (e.g., acetaminophen for discomfort, saline nasal spray).  \n  - Monitor symptoms; if fever >38\u202f\u00b0C, cough worsens, or breathing becomes difficult, seek medical evaluation promptly.  \n  - Educate on hand hygiene and cough etiquette to prevent spread.\n\n**Follow\u2011up**  \n- **Re\u2011evaluation:** If symptoms persist beyond 7\u201310\u202fdays or worsen, schedule a follow\u2011up visit.  \n- **Additional Testing:** Not indicated at this time; consider chest X\u2011ray or CBC only if clinical deterioration occurs.  \n- **Referrals:** None required unless complications arise.  \n\n---"
+  },
+  "UID_00003": {
+    "actions_taken": [
+      "Recommended doctor: Dr. Hassan Ali"
+    ],
+    "flagged_risks": [
+      "Eczema"
+    ],
+    "labs": [
+      {
+        "Age": 25,
+        "Blood Pressure": "Normal",
+        "Cholesterol Level": "Normal",
+        "Cough": "Yes",
+        "Difficulty Breathing": "No",
+        "Disease": "Eczema",
+        "Fatigue": "Yes",
+        "Fever": "No",
+        "Gender": "Female",
+        "Outcome Variable": "Negative",
+        "name": "Liam Brown",
+        "unique_id": "UID_00003"
+      }
+    ],
+    "patient_id": "UID_00003",
+    "patient_name": "Liam Brown",
+    "summary": "**Patient Overview**  \n- **Name:** Liam Brown  \n- **Age:** 25\u202fyears  \n- **Gender:** Female (note: name suggests male; verify gender identity)  \n- **Key Clinical Details:**  \n  - Chronic eczema (flagged risk)  \n  - Current symptoms: cough, fatigue  \n  - No fever, no shortness of breath  \n  - Vital signs: blood pressure normal, cholesterol normal  \n\n**Urgent Risks**  \n- **Eczema** \u2013 potential for secondary infection or systemic involvement.  \n- **Respiratory symptoms** \u2013 cough may indicate upper airway irritation or early infection; monitor for progression.  \n- **Fatigue** \u2013 could signal underlying systemic inflammation or infection.  \n\n**Lab Highlights**  \n- No abnormal laboratory values reported; all listed labs (BP, cholesterol) are within normal limits.  \n\n**Actions Taken / Recommendations**  \n- **Current Actions:** None taken to date.  \n- **Suggested Next Steps:**  \n  - Perform a focused physical exam of skin and respiratory tract.  \n  - Obtain a basic CBC and CRP to assess for infection or inflammation.  \n  - Consider a chest X\u2011ray if cough persists or worsens.  \n  - Review and update eczema management plan (topical steroids, moisturizers).  \n  - Counsel on avoiding known eczema triggers (irritants, allergens).  \n\n**Follow\u2011up**  \n- **Short\u2011term:** Re\u2011evaluate in 1\u20132\u202fweeks if symptoms persist or worsen.  \n- **Long\u2011term:**  \n  - Dermatology referral for chronic eczema management.  \n  - Pulmonology referral if respiratory symptoms do not resolve.  \n  - Routine monitoring of blood pressure and cholesterol every 6\u202fmonths.  \n\n---"
+  },
+  "UID_00004": {
+    "actions_taken": [
+      "Recommended doctor: Dr. Saad Naveed"
+    ],
+    "flagged_risks": [
+      "Asthma exacerbation",
+      "Respiratory infection"
+    ],
+    "labs": [
+      {
+        "Age": 25,
+        "Blood Pressure": "Normal",
+        "Cholesterol Level": "Normal",
+        "Cough": "Yes",
+        "Difficulty Breathing": "Yes",
+        "Disease": "Asthma",
+        "Fatigue": "No",
+        "Fever": "Yes",
+        "Gender": "Male",
+        "Outcome Variable": "Positive",
+        "name": "Liam Smith",
+        "unique_id": "UID_00004"
+      }
+    ],
+    "patient_id": "UID_00004",
+    "patient_name": "Liam Smith",
+    "summary": "**Patient Overview**  \n- **Name:** Liam Smith  \n- **Age:** 25\u202fyears  \n- **Gender:** Male  \n- **Key Clinical Details:**  \n  - Known asthma  \n  - Current symptoms: fever, cough, difficulty breathing  \n  - No fatigue reported  \n\n**Urgent Risks**  \n- **Asthma Exacerbation** \u2013 rapid onset of breathing difficulty  \n- **Respiratory Infection** \u2013 fever and cough suggest possible viral or bacterial infection  \n\n**Lab Highlights**  \n- **Blood Pressure:** Normal  \n- **Cholesterol Level:** Normal  \n- **Outcome Variable:** Positive (indicating active disease state)  \n\n**Actions Taken / Recommendations**  \n- **Current Actions:** None taken yet  \n- **Immediate Recommendations:**  \n  - Initiate rescue bronchodilator (e.g., albuterol) as needed for wheeze or shortness of breath  \n  - Consider systemic corticosteroid (e.g., oral prednisone) if symptoms are moderate to severe  \n  - Evaluate for infection:  \n    - If bacterial suspicion (e.g., purulent sputum, high fever), start empiric antibiotics (e.g., amoxicillin\u2011clavulanate)  \n    - If viral, provide supportive care and monitor  \n  - Ensure patient has an updated asthma action plan and inhaler technique review  \n\n**Follow\u2011up**  \n- **Within 24\u201348\u202fhrs:**  \n  - Reassess symptoms, peak flow, and oxygen saturation  \n- **Within 1\u202fweek:**  \n  - Spirometry to assess lung function  \n  - Chest X\u2011ray if persistent cough or worsening breathing  \n- **Referral:**  \n  - Pulmonology for asthma management review  \n  - Infectious disease if infection persists or worsens  \n- **Monitoring:**  \n  - Daily symptom diary (cough, wheeze, nighttime awakenings)  \n  - Peak flow measurements twice daily  \n  - Blood pressure and cholesterol remain normal; routine monitoring as per standard care."
+  },
+  "UID_00005": {
+    "actions_taken": [
+      "Recommended doctor: Dr. Saad Naveed"
+    ],
+    "flagged_risks": [
+      "Asthma exacerbation",
+      "Respiratory infection"
+    ],
+    "labs": [
+      {
+        "Age": 25,
+        "Blood Pressure": "Normal",
+        "Cholesterol Level": "Normal",
+        "Cough": "Yes",
+        "Difficulty Breathing": "Yes",
+        "Disease": "Asthma",
+        "Fatigue": "No",
+        "Fever": "Yes",
+        "Gender": "Male",
+        "Outcome Variable": "Positive",
+        "name": "James Williams",
+        "unique_id": "UID_00005"
+      }
+    ],
+    "patient_id": "UID_00005",
+    "patient_name": "James Williams",
+    "summary": "**Patient Overview**  \n- **Name:** James Williams  \n- **Age/Gender:** 25\u2011year\u2011old male  \n- **Key Clinical Details:**  \n  - Known asthma  \n  - Presenting with fever, cough, and difficulty breathing  \n  - No fatigue reported  \n  - Vital signs: blood pressure and cholesterol within normal limits  \n\n**Urgent Risks**  \n- **Asthma Exacerbation** \u2013 rapid onset of breathing difficulty could progress to respiratory failure.  \n- **Respiratory Infection** \u2013 fever and cough suggest bacterial or viral infection that may worsen asthma control.  \n\n**Lab Highlights**  \n- No abnormal laboratory values reported; vital signs and cholesterol are normal.  \n- Clinical findings (fever, cough, dyspnea) are the primary abnormal indicators.  \n\n**Actions Taken / Recommendations**  \n- **Current Actions:** None taken yet.  \n- **Immediate Recommendations:**  \n  - Initiate short\u2011acting bronchodilator (e.g., albuterol) as needed for wheeze.  \n  - Consider systemic corticosteroid (e.g., oral prednisone) to reduce airway inflammation.  \n  - Evaluate for bacterial infection: obtain sputum culture or chest X\u2011ray; start empiric antibiotics if bacterial pneumonia is suspected.  \n  - Provide supplemental oxygen if SpO\u2082 < 94%.  \n  - Educate patient on inhaler technique and adherence to controller medication.  \n\n**Follow\u2011up**  \n- **Within 24\u201348\u202fhrs:** Re\u2011evaluate symptoms, repeat pulse oximetry, and review response to bronchodilator/steroid.  \n- **Within 1\u202fweek:**  \n  - Spirometry to assess lung function post\u2011exacerbation.  \n  - Review inhaled corticosteroid dose and consider adding a long\u2011acting bronchodilator if needed.  \n- **Referral:** Pulmonology for asthma management review if symptoms persist or worsen.  \n- **Monitoring:** Daily symptom diary (wheezing, cough, dyspnea) and peak flow measurements at home."
+  },
+  "UID_00006": {
+    "actions_taken": [
+      "Recommended doctor: Dr. Hassan Ali"
+    ],
+    "flagged_risks": [
+      "Eczema flare",
+      "Skin infection"
+    ],
+    "labs": [
+      {
+        "Age": 25,
+        "Blood Pressure": "Normal",
+        "Cholesterol Level": "Normal",
+        "Cough": "No",
+        "Difficulty Breathing": "No",
+        "Disease": "Eczema",
+        "Fatigue": "No",
+        "Fever": "Yes",
+        "Gender": "Female",
+        "Outcome Variable": "Positive",
+        "name": "Isabella Martinez",
+        "unique_id": "UID_00006"
+      }
+    ],
+    "patient_id": "UID_00006",
+    "patient_name": "Isabella Martinez",
+    "summary": "**Patient Overview**  \n- **Name:** Isabella Martinez  \n- **Age:** 25\u202fyears  \n- **Gender:** Female  \n- **Primary Diagnosis:** Eczema (atopic dermatitis)  \n- **Current Symptoms:** Fever present; no cough, fatigue, or breathing difficulty.  \n\n**Urgent Risks**  \n- **Eczema flare\u2011up** \u2013 can worsen skin barrier and lead to secondary infection.  \n- **Potential skin infection** \u2013 fever suggests possible bacterial or viral involvement.  \n\n**Lab Highlights**  \n- **Blood pressure:** Normal  \n- **Cholesterol:** Normal  \n- **Outcome Variable:** Positive (indicating active disease or infection)  \n\n**Actions Taken / Recommendations**  \n- **No interventions have been initiated yet.**  \n- **Immediate steps:**  \n  - Perform a thorough skin examination to assess extent of eczema and look for signs of infection (erythema, purulent drainage).  \n  - Obtain a basic infection work\u2011up if indicated (e.g., CBC with differential, skin swab for culture if lesions are purulent).  \n  - Initiate topical therapy: high\u2011potency corticosteroid ointment (e.g., clobetasol 0.05%) applied twice daily to affected areas.  \n  - Recommend emollient use twice daily to restore skin barrier.  \n  - If fever persists >48\u202fh or worsens, consider systemic antibiotics or antiviral therapy based on culture results.  \n  - Counsel on avoiding known eczema triggers (irritants, allergens, extreme temperatures).  \n\n**Follow\u2011up**  \n- **Re\u2011evaluation:** 7\u202fdays from initial visit to assess response to topical therapy and resolution of fever.  \n- **Additional tests:**  \n  - If infection suspected, repeat culture or obtain a throat swab if upper respiratory symptoms develop.  \n  - Consider a skin biopsy if lesions are atypical or not responding to standard therapy.  \n- **Referrals:**  \n  - Dermatology follow\u2011up if eczema remains uncontrolled or if there is concern for secondary infection.  \n  - Primary care for routine health maintenance and monitoring of systemic symptoms.  \n\n---"
+  },
+  "UID_00007": {
+    "actions_taken": [
+      "Recommended doctor: Dr. Saad Naveed"
+    ],
+    "flagged_risks": [
+      "Respiratory risk"
+    ],
+    "labs": [
+      {
+        "Age": 25,
+        "Blood Pressure": "Normal",
+        "Cholesterol Level": "Normal",
+        "Cough": "Yes",
+        "Difficulty Breathing": "Yes",
+        "Disease": "Influenza",
+        "Fatigue": "Yes",
+        "Fever": "Yes",
+        "Gender": "Female",
+        "Outcome Variable": "Positive",
+        "name": "Sophia Garcia",
+        "unique_id": "UID_00007"
+      }
+    ],
+    "patient_id": "UID_00007",
+    "patient_name": "Sophia Garcia",
+    "summary": "**Patient Overview**  \n- **Name:** Sophia Garcia  \n- **Age:** 25\u202fyears  \n- **Gender:** Female  \n- **Diagnosis:** Influenza (confirmed by positive outcome variable)  \n- **Key Clinical Features:** Fever, cough, fatigue, difficulty breathing  \n\n**Urgent Risks**  \n- **Respiratory compromise** \u2013 difficulty breathing indicates potential progression to pneumonia or acute respiratory distress.  \n- **Rapid decompensation** \u2013 young adults can deteriorate quickly if viral load is high or secondary bacterial infection develops.  \n\n**Lab Highlights**  \n- **Blood Pressure:** Normal  \n- **Cholesterol Level:** Normal  \n- **Other labs:** Not provided; assume baseline normal unless otherwise noted.  \n\n**Actions Taken / Recommendations**  \n- **Current Actions:** None taken yet.  \n- **Immediate Recommendations:**  \n  - Initiate antiviral therapy (e.g., oseltamivir) within 48\u202fh of symptom onset.  \n  - Provide supportive care: adequate hydration, antipyretics (acetaminophen), and cough suppressants if needed.  \n  - Monitor oxygen saturation; consider supplemental oxygen if SpO\u2082 <\u202f94\u202f%.  \n  - Educate patient on signs of worsening (increased shortness of breath, chest pain, confusion).  \n\n**Follow\u2011up**  \n- **Clinical Monitoring:** Daily assessment of respiratory status and symptom progression.  \n- **Laboratory Tests:** CBC with differential to detect leukocytosis or lymphopenia; CRP/ESR if bacterial superinfection suspected.  \n- **Imaging:** Chest X\u2011ray if hypoxia worsens or if new infiltrates are suspected.  \n- **Referral:** Consider pulmonology or infectious disease consult if respiratory status does not improve within 48\u201372\u202fh.  \n- **Re\u2011evaluation:** Reassess antiviral efficacy and adjust treatment after 5\u202fdays or sooner if clinical deterioration occurs.  \n\n---"
+  },
+  "UID_00008": {
+    "actions_taken": [
+      "Recommended doctor: Dr. Saad Naveed"
+    ],
+    "flagged_risks": [
+      "Respiratory risk"
+    ],
+    "labs": [
+      {
+        "Age": 25,
+        "Blood Pressure": "Normal",
+        "Cholesterol Level": "Normal",
+        "Cough": "Yes",
+        "Difficulty Breathing": "Yes",
+        "Disease": "Influenza",
+        "Fatigue": "Yes",
+        "Fever": "Yes",
+        "Gender": "Female",
+        "Outcome Variable": "Positive",
+        "name": "James Jones",
+        "unique_id": "UID_00008"
+      }
+    ],
+    "patient_id": "UID_00008",
+    "patient_name": "James Jones",
+    "summary": "**Patient Overview**  \n- **Name:** James\u202fJones  \n- **Age:** 25\u202fyears  \n- **Gender:** Female  \n- **Primary Diagnosis:** Influenza (positive test)  \n- **Key Symptoms:** Fever, cough, fatigue, difficulty breathing  \n\n**Urgent Risks**  \n- **Respiratory compromise** \u2013 difficulty breathing indicates potential progression to pneumonia or acute respiratory distress.  \n- **Rapid deterioration** \u2013 young adults can develop severe influenza complications quickly.  \n\n**Lab Highlights**  \n- **Blood pressure:** Normal  \n- **Cholesterol level:** Normal  \n- **Influenza test:** Positive  \n- *No abnormal laboratory values reported.*  \n\n**Actions Taken / Recommendations**  \n- **Current actions:** None taken yet.  \n- **Immediate next steps:**  \n  - Initiate antiviral therapy (e.g., oseltamivir) within 48\u202fhours of symptom onset.  \n  - Provide supportive care: adequate hydration, antipyretics, and cough suppression as needed.  \n  - Monitor vital signs (temperature, respiratory rate, oxygen saturation) every 4\u20136\u202fhours.  \n  - Assess for signs of worsening respiratory status (increased work of breathing, hypoxia).  \n  - Consider early hospitalization if SpO\u2082\u202f<\u202f94\u202f% on room air or if symptoms rapidly worsen.  \n\n**Follow\u2011up**  \n- **Repeat influenza PCR or rapid antigen test** if clinical status changes.  \n- **Chest imaging** (X\u2011ray or CT) if dyspnea worsens or if there is suspicion of secondary bacterial pneumonia.  \n- **Pulmonology referral** if persistent respiratory distress or need for supplemental oxygen.  \n- **Outpatient follow\u2011up** in 48\u201372\u202fhours to reassess symptoms and adjust treatment.  \n- **Vaccination counseling** for future influenza prevention."
+  },
+  "UID_00009": {
+    "actions_taken": [
+      "Recommended doctor: Dr. Salman Ahmed",
+      "Manual referral to Dr. Dr. Maham Qureshi (Cardiologist)"
+    ],
+    "feedback": [
+      "Patient showing improvement in thyroid function."
+    ],
+    "flagged_risks": [
+      "Endocrine risk"
+    ],
+    "labs": [
+      {
+        "Age": 28,
+        "Blood Pressure": "Normal",
+        "Cholesterol Level": "Normal",
+        "Cough": "Yes",
+        "Difficulty Breathing": "No",
+        "Disease": "Hyperthyroidism",
+        "Fatigue": "No",
+        "Fever": "No",
+        "Gender": "Female",
+        "Outcome Variable": "Negative",
+        "name": "Emma Williams",
+        "unique_id": "UID_00009"
+      }
+    ],
+    "patient_id": "UID_00009",
+    "patient_name": "Emma Williams",
+    "summary": "Emma Williams, 28, presents with hyperthyroidism and a cough but no respiratory distress, fatigue, or fever; her blood pressure and cholesterol are normal. The most urgent concern is the endocrine risk from untreated hyperthyroidism, which can lead to cardiovascular complications. She has been referred to Dr. Salman Ahmed for endocrine evaluation and should schedule a follow\u2011up in 4\u20136 weeks to reassess thyroid function and monitor the cough."
+  },
+  "UID_00010": {
+    "actions_taken": [
+      "Recommended doctor: Dr. Salman Ahmed"
+    ],
+    "flagged_risks": [
+      "Endocrine risk"
+    ],
+    "labs": [
+      {
+        "Age": 28,
+        "Blood Pressure": "Normal",
+        "Cholesterol Level": "Normal",
+        "Cough": "Yes",
+        "Difficulty Breathing": "No",
+        "Disease": "Hyperthyroidism",
+        "Fatigue": "No",
+        "Fever": "No",
+        "Gender": "Female",
+        "Outcome Variable": "Negative",
+        "name": "Ava Jones",
+        "unique_id": "UID_00010"
+      }
+    ],
+    "patient_id": "UID_00010",
+    "patient_name": "Ava Jones",
+    "summary": "**Patient Overview**  \n- **Name:** Ava Jones  \n- **Age:** 28\u202fyears  \n- **Gender:** Female  \n- **Primary Diagnosis:** Hyperthyroidism  \n- **Current Symptoms:** Cough (present), no fever, no fatigue, no shortness of breath  \n- **Vital Signs & Labs:** Blood pressure normal, cholesterol normal  \n\n**Urgent Risks**  \n- **Endocrine Risk:** Hyperthyroidism can progress to thyrotoxic crisis if untreated.  \n- **Respiratory Concern:** Persistent cough may indicate airway irritation or secondary infection; monitor for worsening.  \n\n**Lab Highlights**  \n- **Disease Status:** Hyperthyroidism confirmed (specific lab values not provided).  \n- **Other Findings:** All other recorded parameters (BP, cholesterol) within normal limits.  \n\n**Actions Taken / Recommendations**  \n- **Current Actions:** None taken to date.  \n- **Immediate Recommendations:**  \n  - Initiate thyroid function testing (TSH, free T4, free T3).  \n  - Review medication history for potential antithyroid drugs or iodine exposure.  \n  - Counsel on symptom monitoring (palpitations, tremor, weight changes).  \n  - Consider starting antithyroid therapy if labs confirm hyperthyroidism.  \n\n**Follow\u2011up**  \n- **Repeat Thyroid Panel:** Within 4\u20136\u202fweeks after initiation of therapy.  \n- **Pulmonary Evaluation:** If cough persists >2\u202fweeks, consider chest X\u2011ray or spirometry.  \n- **Endocrinology Referral:** For definitive management and monitoring of thyroid status.  \n- **Monitoring:** Regular check\u2011ups every 3\u20136\u202fmonths to assess thyroid function and adjust medication."
+  },
+  "UID_00011": {
+    "actions_taken": [
+      "Recommended doctor: Dr. Saad Naveed",
+      "Recommended doctor: Dr. Maham Qureshi"
+    ],
+    "flagged_risks": [
+      "Respiratory risk",
+      "Cardiovascular risk"
+    ],
+    "labs": [
+      {
+        "Age": 28,
+        "Blood Pressure": "High",
+        "Cholesterol Level": "Normal",
+        "Cough": "No",
+        "Difficulty Breathing": "Yes",
+        "Disease": "Asthma",
+        "Fatigue": "No",
+        "Fever": "Yes",
+        "Gender": "Male",
+        "Outcome Variable": "Positive",
+        "name": "Sophia Davis",
+        "unique_id": "UID_00011"
+      }
+    ],
+    "patient_id": "UID_00011",
+    "patient_name": "Sophia Davis",
+    "summary": "**Patient Overview**  \n- **Name:** Sophia Davis (UID_00011)  \n- **Age:** 28 years  \n- **Gender:** Male  \n- **Primary Diagnosis:** Asthma  \n- **Current Symptoms:** Fever present, difficulty breathing, no cough or fatigue.  \n- **Vital Signs:** Blood pressure elevated (high).  \n\n**Urgent Risks**  \n- **Respiratory Compromise:** Difficulty breathing in an asthmatic patient with fever suggests potential exacerbation or infection.  \n- **Cardiovascular Stress:** Elevated blood pressure increases risk of acute cardiac events, especially in the context of respiratory distress.  \n\n**Lab Highlights**  \n- **Fever:** Positive \u2013 indicates possible infection or inflammatory process.  \n- **Blood Pressure:** High \u2013 requires immediate assessment and management.  \n- **Cholesterol Level:** Normal \u2013 no immediate lipid-related concern.  \n\n**Actions Taken / Recommendations**  \n- **Immediate Actions Needed:**  \n  - Obtain an urgent chest X\u2011ray or lung ultrasound to assess for pneumonia or other pulmonary pathology.  \n  - Perform arterial blood gas (ABG) or pulse oximetry to evaluate oxygenation and ventilation status.  \n  - Check serum electrolytes, complete blood count (CBC), and inflammatory markers (CRP, ESR) to identify infection or inflammation.  \n  - Initiate bronchodilator therapy (e.g., albuterol nebulizer) and consider systemic corticosteroids if asthma exacerbation is confirmed.  \n  - Start antihypertensive medication (e.g., short\u2011acting beta\u2011blocker or calcium channel blocker) if BP remains > 140/90 mmHg.  \n\n- **Monitoring:**  \n  - Continuous pulse oximetry and heart rate monitoring.  \n  - Repeat BP measurements every 15\u201330 minutes until stable.  \n\n**Follow\u2011up**  \n- **Within 24\u202fhrs:**  \n  - Review imaging and laboratory results.  \n  - Adjust asthma controller therapy (e.g., inhaled corticosteroid) based on severity.  \n  - Consult cardiology if hypertension persists or if cardiac symptoms develop.  \n\n- **Within 1\u202fweek:**  \n  - Schedule pulmonary function tests (spirometry) to assess baseline lung function.  \n  - Re\u2011evaluate blood pressure control and consider long\u2011term antihypertensive therapy.  \n\n- **Long\u2011term:**  \n  - Regular follow\u2011up with pulmonology for asthma management.  \n  - Annual cardiovascular risk assessment, including lipid panel and ECG.  \n\n---"
+  },
+  "UID_00012": {
+    "actions_taken": [
+      "Recommended doctor: Dr. Saad Naveed"
+    ],
+    "flagged_risks": [
+      "Allergic respiratory risk"
+    ],
+    "labs": [
+      {
+        "Age": 29,
+        "Blood Pressure": "Normal",
+        "Cholesterol Level": "Low",
+        "Cough": "Yes",
+        "Difficulty Breathing": "No",
+        "Disease": "Allergic Rhinitis",
+        "Fatigue": "Yes",
+        "Fever": "No",
+        "Gender": "Female",
+        "Outcome Variable": "Negative",
+        "name": "Olivia Garcia",
+        "unique_id": "UID_00012"
+      }
+    ],
+    "patient_id": "UID_00012",
+    "patient_name": "Olivia Garcia",
+    "summary": "**Patient Overview**  \n- **Name:** Olivia Garcia  \n- **Age:** 29\u202fyears  \n- **Gender:** Female  \n- **Primary Diagnosis:** Allergic Rhinitis  \n- **Key Symptoms:** Cough, fatigue  \n- **Vital Signs:** Blood pressure normal, cholesterol low  \n\n**Urgent Risks**  \n- **Allergic respiratory risk** \u2013 potential for progression to asthma or severe allergic reactions.  \n- **Fatigue** may indicate underlying chronic inflammation or sleep disturbance.  \n\n**Lab Highlights**  \n- No abnormal laboratory values reported; all routine labs within normal limits.  \n- Outcome variable: Negative (no acute pathology detected).  \n\n**Actions Taken / Recommendations**  \n- **Current Actions:** None taken yet.  \n- **Immediate Recommendations:**  \n  - Initiate antihistamine therapy (e.g., cetirizine 10\u202fmg daily).  \n  - Consider nasal corticosteroid spray if symptoms persist.  \n  - Counsel on allergen avoidance (dust mites, pollen).  \n  - Provide patient education on recognizing signs of anaphylaxis.  \n\n**Follow\u2011up**  \n- **Re\u2011evaluation:** 2\u20134\u202fweeks after starting medication to assess symptom control.  \n- **Additional Tests:**  \n  - If cough persists >4\u202fweeks, consider spirometry to rule out asthma.  \n  - Allergy skin testing or serum IgE if symptoms are severe or unresponsive.  \n- **Referrals:**  \n  - Allergy/immunology specialist if symptoms remain uncontrolled or if severe allergic reactions occur.  \n- **Monitoring:**  \n  - Track symptom diary (cough frequency, fatigue level).  \n  - Monitor for any new respiratory symptoms (difficulty breathing, wheezing)."
+  },
+  "UID_00013": {
+    "actions_taken": [
+      "Recommended doctor: Dr. Adnan Malik"
+    ],
+    "flagged_risks": [
+      "Psychiatric risk"
+    ],
+    "labs": [
+      {
+        "Age": 29,
+        "Blood Pressure": "Normal",
+        "Cholesterol Level": "High",
+        "Cough": "Yes",
+        "Difficulty Breathing": "No",
+        "Disease": "Anxiety Disorders",
+        "Fatigue": "No",
+        "Fever": "No",
+        "Gender": "Female",
+        "Outcome Variable": "Negative",
+        "name": "Ava Williams",
+        "unique_id": "UID_00013"
+      }
+    ],
+    "patient_id": "UID_00013",
+    "patient_name": "Ava Williams",
+    "summary": "**Patient Overview**  \n- **Name:** Ava Williams  \n- **Age:** 29\u202fyears  \n- **Gender:** Female  \n- **Primary Diagnosis:** Anxiety Disorders  \n- **Current Symptoms:** Cough present; no fever, fatigue, or shortness of breath.  \n\n**Urgent Risks**  \n- **Psychiatric risk** \u2013 anxiety disorder may lead to worsening mental health or self\u2011harm if not addressed.  \n- **Respiratory concern** \u2013 persistent cough could indicate an underlying infection or airway irritation; monitor for progression.  \n- **Cardiovascular risk** \u2013 high cholesterol in a young adult increases long\u2011term cardiovascular disease risk.  \n\n**Lab Highlights**  \n- **Blood Pressure:** Normal  \n- **Cholesterol Level:** Elevated (high) \u2013 specific values not provided but flagged as abnormal.  \n\n**Actions Taken / Recommendations**  \n- **No actions taken yet.**  \n- **Immediate steps:**  \n  - Conduct a focused respiratory assessment (history of cough duration, triggers, sputum characteristics).  \n  - Initiate a basic anxiety management plan: psychoeducation, breathing exercises, and consider a short\u2011term anxiolytic if indicated.  \n  - Counsel on lifestyle modifications to address hypercholesterolemia: diet, exercise, and smoking cessation if applicable.  \n  - Discuss the possibility of a low\u2011dose chest X\u2011ray or spirometry if cough persists or worsens.  \n\n**Follow\u2011up**  \n- **Respiratory:** Repeat symptom review in 1\u20132\u202fweeks; if cough persists >3\u202fweeks, order imaging or refer to pulmonology.  \n- **Cardiovascular:** Schedule lipid panel repeat in 3\u202fmonths; consider statin therapy if LDL remains high.  \n- **Psychiatric:** Arrange a mental health evaluation within 2\u202fweeks; referral to a therapist or psychiatrist for ongoing anxiety management.  \n- **Primary Care:** Continue routine monitoring of blood pressure and overall health; review medication adherence and side effects.  \n\n---"
+  },
+  "UID_00014": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 29,
+        "Blood Pressure": "Low",
+        "Cholesterol Level": "Normal",
+        "Cough": "No",
+        "Difficulty Breathing": "No",
+        "Disease": "Common Cold",
+        "Fatigue": "No",
+        "Fever": "No",
+        "Gender": "Female",
+        "Outcome Variable": "Negative",
+        "name": "James Miller",
+        "unique_id": "UID_00014"
+      }
+    ],
+    "patient_id": "UID_00014",
+    "patient_name": "James Miller",
+    "summary": "**Patient Overview**  \n- **Name:** James\u202fMiller  \n- **Age:** 29\u202fyears  \n- **Gender:** Female (note: name suggests male; clarify with patient)  \n- **Chief Findings:** No fever, cough, fatigue, or breathing difficulty. Blood pressure is low; cholesterol is normal.  \n\n**Urgent Risks**  \n- Low blood pressure is the only abnormal finding; no immediate life\u2011threatening symptoms reported.  \n- No other significant risks identified at this time.  \n\n**Lab Highlights**  \n- **Blood Pressure:** Low (specific value not provided).  \n- **Cholesterol Level:** Normal.  \n- All other symptom indicators (fever, cough, fatigue, breathing difficulty) are negative.  \n\n**Actions Taken / Recommendations**  \n- **Current Actions:** None taken yet.  \n- **Suggested Next Steps:**  \n  - Verify blood pressure measurement accuracy (repeat measurement).  \n  - Assess for possible causes of hypotension (e.g., dehydration, medication side\u2011effects, endocrine issues).  \n  - Provide patient education on symptoms of hypotension (dizziness, fainting) and when to seek care.  \n\n**Follow\u2011up**  \n- **Monitoring:** Recheck blood pressure in 1\u20132\u202fweeks or sooner if symptoms develop.  \n- **Tests:** Consider basic metabolic panel and thyroid function tests if low BP persists.  \n- **Referrals:** Not required at this time; refer to primary care or cardiology if hypotension remains unexplained.  \n\n---"
+  },
+  "UID_00015": {
+    "actions_taken": [
+      "Recommended doctor: Dr. Salman Ahmed",
+      "Recommended doctor: Dr. Maham Qureshi"
+    ],
+    "flagged_risks": [
+      "Endocrine risk",
+      "Cardiovascular risk"
+    ],
+    "labs": [
+      {
+        "Age": 29,
+        "Blood Pressure": "Low",
+        "Cholesterol Level": "Normal",
+        "Cough": "No",
+        "Difficulty Breathing": "No",
+        "Disease": "Diabetes",
+        "Fatigue": "No",
+        "Fever": "No",
+        "Gender": "Male",
+        "Outcome Variable": "Negative",
+        "name": "Michael Brown",
+        "unique_id": "UID_00015"
+      }
+    ],
+    "patient_id": "UID_00015",
+    "patient_name": "Michael Brown",
+    "summary": "**Patient Overview**  \n- **Name:** Michael Brown  \n- **Age:** 29\u202fyears  \n- **Gender:** Male  \n- **Key Clinical Details:** Diagnosed with diabetes; currently asymptomatic (no fever, cough, fatigue, or breathing difficulty). Vital signs show low blood pressure; cholesterol level is normal.\n\n---\n\n**Urgent Risks**  \n- **Endocrine Risk:** Uncontrolled diabetes can lead to microvascular and macrovascular complications.  \n- **Cardiovascular Risk:** Persistent low blood pressure may predispose to orthostatic hypotension and reduced organ perfusion; diabetes further increases cardiovascular morbidity.\n\n---\n\n**Lab Highlights**  \n- **Blood Pressure:** Low (specific value not provided) \u2013 requires monitoring.  \n- **Cholesterol Level:** Normal \u2013 no immediate lipid management needed.  \n- **Outcome Variable:** Negative \u2013 no acute infection or other acute pathology identified.\n\n---\n\n**Actions Taken / Recommendations**  \n- **Current Actions:** None taken to date.  \n- **Immediate Recommendations:**  \n  - Initiate routine diabetes management (HbA1c, fasting glucose, self\u2011monitoring of blood glucose).  \n  - Evaluate blood pressure trends; consider antihypertensive adjustment if symptomatic or persistently low.  \n  - Counsel on lifestyle modifications: balanced diet, regular exercise, weight management, and smoking cessation if applicable.  \n  - Educate on signs of hypoglycemia and hyperglycemia.  \n  - Discuss potential need for medication review (e.g., metformin, insulin) with endocrinology.\n\n---\n\n**Follow\u2011up**  \n- **Laboratory Tests:**  \n  - HbA1c (next 3\u202fmonths).  \n  - Fasting plasma glucose (monthly).  \n  - Comprehensive metabolic panel (renal function, electrolytes).  \n  - Lipid panel (annually).  \n- **Cardiovascular Evaluation:**  \n  - Baseline ECG.  \n  - Consider echocardiogram if symptoms develop.  \n- **Referrals:**  \n  - Endocrinology for diabetes optimization.  \n  - Cardiology if blood pressure remains low or if cardiac symptoms arise.  \n- **Monitoring:**  \n  - Home blood pressure monitoring (morning and evening).  \n  - Self\u2011reported symptom diary (hypoglycemia, dizziness, chest pain).  \n  - Follow\u2011up visit in 4\u202fweeks to review labs and adjust management plan."
+  },
+  "UID_00016": {
+    "actions_taken": [
+      "Recommended doctor: Dr. Hira Yousaf"
+    ],
+    "flagged_risks": [
+      "Gastrointestinal risk"
+    ],
+    "labs": [
+      {
+        "Age": 29,
+        "Blood Pressure": "Normal",
+        "Cholesterol Level": "Normal",
+        "Cough": "Yes",
+        "Difficulty Breathing": "No",
+        "Disease": "Gastroenteritis",
+        "Fatigue": "No",
+        "Fever": "No",
+        "Gender": "Female",
+        "Outcome Variable": "Negative",
+        "name": "Olivia Jones",
+        "unique_id": "UID_00016"
+      }
+    ],
+    "patient_id": "UID_00016",
+    "patient_name": "Olivia Jones",
+    "summary": "**Patient Overview**  \n- **Name:** Olivia Jones  \n- **Age:** 29\u202fyears  \n- **Gender:** Female  \n- **Chief Complaint:** Cough (no fever, no fatigue, no breathing difficulty)  \n- **Primary Diagnosis:** Gastroenteritis (negative outcome variable)  \n\n**Urgent Risks**  \n- **Gastrointestinal risk** \u2013 potential for dehydration or electrolyte imbalance due to gastroenteritis.  \n- **Respiratory concern** \u2013 cough present; monitor for progression to lower respiratory tract infection.  \n\n**Lab Highlights**  \n- **Vital signs:** Blood pressure normal, cholesterol normal.  \n- **Symptoms:** No fever, no fatigue, no difficulty breathing.  \n- **Outcome variable:** Negative (no severe systemic involvement noted).  \n\n**Actions Taken / Recommendations**  \n- **Current actions:** None taken yet.  \n- **Immediate recommendations:**  \n  - Initiate oral rehydration therapy (ORS) and monitor fluid intake/output.  \n  - Provide symptomatic treatment for cough (e.g., honey\u2011lemon tea, humidifier).  \n  - Educate patient on signs of dehydration (dry mouth, decreased urine output, dizziness).  \n  - Advise rest and gradual return to normal diet as tolerated.  \n\n**Follow\u2011up**  \n- **Within 48\u201372\u202fhours:** Re\u2011evaluate symptoms; check for worsening cough or new fever.  \n- **Stool studies:** If diarrhea persists >48\u202fh, obtain stool culture and ova/parasite exam.  \n- **Respiratory assessment:** If cough worsens or develops shortness of breath, consider chest X\u2011ray or sputum analysis.  \n- **Referral:** Gastroenterology consult if symptoms >1\u202fweek or if severe abdominal pain develops.  \n- **Monitoring:** Track weight, hydration status, and vital signs daily until resolution.  \n\n---"
+  },
+  "UID_00017": {
+    "actions_taken": [
+      "Recommended doctor: Dr. Hira Yousaf",
+      "Recommended doctor: Dr. Maham Qureshi"
+    ],
+    "flagged_risks": [
+      "Gastrointestinal risk",
+      "Cardiovascular risk"
+    ],
+    "labs": [
+      {
+        "Age": 29,
+        "Blood Pressure": "High",
+        "Cholesterol Level": "Normal",
+        "Cough": "No",
+        "Difficulty Breathing": "No",
+        "Disease": "Pancreatitis",
+        "Fatigue": "No",
+        "Fever": "Yes",
+        "Gender": "Female",
+        "Outcome Variable": "Negative",
+        "name": "Olivia Davis",
+        "unique_id": "UID_00017"
+      }
+    ],
+    "patient_id": "UID_00017",
+    "patient_name": "Olivia Davis",
+    "summary": "**Patient Overview**  \n- **Name:** Olivia Davis  \n- **Age:** 29\u202fyears  \n- **Gender:** Female  \n- **Primary Diagnosis:** Acute pancreatitis  \n- **Current Symptoms:** Fever present; no cough, fatigue, or shortness of breath.  \n\n**Urgent Risks**  \n- **Gastrointestinal (GI) Complications** \u2013 pancreatitis can lead to necrosis, infection, or bleeding.  \n- **Cardiovascular (CV) Complications** \u2013 elevated blood pressure increases risk of arrhythmia, myocardial ischemia, or stroke, especially in the setting of systemic inflammation.  \n\n**Lab Highlights**  \n- **Blood Pressure:** Elevated (hypertensive).  \n- **Cholesterol:** Within normal limits.  \n- **Outcome Variable:** Negative (no immediate life\u2011threatening findings reported).  \n\n**Actions Taken / Recommendations**  \n- **Current Actions:** None performed to date.  \n- **Immediate Next Steps:**  \n  - Admit to hospital for monitoring of vital signs and pain control.  \n  - Initiate IV fluids (e.g., lactated Ringer\u2019s) to maintain hydration and support pancreatic perfusion.  \n  - Start broad\u2011spectrum antibiotics if infection suspected (e.g., peripancreatic abscess).  \n  - Administer analgesia (e.g., IV acetaminophen or opioids as needed).  \n  - Begin antihypertensive therapy (e.g., IV labetalol or nicardipine) to target systolic BP <140\u202fmmHg.  \n  - Obtain baseline labs: CBC, CMP, lipase, amylase, CRP, ESR, coagulation profile.  \n  - Consider abdominal imaging (CT abdomen with contrast) to assess extent of pancreatitis and rule out necrosis or pseudocyst.  \n\n**Follow\u2011up**  \n- **Monitoring:**  \n  - Hourly vitals, pain score, urine output.  \n  - Daily labs: CBC, CMP, lipase, CRP.  \n- **Imaging:** Repeat CT or MRI if clinical deterioration or persistent pain.  \n- **Specialist Referrals:**  \n  - Gastroenterology for pancreatitis management and potential ERCP if biliary obstruction suspected.  \n  - Cardiology for hypertension optimization and evaluation of cardiovascular risk.  \n- **Discharge Planning:**  \n  - Educate on dietary modifications (low\u2011fat diet), fluid intake, and medication adherence.  \n  - Schedule follow\u2011up in 1\u20132 weeks with primary care and gastroenterology.  \n  - Arrange for outpatient blood pressure monitoring and lipid panel in 3 months."
+  },
+  "UID_00018": {
+    "actions_taken": [
+      "Recommended doctor: Dr. Amna Shah",
+      "Recommended doctor: Dr. Maham Qureshi",
+      "Recommended doctor: Dr. Saad Naveed"
+    ],
+    "flagged_risks": [
+      "Rheumatological risk",
+      "Cardiovascular risk",
+      "Respiratory risk"
+    ],
+    "labs": [
+      {
+        "Age": 29,
+        "Blood Pressure": "High",
+        "Cholesterol Level": "High",
+        "Cough": "Yes",
+        "Difficulty Breathing": "Yes",
+        "Disease": "Rheumatoid Arthritis",
+        "Fatigue": "Yes",
+        "Fever": "No",
+        "Gender": "Female",
+        "Outcome Variable": "Negative",
+        "name": "Isabella Smith",
+        "unique_id": "UID_00018"
+      }
+    ],
+    "patient_id": "UID_00018",
+    "patient_name": "Isabella Smith",
+    "summary": "**Patient Overview**  \n- **Name:** Isabella Smith  \n- **Age:** 29\u202fyears  \n- **Gender:** Female  \n- **Primary Diagnosis:** Rheumatoid Arthritis  \n- **Current Symptoms:** Cough, fatigue, shortness of breath  \n- **Vital Signs / Labs:** Elevated blood pressure, high cholesterol  \n\n**Urgent Risks**  \n- **Respiratory:** Difficulty breathing and cough may indicate pulmonary involvement (e.g., pleuritis, interstitial lung disease) common in RA.  \n- **Cardiovascular:** Hypertension and hypercholesterolemia increase risk for atherosclerosis and potential cardiovascular events.  \n- **Rheumatological:** Active disease with systemic symptoms; risk of joint damage and extra\u2011articular manifestations.  \n\n**Lab Highlights**  \n- **Blood Pressure:** High (specific value not provided)  \n- **Cholesterol Level:** High (specific value not provided)  \n- **Outcome Variable:** Negative (likely referring to a test result, e.g., infection screen)  \n\n**Actions Taken / Recommendations**  \n- **Immediate Actions Needed:**  \n  - Order a chest X\u2011ray or high\u2011resolution CT to evaluate pulmonary involvement.  \n  - Obtain a complete metabolic panel, lipid panel, and fasting glucose to quantify cardiovascular risk.  \n  - Review current RA medication regimen; consider escalation or addition of disease\u2011modifying antirheumatic drugs (DMARDs) if disease activity is high.  \n- **Lifestyle & Risk Modification:**  \n  - Initiate antihypertensive therapy if not already prescribed.  \n  - Start statin therapy for hypercholesterolemia per current guidelines.  \n  - Counsel on smoking cessation, diet, and exercise.  \n- **Monitoring:**  \n  - Schedule regular ESR/CRP checks to monitor RA activity.  \n  - Monitor blood pressure and lipid levels every 3\u20136\u202fmonths.  \n\n**Follow\u2011up**  \n- **Pulmonary:** Refer to a pulmonologist for further evaluation and possible pulmonary function tests.  \n- **Rheumatology:** Follow\u2011up appointment within 4\u202fweeks to assess disease control and adjust DMARDs.  \n- **Cardiology:** Consider a cardiovascular risk assessment (e.g., Framingham score) and possible referral for early intervention.  \n- **Lab Tests:** Repeat CBC, ESR/CRP, lipid panel, and renal function in 1\u202fmonth.  \n- **Imaging:** Review chest imaging results and discuss findings with the patient.  \n\n---"
+  },
+  "UID_00019": {
+    "actions_taken": [
+      "Recommended doctor: Dr. Adnan Malik",
+      "Recommended doctor: Dr. Maham Qureshi",
+      "Recommended doctor: Dr. Saad Naveed",
+      "Referral sent to Dr. Dr. Maham Qureshi (Cardiologist).",
+      "Referral sent to Dr. Dr. Maham Qureshi (Cardiologist).",
+      "Referral sent to Dr. Dr. Maham Qureshi (Cardiologist)."
+    ],
+    "flagged_risks": [
+      "Psychiatric risk",
+      "Cardiovascular risk",
+      "Respiratory risk"
+    ],
+    "labs": [
+      {
+        "Age": 29,
+        "Blood Pressure": "High",
+        "Cholesterol Level": "Normal",
+        "Cough": "Yes",
+        "Difficulty Breathing": "Yes",
+        "Disease": "Depression",
+        "Fatigue": "Yes",
+        "Fever": "Yes",
+        "Gender": "Male",
+        "Outcome Variable": "Positive",
+        "name": "Ava Miller",
+        "unique_id": "UID_00019"
+      }
+    ],
+    "patient_id": "UID_00019",
+    "patient_name": "Ava Miller",
+    "summary": "**Patient Overview**  \n- **Name:** Ava Miller (UID_00019)  \n- **Age:** 29 years  \n- **Gender:** Male (note: name suggests female; verify gender identity)  \n- **Primary Diagnosis:** Depression  \n- **Key Clinical Features:** Fever, cough, fatigue, difficulty breathing, elevated blood pressure, normal cholesterol.\n\n**Urgent Risks**  \n- **Respiratory risk:** Fever, cough, and difficulty breathing raise concern for acute respiratory infection or COVID\u201119.  \n- **Cardiovascular risk:** High blood pressure in a young adult increases risk of acute cardiovascular events.  \n- **Psychiatric risk:** Depression with potential for self\u2011harm; monitor for suicidal ideation.\n\n**Lab Highlights**  \n- **Vital signs:** Elevated blood pressure (hypertensive).  \n- **Symptoms:** Fever, cough, fatigue, dyspnea.  \n- **Cholesterol:** Within normal limits.  \n- **Outcome variable:** Positive (likely indicating a positive test for a respiratory pathogen).\n\n**Actions Taken / Recommendations**  \n- **Immediate actions:** None taken yet.  \n- **Recommended next steps:**  \n  - Order a rapid respiratory pathogen panel (including SARS\u2011CoV\u20112).  \n  - Obtain chest X\u2011ray or CT if indicated by severity of dyspnea.  \n  - Initiate antihypertensive therapy (e.g., low\u2011dose ACE inhibitor or ARB) and monitor BP.  \n  - Provide supportive care for fever and cough (acetaminophen, hydration).  \n  - Conduct a mental health assessment for depression severity and suicide risk; consider initiating or adjusting antidepressant therapy and psychotherapy.  \n  - Educate patient on symptom monitoring and when to seek emergency care.\n\n**Follow\u2011up**  \n- **Respiratory:** Repeat COVID\u201119 PCR or antigen test if initial result negative but symptoms persist; follow local guidelines for isolation.  \n- **Cardiovascular:** Recheck blood pressure in 1\u20132 weeks; consider ambulatory BP monitoring.  \n- **Mental Health:** Schedule follow\u2011up with psychiatry within 1 week; arrange daily check\u2011ins if high suicide risk.  \n- **General:** Reassess symptoms and vital signs in 48\u201372 hours; adjust treatment plan accordingly."
+  },
+  "UID_00020": {
+    "actions_taken": [
+      "Recommended doctor: Dr. Zara Malik",
+      "Recommended doctor: Dr. Fatima Noor",
+      "Recommended doctor: Dr. Saad Naveed"
+    ],
+    "flagged_risks": [
+      "Oncological risk",
+      "Hepatic risk",
+      "Respiratory risk"
+    ],
+    "labs": [
+      {
+        "Age": 29,
+        "Blood Pressure": "Normal",
+        "Cholesterol Level": "Normal",
+        "Cough": "Yes",
+        "Difficulty Breathing": "Yes",
+        "Disease": "Liver Cancer",
+        "Fatigue": "Yes",
+        "Fever": "Yes",
+        "Gender": "Female",
+        "Outcome Variable": "Positive",
+        "name": "Emma Williams",
+        "unique_id": "UID_00020"
+      }
+    ],
+    "patient_id": "UID_00020",
+    "patient_name": "Emma Williams",
+    "summary": "**Patient Overview**  \n- **Name:** Emma Williams  \n- **Age:** 29\u202fyears  \n- **Gender:** Female  \n- **Primary Diagnosis:** Liver cancer (confirmed or highly suspected)  \n- **Presenting Symptoms:** Fever, cough, fatigue, difficulty breathing  \n- **Vital Signs & Labs:** Blood pressure and cholesterol within normal limits  \n\n**Urgent Risks**  \n- **Oncological:** Rapid tumor progression and potential metastasis.  \n- **Hepatic:** Liver dysfunction, impaired detoxification, risk of hepatic failure.  \n- **Respiratory:** Dyspnea and cough suggest possible pulmonary involvement or tumor\u2011related airway obstruction.  \n\n**Lab Highlights**  \n- No abnormal laboratory values reported beyond the clinical presentation.  \n- Key clinical indicators (fever, cough, dyspnea) point toward systemic involvement.  \n\n**Actions Taken / Recommendations**  \n- **Current Status:** No interventions have been initiated yet.  \n- **Immediate Next Steps:**  \n  - Order a contrast\u2011enhanced abdominal CT/MRI to assess tumor size, vascular invasion, and metastases.  \n  - Perform a chest CT to evaluate pulmonary involvement and rule out secondary lesions.  \n  - Obtain liver function tests (AST, ALT, ALP, bilirubin, INR) and tumor markers (AFP, CA\u201119\u20119).  \n  - Initiate broad\u2011spectrum antibiotics if infection is suspected, pending imaging results.  \n  - Start supportive care: antipyretics, hydration, and oxygen therapy if SpO\u2082 <\u202f94%.  \n  - Refer urgently to a multidisciplinary oncology team (hepatic surgeon, medical oncologist, radiologist).  \n\n**Follow\u2011up**  \n- **Imaging:** Repeat abdominal imaging within 4\u20136\u202fweeks or sooner if clinical status worsens.  \n- **Laboratory Monitoring:** Weekly liver function tests and tumor markers until stabilization.  \n- **Specialist Referrals:**  \n  - Hepatology/Oncology for definitive treatment planning (surgery, ablation, systemic therapy).  \n  - Pulmonology for evaluation of respiratory symptoms and potential interventional procedures.  \n- **Patient Education:** Discuss signs of hepatic decompensation (jaundice, ascites, encephalopathy) and respiratory distress.  \n- **Documentation:** Record all findings and interventions in the electronic health record for continuity of care."
+  },
+  "UID_00021": {
+    "actions_taken": [
+      "Recommended doctor: Dr. Bilal Siddiqui",
+      "Recommended doctor: Dr. Saad Naveed"
+    ],
+    "flagged_risks": [
+      "Neurological risk",
+      "Respiratory risk"
+    ],
+    "labs": [
+      {
+        "Age": 29,
+        "Blood Pressure": "Normal",
+        "Cholesterol Level": "Normal",
+        "Cough": "Yes",
+        "Difficulty Breathing": "Yes",
+        "Disease": "Stroke",
+        "Fatigue": "Yes",
+        "Fever": "Yes",
+        "Gender": "Female",
+        "Outcome Variable": "Positive",
+        "name": "Sophia Rodriguez",
+        "unique_id": "UID_00021"
+      }
+    ],
+    "patient_id": "UID_00021",
+    "patient_name": "Sophia Rodriguez",
+    "summary": "**Patient Overview**  \n- **Name:** Sophia Rodriguez  \n- **Age:** 29\u202fyears  \n- **Gender:** Female  \n- **Key Clinical Details:** Acute stroke presentation with concurrent fever, cough, fatigue, and dyspnea. Vital signs show normal blood pressure and cholesterol levels.  \n\n**Urgent Risks**  \n- **Neurological:** Acute cerebrovascular event (stroke) \u2013 requires immediate evaluation and treatment to prevent further brain injury.  \n- **Respiratory:** Fever, cough, and difficulty breathing suggest possible infection or pulmonary compromise; risk of hypoxia or respiratory failure.  \n\n**Lab Highlights**  \n- **Disease:** Stroke (positive outcome variable)  \n- **Symptoms:** Fever, cough, fatigue, difficulty breathing  \n- **Vital Signs:** Blood pressure and cholesterol within normal limits  \n\n**Actions Taken / Recommendations**  \n- **Immediate Actions Needed:**  \n  - Perform emergent neuroimaging (CT or MRI) to confirm stroke type and location.  \n  - Initiate stroke protocol (e.g., thrombolysis if within therapeutic window and no contraindications).  \n  - Obtain arterial blood gas and pulse oximetry to assess oxygenation.  \n  - Start empiric broad\u2011spectrum antibiotics if infection suspected; consider antiviral coverage if influenza season.  \n  - Administer supplemental oxygen or mechanical ventilation if SpO\u2082 <\u202f92\u202f% or respiratory distress worsens.  \n- **Current Actions:** None taken yet \u2013 urgent intervention required.  \n\n**Follow\u2011up**  \n- **Neurology:** Immediate consult; consider transfer to stroke unit.  \n- **Pulmonology/ICU:** Evaluate for pneumonia, COVID\u201119, or other respiratory pathogens; monitor for ARDS.  \n- **Laboratory Tests:** CBC, CRP/ESR, blood cultures, SARS\u2011CoV\u20112 PCR, influenza PCR, arterial blood gases.  \n- **Imaging:** Repeat head CT/MRI 24\u202fhrs post\u2011treatment to assess infarct progression.  \n- **Monitoring:** Continuous cardiac telemetry, blood pressure, oxygen saturation, and neurological checks every 4\u202fhrs.  \n- **Discharge Planning:** Once stabilized, arrange outpatient neurology follow\u2011up, pulmonary rehabilitation, and secondary stroke prevention (antiplatelet therapy, lifestyle counseling)."
+  },
+  "UID_00022": {
+    "actions_taken": [
+      "Recommended doctor: Dr. Ahmed Raza",
+      "Recommended doctor: Dr. Maham Qureshi"
+    ],
+    "flagged_risks": [
+      "Renal risk",
+      "Cardiovascular risk"
+    ],
+    "labs": [
+      {
+        "Age": 29,
+        "Blood Pressure": "High",
+        "Cholesterol Level": "High",
+        "Cough": "Yes",
+        "Difficulty Breathing": "No",
+        "Disease": "Urinary Tract Infection",
+        "Fatigue": "Yes",
+        "Fever": "Yes",
+        "Gender": "Male",
+        "Outcome Variable": "Positive",
+        "name": "Isabella Johnson",
+        "unique_id": "UID_00022"
+      }
+    ],
+    "patient_id": "UID_00022",
+    "patient_name": "Isabella Johnson",
+    "summary": "**Patient Overview**  \n- **Name:** Isabella Johnson (UID_00022)  \n- **Age:** 29 years  \n- **Gender:** Male (note: name suggests female; clarify with patient)  \n- **Primary Diagnosis:** Urinary Tract Infection (positive outcome)  \n- **Presenting Symptoms:** Fever, cough, fatigue  \n- **Vital Concerns:** High blood pressure, high cholesterol  \n\n**Urgent Risks**  \n- **Renal Risk:** Urinary tract infection in a young adult with potential for renal involvement; monitor kidney function.  \n- **Cardiovascular Risk:** Elevated blood pressure and cholesterol increase risk of cardiovascular events; requires prompt evaluation.  \n- **Respiratory Concern:** Fever and cough may indicate concurrent respiratory infection; assess for pneumonia or COVID\u201119.  \n\n**Lab Highlights**  \n- **Positive UTI:** Urine culture or dipstick indicates infection.  \n- **Hypertension:** Blood pressure readings consistently high.  \n- **Hypercholesterolemia:** Cholesterol levels above normal range.  \n\n**Actions Taken / Recommendations**  \n- **Immediate:**  \n  - Initiate empiric antibiotic therapy for UTI (e.g., nitrofurantoin or trimethoprim\u2011sulfamethoxazole, pending culture sensitivity).  \n  - Start antihypertensive medication (e.g., ACE inhibitor or calcium channel blocker) and advise lifestyle modifications.  \n  - Provide statin therapy for high cholesterol.  \n- **Diagnostic:**  \n  - Order complete metabolic panel, serum creatinine, eGFR to assess renal function.  \n  - Chest X\u2011ray or COVID\u201119 PCR if respiratory symptoms worsen.  \n- **Monitoring:**  \n  - Check blood pressure at each visit; aim for <130/80 mmHg.  \n  - Re\u2011check lipid panel in 3\u20136 months.  \n\n**Follow\u2011up**  \n- **Next Appointment:** 48\u201372 hours after starting antibiotics to assess symptom resolution.  \n- **Lab Tests:** Repeat urine culture, CBC, CRP/ESR, renal panel, lipid panel.  \n- **Specialist Referrals:**  \n  - **Nephrology** if renal function deteriorates.  \n  - **Cardiology** for comprehensive cardiovascular risk assessment.  \n- **Patient Education:**  \n  - Importance of completing antibiotic course.  \n  - Lifestyle changes: diet, exercise, smoking cessation.  \n  - Recognize signs of worsening infection or hypertension (e.g., chest pain, shortness of breath, swelling).  \n\n---"
+  },
+  "UID_00023": {
+    "actions_taken": [
+      "Recommended doctor: Dr. Fahad Rehman",
+      "Recommended doctor: Dr. Maham Qureshi"
+    ],
+    "flagged_risks": [
+      "Hematological risk",
+      "Cardiovascular risk"
+    ],
+    "labs": [
+      {
+        "Age": 30,
+        "Blood Pressure": "Normal",
+        "Cholesterol Level": "Normal",
+        "Cough": "No",
+        "Difficulty Breathing": "No",
+        "Disease": "Dengue Fever",
+        "Fatigue": "Yes",
+        "Fever": "Yes",
+        "Gender": "Female",
+        "Outcome Variable": "Negative",
+        "name": "John Brown",
+        "unique_id": "UID_00023"
+      }
+    ],
+    "patient_id": "UID_00023",
+    "patient_name": "John Brown",
+    "summary": "**Patient Overview**  \n- **Name:** John\u202fBrown (UID_00023)  \n- **Age:** 30\u202fyears  \n- **Gender:** Female (note: name suggests male; verify gender identity)  \n- **Presenting Condition:** Dengue Fever with fever and fatigue; no cough or breathing difficulty.  \n\n**Urgent Risks**  \n- **Hematological risk** \u2013 Dengue can cause thrombocytopenia and hemolysis.  \n- **Cardiovascular risk** \u2013 Though BP and cholesterol are normal, dengue can precipitate myocarditis or arrhythmias.  \n\n**Lab Highlights**  \n- **Disease:** Dengue Fever (confirmed)  \n- **Symptoms:** Fever\u202f+\u202fFatigue  \n- **Vital signs:** Blood pressure normal; cholesterol normal.  \n- **Outcome Variable:** Negative (likely negative for complications at present).  \n\n**Actions Taken / Recommendations**  \n- **Current actions:** None taken yet.  \n- **Immediate next steps:**  \n  - Initiate supportive care: oral hydration, antipyretics (acetaminophen), avoid NSAIDs.  \n  - Baseline complete blood count (CBC) with platelet count, hematocrit, and liver enzymes.  \n  - Monitor vital signs every 4\u202fhours; watch for signs of shock or bleeding.  \n  - Educate patient on warning signs (abdominal pain, persistent vomiting, bleeding).  \n\n**Follow\u2011up**  \n- **Repeat labs:** CBC, platelet count, hematocrit, liver function tests every 24\u202fhours until stable.  \n- **Cardiac monitoring:** ECG if any chest pain or palpitations; consider troponin if symptoms arise.  \n- **Referral:** Infectious disease specialist if deterioration or persistent fever >\u202f7\u202fdays.  \n- **Discharge plan:** If platelet count >\u202f100\u202f\u00d7\u202f10\u2079/L, no bleeding, and afebrile for 48\u202fh, consider discharge with instructions for rest and hydration.  \n- **Post\u2011discharge follow\u2011up:** Re\u2011evaluate in 3\u20135\u202fdays for CBC and clinical assessment."
+  },
+  "UID_00024": {
+    "actions_taken": [
+      "Recommended doctor: Dr. Fahad Rehman",
+      "Recommended doctor: Dr. Maham Qureshi"
+    ],
+    "flagged_risks": [
+      "Hematological risk",
+      "Cardiovascular risk"
+    ],
+    "labs": [
+      {
+        "Age": 30,
+        "Blood Pressure": "Normal",
+        "Cholesterol Level": "Normal",
+        "Cough": "No",
+        "Difficulty Breathing": "No",
+        "Disease": "Dengue Fever",
+        "Fatigue": "Yes",
+        "Fever": "Yes",
+        "Gender": "Female",
+        "Outcome Variable": "Negative",
+        "name": "Michael Martinez",
+        "unique_id": "UID_00024"
+      }
+    ],
+    "patient_id": "UID_00024",
+    "patient_name": "Michael Martinez",
+    "summary": "**Patient Overview**  \n- **Name:** Michael Martinez (UID_00024)  \n- **Age:** 30 years  \n- **Gender:** Female (note: name suggests male; clarify gender with patient)  \n- **Primary Diagnosis:** Dengue Fever  \n- **Key Symptoms:** Fever, fatigue; no cough or breathing difficulty.  \n- **Vital Signs & Labs:** Blood pressure and cholesterol within normal limits.  \n\n**Urgent Risks**  \n- **Hematological risk:** Dengue can cause thrombocytopenia and hemolysis; monitor platelet count and hemoglobin.  \n- **Cardiovascular risk:** Though BP and cholesterol are normal, dengue can precipitate myocarditis or arrhythmias; watch for chest pain, palpitations, or ECG changes.  \n\n**Lab Highlights**  \n- **Positive Dengue serology** (implied by diagnosis).  \n- **Fever and fatigue** present; no respiratory involvement.  \n- **Normal blood pressure** and **normal cholesterol**.  \n- **Outcome variable:** Negative (likely indicating no current complications).  \n\n**Actions Taken / Recommendations**  \n- **Current actions:** None taken yet.  \n- **Immediate next steps:**  \n  - Obtain baseline CBC with differential, platelet count, and liver enzymes.  \n  - Monitor vital signs (temperature, pulse, BP) every 4\u20136\u202fh.  \n  - Educate patient on signs of bleeding (petechiae, bruising, melena) and cardiac symptoms (chest pain, palpitations).  \n  - Encourage adequate hydration; advise oral rehydration solutions.  \n  - Consider prophylactic anti\u2011pain medication (e.g., acetaminophen) for fever; avoid NSAIDs due to bleeding risk.  \n\n**Follow\u2011up**  \n- **Repeat labs:** CBC, platelets, liver function tests every 24\u202fh until stable.  \n- **Cardiac monitoring:** If any symptoms arise, obtain ECG and consider cardiology referral.  \n- **Hematology consult:** If platelet count falls below 50\u202f\u00d7\u202f10\u2079/L or signs of hemorrhage appear.  \n- **Discharge criteria:** Afebrile >48\u202fh, stable vitals, platelet count >100\u202f\u00d7\u202f10\u2079/L, no bleeding or cardiac symptoms.  \n- **Post\u2011discharge follow\u2011up:** 7\u2011day outpatient visit or telehealth check to assess recovery and rule out late complications."
+  },
+  "UID_00025": {
+    "actions_taken": [
+      "Recommended doctor: Dr. Maham Qureshi",
+      "Recommended doctor: Dr. Hassan Ali",
+      "Recommended doctor: Dr. Saad Naveed"
+    ],
+    "flagged_risks": [
+      "Hypertension",
+      "Hyperlipidemia",
+      "Eczema",
+      "Cough"
+    ],
+    "labs": [
+      {
+        "Age": 30,
+        "Blood Pressure": "High",
+        "Cholesterol Level": "High",
+        "Cough": "Yes",
+        "Difficulty Breathing": "No",
+        "Disease": "Eczema",
+        "Fatigue": "Yes",
+        "Fever": "No",
+        "Gender": "Male",
+        "Outcome Variable": "Negative",
+        "name": "Sophia Smith",
+        "unique_id": "UID_00025"
+      }
+    ],
+    "patient_id": "UID_00025",
+    "patient_name": "Sophia Smith",
+    "summary": "**Patient Overview**  \n- **Name:** Sophia Smith (UID_00025)  \n- **Age:** 30 years  \n- **Gender:** Male (note discrepancy with name)  \n- **Chief complaints:** Persistent cough, fatigue, eczema flare\u2011ups  \n- **Vital signs:** Blood pressure elevated (Hypertension)  \n- **Other findings:** High cholesterol (Hyperlipidemia)  \n\n**Urgent Risks**  \n- **Hypertension** \u2013 uncontrolled high blood pressure can lead to cardiovascular events.  \n- **Hyperlipidemia** \u2013 elevated cholesterol increases risk of atherosclerosis.  \n- **Eczema with cough** \u2013 potential for secondary infection or airway involvement.  \n\n**Lab Highlights**  \n- **Blood pressure:** High (specific value not provided)  \n- **Cholesterol level:** High (specific value not provided)  \n- **Outcome variable:** Negative (likely indicating no acute infection detected)  \n\n**Actions Taken / Recommendations**  \n- **Current actions:** None taken to date.  \n- **Immediate recommendations:**  \n  - Initiate antihypertensive therapy (e.g., ACE inhibitor or ARB) after baseline labs.  \n  - Start statin therapy for hyperlipidemia per current guidelines.  \n  - Prescribe topical corticosteroid or calcineurin inhibitor for eczema flare.  \n  - Consider inhaled bronchodilator or antihistamine if cough is allergic in nature.  \n  - Counsel on lifestyle modifications: diet, exercise, smoking cessation.  \n\n**Follow\u2011up**  \n- **Blood pressure monitoring:** Home BP log, clinic follow\u2011up in 2\u20134 weeks.  \n- **Lipid panel:** Repeat in 6\u201312 weeks after statin initiation.  \n- **Dermatology referral:** For persistent eczema or if topical therapy fails.  \n- **Pulmonology referral:** If cough persists >2 weeks or if respiratory symptoms worsen.  \n- **Routine labs:** CBC, CMP, fasting glucose to assess overall metabolic status.  \n- **Patient education:** Provide written plan and contact information for urgent concerns."
+  },
+  "UID_00026": {
+    "actions_taken": [
+      "Recommended doctor: Dr. Maham Qureshi",
+      "Recommended doctor: Dr. Hira Yousaf",
+      "Recommended doctor: Dr. Saad Naveed"
+    ],
+    "flagged_risks": [
+      "Hypertension",
+      "Hyperlipidemia",
+      "Gastroenteritis",
+      "Cough"
+    ],
+    "labs": [
+      {
+        "Age": 30,
+        "Blood Pressure": "High",
+        "Cholesterol Level": "High",
+        "Cough": "Yes",
+        "Difficulty Breathing": "No",
+        "Disease": "Gastroenteritis",
+        "Fatigue": "Yes",
+        "Fever": "Yes",
+        "Gender": "Male",
+        "Outcome Variable": "Negative",
+        "name": "Noah Brown",
+        "unique_id": "UID_00026"
+      }
+    ],
+    "patient_id": "UID_00026",
+    "patient_name": "Noah Brown",
+    "summary": "**Patient Overview**  \n- **Name:** Noah Brown  \n- **Age:** 30\u202fyears  \n- **Gender:** Male  \n- **Presenting Issues:** Acute gastroenteritis with fever, cough, and fatigue.  \n- **Vital Concerns:** Elevated blood pressure and cholesterol levels.\n\n---\n\n**Urgent Risks**  \n- **Hypertension** \u2013 uncontrolled high blood pressure can precipitate cardiovascular events.  \n- **Dehydration** \u2013 due to gastroenteritis, fever, and lack of fluid intake.  \n- **Hyperlipidemia** \u2013 contributes to long\u2011term cardiovascular risk.  \n- **Respiratory irritation** \u2013 persistent cough may indicate underlying infection or airway inflammation.\n\n---\n\n**Lab Highlights**  \n- **Blood Pressure:** High (specific value not provided).  \n- **Cholesterol Level:** High (specific value not provided).  \n- **Outcome Variable:** Negative (likely indicating negative test for a specific pathogen or condition).  \n- **Other Findings:** Fever, cough, fatigue\u2014all clinical signs of acute infection.\n\n---\n\n**Actions Taken / Recommendations**  \n- **Immediate Actions (none taken yet):**  \n  - Initiate oral rehydration therapy (e.g., oral rehydration solution, electrolyte drinks).  \n  - Recommend antipyretics/analgesics (acetaminophen or ibuprofen) for fever and discomfort.  \n  - Encourage rest and a bland diet (BRAT: bananas, rice, applesauce, toast).  \n  - Monitor temperature and hydration status at home.  \n\n- **Hypertension Management:**  \n  - Schedule a BP check at home or in clinic.  \n  - Consider starting or adjusting antihypertensive medication if BP remains >140/90\u202fmmHg.  \n\n- **Hyperlipidemia Management:**  \n  - Review diet (reduce saturated fats, increase fiber).  \n  - Discuss lifestyle modifications (exercise, weight control).  \n  - Consider statin therapy if LDL remains >130\u202fmg/dL or if ASCVD risk >7.5%.  \n\n- **Cough Evaluation:**  \n  - If cough persists >10\u202fdays or worsens, obtain chest X\u2011ray or sputum culture.  \n  - Consider inhaled bronchodilator trial if wheeze is present.  \n\n- **General Infection Control:**  \n  - Hand hygiene, avoid close contact with others until fever resolves.  \n  - Vaccination status review (influenza, COVID\u201119 boosters).  \n\n---\n\n**Follow\u2011up**  \n- **Within 48\u201372\u202fhrs:**  \n  - Re\u2011check BP and temperature.  \n  - Assess hydration status (urine output, skin turgor).  \n\n- **Within 1\u202fweek:**  \n  - Repeat lipid panel and fasting glucose.  \n  - Review antihypertensive and lipid\u2011lowering therapy adherence.  \n\n- **Referral:**  \n  - Primary Care Physician for ongoing hypertension and hyperlipidemia management.  \n  - Pulmonology or ENT if cough persists or if there are signs of lower respiratory tract involvement.  \n\n- **Monitoring:**  \n  - Daily symptom diary (fever, cough, fatigue, bowel movements).  \n  - Home BP cuff for daily readings until stable.  \n\n---"
+  },
+  "UID_00027": {
+    "actions_taken": [
+      "Recommended doctor: Dr. Maham Qureshi",
+      "Recommended doctor: Dr. Fatima Noor",
+      "Recommended doctor: Dr. Saad Naveed"
+    ],
+    "flagged_risks": [
+      "Hypertension",
+      "Hepatitis",
+      "Respiratory symptoms"
+    ],
+    "labs": [
+      {
+        "Age": 30,
+        "Blood Pressure": "High",
+        "Cholesterol Level": "Normal",
+        "Cough": "Yes",
+        "Difficulty Breathing": "Yes",
+        "Disease": "Hepatitis",
+        "Fatigue": "Yes",
+        "Fever": "Yes",
+        "Gender": "Male",
+        "Outcome Variable": "Negative",
+        "name": "Ava Garcia",
+        "unique_id": "UID_00027"
+      }
+    ],
+    "patient_id": "UID_00027",
+    "patient_name": "Ava Garcia",
+    "summary": "**Patient Overview**  \n- **Name:** Ava Garcia (UID_00027)  \n- **Age:** 30 years  \n- **Gender:** Male (note: name suggests female; verify gender identity)  \n- **Chief Complaints:** Fever, cough, fatigue, difficulty breathing  \n- **Vital Signs:** Blood pressure elevated (Hypertension)  \n\n**Urgent Risks**  \n1. **Respiratory compromise** \u2013 difficulty breathing with cough and fever suggests possible pneumonia or acute respiratory infection.  \n2. **Hepatic involvement** \u2013 flagged hepatitis; requires prompt evaluation to rule out acute viral hepatitis or other liver injury.  \n3. **Hypertension** \u2013 high blood pressure may worsen with infection and hepatic dysfunction; monitor closely.  \n\n**Lab Highlights**  \n- **Blood Pressure:** High (Hypertension)  \n- **Cholesterol:** Normal  \n- **Outcome Variable:** Negative (likely referring to a test result, but unclear which test)  \n\n**Actions Taken / Recommendations**  \n- **Immediate Actions Needed:**  \n  - Obtain a complete metabolic panel, liver function tests (AST, ALT, ALP, bilirubin), and viral hepatitis serologies (HBsAg, anti\u2011HBc, anti\u2011HCV).  \n  - Perform a chest X\u2011ray or CT scan to assess for pneumonia or other pulmonary pathology.  \n  - CBC with differential to evaluate for infection or anemia.  \n  - Blood cultures if febrile and systemic signs are present.  \n  - Initiate empiric broad\u2011spectrum antibiotics if bacterial pneumonia is suspected, pending culture results.  \n  - Start antihypertensive therapy if BP remains >140/90 mmHg; consider ACE inhibitor or ARB.  \n\n- **Suggested Next Steps:**  \n  - Admit to hospital for close monitoring of respiratory status and liver function.  \n  - Consult Pulmonology for respiratory evaluation and management.  \n  - Consult Hepatology for hepatitis work\u2011up and potential antiviral therapy.  \n  - Consult Cardiology for hypertension management and evaluation of cardiovascular risk.  \n\n**Follow\u2011up**  \n- **Repeat labs:** LFTs, CBC, BMP, and hepatitis panel within 48\u201372\u202fh.  \n- **Imaging:** Follow\u2011up chest imaging if clinical status does not improve within 48\u202fh.  \n- **Monitoring:** Continuous pulse oximetry and BP monitoring; assess for signs of hepatic encephalopathy or worsening respiratory distress.  \n- **Referrals:**  \n  - Hepatology \u2013 for definitive hepatitis diagnosis and treatment plan.  \n  - Pulmonology \u2013 for respiratory infection management and potential need for supplemental oxygen or mechanical ventilation.  \n  - Cardiology \u2013 for hypertension optimization and cardiovascular risk assessment.  \n\n*Ensure all findings are documented in the electronic health record and communicate the plan to the primary care team.*"
+  },
+  "UID_00028": {
+    "actions_taken": [
+      "Recommended doctor: Dr. Zara Malik",
+      "Recommended doctor: Dr. Ahmed Raza"
+    ],
+    "flagged_risks": [
+      "Kidney Cancer",
+      "Fatigue"
+    ],
+    "labs": [
+      {
+        "Age": 30,
+        "Blood Pressure": "Normal",
+        "Cholesterol Level": "Normal",
+        "Cough": "No",
+        "Difficulty Breathing": "No",
+        "Disease": "Kidney Cancer",
+        "Fatigue": "Yes",
+        "Fever": "No",
+        "Gender": "Male",
+        "Outcome Variable": "Negative",
+        "name": "Emma Jones",
+        "unique_id": "UID_00028"
+      }
+    ],
+    "patient_id": "UID_00028",
+    "patient_name": "Emma Jones",
+    "summary": "**Patient Overview**  \n- **Name:** Emma Jones (UID_00028)  \n- **Age:** 30 years  \n- **Gender:** Male (note: name suggests female; verify gender identity)  \n- **Key Clinical Details:**  \n  - No fever, cough, or difficulty breathing.  \n  - Reports fatigue.  \n  - Blood pressure and cholesterol are within normal limits.  \n  - Outcome variable recorded as negative.\n\n**Urgent Risks**  \n- **Kidney Cancer** \u2013 flagged as a high\u2011risk condition; requires prompt evaluation.  \n- **Fatigue** \u2013 may indicate disease progression or other systemic issues; warrants investigation.\n\n**Lab Highlights**  \n- No abnormal laboratory values reported; vital signs and lipid profile are normal.  \n- Absence of abnormal labs does not exclude underlying pathology; clinical suspicion remains high.\n\n**Actions Taken / Recommendations**  \n- **Current Actions:** None taken to date.  \n- **Suggested Next Steps:**  \n  - Schedule imaging (e.g., abdominal ultrasound or CT scan) to assess renal masses.  \n  - Obtain a comprehensive metabolic panel and urinalysis to evaluate kidney function.  \n  - Consider a full blood count to rule out anemia or infection contributing to fatigue.  \n  - Discuss symptom management for fatigue (e.g., energy conservation, nutrition counseling).  \n  - Review medication list for potential contributors to fatigue.\n\n**Follow\u2011up**  \n- **Imaging:** Arrange renal imaging within 2\u20134 weeks.  \n- **Specialist Referral:** Refer to a urologist or oncologist for evaluation of suspected kidney cancer.  \n- **Monitoring:**  \n  - Reassess fatigue and overall symptom burden at each visit.  \n  - Repeat blood work (CBC, CMP, urinalysis) in 4\u20136 weeks or sooner if symptoms worsen.  \n  - Monitor blood pressure and cholesterol periodically to maintain baseline health."
+  },
+  "UID_00029": {
+    "actions_taken": [
+      "Recommended doctor: Dr. Bilal Siddiqui"
+    ],
+    "flagged_risks": [
+      "Migraine"
+    ],
+    "labs": [
+      {
+        "Age": 30,
+        "Blood Pressure": "Normal",
+        "Cholesterol Level": "Normal",
+        "Cough": "No",
+        "Difficulty Breathing": "No",
+        "Disease": "Migraine",
+        "Fatigue": "No",
+        "Fever": "Yes",
+        "Gender": "Female",
+        "Outcome Variable": "Negative",
+        "name": "Ava Davis",
+        "unique_id": "UID_00029"
+      }
+    ],
+    "patient_id": "UID_00029",
+    "patient_name": "Ava Davis",
+    "summary": "**Patient Overview**  \n- **Name:** Ava Davis  \n- **Age:** 30\u202fyears  \n- **Gender:** Female  \n- **Key Clinical Details:** Presents with migraine and fever; no cough, fatigue, or breathing difficulty. Vital signs (blood pressure, cholesterol) are within normal limits.  \n\n**Urgent Risks**  \n- **Migraine** \u2013 flagged as a primary concern; may indicate underlying neurological or vascular issues.  \n- **Fever** \u2013 suggests possible infection or inflammatory process that could exacerbate migraine or indicate systemic illness.  \n\n**Lab Highlights**  \n- **Fever:** Positive (exact temperature not provided).  \n- **Other vitals/labs:** Blood pressure and cholesterol are normal; no other abnormal laboratory values reported.  \n\n**Actions Taken / Recommendations**  \n- **Current Actions:** None taken to date.  \n- **Immediate Recommendations:**  \n  - Conduct a focused neurological assessment (headache characteristics, visual aura, neurological deficits).  \n  - Obtain a basic metabolic panel and complete blood count to rule out infection or metabolic causes of fever.  \n  - Consider a non\u2011contrast head CT or MRI if red\u2011flag symptoms (e.g., focal deficits, sudden severe headache) appear.  \n  - Initiate symptomatic migraine therapy (e.g., NSAIDs, triptans) if appropriate and monitor response.  \n  - Provide antipyretic (acetaminophen or ibuprofen) for fever control.  \n\n**Follow\u2011up**  \n- **Short\u2011term:** Re\u2011evaluate in 24\u201348\u202fhours if symptoms worsen or new neurological signs develop.  \n- **Long\u2011term:**  \n  - Schedule a neurology referral for migraine management and possible prophylactic therapy.  \n  - If infection is suspected, follow up with infectious disease or primary care for further evaluation.  \n  - Monitor vital signs and repeat labs as indicated by clinical course.  \n\n---"
+  },
+  "UID_00030": {
+    "actions_taken": [
+      "Recommended doctor: Dr. Bilal Siddiqui",
+      "Recommended doctor: Dr. Saad Naveed"
+    ],
+    "flagged_risks": [
+      "Migraine",
+      "Cough"
+    ],
+    "labs": [
+      {
+        "Age": 30,
+        "Blood Pressure": "Normal",
+        "Cholesterol Level": "Normal",
+        "Cough": "Yes",
+        "Difficulty Breathing": "No",
+        "Disease": "Migraine",
+        "Fatigue": "Yes",
+        "Fever": "No",
+        "Gender": "Female",
+        "Outcome Variable": "Negative",
+        "name": "James Rodriguez",
+        "unique_id": "UID_00030"
+      }
+    ],
+    "patient_id": "UID_00030",
+    "patient_name": "James Rodriguez",
+    "summary": "**Patient Overview**  \n- **Name:** James Rodriguez  \n- **Age:** 30\u202fyears  \n- **Gender:** Female (as recorded)  \n- **Primary Diagnosis:** Migraine  \n- **Current Symptoms:** Cough, fatigue; no fever or shortness of breath.  \n- **Vital Signs & Labs:** Blood pressure and cholesterol within normal limits.  \n\n**Urgent Risks**  \n- **Migraine** \u2013 potential for severe headache episodes and possible medication overuse.  \n- **Cough** \u2013 may indicate an underlying respiratory infection or irritation that could worsen if untreated.  \n\n**Lab Highlights**  \n- No abnormal laboratory values reported; blood pressure and cholesterol are normal.  \n\n**Actions Taken / Recommendations**  \n- **Actions Taken:** None to date.  \n- **Recommendations:**  \n  - Initiate a migraine diary to track triggers, frequency, and severity.  \n  - Consider a short\u2011term trial of a triptan or NSAID for acute attacks, monitoring for side effects.  \n  - Evaluate cough:  \n    - Perform a focused respiratory assessment (e.g., auscultation, pulse oximetry).  \n    - If cough persists > 7\u202fdays or is productive, obtain a chest X\u2011ray or sputum culture.  \n  - Counsel on adequate hydration, sleep hygiene, and stress management.  \n\n**Follow\u2011up**  \n- **Within 1\u20132\u202fweeks:** Re\u2011evaluate migraine control and cough resolution.  \n- **If cough persists or worsens:** Schedule a respiratory specialist referral and consider imaging.  \n- **Long\u2011term:** Annual review of cardiovascular risk factors (BP, cholesterol) and migraine management plan."
+  },
+  "UID_00031": {
+    "actions_taken": [
+      "Recommended doctor: Dr. Maham Qureshi",
+      "Recommended doctor: Dr. Bilal Siddiqui"
+    ],
+    "flagged_risks": [
+      "Hypertension",
+      "Hyperlipidemia",
+      "Muscular Dystrophy complications"
+    ],
+    "labs": [
+      {
+        "Age": 30,
+        "Blood Pressure": "High",
+        "Cholesterol Level": "High",
+        "Cough": "No",
+        "Difficulty Breathing": "No",
+        "Disease": "Muscular Dystrophy",
+        "Fatigue": "Yes",
+        "Fever": "No",
+        "Gender": "Male",
+        "Outcome Variable": "Negative",
+        "name": "Noah Williams",
+        "unique_id": "UID_00031"
+      }
+    ],
+    "patient_id": "UID_00031",
+    "patient_name": "Noah Williams",
+    "summary": "**Patient Overview**  \n- **Name:** Noah Williams  \n- **Age:** 30\u202fyears  \n- **Gender:** Male  \n- **Primary Diagnosis:** Muscular Dystrophy  \n- **Key Clinical Features:** Fatigue present; no fever, cough, or breathing difficulty.  \n\n**Urgent Risks**  \n- **Cardiovascular complications** from muscular dystrophy (arrhythmias, cardiomyopathy).  \n- **Hypertension** \u2013 uncontrolled high blood pressure increases risk of stroke, heart failure.  \n- **Hyperlipidemia** \u2013 elevated cholesterol heightens atherosclerotic risk.  \n\n**Lab Highlights**  \n- **Blood Pressure:** High (specific value not provided).  \n- **Cholesterol Level:** High (specific value not provided).  \n- **Other vitals:** Normal (no fever, cough, or breathing issues).  \n\n**Actions Taken / Recommendations**  \n- **Current Actions:** None taken to date.  \n- **Immediate Recommendations:**  \n  - Initiate antihypertensive therapy (e.g., ACE inhibitor or ARB).  \n  - Start statin therapy for hyperlipidemia.  \n  - Counsel on dietary sodium restriction, regular aerobic exercise, and weight management.  \n  - Begin supervised physical therapy tailored to muscular dystrophy to maintain strength and mobility.  \n  - Schedule baseline cardiac evaluation (ECG, echocardiogram) to assess for dystrophic cardiomyopathy.  \n  - Consider genetic counseling and repeat genetic testing if not already performed.  \n\n**Follow\u2011up**  \n- **Short\u2011term (within 4\u20136\u202fweeks):**  \n  - Repeat BP and lipid panel to assess medication response.  \n  - Cardiac monitoring (Holter if indicated).  \n- **Medium\u2011term (3\u20136\u202fmonths):**  \n  - Pulmonary function tests to detect early respiratory involvement.  \n  - Neurology review for disease progression and potential new therapies.  \n- **Long\u2011term:**  \n  - Annual cardiology and neurology follow\u2011ups.  \n  - Ongoing monitoring of BP, cholesterol, and muscle strength.  \n  - Adjust medications based on tolerance and lab results.  \n\n---"
+  },
+  "UID_00032": {
+    "actions_taken": [
+      "Recommended doctor: Dr. Saad Naveed"
+    ],
+    "flagged_risks": [
+      "Upper respiratory infection"
+    ],
+    "labs": [
+      {
+        "Age": 30,
+        "Blood Pressure": "Normal",
+        "Cholesterol Level": "Normal",
+        "Cough": "Yes",
+        "Difficulty Breathing": "No",
+        "Disease": "Sinusitis",
+        "Fatigue": "Yes",
+        "Fever": "No",
+        "Gender": "Male",
+        "Outcome Variable": "Negative",
+        "name": "Emma Brown",
+        "unique_id": "UID_00032"
+      }
+    ],
+    "patient_id": "UID_00032",
+    "patient_name": "Emma Brown",
+    "summary": "**Patient Overview**  \n- **Name:** Emma Brown (UID_00032)  \n- **Age:** 30 years  \n- **Gender:** Male (note: patient name suggests female; verify gender for accurate documentation)  \n- **Primary Diagnosis:** Acute sinusitis  \n- **Key Clinical Features:**  \n  - Cough: present  \n  - Fatigue: present  \n  - Fever: absent  \n  - Difficulty breathing: absent  \n  - Vital signs: blood pressure and cholesterol within normal limits  \n\n**Urgent Risks**  \n- **Upper respiratory infection** \u2013 potential for progression to bacterial sinusitis or secondary complications such as otitis media or pneumonia.  \n- **Fatigue** may indicate systemic involvement or poor sleep quality, impacting overall recovery.  \n\n**Lab Highlights**  \n- No abnormal laboratory values reported; all available vitals and lipid profile are normal.  \n\n**Actions Taken / Recommendations**  \n- **Current Actions:** None taken to date.  \n- **Immediate Recommendations:**  \n  - Initiate symptomatic treatment: nasal saline irrigation, decongestants (e.g., pseudoephedrine) if no contraindications.  \n  - Consider a short course of oral antibiotics (e.g., amoxicillin-clavulanate) if bacterial sinusitis is suspected or if symptoms worsen.  \n  - Advise adequate hydration, rest, and use of over\u2011the\u2011counter analgesics (acetaminophen or ibuprofen) for discomfort.  \n  - Educate patient on signs of worsening condition (fever >38\u00b0C, worsening pain, double vision, facial swelling) that warrant urgent care.  \n\n**Follow\u2011up**  \n- **Re\u2011evaluation:** 48\u201372 hours after initiating therapy to assess symptom improvement.  \n- **Additional Tests:** If symptoms persist beyond 7 days or worsen, obtain a sinus X\u2011ray or CT scan to evaluate for complications.  \n- **Referral:** ENT specialist if recurrent sinusitis or if imaging suggests structural abnormalities.  \n- **Monitoring:** Track symptom diary (cough frequency, fatigue level) and vital signs at each visit.  \n\n---"
+  },
+  "UID_00033": {
+    "actions_taken": [
+      "Recommended doctor: Dr. Hira Yousaf"
+    ],
+    "flagged_risks": [
+      "Inflammatory bowel disease"
+    ],
+    "labs": [
+      {
+        "Age": 30,
+        "Blood Pressure": "Normal",
+        "Cholesterol Level": "Normal",
+        "Cough": "Yes",
+        "Difficulty Breathing": "No",
+        "Disease": "Ulcerative Colitis",
+        "Fatigue": "No",
+        "Fever": "Yes",
+        "Gender": "Female",
+        "Outcome Variable": "Negative",
+        "name": "Isabella Jones",
+        "unique_id": "UID_00033"
+      }
+    ],
+    "patient_id": "UID_00033",
+    "patient_name": "Isabella Jones",
+    "summary": "**Patient Overview**  \n- **Name:** Isabella Jones  \n- **Age:** 30\u202fyears  \n- **Gender:** Female  \n- **Primary Diagnosis:** Ulcerative Colitis (inflammatory bowel disease)  \n- **Current Symptoms:** Fever\u202f+\u202fCough; no fatigue or shortness of breath  \n- **Vital Signs & Labs:** Blood pressure and cholesterol within normal limits; no other abnormal laboratory values reported.  \n\n**Urgent Risks**  \n- **Infection:** Fever and cough raise concern for a concurrent respiratory infection (viral or bacterial).  \n- **UC Flare:** Active ulcerative colitis can worsen rapidly; fever may signal a flare or superimposed infection.  \n- **Respiratory Compromise:** Though difficulty breathing is currently absent, worsening cough could progress to hypoxia.  \n\n**Lab Highlights**  \n- **Normal:** Blood pressure, cholesterol level.  \n- **No abnormal labs reported** \u2013 further work\u2011up needed to identify infection or inflammatory markers.  \n\n**Actions Taken / Recommendations**  \n- **Immediate Actions:** None taken to date.  \n- **Suggested Next Steps:**  \n  - Obtain a complete blood count (CBC) with differential and inflammatory markers (CRP, ESR).  \n  - Perform a chest X\u2011ray or CT scan if respiratory symptoms worsen.  \n  - Consider a stool culture or PCR panel for infectious enteritis if GI symptoms appear.  \n  - Initiate empiric antibiotics if bacterial infection is suspected, pending culture results.  \n  - Start or adjust UC therapy (e.g., mesalamine, corticosteroids) if a flare is confirmed.  \n\n**Follow\u2011up**  \n- **Within 48\u201372\u202fhrs:** Repeat vitals, symptom review, and laboratory results.  \n- **Within 1\u202fweek:** Gastroenterology referral for disease activity assessment and possible colonoscopy.  \n- **Pulmonology referral** if cough persists or respiratory symptoms develop.  \n- **Monitoring:** Track temperature, stool frequency, and any new GI or respiratory symptoms; maintain a symptom diary for the next 2\u202fweeks.  \n\n---"
+  },
+  "UID_00034": {
+    "actions_taken": [
+      "Recommended doctor: Dr. Hira Yousaf"
+    ],
+    "flagged_risks": [
+      "Inflammatory bowel disease"
+    ],
+    "labs": [
+      {
+        "Age": 30,
+        "Blood Pressure": "Normal",
+        "Cholesterol Level": "Normal",
+        "Cough": "Yes",
+        "Difficulty Breathing": "No",
+        "Disease": "Ulcerative Colitis",
+        "Fatigue": "Yes",
+        "Fever": "No",
+        "Gender": "Female",
+        "Outcome Variable": "Negative",
+        "name": "Isabella Jones",
+        "unique_id": "UID_00034"
+      }
+    ],
+    "patient_id": "UID_00034",
+    "patient_name": "Isabella Jones",
+    "summary": "**Patient Overview**  \n- **Name:** Isabella Jones  \n- **Age:** 30\u202fyears  \n- **Gender:** Female  \n- **Primary Diagnosis:** Ulcerative Colitis (inflammatory bowel disease)  \n- **Current Symptoms:** Cough, fatigue; no fever or shortness of breath  \n- **Vital Signs & Labs:** Blood pressure and cholesterol within normal limits; no other abnormal laboratory values reported.  \n\n**Urgent Risks**  \n- **Active Inflammatory Bowel Disease:** Potential for flare\u2011ups, complications (e.g., strictures, perforation).  \n- **Respiratory Symptom (Cough):** Could indicate infection, pulmonary involvement of IBD, or medication side\u2011effects.  \n- **Fatigue:** May reflect anemia, malnutrition, or disease activity.  \n\n**Lab Highlights**  \n- **Blood Pressure:** Normal  \n- **Cholesterol Level:** Normal  \n- **Outcome Variable:** Negative (no acute findings reported)  \n- *No abnormal laboratory values were noted in the current data set.*  \n\n**Actions Taken / Recommendations**  \n- **Immediate Actions:** None taken to date.  \n- **Suggested Next Steps:**  \n  - Conduct a comprehensive physical exam focusing on abdominal tenderness, bowel habits, and respiratory assessment.  \n  - Order a complete blood count (CBC) with differential to evaluate for anemia or leukocytosis.  \n  - Obtain inflammatory markers (CRP, ESR) to gauge disease activity.  \n  - Perform a chest X\u2011ray or CT scan if cough persists or if respiratory symptoms worsen.  \n  - Review current medications for potential side\u2011effects contributing to cough or fatigue.  \n  - Initiate or adjust IBD therapy per current guidelines (e.g., mesalamine, corticosteroids, biologics) based on disease severity.  \n\n**Follow\u2011up**  \n- **Short\u2011Term (within 2\u20134\u202fweeks):**  \n  - Repeat CBC, CRP/ESR, and iron studies.  \n  - Schedule a colonoscopy or flexible sigmoidoscopy to assess mucosal healing.  \n  - Arrange pulmonary function tests if cough is persistent.  \n\n- **Long\u2011Term (3\u20136\u202fmonths):**  \n  - Routine monitoring of disease activity scores (e.g., Mayo score).  \n  - Annual screening for colorectal cancer per IBD surveillance guidelines.  \n  - Nutritional assessment and counseling to address fatigue and potential deficiencies.  \n\n- **Referrals:**  \n  - Gastroenterology for IBD management.  \n  - Pulmonology if respiratory work\u2011up indicates infection or pulmonary involvement.  \n\n---"
+  },
+  "UID_00035": {
+    "actions_taken": [
+      "Recommended doctor: Dr. Saad Naveed"
+    ],
+    "flagged_risks": [
+      "Asthma exacerbation"
+    ],
+    "labs": [
+      {
+        "Age": 30,
+        "Blood Pressure": "Normal",
+        "Cholesterol Level": "Normal",
+        "Cough": "Yes",
+        "Difficulty Breathing": "Yes",
+        "Disease": "Asthma",
+        "Fatigue": "No",
+        "Fever": "Yes",
+        "Gender": "Female",
+        "Outcome Variable": "Positive",
+        "name": "Michael Johnson",
+        "unique_id": "UID_00035"
+      }
+    ],
+    "patient_id": "UID_00035",
+    "patient_name": "Michael Johnson",
+    "summary": "**Patient Overview**  \n- **Name:** Michael Johnson  \n- **Age:** 30\u202fyears  \n- **Gender:** Female (note: name suggests male; verify gender for accurate documentation)  \n- **Primary Diagnosis:** Asthma  \n- **Current Symptoms:** Fever, cough, difficulty breathing  \n- **Vital Signs & Labs:** Blood pressure and cholesterol within normal limits  \n\n**Urgent Risks**  \n- **Asthma Exacerbation** \u2013 immediate risk of severe airway obstruction.  \n- **Respiratory distress** \u2013 indicated by difficulty breathing and cough.  \n- **Potential infection** \u2013 fever suggests possible viral or bacterial etiology.  \n\n**Lab Highlights**  \n- **Fever:** Positive (exact temperature not provided).  \n- **Cough:** Positive.  \n- **Difficulty Breathing:** Positive.  \n- **Blood Pressure:** Normal.  \n- **Cholesterol Level:** Normal.  \n\n**Actions Taken / Recommendations**  \n- **Current Actions:** None taken to date.  \n- **Immediate Recommendations:**  \n  - Perform a rapid assessment of airway status (peak flow, oxygen saturation).  \n  - Initiate rescue bronchodilator therapy (e.g., albuterol inhaler or nebulizer).  \n  - Consider systemic corticosteroids if symptoms are moderate to severe.  \n  - Administer antipyretic (e.g., acetaminophen) for fever.  \n  - Obtain a chest X\u2011ray or lung ultrasound if hypoxia or wheeze persists.  \n  - Evaluate for possible infectious trigger (viral panel, CBC with differential).  \n\n**Follow\u2011up**  \n- **Monitoring:**  \n  - Recheck peak flow and oxygen saturation every 4\u20136\u202fhours until stable.  \n  - Monitor temperature and symptom progression.  \n- **Tests:**  \n  - Complete blood count (CBC) with differential.  \n  - C\u2011reactive protein (CRP) or procalcitonin if bacterial infection suspected.  \n  - Spirometry once acute symptoms resolve.  \n- **Referrals:**  \n  - Pulmonology for asthma management review.  \n  - Infectious disease if bacterial pneumonia is suspected.  \n- **Patient Education:**  \n  - Instruct on proper inhaler technique.  \n  - Discuss asthma action plan and when to seek emergency care.  \n\n---"
+  },
+  "UID_00036": {
+    "actions_taken": [
+      "Recommended doctor: Dr. Saad Naveed"
+    ],
+    "flagged_risks": [
+      "Asthma exacerbation"
+    ],
+    "labs": [
+      {
+        "Age": 30,
+        "Blood Pressure": "Normal",
+        "Cholesterol Level": "Normal",
+        "Cough": "Yes",
+        "Difficulty Breathing": "Yes",
+        "Disease": "Asthma",
+        "Fatigue": "No",
+        "Fever": "Yes",
+        "Gender": "Female",
+        "Outcome Variable": "Positive",
+        "name": "James Rodriguez",
+        "unique_id": "UID_00036"
+      }
+    ],
+    "patient_id": "UID_00036",
+    "patient_name": "James Rodriguez",
+    "summary": "**Patient Overview**  \n- **Name:** James Rodriguez  \n- **Age:** 30\u202fyears  \n- **Gender:** Female  \n- **Primary Diagnosis:** Asthma  \n- **Current Symptoms:** Fever, cough, difficulty breathing  \n- **Vital Signs & Labs:** Blood pressure and cholesterol within normal limits  \n\n**Urgent Risks**  \n- **Asthma Exacerbation** \u2013 current respiratory distress and fever raise the risk of a severe asthma attack.  \n- **Potential Infection** \u2013 fever and cough may indicate an acute respiratory infection that could worsen asthma control.  \n\n**Lab Highlights**  \n- No abnormal laboratory values reported; vital signs (BP, cholesterol) are normal.  \n- Key clinical findings are the presence of fever, cough, and dyspnea in an asthmatic patient.  \n\n**Actions Taken / Recommendations**  \n- **Actions Taken:** None to date.  \n- **Immediate Recommendations:**  \n  - Initiate or adjust rescue bronchodilator therapy (e.g., albuterol inhaler).  \n  - Consider systemic corticosteroids if symptoms are not controlled with bronchodilators.  \n  - Evaluate for possible infection (e.g., viral panel, chest X\u2011ray if indicated).  \n  - Provide patient education on inhaler technique and asthma action plan.  \n\n**Follow\u2011up**  \n- **Short\u2011term:** Reassess symptoms within 24\u201348\u202fhours; monitor peak expiratory flow if available.  \n- **Diagnostic Tests:** Chest X\u2011ray or CT if hypoxia or worsening respiratory status; complete blood count if infection suspected.  \n- **Referrals:** Pulmonology for asthma management review; infectious disease if bacterial infection is suspected.  \n- **Monitoring:** Daily symptom diary, peak flow measurements, and adherence to controller medication.  \n\n---"
+  },
+  "UID_00037": {
+    "actions_taken": [
+      "Recommended doctor: Dr. Saad Naveed"
+    ],
+    "flagged_risks": [
+      "Asthma exacerbation"
+    ],
+    "labs": [
+      {
+        "Age": 30,
+        "Blood Pressure": "Normal",
+        "Cholesterol Level": "Normal",
+        "Cough": "Yes",
+        "Difficulty Breathing": "Yes",
+        "Disease": "Asthma",
+        "Fatigue": "Yes",
+        "Fever": "Yes",
+        "Gender": "Female",
+        "Outcome Variable": "Positive",
+        "name": "James Garcia",
+        "unique_id": "UID_00037"
+      }
+    ],
+    "patient_id": "UID_00037",
+    "patient_name": "James Garcia",
+    "summary": "**Patient Overview**  \n- **Name:** James Garcia  \n- **Age:** 30\u202fyears  \n- **Gender:** Female  \n- **Key Clinical Details:**  \n  - Diagnosed with asthma.  \n  - Presenting symptoms: fever, cough, fatigue, and difficulty breathing.  \n  - Vital signs and laboratory values (blood pressure, cholesterol) are within normal limits.  \n\n**Urgent Risks**  \n- **Asthma Exacerbation** \u2013 most pressing concern given current respiratory symptoms.  \n- Potential progression to respiratory distress or hypoxia if not promptly managed.  \n\n**Lab Highlights**  \n- **Blood Pressure:** Normal  \n- **Cholesterol Level:** Normal  \n- No abnormal laboratory values reported; clinical presentation drives urgency.  \n\n**Actions Taken / Recommendations**  \n- **Current Actions:** None taken to date.  \n- **Immediate Recommendations:**  \n  - Conduct a rapid assessment of respiratory status (peak flow, oxygen saturation).  \n  - Initiate bronchodilator therapy (e.g., albuterol inhaler) and consider systemic corticosteroids if indicated.  \n  - Administer antipyretic for fever and evaluate for infectious etiology (e.g., viral panel, chest X\u2011ray).  \n  - Provide patient education on asthma action plan and rescue inhaler use.  \n\n**Follow\u2011up**  \n- **Monitoring:**  \n  - Repeat peak flow and oxygen saturation every 4\u20136\u202fhours until stable.  \n  - Observe for signs of worsening dyspnea or hypoxia.  \n- **Tests:**  \n  - Complete blood count (CBC) and inflammatory markers (CRP, ESR) to assess infection.  \n  - Chest radiograph to rule out pneumonia or other pulmonary complications.  \n- **Referrals:**  \n  - Pulmonology consult if asthma remains uncontrolled or if exacerbation severity is high.  \n  - Primary care follow\u2011up within 7\u201310\u202fdays to review asthma control and medication adherence.  \n\n---"
+  },
+  "UID_00038": {
+    "actions_taken": [
+      "Recommended doctor: Dr. Adnan Malik",
+      "Recommended doctor: Dr. Maham Qureshi"
+    ],
+    "feedback": [
+      "Patient is improving after treatment"
+    ],
+    "flagged_risks": [
+      "Bipolar disorder",
+      "Hypertension",
+      "Hyperlipidemia"
+    ],
+    "labs": [
+      {
+        "Age": 30,
+        "Blood Pressure": "High",
+        "Cholesterol Level": "High",
+        "Cough": "No",
+        "Difficulty Breathing": "No",
+        "Disease": "Bipolar Disorder",
+        "Fatigue": "Yes",
+        "Fever": "No",
+        "Gender": "Female",
+        "Outcome Variable": "Positive",
+        "name": "Sophia Martinez",
+        "unique_id": "UID_00038"
+      }
+    ],
+    "patient_id": "UID_00038",
+    "patient_name": "Sophia Martinez",
+    "summary": "**Patient Overview**  \nSophia Martinez, 30\u2011year\u2011old female, presents with a history of bipolar disorder and current positive outcome variable. She reports fatigue but denies cough, fever, or difficulty breathing.  \n\n**Urgent Risks**  \n- **Severe**  \n  - Bipolar Disorder  \n- **Moderate**  \n  - Hypertension (high blood pressure)  \n  - Hyperlipidemia (high cholesterol level)  \n\n**Lab Highlights**  \n- Blood Pressure: High  \n- Cholesterol Level: High  \n- Fatigue: Yes  \n\n**Actions Taken / Recommendations**  \n- Recommended physicians: Dr. Adnan Malik and Dr. Maham Qureshi.  \n- Next steps:  \n  - Initiate or adjust antihypertensive therapy.  \n  - Begin statin or other lipid\u2011lowering regimen.  \n  - Review and optimize bipolar disorder medication regimen.  \n  - Counsel on diet, exercise, and sleep hygiene.  \n\n**Follow\u2011Up**  \n- Repeat blood pressure and lipid panel in 4\u20136 weeks.  \n- Schedule psychiatric follow\u2011up with Dr. Adnan Malik.  \n- Monitor for side effects of new medications.  \n- Consider referral to a cardiologist if blood pressure remains uncontrolled."
+  },
+  "UID_00039": {
+    "actions_taken": [
+      "Recommended doctor: Dr. Saad Naveed"
+    ],
+    "flagged_risks": [
+      "Bronchitis"
+    ],
+    "labs": [
+      {
+        "Age": 30,
+        "Blood Pressure": "Low",
+        "Cholesterol Level": "Normal",
+        "Cough": "Yes",
+        "Difficulty Breathing": "Yes",
+        "Disease": "Bronchitis",
+        "Fatigue": "No",
+        "Fever": "Yes",
+        "Gender": "Female",
+        "Outcome Variable": "Positive",
+        "name": "John Smith",
+        "unique_id": "UID_00039"
+      }
+    ],
+    "patient_id": "UID_00039",
+    "patient_name": "John Smith",
+    "summary": "**Patient Overview**  \n- **Name:** John Smith (UID_00039)  \n- **Age:** 30 years  \n- **Gender:** Female (note: name suggests male; confirm gender for accurate documentation)  \n- **Primary Diagnosis:** Bronchitis  \n- **Key Symptoms:** Fever, cough, difficulty breathing  \n- **Vital Signs:** Blood pressure low; cholesterol normal  \n\n**Urgent Risks**  \n- **Respiratory compromise** \u2013 difficulty breathing indicates potential airway obstruction or hypoxia.  \n- **Severe infection** \u2013 fever and cough suggest active infection; risk of progression to pneumonia.  \n- **Hypotension** \u2013 low blood pressure may compromise organ perfusion.  \n\n**Lab Highlights**  \n- **Fever:** Positive (indicative of systemic infection).  \n- **Cough & Difficulty Breathing:** Positive (clinical signs of lower respiratory tract involvement).  \n- **Blood Pressure:** Low (requires monitoring).  \n- **Cholesterol Level:** Normal (no immediate cardiovascular concern).  \n\n**Actions Taken / Recommendations**  \n- **Current Actions:** None taken yet.  \n- **Immediate Recommendations:**  \n  - Initiate supportive care: oxygen therapy if SpO\u2082 < 94%.  \n  - Start empiric antibiotics targeting common bronchitis pathogens (e.g., amoxicillin-clavulanate or macrolide if atypical).  \n  - Administer antipyretics for fever control.  \n  - Monitor vital signs (BP, heart rate, respiratory rate, SpO\u2082) every 4\u20136 hours.  \n  - Provide hydration and rest.  \n- **Considerations:**  \n  - Evaluate for potential complications (e.g., pneumonia, pleural effusion).  \n  - If symptoms worsen or do not improve within 48\u201372 hours, reassess diagnosis and treatment plan.  \n\n**Follow-up**  \n- **Repeat Clinical Assessment:** Within 24\u201348 hours or sooner if condition deteriorates.  \n- **Imaging:** Chest X\u2011ray if hypoxia persists or if there is suspicion of pneumonia.  \n- **Laboratory Tests:** CBC with differential, CRP/ESR, arterial blood gas if hypoxia.  \n- **Referral:** Pulmonology consult if respiratory distress continues or if underlying chronic lung disease is suspected.  \n- **Monitoring:** Blood pressure monitoring; consider fluid resuscitation if hypotension persists.  \n\n---"
+  },
+  "UID_00040": {
+    "actions_taken": [
+      "Recommended doctor: Dr. Saad Naveed",
+      "Recommended doctor: Dr. Maham Qureshi"
+    ],
+    "flagged_risks": [
+      "Bronchitis",
+      "Hypertension",
+      "Hyperlipidemia"
+    ],
+    "labs": [
+      {
+        "Age": 30,
+        "Blood Pressure": "High",
+        "Cholesterol Level": "High",
+        "Cough": "Yes",
+        "Difficulty Breathing": "Yes",
+        "Disease": "Bronchitis",
+        "Fatigue": "Yes",
+        "Fever": "Yes",
+        "Gender": "Male",
+        "Outcome Variable": "Positive",
+        "name": "Liam Williams",
+        "unique_id": "UID_00040"
+      }
+    ],
+    "patient_id": "UID_00040",
+    "patient_name": "Liam Williams",
+    "summary": "**Patient Overview**  \n- **Name:** Liam Williams  \n- **Age:** 30\u202fyears  \n- **Gender:** Male  \n- **Chief complaints:** Fever, cough, fatigue, difficulty breathing  \n- **Current diagnosis:** Bronchitis (positive outcome variable)  \n- **Comorbidities:** Hypertension, hyperlipidemia  \n\n**Urgent Risks**  \n- **Respiratory compromise** \u2013 difficulty breathing and cough may progress to pneumonia or acute respiratory distress.  \n- **Cardiovascular strain** \u2013 high blood pressure and high cholesterol increase risk of cardiac events, especially under respiratory stress.  \n- **Sepsis potential** \u2013 fever with respiratory infection can lead to systemic infection if not promptly managed.  \n\n**Lab Highlights**  \n- **Blood pressure:** Elevated (hypertension)  \n- **Cholesterol level:** Elevated (hyperlipidemia)  \n- **Symptoms:** Fever, cough, fatigue, dyspnea \u2013 all consistent with active bronchitis.  \n\n**Actions Taken / Recommendations**  \n- **Current actions:** None taken yet.  \n- **Immediate next steps:**  \n  - Initiate empiric antibiotic therapy if bacterial bronchitis is suspected (e.g., amoxicillin\u2011clavulanate).  \n  - Start bronchodilator (e.g., albuterol) and consider inhaled corticosteroid if wheezing or airflow limitation is present.  \n  - Begin antihypertensive medication adjustment (e.g., ACE inhibitor or ARB) and counsel on sodium restriction.  \n  - Prescribe statin therapy for hyperlipidemia per current guidelines.  \n  - Provide supportive care: adequate hydration, rest, and antipyretics (acetaminophen).  \n  - Educate patient on signs of worsening breathing, chest pain, or persistent fever.  \n\n**Follow\u2011up**  \n- **Within 48\u201372\u202fhours:** Re\u2011evaluate symptoms, vital signs, and blood pressure.  \n- **Laboratory tests:** CBC with differential, CRP/ESR, basic metabolic panel, lipid panel repeat in 6\u202fmonths.  \n- **Imaging:** Chest X\u2011ray if hypoxia, worsening cough, or suspicion of pneumonia.  \n- **Specialist referrals:**  \n  - Pulmonology for persistent respiratory symptoms or if spirometry is abnormal.  \n  - Cardiology for hypertension management if BP remains uncontrolled.  \n- **Monitoring:** Daily symptom diary, pulse oximetry at home, and weekly BP checks until stable.  \n\n---"
+  },
+  "UID_00041": {
+    "actions_taken": [
+      "Recommended doctor: Dr. Saad Naveed",
+      "Recommended doctor: Dr. Maham Qureshi"
+    ],
+    "flagged_risks": [
+      "Bronchitis",
+      "Hypertension",
+      "Hyperlipidemia"
+    ],
+    "labs": [
+      {
+        "Age": 30,
+        "Blood Pressure": "High",
+        "Cholesterol Level": "High",
+        "Cough": "Yes",
+        "Difficulty Breathing": "Yes",
+        "Disease": "Bronchitis",
+        "Fatigue": "Yes",
+        "Fever": "Yes",
+        "Gender": "Male",
+        "Outcome Variable": "Positive",
+        "name": "Noah Martinez",
+        "unique_id": "UID_00041"
+      }
+    ],
+    "patient_id": "UID_00041",
+    "patient_name": "Noah Martinez",
+    "summary": "**Patient Overview**  \n- **Name:** Noah Martinez  \n- **Age:** 30\u202fyears  \n- **Gender:** Male  \n- **Chief complaints:** Fever, cough, fatigue, difficulty breathing  \n- **Current status:** Positive for bronchitis; blood pressure and cholesterol are elevated  \n\n**Urgent Risks**  \n- **Bronchitis** \u2013 can progress to pneumonia if not treated promptly.  \n- **Hypertension** \u2013 high blood pressure may worsen respiratory symptoms and increase cardiovascular risk.  \n- **Hyperlipidemia** \u2013 contributes to long\u2011term cardiovascular disease; may complicate recovery.  \n\n**Lab Highlights**  \n- **Blood pressure:** High (specific value not provided)  \n- **Cholesterol level:** High (specific value not provided)  \n- **Outcome variable:** Positive (indicating confirmed bronchitis)  \n\n**Actions Taken / Recommendations**  \n- **Current actions:** None taken yet.  \n- **Immediate next steps:**  \n  - Initiate empiric antibiotic therapy if bacterial bronchitis is suspected.  \n  - Start bronchodilator or inhaled corticosteroid if wheezing or airflow limitation is present.  \n  - Begin antihypertensive medication (e.g., ACE inhibitor or calcium channel blocker) after evaluating baseline BP and renal function.  \n  - Prescribe statin therapy for hyperlipidemia per current guidelines.  \n  - Provide patient education on smoking cessation, hydration, and rest.  \n\n**Follow\u2011up**  \n- **Repeat vital signs** (BP, pulse oximetry) within 24\u202fhours.  \n- **Chest X\u2011ray** if symptoms worsen or do not improve in 48\u201372\u202fhours.  \n- **Lipid panel** and **renal function tests** within 1\u20132\u202fweeks to assess statin tolerance.  \n- **Referral to pulmonology** if persistent dyspnea or if imaging suggests pneumonia.  \n- **Cardiology referral** if hypertension remains uncontrolled after 4\u202fweeks of therapy.  \n- **Scheduled follow\u2011up visit** in 2\u202fweeks to review medication adherence, symptom resolution, and lab results."
+  },
+  "UID_00042": {
+    "actions_taken": [
+      "Recommended doctor: Dr. Bilal Siddiqui"
+    ],
+    "flagged_risks": [
+      "Cerebral palsy"
+    ],
+    "labs": [
+      {
+        "Age": 30,
+        "Blood Pressure": "Normal",
+        "Cholesterol Level": "Normal",
+        "Cough": "No",
+        "Difficulty Breathing": "Yes",
+        "Disease": "Cerebral Palsy",
+        "Fatigue": "Yes",
+        "Fever": "No",
+        "Gender": "Female",
+        "Outcome Variable": "Positive",
+        "name": "Olivia Davis",
+        "unique_id": "UID_00042"
+      }
+    ],
+    "patient_id": "UID_00042",
+    "patient_name": "Olivia Davis",
+    "summary": "**Patient Overview**  \n- **Name:** Olivia Davis  \n- **Age:** 30\u202fyears  \n- **Gender:** Female  \n- **Primary Diagnosis:** Cerebral palsy (flagged risk)  \n- **Current Symptoms:** Fatigue, difficulty breathing  \n- **Vital Signs:** Blood pressure normal, cholesterol normal  \n- **Outcome Variable:** Positive (indicating a positive test or outcome related to the flagged risk)\n\n**Urgent Risks**  \n- **Respiratory compromise** \u2013 difficulty breathing in a patient with cerebral palsy can signal aspiration, pneumonia, or airway obstruction.  \n- **Chronic fatigue** \u2013 may indicate underlying respiratory or metabolic issues that require prompt evaluation.  \n- **Potential for aspiration pneumonia** \u2013 especially if swallowing difficulties are present (common in cerebral palsy).\n\n**Lab Highlights**  \n- No abnormal laboratory values reported; all listed labs (blood pressure, cholesterol) are within normal limits.  \n- Key clinical findings are symptom\u2011based rather than laboratory\u2011based.\n\n**Actions Taken / Recommendations**  \n- **Actions Taken:** None to date.  \n- **Immediate Recommendations:**  \n  - Conduct a thorough respiratory assessment (spirometry, chest auscultation).  \n  - Evaluate for aspiration risk (swallow study if indicated).  \n  - Consider imaging (chest X\u2011ray) if respiratory symptoms worsen.  \n  - Initiate supportive care: hydration, rest, and monitoring of oxygen saturation.  \n  - Educate patient on signs of worsening breathing and when to seek urgent care.\n\n**Follow\u2011up**  \n- **Short\u2011term:** Re\u2011evaluate respiratory status within 48\u201372\u202fhours; repeat pulse oximetry and symptom review.  \n- **Mid\u2011term:** Schedule a pulmonary function test and, if indicated, a swallow evaluation within 2\u202fweeks.  \n- **Long\u2011term:** Coordinate care with a neurologist and a pulmonologist for ongoing management of cerebral palsy and respiratory health.  \n- **Monitoring:** Weekly symptom diary (fatigue, breathing difficulty) and monthly vital sign checks."
+  },
+  "UID_00043": {
+    "actions_taken": [
+      "Recommended doctor: Dr. Zara Malik",
+      "Recommended doctor: Dr. Maham Qureshi"
+    ],
+    "flagged_risks": [
+      "Colorectal cancer",
+      "Hyperlipidemia"
+    ],
+    "labs": [
+      {
+        "Age": 30,
+        "Blood Pressure": "Normal",
+        "Cholesterol Level": "High",
+        "Cough": "No",
+        "Difficulty Breathing": "No",
+        "Disease": "Colorectal Cancer",
+        "Fatigue": "Yes",
+        "Fever": "No",
+        "Gender": "Female",
+        "Outcome Variable": "Positive",
+        "name": "James Brown",
+        "unique_id": "UID_00043"
+      }
+    ],
+    "patient_id": "UID_00043",
+    "patient_name": "James Brown",
+    "summary": "**Patient Overview**  \n- **Name:** James Brown  \n- **Age:** 30 years  \n- **Gender:** Female (note: name suggests male; verify gender for accurate documentation)  \n- **Primary Diagnosis:** Colorectal cancer (positive outcome variable)  \n- **Key Symptoms:** Fatigue present; no fever, cough, or shortness of breath  \n- **Vital Signs:** Blood pressure normal  \n- **Comorbid Condition:** Hyperlipidemia (high cholesterol)\n\n**Urgent Risks**  \n- **Colorectal cancer** \u2013 requires prompt staging, treatment planning, and symptom management.  \n- **Hyperlipidemia** \u2013 increases cardiovascular risk; should be addressed concurrently with cancer care.  \n- **Fatigue** \u2013 may indicate disease progression or treatment side\u2011effects; monitor closely.\n\n**Lab Highlights**  \n- **Cholesterol Level:** High (specific value not provided; consider lipid panel review).  \n- **Other labs:** Not reported; obtain baseline CBC, CMP, tumor markers (CEA), and imaging as indicated.\n\n**Actions Taken / Recommendations**  \n- **Current Actions:** None taken to date.  \n- **Immediate Recommendations:**  \n  1. **Confirm diagnosis** \u2013 review pathology report, consider repeat imaging (CT/MRI) for staging.  \n  2. **Multidisciplinary evaluation** \u2013 schedule oncology consult, surgical oncology, and nutrition counseling.  \n  3. **Cardiovascular assessment** \u2013 baseline lipid panel, ECG, and consider statin therapy if indicated.  \n  4. **Symptom management** \u2013 address fatigue with nutritional support, exercise plan, and evaluate for anemia or other causes.  \n  5. **Patient education** \u2013 discuss treatment options, potential side\u2011effects, and importance of follow\u2011up.\n\n**Follow\u2011up**  \n- **Imaging:** CT abdomen/pelvis with contrast within 2\u20134 weeks for staging.  \n- **Laboratory:** Repeat CBC, CMP, lipid panel, and tumor markers (CEA) at each oncology visit.  \n- **Referrals:**  \n  - Oncology (medical/surgical)  \n  - Cardiologist for lipid management  \n  - Dietitian for nutritional support  \n  - Physical therapist for fatigue management  \n- **Monitoring:**  \n  - Track fatigue severity (e.g., using a validated fatigue scale).  \n  - Monitor cholesterol levels quarterly until target achieved.  \n  - Schedule routine follow\u2011up visits every 4\u20136 weeks during active treatment, then every 3\u20136 months post\u2011treatment."
+  },
+  "UID_00044": {
+    "actions_taken": [
+      "Recommended doctor: Dr. Hassan Ali",
+      "Recommended doctor: Dr. Maham Qureshi"
+    ],
+    "flagged_risks": [
+      "Eczema",
+      "Hypertension",
+      "Hyperlipidemia"
+    ],
+    "labs": [
+      {
+        "Age": 30,
+        "Blood Pressure": "High",
+        "Cholesterol Level": "High",
+        "Cough": "No",
+        "Difficulty Breathing": "No",
+        "Disease": "Eczema",
+        "Fatigue": "No",
+        "Fever": "Yes",
+        "Gender": "Male",
+        "Outcome Variable": "Positive",
+        "name": "Sophia Davis",
+        "unique_id": "UID_00044"
+      }
+    ],
+    "patient_id": "UID_00044",
+    "patient_name": "Sophia Davis",
+    "summary": "Patient Sophia Davis has the following risks: Eczema, Hypertension, Hyperlipidemia. Actions: No actions taken yet."
+  },
+  "UID_00045": {
+    "actions_taken": [
+      "Recommended doctor: Dr. Maham Qureshi"
+    ],
+    "flagged_risks": [
+      "Hypertensive heart disease",
+      "Hypertension",
+      "Hyperlipidemia"
+    ],
+    "labs": [
+      {
+        "Age": 30,
+        "Blood Pressure": "High",
+        "Cholesterol Level": "High",
+        "Cough": "No",
+        "Difficulty Breathing": "No",
+        "Disease": "Hypertensive Heart Disease",
+        "Fatigue": "Yes",
+        "Fever": "No",
+        "Gender": "Female",
+        "Outcome Variable": "Positive",
+        "name": "Sophia Rodriguez",
+        "unique_id": "UID_00045"
+      }
+    ],
+    "patient_id": "UID_00045",
+    "patient_name": "Sophia Rodriguez",
+    "summary": "Patient Sophia Rodriguez has the following risks: Hypertensive heart disease, Hypertension, Hyperlipidemia. Actions: No actions taken yet."
+  },
+  "UID_00046": {
+    "actions_taken": [
+      "Recommended doctor: Dr. Saad Naveed",
+      "Recommended doctor: Dr. Maham Qureshi"
+    ],
+    "flagged_risks": [
+      "Influenza",
+      "Hypertension"
+    ],
+    "labs": [
+      {
+        "Age": 30,
+        "Blood Pressure": "High",
+        "Cholesterol Level": "Normal",
+        "Cough": "Yes",
+        "Difficulty Breathing": "No",
+        "Disease": "Influenza",
+        "Fatigue": "Yes",
+        "Fever": "Yes",
+        "Gender": "Male",
+        "Outcome Variable": "Positive",
+        "name": "Emma Brown",
+        "unique_id": "UID_00046"
+      }
+    ],
+    "patient_id": "UID_00046",
+    "patient_name": "Emma Brown",
+    "summary": "Patient Emma Brown has the following risks: Influenza, Hypertension. Actions: No actions taken yet."
+  },
+  "UID_00047": {
+    "actions_taken": [
+      "Recommended doctor: Dr. Saad Naveed"
+    ],
+    "flagged_risks": [
+      "Influenza"
+    ],
+    "labs": [
+      {
+        "Age": 30,
+        "Blood Pressure": "Normal",
+        "Cholesterol Level": "Normal",
+        "Cough": "Yes",
+        "Difficulty Breathing": "Yes",
+        "Disease": "Influenza",
+        "Fatigue": "Yes",
+        "Fever": "Yes",
+        "Gender": "Female",
+        "Outcome Variable": "Positive",
+        "name": "Michael Williams",
+        "unique_id": "UID_00047"
+      }
+    ],
+    "patient_id": "UID_00047",
+    "patient_name": "Michael Williams",
+    "summary": "Patient Michael Williams has the following risks: Influenza. Actions: No actions taken yet."
+  },
+  "UID_00048": {
+    "actions_taken": [
+      "Recommended doctor: Dr. Bilal Siddiqui",
+      "Recommended doctor: Dr. Maham Qureshi"
+    ],
+    "feedback": [
+      "don't be too sensitive for cholesterol"
+    ],
+    "flagged_risks": [
+      "Multiple sclerosis",
+      "Hypertension",
+      "Hyperlipidemia"
+    ],
+    "labs": [
+      {
+        "Age": 30,
+        "Blood Pressure": "High",
+        "Cholesterol Level": "High",
+        "Cough": "No",
+        "Difficulty Breathing": "No",
+        "Disease": "Multiple Sclerosis",
+        "Fatigue": "Yes",
+        "Fever": "No",
+        "Gender": "Female",
+        "Outcome Variable": "Positive",
+        "name": "Liam Martinez",
+        "unique_id": "UID_00048"
+      }
+    ],
+    "patient_id": "UID_00048",
+    "patient_name": "Liam Martinez",
+    "summary": "Patient Liam Martinez has the following risks: Multiple sclerosis, Hypertension, Hyperlipidemia. Actions: No actions taken yet."
+  },
+  "UID_00049": {
+    "actions_taken": [
+      "Recommended doctor: Dr. Maham Qureshi",
+      "Recommended doctor: Dr. Kamran Zafar"
+    ],
+    "flagged_risks": [
+      "Myocardial infarction",
+      "Hypertension",
+      "Hyperlipidemia"
+    ],
+    "labs": [
+      {
+        "Age": 30,
+        "Blood Pressure": "High",
+        "Cholesterol Level": "High",
+        "Cough": "Yes",
+        "Difficulty Breathing": "Yes",
+        "Disease": "Myocardial Infarction (Heart...",
+        "Fatigue": "Yes",
+        "Fever": "Yes",
+        "Gender": "Female",
+        "Outcome Variable": "Positive",
+        "name": "Sophia Jones",
+        "unique_id": "UID_00049"
+      }
+    ],
+    "patient_id": "UID_00049",
+    "patient_name": "Sophia Jones",
+    "summary": "Patient Sophia Jones has the following risks: Myocardial infarction, Hypertension, Hyperlipidemia. Actions: No actions taken yet."
+  },
+  "UID_00050": {
+    "actions_taken": [
+      "Recommended doctor: Dr. Ahmed Raza"
+    ],
+    "flagged_risks": [
+      "Urinary tract infection"
+    ],
+    "labs": [
+      {
+        "Age": 30,
+        "Blood Pressure": "Normal",
+        "Cholesterol Level": "Normal",
+        "Cough": "No",
+        "Difficulty Breathing": "No",
+        "Disease": "Urinary Tract Infection (UTI)",
+        "Fatigue": "No",
+        "Fever": "Yes",
+        "Gender": "Female",
+        "Outcome Variable": "Positive",
+        "name": "Olivia Smith",
+        "unique_id": "UID_00050"
+      }
+    ],
+    "patient_id": "UID_00050",
+    "patient_name": "Olivia Smith",
+    "summary": "Patient Olivia Smith has the following risks: Urinary tract infection. Actions: No actions taken yet."
+  },
+  "UID_00051": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 31,
+        "Blood Pressure": "Normal",
+        "Cholesterol Level": "Low",
+        "Cough": "No",
+        "Difficulty Breathing": "Yes",
+        "Disease": "Asthma",
+        "Fatigue": "No",
+        "Fever": "No",
+        "Gender": "Male",
+        "Outcome Variable": "Negative",
+        "name": "Liam Williams",
+        "unique_id": "UID_00051"
+      }
+    ],
+    "patient_id": "UID_00051",
+    "patient_name": "Liam Williams",
+    "summary": "Patient Liam Williams has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00052": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 31,
+        "Blood Pressure": "Low",
+        "Cholesterol Level": "Normal",
+        "Cough": "No",
+        "Difficulty Breathing": "Yes",
+        "Disease": "Osteoporosis",
+        "Fatigue": "No",
+        "Fever": "No",
+        "Gender": "Male",
+        "Outcome Variable": "Negative",
+        "name": "Sophia Martinez",
+        "unique_id": "UID_00052"
+      }
+    ],
+    "patient_id": "UID_00052",
+    "patient_name": "Sophia Martinez",
+    "summary": "Patient Sophia Martinez has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00053": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 31,
+        "Blood Pressure": "High",
+        "Cholesterol Level": "High",
+        "Cough": "No",
+        "Difficulty Breathing": "Yes",
+        "Disease": "Common Cold",
+        "Fatigue": "Yes",
+        "Fever": "Yes",
+        "Gender": "Male",
+        "Outcome Variable": "Positive",
+        "name": "John Jones",
+        "unique_id": "UID_00053"
+      }
+    ],
+    "patient_id": "UID_00053",
+    "patient_name": "John Jones",
+    "summary": "Patient John Jones has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00054": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 31,
+        "Blood Pressure": "Normal",
+        "Cholesterol Level": "Normal",
+        "Cough": "No",
+        "Difficulty Breathing": "No",
+        "Disease": "Migraine",
+        "Fatigue": "No",
+        "Fever": "Yes",
+        "Gender": "Female",
+        "Outcome Variable": "Positive",
+        "name": "Isabella Johnson",
+        "unique_id": "UID_00054"
+      }
+    ],
+    "patient_id": "UID_00054",
+    "patient_name": "Isabella Johnson",
+    "summary": "Patient Isabella Johnson has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00055": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 32,
+        "Blood Pressure": "High",
+        "Cholesterol Level": "Normal",
+        "Cough": "No",
+        "Difficulty Breathing": "Yes",
+        "Disease": "Pneumonia",
+        "Fatigue": "Yes",
+        "Fever": "Yes",
+        "Gender": "Female",
+        "Outcome Variable": "Positive",
+        "name": "Olivia Williams",
+        "unique_id": "UID_00055"
+      }
+    ],
+    "patient_id": "UID_00055",
+    "patient_name": "Olivia Williams",
+    "summary": "Patient Olivia Williams has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00056": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 35,
+        "Blood Pressure": "Normal",
+        "Cholesterol Level": "Low",
+        "Cough": "No",
+        "Difficulty Breathing": "No",
+        "Disease": "Allergic Rhinitis",
+        "Fatigue": "Yes",
+        "Fever": "No",
+        "Gender": "Female",
+        "Outcome Variable": "Negative",
+        "name": "John Rodriguez",
+        "unique_id": "UID_00056"
+      }
+    ],
+    "patient_id": "UID_00056",
+    "patient_name": "John Rodriguez",
+    "summary": "Patient John Rodriguez has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00057": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 35,
+        "Blood Pressure": "Normal",
+        "Cholesterol Level": "High",
+        "Cough": "Yes",
+        "Difficulty Breathing": "Yes",
+        "Disease": "Asthma",
+        "Fatigue": "Yes",
+        "Fever": "No",
+        "Gender": "Female",
+        "Outcome Variable": "Negative",
+        "name": "Sophia Williams",
+        "unique_id": "UID_00057"
+      }
+    ],
+    "patient_id": "UID_00057",
+    "patient_name": "Sophia Williams",
+    "summary": "Patient Sophia Williams has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00058": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 35,
+        "Blood Pressure": "Normal",
+        "Cholesterol Level": "Normal",
+        "Cough": "Yes",
+        "Difficulty Breathing": "Yes",
+        "Disease": "Asthma",
+        "Fatigue": "Yes",
+        "Fever": "Yes",
+        "Gender": "Female",
+        "Outcome Variable": "Negative",
+        "name": "Ava Rodriguez",
+        "unique_id": "UID_00058"
+      }
+    ],
+    "patient_id": "UID_00058",
+    "patient_name": "Ava Rodriguez",
+    "summary": "Patient Ava Rodriguez has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00059": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 35,
+        "Blood Pressure": "High",
+        "Cholesterol Level": "Normal",
+        "Cough": "Yes",
+        "Difficulty Breathing": "Yes",
+        "Disease": "Asthma",
+        "Fatigue": "Yes",
+        "Fever": "No",
+        "Gender": "Female",
+        "Outcome Variable": "Negative",
+        "name": "Ava Johnson",
+        "unique_id": "UID_00059"
+      }
+    ],
+    "patient_id": "UID_00059",
+    "patient_name": "Ava Johnson",
+    "summary": "Patient Ava Johnson has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00060": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 35,
+        "Blood Pressure": "High",
+        "Cholesterol Level": "Normal",
+        "Cough": "Yes",
+        "Difficulty Breathing": "Yes",
+        "Disease": "Asthma",
+        "Fatigue": "Yes",
+        "Fever": "No",
+        "Gender": "Female",
+        "Outcome Variable": "Negative",
+        "name": "Olivia Garcia",
+        "unique_id": "UID_00060"
+      }
+    ],
+    "patient_id": "UID_00060",
+    "patient_name": "Olivia Garcia",
+    "summary": "Patient Olivia Garcia has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00061": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 35,
+        "Blood Pressure": "Normal",
+        "Cholesterol Level": "Normal",
+        "Cough": "No",
+        "Difficulty Breathing": "No",
+        "Disease": "Atherosclerosis",
+        "Fatigue": "Yes",
+        "Fever": "No",
+        "Gender": "Male",
+        "Outcome Variable": "Negative",
+        "name": "Michael Rodriguez",
+        "unique_id": "UID_00061"
+      }
+    ],
+    "patient_id": "UID_00061",
+    "patient_name": "Michael Rodriguez",
+    "summary": "Patient Michael Rodriguez has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00062": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 35,
+        "Blood Pressure": "Normal",
+        "Cholesterol Level": "Normal",
+        "Cough": "Yes",
+        "Difficulty Breathing": "Yes",
+        "Disease": "Chronic Obstructive Pulmonary...",
+        "Fatigue": "Yes",
+        "Fever": "Yes",
+        "Gender": "Male",
+        "Outcome Variable": "Negative",
+        "name": "Ava Rodriguez",
+        "unique_id": "UID_00062"
+      }
+    ],
+    "patient_id": "UID_00062",
+    "patient_name": "Ava Rodriguez",
+    "summary": "Patient Ava Rodriguez has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00063": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 35,
+        "Blood Pressure": "High",
+        "Cholesterol Level": "Normal",
+        "Cough": "Yes",
+        "Difficulty Breathing": "No",
+        "Disease": "Common Cold",
+        "Fatigue": "Yes",
+        "Fever": "Yes",
+        "Gender": "Male",
+        "Outcome Variable": "Negative",
+        "name": "Michael Johnson",
+        "unique_id": "UID_00063"
+      }
+    ],
+    "patient_id": "UID_00063",
+    "patient_name": "Michael Johnson",
+    "summary": "Patient Michael Johnson has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00064": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 35,
+        "Blood Pressure": "High",
+        "Cholesterol Level": "Normal",
+        "Cough": "Yes",
+        "Difficulty Breathing": "No",
+        "Disease": "Eczema",
+        "Fatigue": "No",
+        "Fever": "No",
+        "Gender": "Male",
+        "Outcome Variable": "Negative",
+        "name": "Liam Miller",
+        "unique_id": "UID_00064"
+      }
+    ],
+    "patient_id": "UID_00064",
+    "patient_name": "Liam Miller",
+    "summary": "Patient Liam Miller has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00065": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 35,
+        "Blood Pressure": "High",
+        "Cholesterol Level": "High",
+        "Cough": "No",
+        "Difficulty Breathing": "No",
+        "Disease": "Epilepsy",
+        "Fatigue": "Yes",
+        "Fever": "No",
+        "Gender": "Male",
+        "Outcome Variable": "Negative",
+        "name": "Emma Jones",
+        "unique_id": "UID_00065"
+      }
+    ],
+    "patient_id": "UID_00065",
+    "patient_name": "Emma Jones",
+    "summary": "Patient Emma Jones has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00066": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 35,
+        "Blood Pressure": "High",
+        "Cholesterol Level": "Normal",
+        "Cough": "Yes",
+        "Difficulty Breathing": "No",
+        "Disease": "Hypertension",
+        "Fatigue": "Yes",
+        "Fever": "Yes",
+        "Gender": "Female",
+        "Outcome Variable": "Negative",
+        "name": "Emma Garcia",
+        "unique_id": "UID_00066"
+      }
+    ],
+    "patient_id": "UID_00066",
+    "patient_name": "Emma Garcia",
+    "summary": "Patient Emma Garcia has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00067": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 35,
+        "Blood Pressure": "Normal",
+        "Cholesterol Level": "Normal",
+        "Cough": "Yes",
+        "Difficulty Breathing": "No",
+        "Disease": "Hyperthyroidism",
+        "Fatigue": "Yes",
+        "Fever": "Yes",
+        "Gender": "Female",
+        "Outcome Variable": "Negative",
+        "name": "Liam Williams",
+        "unique_id": "UID_00067"
+      }
+    ],
+    "patient_id": "UID_00067",
+    "patient_name": "Liam Williams",
+    "summary": "Patient Liam Williams has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00068": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 35,
+        "Blood Pressure": "Normal",
+        "Cholesterol Level": "Normal",
+        "Cough": "No",
+        "Difficulty Breathing": "No",
+        "Disease": "Obsessive-Compulsive Disorde...",
+        "Fatigue": "Yes",
+        "Fever": "No",
+        "Gender": "Male",
+        "Outcome Variable": "Negative",
+        "name": "Emma Martinez",
+        "unique_id": "UID_00068"
+      }
+    ],
+    "patient_id": "UID_00068",
+    "patient_name": "Emma Martinez",
+    "summary": "Patient Emma Martinez has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00069": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 35,
+        "Blood Pressure": "Normal",
+        "Cholesterol Level": "Normal",
+        "Cough": "Yes",
+        "Difficulty Breathing": "Yes",
+        "Disease": "Pneumonia",
+        "Fatigue": "Yes",
+        "Fever": "Yes",
+        "Gender": "Female",
+        "Outcome Variable": "Negative",
+        "name": "Noah Garcia",
+        "unique_id": "UID_00069"
+      }
+    ],
+    "patient_id": "UID_00069",
+    "patient_name": "Noah Garcia",
+    "summary": "Patient Noah Garcia has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00070": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 35,
+        "Blood Pressure": "Normal",
+        "Cholesterol Level": "Normal",
+        "Cough": "Yes",
+        "Difficulty Breathing": "Yes",
+        "Disease": "Pneumonia",
+        "Fatigue": "Yes",
+        "Fever": "Yes",
+        "Gender": "Female",
+        "Outcome Variable": "Negative",
+        "name": "Liam Williams",
+        "unique_id": "UID_00070"
+      }
+    ],
+    "patient_id": "UID_00070",
+    "patient_name": "Liam Williams",
+    "summary": "Patient Liam Williams has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00071": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 35,
+        "Blood Pressure": "Normal",
+        "Cholesterol Level": "Low",
+        "Cough": "No",
+        "Difficulty Breathing": "No",
+        "Disease": "Psoriasis",
+        "Fatigue": "No",
+        "Fever": "Yes",
+        "Gender": "Female",
+        "Outcome Variable": "Negative",
+        "name": "Isabella Smith",
+        "unique_id": "UID_00071"
+      }
+    ],
+    "patient_id": "UID_00071",
+    "patient_name": "Isabella Smith",
+    "summary": "Patient Isabella Smith has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00072": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 35,
+        "Blood Pressure": "Normal",
+        "Cholesterol Level": "Low",
+        "Cough": "Yes",
+        "Difficulty Breathing": "No",
+        "Disease": "Psoriasis",
+        "Fatigue": "Yes",
+        "Fever": "No",
+        "Gender": "Female",
+        "Outcome Variable": "Negative",
+        "name": "John Jones",
+        "unique_id": "UID_00072"
+      }
+    ],
+    "patient_id": "UID_00072",
+    "patient_name": "John Jones",
+    "summary": "Patient John Jones has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00073": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 35,
+        "Blood Pressure": "High",
+        "Cholesterol Level": "Normal",
+        "Cough": "No",
+        "Difficulty Breathing": "No",
+        "Disease": "Rubella",
+        "Fatigue": "Yes",
+        "Fever": "Yes",
+        "Gender": "Female",
+        "Outcome Variable": "Negative",
+        "name": "John Miller",
+        "unique_id": "UID_00073"
+      }
+    ],
+    "patient_id": "UID_00073",
+    "patient_name": "John Miller",
+    "summary": "Patient John Miller has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00074": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 35,
+        "Blood Pressure": "High",
+        "Cholesterol Level": "Normal",
+        "Cough": "No",
+        "Difficulty Breathing": "No",
+        "Disease": "Rubella",
+        "Fatigue": "Yes",
+        "Fever": "Yes",
+        "Gender": "Female",
+        "Outcome Variable": "Negative",
+        "name": "James Davis",
+        "unique_id": "UID_00074"
+      }
+    ],
+    "patient_id": "UID_00074",
+    "patient_name": "James Davis",
+    "summary": "Patient James Davis has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00075": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 35,
+        "Blood Pressure": "High",
+        "Cholesterol Level": "High",
+        "Cough": "Yes",
+        "Difficulty Breathing": "No",
+        "Disease": "Urinary Tract Infection (UTI)",
+        "Fatigue": "Yes",
+        "Fever": "No",
+        "Gender": "Male",
+        "Outcome Variable": "Negative",
+        "name": "Emma Jones",
+        "unique_id": "UID_00075"
+      }
+    ],
+    "patient_id": "UID_00075",
+    "patient_name": "Emma Jones",
+    "summary": "Patient Emma Jones has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00076": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 35,
+        "Blood Pressure": "Normal",
+        "Cholesterol Level": "Normal",
+        "Cough": "Yes",
+        "Difficulty Breathing": "Yes",
+        "Disease": "Asthma",
+        "Fatigue": "No",
+        "Fever": "Yes",
+        "Gender": "Male",
+        "Outcome Variable": "Positive",
+        "name": "Olivia Jones",
+        "unique_id": "UID_00076"
+      }
+    ],
+    "patient_id": "UID_00076",
+    "patient_name": "Olivia Jones",
+    "summary": "Patient Olivia Jones has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00077": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 35,
+        "Blood Pressure": "Normal",
+        "Cholesterol Level": "Normal",
+        "Cough": "Yes",
+        "Difficulty Breathing": "Yes",
+        "Disease": "Asthma",
+        "Fatigue": "No",
+        "Fever": "Yes",
+        "Gender": "Male",
+        "Outcome Variable": "Positive",
+        "name": "Emma Johnson",
+        "unique_id": "UID_00077"
+      }
+    ],
+    "patient_id": "UID_00077",
+    "patient_name": "Emma Johnson",
+    "summary": "Patient Emma Johnson has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00078": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 35,
+        "Blood Pressure": "Normal",
+        "Cholesterol Level": "High",
+        "Cough": "No",
+        "Difficulty Breathing": "No",
+        "Disease": "Cirrhosis",
+        "Fatigue": "Yes",
+        "Fever": "No",
+        "Gender": "Female",
+        "Outcome Variable": "Positive",
+        "name": "Ava Martinez",
+        "unique_id": "UID_00078"
+      }
+    ],
+    "patient_id": "UID_00078",
+    "patient_name": "Ava Martinez",
+    "summary": "Patient Ava Martinez has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00079": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 35,
+        "Blood Pressure": "High",
+        "Cholesterol Level": "High",
+        "Cough": "Yes",
+        "Difficulty Breathing": "No",
+        "Disease": "Conjunctivitis (Pink Eye)",
+        "Fatigue": "No",
+        "Fever": "No",
+        "Gender": "Female",
+        "Outcome Variable": "Positive",
+        "name": "James Rodriguez",
+        "unique_id": "UID_00079"
+      }
+    ],
+    "patient_id": "UID_00079",
+    "patient_name": "James Rodriguez",
+    "summary": "Patient James Rodriguez has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00080": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 35,
+        "Blood Pressure": "Normal",
+        "Cholesterol Level": "High",
+        "Cough": "No",
+        "Difficulty Breathing": "No",
+        "Disease": "Depression",
+        "Fatigue": "Yes",
+        "Fever": "No",
+        "Gender": "Female",
+        "Outcome Variable": "Positive",
+        "name": "James Brown",
+        "unique_id": "UID_00080"
+      }
+    ],
+    "patient_id": "UID_00080",
+    "patient_name": "James Brown",
+    "summary": "Patient James Brown has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00081": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 35,
+        "Blood Pressure": "Low",
+        "Cholesterol Level": "High",
+        "Cough": "No",
+        "Difficulty Breathing": "Yes",
+        "Disease": "Gastroenteritis",
+        "Fatigue": "Yes",
+        "Fever": "Yes",
+        "Gender": "Male",
+        "Outcome Variable": "Positive",
+        "name": "Michael Garcia",
+        "unique_id": "UID_00081"
+      }
+    ],
+    "patient_id": "UID_00081",
+    "patient_name": "Michael Garcia",
+    "summary": "Patient Michael Garcia has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00082": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 35,
+        "Blood Pressure": "High",
+        "Cholesterol Level": "High",
+        "Cough": "Yes",
+        "Difficulty Breathing": "No",
+        "Disease": "Hyperthyroidism",
+        "Fatigue": "Yes",
+        "Fever": "Yes",
+        "Gender": "Male",
+        "Outcome Variable": "Positive",
+        "name": "Michael Jones",
+        "unique_id": "UID_00082"
+      }
+    ],
+    "patient_id": "UID_00082",
+    "patient_name": "Michael Jones",
+    "summary": "Patient Michael Jones has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00083": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 35,
+        "Blood Pressure": "High",
+        "Cholesterol Level": "High",
+        "Cough": "Yes",
+        "Difficulty Breathing": "No",
+        "Disease": "Hyperthyroidism",
+        "Fatigue": "Yes",
+        "Fever": "Yes",
+        "Gender": "Male",
+        "Outcome Variable": "Positive",
+        "name": "Sophia Davis",
+        "unique_id": "UID_00083"
+      }
+    ],
+    "patient_id": "UID_00083",
+    "patient_name": "Sophia Davis",
+    "summary": "Patient Sophia Davis has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00084": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 35,
+        "Blood Pressure": "High",
+        "Cholesterol Level": "High",
+        "Cough": "No",
+        "Difficulty Breathing": "No",
+        "Disease": "Kidney Cancer",
+        "Fatigue": "Yes",
+        "Fever": "No",
+        "Gender": "Male",
+        "Outcome Variable": "Positive",
+        "name": "Sophia Miller",
+        "unique_id": "UID_00084"
+      }
+    ],
+    "patient_id": "UID_00084",
+    "patient_name": "Sophia Miller",
+    "summary": "Patient Sophia Miller has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00085": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 35,
+        "Blood Pressure": "High",
+        "Cholesterol Level": "High",
+        "Cough": "No",
+        "Difficulty Breathing": "No",
+        "Disease": "Liver Cancer",
+        "Fatigue": "Yes",
+        "Fever": "No",
+        "Gender": "Female",
+        "Outcome Variable": "Positive",
+        "name": "Michael Davis",
+        "unique_id": "UID_00085"
+      }
+    ],
+    "patient_id": "UID_00085",
+    "patient_name": "Michael Davis",
+    "summary": "Patient Michael Davis has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00086": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 35,
+        "Blood Pressure": "High",
+        "Cholesterol Level": "High",
+        "Cough": "No",
+        "Difficulty Breathing": "No",
+        "Disease": "Liver Disease",
+        "Fatigue": "Yes",
+        "Fever": "No",
+        "Gender": "Male",
+        "Outcome Variable": "Positive",
+        "name": "Emma Rodriguez",
+        "unique_id": "UID_00086"
+      }
+    ],
+    "patient_id": "UID_00086",
+    "patient_name": "Emma Rodriguez",
+    "summary": "Patient Emma Rodriguez has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00087": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 35,
+        "Blood Pressure": "High",
+        "Cholesterol Level": "High",
+        "Cough": "No",
+        "Difficulty Breathing": "No",
+        "Disease": "Malaria",
+        "Fatigue": "No",
+        "Fever": "Yes",
+        "Gender": "Male",
+        "Outcome Variable": "Positive",
+        "name": "Liam Rodriguez",
+        "unique_id": "UID_00087"
+      }
+    ],
+    "patient_id": "UID_00087",
+    "patient_name": "Liam Rodriguez",
+    "summary": "Patient Liam Rodriguez has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00088": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 35,
+        "Blood Pressure": "High",
+        "Cholesterol Level": "High",
+        "Cough": "No",
+        "Difficulty Breathing": "No",
+        "Disease": "Malaria",
+        "Fatigue": "No",
+        "Fever": "Yes",
+        "Gender": "Male",
+        "Outcome Variable": "Positive",
+        "name": "Emma Smith",
+        "unique_id": "UID_00088"
+      }
+    ],
+    "patient_id": "UID_00088",
+    "patient_name": "Emma Smith",
+    "summary": "Patient Emma Smith has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00089": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 35,
+        "Blood Pressure": "High",
+        "Cholesterol Level": "High",
+        "Cough": "Yes",
+        "Difficulty Breathing": "No",
+        "Disease": "Migraine",
+        "Fatigue": "Yes",
+        "Fever": "No",
+        "Gender": "Male",
+        "Outcome Variable": "Positive",
+        "name": "Olivia Smith",
+        "unique_id": "UID_00089"
+      }
+    ],
+    "patient_id": "UID_00089",
+    "patient_name": "Olivia Smith",
+    "summary": "Patient Olivia Smith has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00090": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 35,
+        "Blood Pressure": "High",
+        "Cholesterol Level": "High",
+        "Cough": "No",
+        "Difficulty Breathing": "No",
+        "Disease": "Migraine",
+        "Fatigue": "No",
+        "Fever": "Yes",
+        "Gender": "Male",
+        "Outcome Variable": "Positive",
+        "name": "John Brown",
+        "unique_id": "UID_00090"
+      }
+    ],
+    "patient_id": "UID_00090",
+    "patient_name": "John Brown",
+    "summary": "Patient John Brown has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00091": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 35,
+        "Blood Pressure": "Normal",
+        "Cholesterol Level": "High",
+        "Cough": "No",
+        "Difficulty Breathing": "No",
+        "Disease": "Pancreatitis",
+        "Fatigue": "Yes",
+        "Fever": "No",
+        "Gender": "Male",
+        "Outcome Variable": "Positive",
+        "name": "Michael Miller",
+        "unique_id": "UID_00091"
+      }
+    ],
+    "patient_id": "UID_00091",
+    "patient_name": "Michael Miller",
+    "summary": "Patient Michael Miller has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00092": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 35,
+        "Blood Pressure": "Normal",
+        "Cholesterol Level": "Low",
+        "Cough": "Yes",
+        "Difficulty Breathing": "No",
+        "Disease": "Rheumatoid Arthritis",
+        "Fatigue": "Yes",
+        "Fever": "Yes",
+        "Gender": "Male",
+        "Outcome Variable": "Positive",
+        "name": "Sophia Martinez",
+        "unique_id": "UID_00092"
+      }
+    ],
+    "patient_id": "UID_00092",
+    "patient_name": "Sophia Martinez",
+    "summary": "Patient Sophia Martinez has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00093": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 35,
+        "Blood Pressure": "Normal",
+        "Cholesterol Level": "Low",
+        "Cough": "No",
+        "Difficulty Breathing": "No",
+        "Disease": "Rheumatoid Arthritis",
+        "Fatigue": "Yes",
+        "Fever": "No",
+        "Gender": "Female",
+        "Outcome Variable": "Positive",
+        "name": "Michael Williams",
+        "unique_id": "UID_00093"
+      }
+    ],
+    "patient_id": "UID_00093",
+    "patient_name": "Michael Williams",
+    "summary": "Patient Michael Williams has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00094": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 35,
+        "Blood Pressure": "Normal",
+        "Cholesterol Level": "Normal",
+        "Cough": "No",
+        "Difficulty Breathing": "No",
+        "Disease": "Spina Bifida",
+        "Fatigue": "Yes",
+        "Fever": "No",
+        "Gender": "Female",
+        "Outcome Variable": "Positive",
+        "name": "Ava Smith",
+        "unique_id": "UID_00094"
+      }
+    ],
+    "patient_id": "UID_00094",
+    "patient_name": "Ava Smith",
+    "summary": "Patient Ava Smith has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00095": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 35,
+        "Blood Pressure": "High",
+        "Cholesterol Level": "High",
+        "Cough": "No",
+        "Difficulty Breathing": "No",
+        "Disease": "Ulcerative Colitis",
+        "Fatigue": "Yes",
+        "Fever": "No",
+        "Gender": "Male",
+        "Outcome Variable": "Positive",
+        "name": "Noah Williams",
+        "unique_id": "UID_00095"
+      }
+    ],
+    "patient_id": "UID_00095",
+    "patient_name": "Noah Williams",
+    "summary": "Patient Noah Williams has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00096": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 35,
+        "Blood Pressure": "High",
+        "Cholesterol Level": "High",
+        "Cough": "No",
+        "Difficulty Breathing": "No",
+        "Disease": "Ulcerative Colitis",
+        "Fatigue": "No",
+        "Fever": "Yes",
+        "Gender": "Male",
+        "Outcome Variable": "Positive",
+        "name": "Isabella Smith",
+        "unique_id": "UID_00096"
+      }
+    ],
+    "patient_id": "UID_00096",
+    "patient_name": "Isabella Smith",
+    "summary": "Patient Isabella Smith has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00097": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 35,
+        "Blood Pressure": "Normal",
+        "Cholesterol Level": "High",
+        "Cough": "No",
+        "Difficulty Breathing": "No",
+        "Disease": "Urinary Tract Infection",
+        "Fatigue": "Yes",
+        "Fever": "Yes",
+        "Gender": "Female",
+        "Outcome Variable": "Positive",
+        "name": "John Davis",
+        "unique_id": "UID_00097"
+      }
+    ],
+    "patient_id": "UID_00097",
+    "patient_name": "John Davis",
+    "summary": "Patient John Davis has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00098": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 38,
+        "Blood Pressure": "Low",
+        "Cholesterol Level": "Normal",
+        "Cough": "Yes",
+        "Difficulty Breathing": "No",
+        "Disease": "Allergic Rhinitis",
+        "Fatigue": "No",
+        "Fever": "No",
+        "Gender": "Female",
+        "Outcome Variable": "Negative",
+        "name": "John Rodriguez",
+        "unique_id": "UID_00098"
+      }
+    ],
+    "patient_id": "UID_00098",
+    "patient_name": "John Rodriguez",
+    "summary": "Patient John Rodriguez has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00099": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 38,
+        "Blood Pressure": "Normal",
+        "Cholesterol Level": "High",
+        "Cough": "No",
+        "Difficulty Breathing": "No",
+        "Disease": "Depression",
+        "Fatigue": "No",
+        "Fever": "No",
+        "Gender": "Female",
+        "Outcome Variable": "Negative",
+        "name": "Noah Jones",
+        "unique_id": "UID_00099"
+      }
+    ],
+    "patient_id": "UID_00099",
+    "patient_name": "Noah Jones",
+    "summary": "Patient Noah Jones has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00100": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 38,
+        "Blood Pressure": "Normal",
+        "Cholesterol Level": "Low",
+        "Cough": "No",
+        "Difficulty Breathing": "No",
+        "Disease": "Gastroenteritis",
+        "Fatigue": "No",
+        "Fever": "No",
+        "Gender": "Male",
+        "Outcome Variable": "Negative",
+        "name": "Olivia Williams",
+        "unique_id": "UID_00100"
+      }
+    ],
+    "patient_id": "UID_00100",
+    "patient_name": "Olivia Williams",
+    "summary": "Patient Olivia Williams has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00101": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 38,
+        "Blood Pressure": "Normal",
+        "Cholesterol Level": "Normal",
+        "Cough": "No",
+        "Difficulty Breathing": "No",
+        "Disease": "Influenza",
+        "Fatigue": "No",
+        "Fever": "No",
+        "Gender": "Male",
+        "Outcome Variable": "Negative",
+        "name": "Michael Johnson",
+        "unique_id": "UID_00101"
+      }
+    ],
+    "patient_id": "UID_00101",
+    "patient_name": "Michael Johnson",
+    "summary": "Patient Michael Johnson has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00102": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 38,
+        "Blood Pressure": "Low",
+        "Cholesterol Level": "Normal",
+        "Cough": "No",
+        "Difficulty Breathing": "No",
+        "Disease": "Kidney Disease",
+        "Fatigue": "Yes",
+        "Fever": "No",
+        "Gender": "Female",
+        "Outcome Variable": "Negative",
+        "name": "Michael Martinez",
+        "unique_id": "UID_00102"
+      }
+    ],
+    "patient_id": "UID_00102",
+    "patient_name": "Michael Martinez",
+    "summary": "Patient Michael Martinez has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00103": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 38,
+        "Blood Pressure": "High",
+        "Cholesterol Level": "Normal",
+        "Cough": "Yes",
+        "Difficulty Breathing": "No",
+        "Disease": "Liver Cancer",
+        "Fatigue": "No",
+        "Fever": "Yes",
+        "Gender": "Female",
+        "Outcome Variable": "Negative",
+        "name": "Sophia Miller",
+        "unique_id": "UID_00103"
+      }
+    ],
+    "patient_id": "UID_00103",
+    "patient_name": "Sophia Miller",
+    "summary": "Patient Sophia Miller has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00104": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 38,
+        "Blood Pressure": "Low",
+        "Cholesterol Level": "Normal",
+        "Cough": "Yes",
+        "Difficulty Breathing": "Yes",
+        "Disease": "Liver Disease",
+        "Fatigue": "No",
+        "Fever": "No",
+        "Gender": "Male",
+        "Outcome Variable": "Negative",
+        "name": "John Jones",
+        "unique_id": "UID_00104"
+      }
+    ],
+    "patient_id": "UID_00104",
+    "patient_name": "John Jones",
+    "summary": "Patient John Jones has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00105": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 38,
+        "Blood Pressure": "Normal",
+        "Cholesterol Level": "High",
+        "Cough": "Yes",
+        "Difficulty Breathing": "No",
+        "Disease": "Osteoporosis",
+        "Fatigue": "No",
+        "Fever": "No",
+        "Gender": "Female",
+        "Outcome Variable": "Negative",
+        "name": "Sophia Martinez",
+        "unique_id": "UID_00105"
+      }
+    ],
+    "patient_id": "UID_00105",
+    "patient_name": "Sophia Martinez",
+    "summary": "Patient Sophia Martinez has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00106": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 38,
+        "Blood Pressure": "High",
+        "Cholesterol Level": "Normal",
+        "Cough": "Yes",
+        "Difficulty Breathing": "No",
+        "Disease": "Stroke",
+        "Fatigue": "No",
+        "Fever": "Yes",
+        "Gender": "Female",
+        "Outcome Variable": "Negative",
+        "name": "John Smith",
+        "unique_id": "UID_00106"
+      }
+    ],
+    "patient_id": "UID_00106",
+    "patient_name": "John Smith",
+    "summary": "**Patient Overview**  \n- **Name:** John Smith  \n- **Age:** 38\u202fyears  \n- **Gender:** Female  \n- **Primary Diagnosis:** Stroke  \n- **Key Clinical Features:** Fever present, cough present, no fatigue, no difficulty breathing.  \n\n**Urgent Risks**  \n- **High Blood Pressure:** Elevated BP increases risk of hemorrhagic transformation and recurrent stroke.  \n- **Active Infection (Fever & Cough):** May exacerbate cerebral edema or precipitate new vascular events.  \n\n**Lab Highlights**  \n- **Blood Pressure:** High (specific value not provided).  \n- **Cholesterol Level:** Normal.  \n- **Outcome Variable:** Negative (no immediate adverse outcome recorded).  \n\n**Actions Taken / Recommendations**  \n- **Current Actions:** None taken to date.  \n- **Immediate Recommendations:**  \n  - Initiate antihypertensive therapy (e.g., ACE inhibitor or ARB) to target BP <\u202f140/90\u202fmmHg.  \n  - Evaluate for infectious etiology (e.g., chest X\u2011ray, CBC with differential, cultures) given fever and cough.  \n  - Begin antiplatelet therapy (e.g., aspirin 81\u202fmg daily) unless contraindicated.  \n  - Provide acute stroke management per institutional protocol (e.g., CT/MRI, thrombolysis if within window).  \n\n**Follow\u2011up**  \n- **Imaging:** Repeat brain MRI/CT within 24\u202fhours to assess for hemorrhagic conversion.  \n- **Blood Pressure Monitoring:** Daily BP checks; adjust medication as needed.  \n- **Infection Work\u2011up:** Follow-up labs in 48\u202fhours; consider antibiotics if bacterial infection confirmed.  \n- **Neurology Referral:** Urgent consult for stroke management and secondary prevention planning.  \n- **Cardiology Referral:** For comprehensive cardiovascular risk assessment and BP optimization.  \n- **Rehabilitation:** Early physiotherapy and occupational therapy assessment once neurologically stable.  \n\n---"
+  },
+  "UID_00107": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 38,
+        "Blood Pressure": "High",
+        "Cholesterol Level": "High",
+        "Cough": "No",
+        "Difficulty Breathing": "Yes",
+        "Disease": "Anxiety Disorders",
+        "Fatigue": "Yes",
+        "Fever": "Yes",
+        "Gender": "Male",
+        "Outcome Variable": "Positive",
+        "name": "Michael Jones",
+        "unique_id": "UID_00107"
+      }
+    ],
+    "patient_id": "UID_00107",
+    "patient_name": "Michael Jones",
+    "summary": "Patient Michael Jones has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00108": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 38,
+        "Blood Pressure": "High",
+        "Cholesterol Level": "Low",
+        "Cough": "No",
+        "Difficulty Breathing": "Yes",
+        "Disease": "Diabetes",
+        "Fatigue": "Yes",
+        "Fever": "Yes",
+        "Gender": "Male",
+        "Outcome Variable": "Positive",
+        "name": "James Williams",
+        "unique_id": "UID_00108"
+      }
+    ],
+    "patient_id": "UID_00108",
+    "patient_name": "James Williams",
+    "summary": "Patient James Williams has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00109": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 38,
+        "Blood Pressure": "High",
+        "Cholesterol Level": "High",
+        "Cough": "Yes",
+        "Difficulty Breathing": "No",
+        "Disease": "Migraine",
+        "Fatigue": "No",
+        "Fever": "Yes",
+        "Gender": "Male",
+        "Outcome Variable": "Positive",
+        "name": "Liam Jones",
+        "unique_id": "UID_00109"
+      }
+    ],
+    "patient_id": "UID_00109",
+    "patient_name": "Liam Jones",
+    "summary": "Patient Liam Jones has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00110": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 38,
+        "Blood Pressure": "High",
+        "Cholesterol Level": "High",
+        "Cough": "Yes",
+        "Difficulty Breathing": "No",
+        "Disease": "Osteoarthritis",
+        "Fatigue": "Yes",
+        "Fever": "Yes",
+        "Gender": "Male",
+        "Outcome Variable": "Positive",
+        "name": "Ava Martinez",
+        "unique_id": "UID_00110"
+      }
+    ],
+    "patient_id": "UID_00110",
+    "patient_name": "Ava Martinez",
+    "summary": "Patient Ava Martinez has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00111": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 38,
+        "Blood Pressure": "Normal",
+        "Cholesterol Level": "Normal",
+        "Cough": "Yes",
+        "Difficulty Breathing": "Yes",
+        "Disease": "Pneumonia",
+        "Fatigue": "Yes",
+        "Fever": "Yes",
+        "Gender": "Male",
+        "Outcome Variable": "Positive",
+        "name": "Liam Miller",
+        "unique_id": "UID_00111"
+      }
+    ],
+    "patient_id": "UID_00111",
+    "patient_name": "Liam Miller",
+    "summary": "Patient Liam Miller has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00112": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 39,
+        "Blood Pressure": "Normal",
+        "Cholesterol Level": "Normal",
+        "Cough": "No",
+        "Difficulty Breathing": "No",
+        "Disease": "Klinefelter Syndrome",
+        "Fatigue": "Yes",
+        "Fever": "No",
+        "Gender": "Female",
+        "Outcome Variable": "Positive",
+        "name": "Sophia Miller",
+        "unique_id": "UID_00112"
+      }
+    ],
+    "patient_id": "UID_00112",
+    "patient_name": "Sophia Miller",
+    "summary": "Patient Sophia Miller has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00113": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 40,
+        "Blood Pressure": "Normal",
+        "Cholesterol Level": "Normal",
+        "Cough": "No",
+        "Difficulty Breathing": "No",
+        "Disease": "Acne",
+        "Fatigue": "Yes",
+        "Fever": "No",
+        "Gender": "Male",
+        "Outcome Variable": "Negative",
+        "name": "Ava Davis",
+        "unique_id": "UID_00113"
+      }
+    ],
+    "patient_id": "UID_00113",
+    "patient_name": "Ava Davis",
+    "summary": "Patient Ava Davis has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00114": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 40,
+        "Blood Pressure": "Normal",
+        "Cholesterol Level": "Normal",
+        "Cough": "No",
+        "Difficulty Breathing": "No",
+        "Disease": "Brain Tumor",
+        "Fatigue": "Yes",
+        "Fever": "No",
+        "Gender": "Male",
+        "Outcome Variable": "Negative",
+        "name": "Olivia Rodriguez",
+        "unique_id": "UID_00114"
+      }
+    ],
+    "patient_id": "UID_00114",
+    "patient_name": "Olivia Rodriguez",
+    "summary": "Patient Olivia Rodriguez has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00115": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 40,
+        "Blood Pressure": "Normal",
+        "Cholesterol Level": "Normal",
+        "Cough": "Yes",
+        "Difficulty Breathing": "Yes",
+        "Disease": "Bronchitis",
+        "Fatigue": "No",
+        "Fever": "No",
+        "Gender": "Female",
+        "Outcome Variable": "Negative",
+        "name": "Ava Davis",
+        "unique_id": "UID_00115"
+      }
+    ],
+    "patient_id": "UID_00115",
+    "patient_name": "Ava Davis",
+    "summary": "Patient Ava Davis has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00116": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 40,
+        "Blood Pressure": "High",
+        "Cholesterol Level": "High",
+        "Cough": "No",
+        "Difficulty Breathing": "Yes",
+        "Disease": "Cystic Fibrosis",
+        "Fatigue": "Yes",
+        "Fever": "No",
+        "Gender": "Male",
+        "Outcome Variable": "Negative",
+        "name": "Isabella Martinez",
+        "unique_id": "UID_00116"
+      }
+    ],
+    "patient_id": "UID_00116",
+    "patient_name": "Isabella Martinez",
+    "summary": "Patient Isabella Martinez has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00117": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 40,
+        "Blood Pressure": "High",
+        "Cholesterol Level": "High",
+        "Cough": "No",
+        "Difficulty Breathing": "No",
+        "Disease": "Diabetes",
+        "Fatigue": "No",
+        "Fever": "Yes",
+        "Gender": "Female",
+        "Outcome Variable": "Negative",
+        "name": "Noah Martinez",
+        "unique_id": "UID_00117"
+      }
+    ],
+    "patient_id": "UID_00117",
+    "patient_name": "Noah Martinez",
+    "summary": "Patient Noah Martinez has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00118": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 40,
+        "Blood Pressure": "High",
+        "Cholesterol Level": "Normal",
+        "Cough": "No",
+        "Difficulty Breathing": "No",
+        "Disease": "Glaucoma",
+        "Fatigue": "Yes",
+        "Fever": "No",
+        "Gender": "Male",
+        "Outcome Variable": "Negative",
+        "name": "Sophia Johnson",
+        "unique_id": "UID_00118"
+      }
+    ],
+    "patient_id": "UID_00118",
+    "patient_name": "Sophia Johnson",
+    "summary": "Patient Sophia Johnson has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00119": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 40,
+        "Blood Pressure": "High",
+        "Cholesterol Level": "Normal",
+        "Cough": "No",
+        "Difficulty Breathing": "No",
+        "Disease": "Osteoarthritis",
+        "Fatigue": "Yes",
+        "Fever": "No",
+        "Gender": "Male",
+        "Outcome Variable": "Negative",
+        "name": "Emma Martinez",
+        "unique_id": "UID_00119"
+      }
+    ],
+    "patient_id": "UID_00119",
+    "patient_name": "Emma Martinez",
+    "summary": "Patient Emma Martinez has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00120": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 40,
+        "Blood Pressure": "High",
+        "Cholesterol Level": "Normal",
+        "Cough": "Yes",
+        "Difficulty Breathing": "No",
+        "Disease": "Rabies",
+        "Fatigue": "No",
+        "Fever": "Yes",
+        "Gender": "Female",
+        "Outcome Variable": "Negative",
+        "name": "John Davis",
+        "unique_id": "UID_00120"
+      }
+    ],
+    "patient_id": "UID_00120",
+    "patient_name": "John Davis",
+    "summary": "Patient John Davis has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00121": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 40,
+        "Blood Pressure": "High",
+        "Cholesterol Level": "Normal",
+        "Cough": "Yes",
+        "Difficulty Breathing": "No",
+        "Disease": "Rabies",
+        "Fatigue": "No",
+        "Fever": "Yes",
+        "Gender": "Female",
+        "Outcome Variable": "Negative",
+        "name": "John Garcia",
+        "unique_id": "UID_00121"
+      }
+    ],
+    "patient_id": "UID_00121",
+    "patient_name": "John Garcia",
+    "summary": "Patient John Garcia has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00122": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 40,
+        "Blood Pressure": "Low",
+        "Cholesterol Level": "Normal",
+        "Cough": "No",
+        "Difficulty Breathing": "No",
+        "Disease": "Asthma",
+        "Fatigue": "Yes",
+        "Fever": "Yes",
+        "Gender": "Male",
+        "Outcome Variable": "Positive",
+        "name": "Noah Martinez",
+        "unique_id": "UID_00122"
+      }
+    ],
+    "patient_id": "UID_00122",
+    "patient_name": "Noah Martinez",
+    "summary": "Patient Noah Martinez has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00123": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 40,
+        "Blood Pressure": "Normal",
+        "Cholesterol Level": "Normal",
+        "Cough": "Yes",
+        "Difficulty Breathing": "Yes",
+        "Disease": "Asthma",
+        "Fatigue": "No",
+        "Fever": "Yes",
+        "Gender": "Female",
+        "Outcome Variable": "Positive",
+        "name": "Michael Williams",
+        "unique_id": "UID_00123"
+      }
+    ],
+    "patient_id": "UID_00123",
+    "patient_name": "Michael Williams",
+    "summary": "Patient Michael Williams has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00124": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 40,
+        "Blood Pressure": "Normal",
+        "Cholesterol Level": "Normal",
+        "Cough": "Yes",
+        "Difficulty Breathing": "Yes",
+        "Disease": "Asthma",
+        "Fatigue": "No",
+        "Fever": "Yes",
+        "Gender": "Female",
+        "Outcome Variable": "Positive",
+        "name": "Michael Garcia",
+        "unique_id": "UID_00124"
+      }
+    ],
+    "patient_id": "UID_00124",
+    "patient_name": "Michael Garcia",
+    "summary": "Patient Michael Garcia has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00125": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 40,
+        "Blood Pressure": "High",
+        "Cholesterol Level": "High",
+        "Cough": "No",
+        "Difficulty Breathing": "Yes",
+        "Disease": "Asthma",
+        "Fatigue": "Yes",
+        "Fever": "No",
+        "Gender": "Male",
+        "Outcome Variable": "Positive",
+        "name": "Emma Garcia",
+        "unique_id": "UID_00125"
+      }
+    ],
+    "patient_id": "UID_00125",
+    "patient_name": "Emma Garcia",
+    "summary": "Patient Emma Garcia has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00126": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 40,
+        "Blood Pressure": "Normal",
+        "Cholesterol Level": "High",
+        "Cough": "No",
+        "Difficulty Breathing": "Yes",
+        "Disease": "Asthma",
+        "Fatigue": "Yes",
+        "Fever": "Yes",
+        "Gender": "Male",
+        "Outcome Variable": "Positive",
+        "name": "Liam Rodriguez",
+        "unique_id": "UID_00126"
+      }
+    ],
+    "patient_id": "UID_00126",
+    "patient_name": "Liam Rodriguez",
+    "summary": "Patient Liam Rodriguez has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00127": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 40,
+        "Blood Pressure": "Normal",
+        "Cholesterol Level": "High",
+        "Cough": "No",
+        "Difficulty Breathing": "Yes",
+        "Disease": "Asthma",
+        "Fatigue": "Yes",
+        "Fever": "Yes",
+        "Gender": "Male",
+        "Outcome Variable": "Positive",
+        "name": "John Garcia",
+        "unique_id": "UID_00127"
+      }
+    ],
+    "patient_id": "UID_00127",
+    "patient_name": "John Garcia",
+    "summary": "Patient John Garcia has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00128": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 40,
+        "Blood Pressure": "Normal",
+        "Cholesterol Level": "High",
+        "Cough": "Yes",
+        "Difficulty Breathing": "No",
+        "Disease": "Chickenpox",
+        "Fatigue": "No",
+        "Fever": "No",
+        "Gender": "Male",
+        "Outcome Variable": "Positive",
+        "name": "Ava Smith",
+        "unique_id": "UID_00128"
+      }
+    ],
+    "patient_id": "UID_00128",
+    "patient_name": "Ava Smith",
+    "summary": "Patient Ava Smith has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00129": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 40,
+        "Blood Pressure": "Normal",
+        "Cholesterol Level": "High",
+        "Cough": "Yes",
+        "Difficulty Breathing": "No",
+        "Disease": "Chickenpox",
+        "Fatigue": "No",
+        "Fever": "No",
+        "Gender": "Male",
+        "Outcome Variable": "Positive",
+        "name": "James Williams",
+        "unique_id": "UID_00129"
+      }
+    ],
+    "patient_id": "UID_00129",
+    "patient_name": "James Williams",
+    "summary": "Patient James Williams has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00130": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 40,
+        "Blood Pressure": "High",
+        "Cholesterol Level": "High",
+        "Cough": "No",
+        "Difficulty Breathing": "No",
+        "Disease": "Coronary Artery Disease",
+        "Fatigue": "Yes",
+        "Fever": "No",
+        "Gender": "Female",
+        "Outcome Variable": "Positive",
+        "name": "Noah Smith",
+        "unique_id": "UID_00130"
+      }
+    ],
+    "patient_id": "UID_00130",
+    "patient_name": "Noah Smith",
+    "summary": "Patient Noah Smith has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00131": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 40,
+        "Blood Pressure": "High",
+        "Cholesterol Level": "High",
+        "Cough": "No",
+        "Difficulty Breathing": "No",
+        "Disease": "Eating Disorders (Anorexia,...",
+        "Fatigue": "Yes",
+        "Fever": "No",
+        "Gender": "Female",
+        "Outcome Variable": "Positive",
+        "name": "Emma Rodriguez",
+        "unique_id": "UID_00131"
+      }
+    ],
+    "patient_id": "UID_00131",
+    "patient_name": "Emma Rodriguez",
+    "summary": "Patient Emma Rodriguez has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00132": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 40,
+        "Blood Pressure": "High",
+        "Cholesterol Level": "High",
+        "Cough": "No",
+        "Difficulty Breathing": "No",
+        "Disease": "Fibromyalgia",
+        "Fatigue": "Yes",
+        "Fever": "No",
+        "Gender": "Female",
+        "Outcome Variable": "Positive",
+        "name": "Emma Johnson",
+        "unique_id": "UID_00132"
+      }
+    ],
+    "patient_id": "UID_00132",
+    "patient_name": "Emma Johnson",
+    "summary": "Patient Emma Johnson has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00133": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 40,
+        "Blood Pressure": "High",
+        "Cholesterol Level": "High",
+        "Cough": "Yes",
+        "Difficulty Breathing": "No",
+        "Disease": "Gastroenteritis",
+        "Fatigue": "Yes",
+        "Fever": "Yes",
+        "Gender": "Male",
+        "Outcome Variable": "Positive",
+        "name": "Michael Miller",
+        "unique_id": "UID_00133"
+      }
+    ],
+    "patient_id": "UID_00133",
+    "patient_name": "Michael Miller",
+    "summary": "Patient Michael Miller has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00134": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 40,
+        "Blood Pressure": "Normal",
+        "Cholesterol Level": "Normal",
+        "Cough": "No",
+        "Difficulty Breathing": "No",
+        "Disease": "Hemophilia",
+        "Fatigue": "Yes",
+        "Fever": "No",
+        "Gender": "Female",
+        "Outcome Variable": "Positive",
+        "name": "Sophia Johnson",
+        "unique_id": "UID_00134"
+      }
+    ],
+    "patient_id": "UID_00134",
+    "patient_name": "Sophia Johnson",
+    "summary": "Patient Sophia Johnson has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00135": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 40,
+        "Blood Pressure": "High",
+        "Cholesterol Level": "High",
+        "Cough": "No",
+        "Difficulty Breathing": "No",
+        "Disease": "Hyperthyroidism",
+        "Fatigue": "Yes",
+        "Fever": "No",
+        "Gender": "Male",
+        "Outcome Variable": "Positive",
+        "name": "John Brown",
+        "unique_id": "UID_00135"
+      }
+    ],
+    "patient_id": "UID_00135",
+    "patient_name": "John Brown",
+    "summary": "Patient John Brown has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00136": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 40,
+        "Blood Pressure": "High",
+        "Cholesterol Level": "High",
+        "Cough": "No",
+        "Difficulty Breathing": "No",
+        "Disease": "Hypoglycemia",
+        "Fatigue": "Yes",
+        "Fever": "No",
+        "Gender": "Female",
+        "Outcome Variable": "Positive",
+        "name": "Isabella Miller",
+        "unique_id": "UID_00136"
+      }
+    ],
+    "patient_id": "UID_00136",
+    "patient_name": "Isabella Miller",
+    "summary": "Patient Isabella Miller has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00137": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 40,
+        "Blood Pressure": "Normal",
+        "Cholesterol Level": "High",
+        "Cough": "Yes",
+        "Difficulty Breathing": "No",
+        "Disease": "Lymphoma",
+        "Fatigue": "No",
+        "Fever": "No",
+        "Gender": "Female",
+        "Outcome Variable": "Positive",
+        "name": "Michael Johnson",
+        "unique_id": "UID_00137"
+      }
+    ],
+    "patient_id": "UID_00137",
+    "patient_name": "Michael Johnson",
+    "summary": "Patient Michael Johnson has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00138": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 40,
+        "Blood Pressure": "Normal",
+        "Cholesterol Level": "High",
+        "Cough": "Yes",
+        "Difficulty Breathing": "Yes",
+        "Disease": "Pneumonia",
+        "Fatigue": "Yes",
+        "Fever": "Yes",
+        "Gender": "Female",
+        "Outcome Variable": "Positive",
+        "name": "Olivia Jones",
+        "unique_id": "UID_00138"
+      }
+    ],
+    "patient_id": "UID_00138",
+    "patient_name": "Olivia Jones",
+    "summary": "Patient Olivia Jones has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00139": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 40,
+        "Blood Pressure": "High",
+        "Cholesterol Level": "Normal",
+        "Cough": "Yes",
+        "Difficulty Breathing": "No",
+        "Disease": "Psoriasis",
+        "Fatigue": "Yes",
+        "Fever": "No",
+        "Gender": "Male",
+        "Outcome Variable": "Positive",
+        "name": "John Miller",
+        "unique_id": "UID_00139"
+      }
+    ],
+    "patient_id": "UID_00139",
+    "patient_name": "John Miller",
+    "summary": "Patient John Miller has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00140": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 40,
+        "Blood Pressure": "High",
+        "Cholesterol Level": "Normal",
+        "Cough": "No",
+        "Difficulty Breathing": "No",
+        "Disease": "Psoriasis",
+        "Fatigue": "No",
+        "Fever": "Yes",
+        "Gender": "Male",
+        "Outcome Variable": "Positive",
+        "name": "Michael Martinez",
+        "unique_id": "UID_00140"
+      }
+    ],
+    "patient_id": "UID_00140",
+    "patient_name": "Michael Martinez",
+    "summary": "Patient Michael Martinez has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00141": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 40,
+        "Blood Pressure": "Normal",
+        "Cholesterol Level": "High",
+        "Cough": "Yes",
+        "Difficulty Breathing": "No",
+        "Disease": "Psoriasis",
+        "Fatigue": "No",
+        "Fever": "No",
+        "Gender": "Female",
+        "Outcome Variable": "Positive",
+        "name": "James Martinez",
+        "unique_id": "UID_00141"
+      }
+    ],
+    "patient_id": "UID_00141",
+    "patient_name": "James Martinez",
+    "summary": "Patient James Martinez has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00142": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 40,
+        "Blood Pressure": "High",
+        "Cholesterol Level": "High",
+        "Cough": "Yes",
+        "Difficulty Breathing": "Yes",
+        "Disease": "Tuberculosis",
+        "Fatigue": "Yes",
+        "Fever": "Yes",
+        "Gender": "Male",
+        "Outcome Variable": "Positive",
+        "name": "Noah Garcia",
+        "unique_id": "UID_00142"
+      }
+    ],
+    "patient_id": "UID_00142",
+    "patient_name": "Noah Garcia",
+    "summary": "Patient Noah Garcia has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00143": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 40,
+        "Blood Pressure": "High",
+        "Cholesterol Level": "High",
+        "Cough": "Yes",
+        "Difficulty Breathing": "Yes",
+        "Disease": "Tuberculosis",
+        "Fatigue": "Yes",
+        "Fever": "Yes",
+        "Gender": "Male",
+        "Outcome Variable": "Positive",
+        "name": "Liam Martinez",
+        "unique_id": "UID_00143"
+      }
+    ],
+    "patient_id": "UID_00143",
+    "patient_name": "Liam Martinez",
+    "summary": "Patient Liam Martinez has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00144": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 42,
+        "Blood Pressure": "Low",
+        "Cholesterol Level": "Normal",
+        "Cough": "No",
+        "Difficulty Breathing": "No",
+        "Disease": "Anxiety Disorders",
+        "Fatigue": "No",
+        "Fever": "No",
+        "Gender": "Male",
+        "Outcome Variable": "Negative",
+        "name": "Sophia Miller",
+        "unique_id": "UID_00144"
+      }
+    ],
+    "patient_id": "UID_00144",
+    "patient_name": "Sophia Miller",
+    "summary": "Patient Sophia Miller has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00145": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 42,
+        "Blood Pressure": "High",
+        "Cholesterol Level": "High",
+        "Cough": "Yes",
+        "Difficulty Breathing": "No",
+        "Disease": "Common Cold",
+        "Fatigue": "No",
+        "Fever": "Yes",
+        "Gender": "Female",
+        "Outcome Variable": "Negative",
+        "name": "John Jones",
+        "unique_id": "UID_00145"
+      }
+    ],
+    "patient_id": "UID_00145",
+    "patient_name": "John Jones",
+    "summary": "Patient John Jones has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00146": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 42,
+        "Blood Pressure": "High",
+        "Cholesterol Level": "Normal",
+        "Cough": "No",
+        "Difficulty Breathing": "Yes",
+        "Disease": "Depression",
+        "Fatigue": "No",
+        "Fever": "Yes",
+        "Gender": "Male",
+        "Outcome Variable": "Negative",
+        "name": "Liam Jones",
+        "unique_id": "UID_00146"
+      }
+    ],
+    "patient_id": "UID_00146",
+    "patient_name": "Liam Jones",
+    "summary": "Patient Liam Jones has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00147": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 42,
+        "Blood Pressure": "Normal",
+        "Cholesterol Level": "High",
+        "Cough": "Yes",
+        "Difficulty Breathing": "No",
+        "Disease": "Influenza",
+        "Fatigue": "No",
+        "Fever": "No",
+        "Gender": "Female",
+        "Outcome Variable": "Negative",
+        "name": "Ava Jones",
+        "unique_id": "UID_00147"
+      }
+    ],
+    "patient_id": "UID_00147",
+    "patient_name": "Ava Jones",
+    "summary": "Patient Ava Jones has the following risks: No significant risks detected. Actions: No actions taken yet."
+  },
+  "UID_00148": {
+    "actions_taken": [],
+    "flagged_risks": [],
+    "labs": [
+      {
+        "Age": 42,
+        "Blood Pressure": "Normal",
+        "Cholesterol Level": "Normal",
+        "Cough": "No",
+        "Difficulty Breathing": "No",
+        "Disease": "Kidney Cancer",
+        "Fatigue": "No",
+        "Fever": "Yes",
+        "Gender": "Female",
+        "Outcome Variable": "Negative",
+        "name": "Isabella Brown",
+        "unique_id": "UID_00148"
+      }
+    ],
+    "patient_id": "UID_00148",
+    "patient_name": "Isabella Brown",
+    "summary": "Patient Isabella Brown has the following risks: No significant risks detected. Actions: No actions taken yet."
+  }
+}
