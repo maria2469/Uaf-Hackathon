@@ -3,6 +3,7 @@ from pathlib import Path
 from Agents.data_agent import DataAgent
 from Agents.lab_agent import LabInterpretationAgent
 from Agents.summarizer_agent import SummarizationAgent
+from Agents.referral_agent import ReferralAgent
 
 
 class Coordinator:
@@ -17,12 +18,13 @@ class Coordinator:
         self.data_agent = DataAgent(db_path)
         self.lab_agent = LabInterpretationAgent(self.data_agent)
         self.summary_agent = SummarizationAgent()
+        self.referral_agent = ReferralAgent(self.data_agent)
 
         # DAG to store outputs per node
         self.dag_data_flow = {}
 
         # Define node order (topological order for execution)
-        self.nodes = ["data_agent", "lab_agent", "summary_agent"]
+        self.nodes = ["data_agent", "lab_agent", "summary_agent", "referral_agent"]
 
     def run_patient_workflow(self, patient_id: str) -> dict:
         """
@@ -52,6 +54,15 @@ class Coordinator:
         )
         summary_package = self.dag_data_flow["summary_package"]
 
+        # Node: ReferralAgent -> process referral if needed
+        self.dag_data_flow["referral_result"] = self.referral_agent.process_referral(
+            patient_name=patient_id,
+            summary=summary_package.get("summary", ""),
+            explanation=explanation,
+            referral_draft=summary_package.get("referral_draft", "")
+        )
+        referral_result = self.dag_data_flow["referral_result"]
+
         # Final consolidated output
         return {
             "patient_id": patient_id,
@@ -59,6 +70,10 @@ class Coordinator:
             "lab_explanation": explanation,
             "summary": summary_package.get("summary", ""),
             "referral_draft": summary_package.get("referral_draft", ""),
+            "referral_status": referral_result.get("status", ""),
+            "referral_specialist": referral_result.get("specialist", ""),
+            "referral_doctor": referral_result.get("doctor", ""),
+            "referral_reason": referral_result.get("reason", ""),
             "raw_summary_output": summary_package.get("raw_model_output", ""),
             "dag_data_flow": self.dag_data_flow  # Expose full DAG outputs for debugging/UI
         }

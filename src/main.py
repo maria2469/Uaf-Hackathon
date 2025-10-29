@@ -45,6 +45,10 @@ def demo():
         print("🔹 Explanation:", result.get("lab_explanation"))
         print("🔹 Summary:", result.get("summary"))
         print("🔹 Referral Draft:", result.get("referral_draft"))
+        print("🔹 Referral Status:", result.get("referral_status"))
+        print("🔹 Referral Specialist:", result.get("referral_specialist"))
+        print("🔹 Referral Doctor:", result.get("referral_doctor"))
+        print("🔹 Referral Reason:", result.get("referral_reason"))
         print("====================================\n")
 
 if __name__ == "__main__":

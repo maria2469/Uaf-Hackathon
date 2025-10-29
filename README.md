@@ -164,10 +164,10 @@ python -m src.main
 
 | Name | GitHub Profile |
 |------|----------------|
-| Maria Noor | [@username1](https://github.com/maria2469) |
-| Emaan | [@username1](https://github.com/callmeeman45-dotcom) |
+| Maria Noor | [@maria2469](https://github.com/maria2469) |
+| Emaan | [@callmeeman45-dotcom](https://github.com/callmeeman45-dotcom) |
 | Member 3 | [@username2](https://github.com/username3) |
-| Muhammad Abu Bakar | [@muhammadabubakar](https://github.com/abubakar2029) |
+| Muhammad Abu Bakar | [@abubakar2029](https://github.com/abubakar2029) |
 
 
 

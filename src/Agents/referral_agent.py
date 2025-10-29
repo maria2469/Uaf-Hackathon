@@ -11,6 +11,29 @@ from schemas import ReferralResult
 
 load_dotenv()
 
+class ReferralAgent:
+    """
+    Referral Agent: Determines if patient needs specialist referral and sends email to relevant doctor.
+    Integrates with DataAgent to fetch doctor information and patient history.
+    """
+    
+    def __init__(self, data_agent):
+        self.data_agent = data_agent
+        self.llm = ChatGroq(model="openai/gpt-oss-20b", temperature=0.1)
+        print("[ReferralAgent] ✅ Initialized")
+    
+    def process_referral(self, patient_name: str, summary: str, explanation: str, referral_draft: str = "") -> dict:
+        """
+        Main referral processing method that determines if referral is needed and sends email.
+        """
+        return process_referral_func(
+            patient_name=patient_name,
+            summary=summary,
+            explanation=explanation,
+            referral_draft=referral_draft,
+            fetch_data_func=self.data_agent.get_all
+        )
+
 def process_referral_func(
     patient_name: str,
     summary: str,

@@ -34,3 +34,7 @@ cython
 rich
 ipython
 jupyter
+
+# API framework
+fastapi
+uvicorn[standard]
