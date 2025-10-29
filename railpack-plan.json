@@ -1,9 +1,0 @@
-{
-    "language": "Python",
-    "python_version": "3.12",
-    "start": "./start.sh",
-    "watch": [ "backend/", "agent/" ],
-    "env": {
-        "PYTHONUNBUFFERED": "1"
-    }
-}
