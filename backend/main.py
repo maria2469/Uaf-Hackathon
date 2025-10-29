@@ -21,6 +21,16 @@ DB_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), "../mock_data/
 
 app = FastAPI(title="MEDI-AI Backend", version="1.0")
 
+from fastapi.middleware.cors import CORSMiddleware
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Replace "*" with your frontend domain for security
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 # ================= GLOBALS =================
 llm_model = None
 memory = {}
