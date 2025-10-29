@@ -1,6 +1,6 @@
 ## 🏥 Unified Patient Intelligence (UPI) — Agentic AI for Healthcare
 
-Transform fragmented clinical data into actionable, clinician-ready intelligence with a layered, multi‑agent system. This project demonstrates an end‑to‑end agentic pipeline that continuously aggregates patient data, reasons over trends, summarizes what matters, and drafts next actions — a “continuous clinical co‑pilot.”
+This project demonstrates an end‑to‑end agentic pipeline that continuously aggregates patient data, reasons over trends, summarizes what matters, and drafts next actions — a “continuous clinical co‑pilot.”
 
 ---
 
@@ -62,23 +62,14 @@ An agentic system that autonomously ingests multi‑modal patient data, reasons 
 ```
 
 ---
+### 🧰 Tech Stack
 
-### 🧪 Hackathon/MVP Scope
-
-Goal: show an agent can unify and reason over fragmented clinical data and produce clinician‑useful outputs.
-
-- Mock dataset: SQLite database (`healthcare.db`) with lab reports and patient info
-- Flow: Data Aggregation → Reasoning (flags/trends) → Summarization → Draft referral
-- Output: Console printout per patient with flags, explanation, summary, referral draft
-
-Example target output:
-
-```text
-Patient: John Doe
-Flag: Worsening kidney function
-Summary: eGFR dropped 12% since last visit; HbA1c rising.
-Action: Auto‑scheduled nephrology referral (pending approval).
-```
+- **Python**: Orchestration, agents, data pipeline
+- **LangChain/LangGraph (style)**: Multi‑agent reasoning workflow
+- **LLM**: Groq/OpenAI/Gemini via LangChain integrations
+- **Data**: Pandas + SQLite (mock EHR); FAISS/Chroma (embeddings, optional)
+- **API (planned)**: FastAPI + Uvicorn
+- **Monitoring (optional)**: Weights & Biases / MLflow
 
 ---
 
@@ -106,17 +97,6 @@ Uaf-Hackathon/
    └─ mock_data/
       └─ healthcare.db                # mock SQLite with lab_reports, etc.
 ```
-
----
-
-### 🧰 Tech Stack
-
-- **Python**: Orchestration, agents, data pipeline
-- **LangChain/LangGraph (style)**: Multi‑agent reasoning workflow
-- **LLM**: Groq/OpenAI/Gemini via LangChain integrations
-- **Data**: Pandas + SQLite (mock EHR); FAISS/Chroma (embeddings, optional)
-- **API (planned)**: FastAPI + Uvicorn
-- **Monitoring (optional)**: Weights & Biases / MLflow
 
 ---
 
@@ -154,27 +134,11 @@ GROQ_API_KEY=your_groq_api_key_here
 # GOOGLE_API_KEY=...
 ```
 
-4) Ensure the mock database exists
-
-- The demo expects `src/mock_data/healthcare.db`.
-- If you only have `healthcare.db` at the repo root, copy it:
-
-```powershell
-copy .\healthcare.db .\src\mock_data\healthcare.db
-```
-
 5) Run the end‑to‑end demo
 
 ```powershell
 python -m src.main
 ```
-
-You should see per‑patient output with:
-
-- Available tables
-- Lab flags (abnormal findings, high‑risk diseases)
-- Explanations from the reasoning agent
-- Clinician summary and referral draft
 
 ---
 
@@ -194,34 +158,16 @@ You should see per‑patient output with:
 
 ---
 
-### 📈 Roadmap
-
-Phase | Milestone | Outcome
---- | --- | ---
-MVP | Multi‑agent integration over mock data | Working demo for hackathons
-Phase 2 | Add FHIR/EHR connectors | Real interoperability
-Phase 3 | Domain fine‑tuning on clinical text | Higher accuracy & trust
-Phase 4 | Pilot deployments | Reduce cognitive overload & missed diagnoses
-
-Planned near‑term enhancements:
-
-- FastAPI endpoints to expose agent outputs to a frontend
-- React/Next.js dashboard for flagged patients and summaries
-- Vector embeddings (FAISS/Chroma) for semantic retrieval over notes/imaging
-- Feedback loop to adapt summaries to clinician preferences
-- Expanded coordination agent for referrals/scheduling/alerts
-
 ---
 
-### 🤝 Contributing
+### 👥 Contributors
 
-Pull requests are welcome! For major changes, please open an issue to discuss what you’d like to change. Add tests where practical and keep the agent interfaces clear and modular.
-
----
-
-### 📜 License
-
-Add your preferred license here (e.g., MIT).
+| Name | GitHub Profile |
+|------|----------------|
+| Maria Noor | [@username1](https://github.com/maria2469) |
+| Emaan | [@username1](https://github.com/callmeeman45-dotcom) |
+| Member 3 | [@username2](https://github.com/username3) |
+| Muhammad Abu Bakar | [@muhammadabubakar](https://github.com/abubakar2029) |
 
 
 
