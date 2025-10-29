@@ -2,11 +2,13 @@ import time
 import json
 import sqlite3
 from typing import List, TypedDict, Dict
-from summarizer_agent import generate_patient_summary_func  # You implement
-from referral_agent import auto_schedule_referral  # Stub for action
-from langchain_groq import ChatGroq # LLM for reasoning
+from summarizer_agent import generate_patient_summary_func
+from referral_agent import auto_schedule_referral
+from langchain_groq import ChatGroq
 from dotenv import load_dotenv
+
 load_dotenv()
+
 # ====== Agent State ======
 class PatientState(TypedDict):
     patient_id: str
@@ -17,10 +19,9 @@ class PatientState(TypedDict):
     actions_taken: List[str]
 
 # ====== Database Layer ======
-DB_PATH = "healthcare.db"  # Update with your DB path
+DB_PATH = "healthcare.db"
 
 def fetch_lab_report(unique_id: str) -> Dict:
-    """Fetch lab report for a patient by unique_id"""
     conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
     cursor.execute("SELECT * FROM lab_reports WHERE unique_id=?", (unique_id,))
@@ -34,11 +35,9 @@ def fetch_lab_report(unique_id: str) -> Dict:
     return data
 
 def fetch_doctor_for_risk(risk_keyword: str) -> Dict:
-    """Fetch a doctor who handles a certain specialty"""
     conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
-    query = "SELECT * FROM doctors"
-    cursor.execute(query)
+    cursor.execute("SELECT * FROM doctors")
     doctors = []
     for row in cursor.fetchall():
         cols = [col[0] for col in cursor.description]
@@ -51,14 +50,10 @@ def fetch_doctor_for_risk(risk_keyword: str) -> Dict:
 
 # ====== Reasoning Agent ======
 def detect_risks(patient_state: PatientState, llm_model=None) -> List[str]:
-    """
-    Use a simple LLM reasoning over lab data to flag risks
-    Fallback: simple rules
-    """
     labs = patient_state["labs"]
     risks = []
 
-    # Simple rule-based checks
+    # Rule-based checks
     try:
         if labs.get("Cholesterol Level") and float(labs["Cholesterol Level"]) > 240:
             risks.append("High Cholesterol")
@@ -69,40 +64,45 @@ def detect_risks(patient_state: PatientState, llm_model=None) -> List[str]:
     except:
         pass
 
-    # Optional: Use LLM for more complex reasoning
+    # Optional LLM reasoning
     if llm_model:
-        prompt = f"""
+        try:
+            prompt = f"""
 Patient Labs: {json.dumps(labs)}
 Identify potential health risks in concise bullet points.
 Respond ONLY in JSON: {{ "risks": ["risk1", "risk2", ...] }}
 """
-        response = llm_model.invoke(prompt)
-        try:
-            llm_risks = json.loads(response).get("risks", [])
+            response = llm_model.invoke([{"role": "user", "content": prompt}])
+            llm_risks = json.loads(response.content).get("risks", [])
             risks.extend(llm_risks)
-        except:
-            pass
+        except Exception as e:
+            print(f"❌ LLM risk detection failed: {e}")
 
-    return list(set(risks))  # Unique
+    return list(set(risks))
 
 # ====== Summarization Agent ======
 def generate_summary(patient_state: PatientState) -> str:
-    return generate_patient_summary_func(patient_state)
+    try:
+        return generate_patient_summary_func(patient_state)
+    except Exception as e:
+        print(f"❌ Error generating summary: {e}")
+        return "Summary unavailable."
 
 # ====== Action / Coordination Agent ======
 def take_actions(patient_state: PatientState):
     for risk in patient_state["flagged_risks"]:
         doctor = fetch_doctor_for_risk(risk)
-        action_msg = auto_schedule_referral(patient_state["patient_id"], risk, doctor)
-        patient_state["actions_taken"].append(action_msg)
+        try:
+            action_msg = auto_schedule_referral(patient_state["patient_id"], risk, doctor)
+            patient_state["actions_taken"].append(action_msg)
+        except Exception as e:
+            print(f"❌ Failed to schedule referral for {risk}: {e}")
 
 # ====== Main Agent Loop ======
 if __name__ == "__main__":
-    # Initialize LLM
-    llm_model = ChatGroq(model="openai/gpt-oss-20b",temperature=0)  # Or use your preferred model
+    llm_model = ChatGroq(model="openai/gpt-oss-20b", temperature=0)
 
-    # Example: process a patient with unique_id
-    patient_unique_id = "UID_00001"  # Replace with real input
+    patient_unique_id = "UID_00001"
     lab_data = fetch_lab_report(patient_unique_id)
 
     if not lab_data:
@@ -135,7 +135,7 @@ if __name__ == "__main__":
             print(f"Summary: {patient_state['summary']}")
             print(f"Actions Taken: {patient_state['actions_taken']}")
 
-            time.sleep(10)  # Loop interval
+            time.sleep(10)
 
     except KeyboardInterrupt:
         print("🛑 UPI Agent stopped by user.")

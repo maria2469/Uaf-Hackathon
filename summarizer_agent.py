@@ -1,4 +1,3 @@
-# summarizer_agent.py
 from langchain_groq import ChatGroq
 from typing import TypedDict, Dict, List
 import json
@@ -12,10 +11,7 @@ class PatientState(TypedDict):
     actions_taken: List[str]
 
 def generate_patient_summary_func(patient_state: PatientState) -> str:
-    """
-    Generate a concise, actionable summary for a patient
-    """
-    llm = ChatGroq(temperature=0)
+    llm = ChatGroq(model="openai/gpt-oss-20b", temperature=0)
 
     labs_str = json.dumps(patient_state["labs"], indent=2)
     risks_str = ", ".join(patient_state["flagged_risks"]) if patient_state["flagged_risks"] else "No significant risks detected"
@@ -38,16 +34,10 @@ Return only plain text summary.
 """
 
     try:
-        result = llm.predict(prompt)
-
-        # Handle AIMessage object
-        if hasattr(result, "content"):  
-            summary = result.content
-        else:
-            summary = str(result)
-
-        return summary.strip()
-
+        # invoke returns a single AIMessage
+        response = llm.invoke([{"role": "user", "content": prompt}])
+        summary_text = response.content  # Access content directly
+        return summary_text.strip()
     except Exception as e:
         print(f"❌ Error generating summary: {e}")
         return f"Patient {patient_state['patient_name']} has the following risks: {risks_str}. Actions: {actions_str}."
