@@ -1,8 +1,10 @@
 # src/orchestrator.py
 from pathlib import Path
-from Agents.data_agent import DataAgent
-from Agents.lab_agent import LabInterpretationAgent
-from Agents.summarizer_agent import SummarizationAgent
+from src.Agents.data_agent import DataAgent
+from src.Agents.lab_agent import LabInterpretationAgent
+from src.Agents.summarizer_agent import SummarizationAgent
+from dotenv import load_dotenv
+load_dotenv()
 
 
 class Coordinator:
