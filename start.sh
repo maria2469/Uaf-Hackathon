@@ -1,18 +1,8 @@
-#!/bin/sh
-# ===============================================
-# MEDI-AI FastAPI backend startup for Railpack
-# ===============================================
+#!/bin/bash
+# upgrade pip and install requirements
+python -m ensurepip --upgrade
+python -m pip install --upgrade pip
+python -m pip install -r backend/requirements.txt
 
-echo "🚀 Starting MEDI-AI Backend..."
-
-# Ensure pip exists
-python3 -m ensurepip
-
-# Upgrade pip
-python3 -m pip install --upgrade pip
-
-# Install dependencies
-python3 -m pip install -r backend/requirements.txt
-
-# Start FastAPI backend
-python3 -m uvicorn backend.main:app --host 0.0.0.0 --port 8080
+# start FastAPI
+uvicorn backend.main:app --host 0.0.0.0 --port 8000
