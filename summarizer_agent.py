@@ -26,17 +26,22 @@ Flagged Risks: {risks_str}
 Actions Taken: {actions_str}
 
 Task:
-- Summarize this patient’s current health status in 2-3 concise sentences.
-- Highlight the most urgent risks first.
-- Include suggested follow-ups if actions have been taken.
+- Generate a clear and structured clinical summary for this patient.
+- Use headings and bullet points where appropriate.
+- Include the following sections:
 
-Return only plain text summary.
+1. Patient Overview: Concise description of age, gender, and key clinical details.
+2. Urgent Risks: Highlight the most pressing risks first.
+3. Lab Highlights: Key abnormal lab findings.
+4. Actions Taken / Recommendations: Current actions and suggested next steps.
+5. Follow-up: Suggested follow-up tests, referrals, or monitoring.
+
+Return only in **plain text format**, with headings clearly marked.
 """
 
     try:
-        # invoke returns a single AIMessage
         response = llm.invoke([{"role": "user", "content": prompt}])
-        summary_text = response.content  # Access content directly
+        summary_text = response.content
         return summary_text.strip()
     except Exception as e:
         print(f"❌ Error generating summary: {e}")

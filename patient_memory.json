@@ -1,0 +1,84 @@
+{
+  "UID_00001": {
+    "patient_id": "UID_00001",
+    "patient_name": "Noah Brown",
+    "labs": [
+      {
+        "Disease": "Influenza",
+        "Fever": "Yes",
+        "Cough": "No",
+        "Fatigue": "Yes",
+        "Difficulty Breathing": "Yes",
+        "Age": 19,
+        "Gender": "Female",
+        "Blood Pressure": "Low",
+        "Cholesterol Level": "Normal",
+        "Outcome Variable": "Positive",
+        "name": "Noah Brown",
+        "unique_id": "UID_00001"
+      }
+    ],
+    "flagged_risks": [
+      "Influenza",
+      "Low blood pressure"
+    ],
+    "summary": "**Patient Overview**  \n- **Name:** Noah Brown  \n- **Age:** 19\u202fyears  \n- **Gender:** Female  \n- **Primary Diagnosis:** Influenza (positive test)  \n- **Key Symptoms:** Fever, fatigue, difficulty breathing; no cough.  \n- **Vital Sign Concern:** Low blood pressure.  \n\n**Urgent Risks**  \n- **Severe Influenza Complications** \u2013 risk of respiratory failure or secondary bacterial infection.  \n- **Hypotension** \u2013 may compromise organ perfusion; requires prompt monitoring and support.  \n\n**Lab Highlights**  \n- **Influenza:** Positive viral test.  \n- **Blood Pressure:** Low (specific value not provided).  \n- **Cholesterol:** Normal.  \n- **Other Labs:** Not reported; assume normal unless otherwise noted.  \n\n**Actions Taken / Recommendations**  \n- **Current Actions:** None taken yet.  \n- **Immediate Recommendations:**  \n  - Initiate antiviral therapy (e.g., oseltamivir) if within 48\u202fh of symptom onset.  \n  - Start supportive care: oral hydration, antipyretics (acetaminophen), and monitor oxygen saturation.  \n  - Place patient on continuous BP monitoring; consider IV fluids if hypotension persists.  \n  - Educate patient on signs of worsening respiratory distress (increased work of breathing, cyanosis).  \n\n**Follow\u2011up**  \n- **Vitals:** Check BP, heart rate, and oxygen saturation every 4\u20136\u202fh until stable.  \n- **Laboratory Tests:** CBC with differential, electrolytes, and renal panel to assess for dehydration or organ dysfunction.  \n- **Imaging:** Chest X\u2011ray if respiratory distress worsens or if hypoxia develops.  \n- **Specialist Referral:** Pulmonology or infectious disease consult if breathing difficulty does not improve within 24\u202fh.  \n- **Discharge Planning:** Provide instructions for home isolation, medication adherence, and when to seek urgent care.  \n\n---",
+    "actions_taken": [
+      "Recommended doctor: Dr. Saad Naveed"
+    ]
+  },
+  "UID_00002": {
+    "patient_id": "UID_00002",
+    "patient_name": "John Williams",
+    "labs": [
+      {
+        "Disease": "Common Cold",
+        "Fever": "No",
+        "Cough": "Yes",
+        "Fatigue": "Yes",
+        "Difficulty Breathing": "No",
+        "Age": 25,
+        "Gender": "Female",
+        "Blood Pressure": "Normal",
+        "Cholesterol Level": "Normal",
+        "Outcome Variable": "Negative",
+        "name": "John Williams",
+        "unique_id": "UID_00002"
+      }
+    ],
+    "flagged_risks": [
+      "Common Cold"
+    ],
+    "summary": "**Patient Overview**  \n- **Name:** John Williams  \n- **Age:** 25\u202fyears  \n- **Gender:** Female  \n- **Chief Complaint:** Cough and fatigue consistent with a common cold.  \n- **Vital Signs & Labs:** Blood pressure and cholesterol within normal limits; no fever or breathing difficulty noted.\n\n**Urgent Risks**  \n- No immediate life\u2011threatening complications identified.  \n- Monitor for development of fever, shortness of breath, or worsening cough that could indicate secondary infection or pneumonia.\n\n**Lab Highlights**  \n- **Fever:** No  \n- **Cough:** Yes  \n- **Fatigue:** Yes  \n- **Difficulty Breathing:** No  \n- **Blood Pressure:** Normal  \n- **Cholesterol Level:** Normal  \n- **Outcome Variable:** Negative (no significant abnormal findings)\n\n**Actions Taken / Recommendations**  \n- **Current Actions:** None taken to date.  \n- **Suggested Next Steps:**  \n  - Rest and adequate hydration.  \n  - Over\u2011the\u2011counter symptomatic relief (e.g., acetaminophen for discomfort, saline nasal spray).  \n  - Monitor symptoms; if fever >38\u202f\u00b0C, cough worsens, or breathing becomes difficult, seek medical evaluation promptly.  \n  - Educate on hand hygiene and cough etiquette to prevent spread.\n\n**Follow\u2011up**  \n- **Re\u2011evaluation:** If symptoms persist beyond 7\u201310\u202fdays or worsen, schedule a follow\u2011up visit.  \n- **Additional Testing:** Not indicated at this time; consider chest X\u2011ray or CBC only if clinical deterioration occurs.  \n- **Referrals:** None required unless complications arise.  \n\n---",
+    "actions_taken": [
+      "Recommended doctor: Dr. Saad Naveed"
+    ]
+  },
+  "UID_00003": {
+    "patient_id": "UID_00003",
+    "patient_name": "Liam Brown",
+    "labs": [
+      {
+        "Disease": "Eczema",
+        "Fever": "No",
+        "Cough": "Yes",
+        "Fatigue": "Yes",
+        "Difficulty Breathing": "No",
+        "Age": 25,
+        "Gender": "Female",
+        "Blood Pressure": "Normal",
+        "Cholesterol Level": "Normal",
+        "Outcome Variable": "Negative",
+        "name": "Liam Brown",
+        "unique_id": "UID_00003"
+      }
+    ],
+    "flagged_risks": [
+      "Eczema"
+    ],
+    "summary": "**Patient Overview**  \n- **Name:** Liam Brown  \n- **Age:** 25\u202fyears  \n- **Gender:** Female (note: name suggests male; verify gender identity)  \n- **Key Clinical Details:**  \n  - Chronic eczema (flagged risk)  \n  - Current symptoms: cough, fatigue  \n  - No fever, no shortness of breath  \n  - Vital signs: blood pressure normal, cholesterol normal  \n\n**Urgent Risks**  \n- **Eczema** \u2013 potential for secondary infection or systemic involvement.  \n- **Respiratory symptoms** \u2013 cough may indicate upper airway irritation or early infection; monitor for progression.  \n- **Fatigue** \u2013 could signal underlying systemic inflammation or infection.  \n\n**Lab Highlights**  \n- No abnormal laboratory values reported; all listed labs (BP, cholesterol) are within normal limits.  \n\n**Actions Taken / Recommendations**  \n- **Current Actions:** None taken to date.  \n- **Suggested Next Steps:**  \n  - Perform a focused physical exam of skin and respiratory tract.  \n  - Obtain a basic CBC and CRP to assess for infection or inflammation.  \n  - Consider a chest X\u2011ray if cough persists or worsens.  \n  - Review and update eczema management plan (topical steroids, moisturizers).  \n  - Counsel on avoiding known eczema triggers (irritants, allergens).  \n\n**Follow\u2011up**  \n- **Short\u2011term:** Re\u2011evaluate in 1\u20132\u202fweeks if symptoms persist or worsen.  \n- **Long\u2011term:**  \n  - Dermatology referral for chronic eczema management.  \n  - Pulmonology referral if respiratory symptoms do not resolve.  \n  - Routine monitoring of blood pressure and cholesterol every 6\u202fmonths.  \n\n---",
+    "actions_taken": [
+      "Recommended doctor: Dr. Hassan Ali"
+    ]
+  }
+}
