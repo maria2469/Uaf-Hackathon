@@ -1050,6 +1050,9 @@
       "Recommended doctor: Dr. Adnan Malik",
       "Recommended doctor: Dr. Maham Qureshi"
     ],
+    "feedback": [
+      "Patient is improving after treatment"
+    ],
     "flagged_risks": [
       "Bipolar disorder",
       "Hypertension",
@@ -1073,7 +1076,7 @@
     ],
     "patient_id": "UID_00038",
     "patient_name": "Sophia Martinez",
-    "summary": "**Patient Overview**  \n- **Name:** Sophia Martinez  \n- **Age:** 30\u202fyears  \n- **Gender:** Female  \n- **Key Clinical Details:**  \n  - Diagnosed with Bipolar Disorder  \n  - Hypertension (high blood pressure)  \n  - Hyperlipidemia (high cholesterol)  \n  - Current symptoms: fatigue; no fever, cough, or shortness of breath  \n\n**Urgent Risks**  \n- **Uncontrolled hypertension** \u2013 risk of stroke, myocardial infarction, and heart failure.  \n- **Elevated cholesterol** \u2013 increased atherosclerotic cardiovascular disease risk.  \n- **Bipolar disorder** \u2013 potential for mood destabilization, especially if medication changes or stressors occur.  \n\n**Lab Highlights**  \n- **Blood Pressure:** Elevated (specific value not provided, but noted as \u201cHigh\u201d).  \n- **Cholesterol Level:** Elevated (specific values not provided, but noted as \u201cHigh\u201d).  \n- **Other Findings:** Fatigue present; no acute infection signs (fever, cough, breathing difficulty).  \n\n**Actions Taken / Recommendations**  \n- **Current Actions:** None taken to date.  \n- **Immediate Recommendations:**  \n  1. **Initiate antihypertensive therapy** (e.g., ACE inhibitor or ARB) after baseline labs and ECG.  \n  2. **Start statin therapy** for hyperlipidemia; consider high\u2011intensity statin if LDL >190\u202fmg/dL or moderate\u2011intensity if 70\u2013189\u202fmg/dL.  \n  3. **Review bipolar medication regimen** to ensure optimal control and minimize cardiovascular side effects.  \n  4. **Lifestyle counseling:** diet (DASH or Mediterranean), regular aerobic exercise, weight management, smoking cessation if applicable.  \n  5. **Educate patient** on symptom monitoring (headache, chest pain, palpitations, mood changes) and when to seek urgent care.  \n\n**Follow\u2011up**  \n- **Cardiology referral** within 2\u20134\u202fweeks for comprehensive cardiovascular assessment.  \n- **Psychiatry follow\u2011up** within 1\u20132\u202fweeks to review mood stability and medication adherence.  \n- **Repeat labs** (lipid panel, fasting glucose, HbA1c, renal function) in 3\u202fmonths to assess treatment response.  \n- **Blood pressure monitoring** at home with a validated cuff; record readings twice daily for 7\u202fdays before next visit.  \n- **Lifestyle progress review** at each visit; adjust diet/exercise plan as needed.  \n\n---"
+    "summary": "**Patient Overview**  \nSophia Martinez, 30\u2011year\u2011old female, presents with a history of bipolar disorder and current positive outcome variable. She reports fatigue but denies cough, fever, or difficulty breathing.  \n\n**Urgent Risks**  \n- **Severe**  \n  - Bipolar Disorder  \n- **Moderate**  \n  - Hypertension (high blood pressure)  \n  - Hyperlipidemia (high cholesterol level)  \n\n**Lab Highlights**  \n- Blood Pressure: High  \n- Cholesterol Level: High  \n- Fatigue: Yes  \n\n**Actions Taken / Recommendations**  \n- Recommended physicians: Dr. Adnan Malik and Dr. Maham Qureshi.  \n- Next steps:  \n  - Initiate or adjust antihypertensive therapy.  \n  - Begin statin or other lipid\u2011lowering regimen.  \n  - Review and optimize bipolar disorder medication regimen.  \n  - Counsel on diet, exercise, and sleep hygiene.  \n\n**Follow\u2011Up**  \n- Repeat blood pressure and lipid panel in 4\u20136 weeks.  \n- Schedule psychiatric follow\u2011up with Dr. Adnan Malik.  \n- Monitor for side effects of new medications.  \n- Consider referral to a cardiologist if blood pressure remains uncontrolled."
   },
   "UID_00039": {
     "actions_taken": [
@@ -1337,6 +1340,9 @@
     "actions_taken": [
       "Recommended doctor: Dr. Bilal Siddiqui",
       "Recommended doctor: Dr. Maham Qureshi"
+    ],
+    "feedback": [
+      "don't be too sensitive for cholesterol"
     ],
     "flagged_risks": [
       "Multiple sclerosis",

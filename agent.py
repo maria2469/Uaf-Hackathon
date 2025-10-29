@@ -1,17 +1,21 @@
 import time
 import json
 import sqlite3
-from typing import List, TypedDict, Dict, Set
-from summarizer_agent import generate_patient_summary_func
-from langchain_groq import ChatGroq
-from dotenv import load_dotenv
 import os
 import threading
 import re
+from typing import Dict, List, Set, TypedDict, Optional
+from langchain_groq import ChatGroq
+from summarizer_agent import generate_patient_summary_func
+from dotenv import load_dotenv
+from difflib import get_close_matches
+from threading import Lock
+
+from utils import safe_llm_invoke
 
 load_dotenv()
 
-# ====== Agent State ======
+# =================== Agent State ===================
 class PatientState(TypedDict):
     patient_id: str
     patient_name: str
@@ -19,74 +23,42 @@ class PatientState(TypedDict):
     flagged_risks: List[str]
     summary: str
     actions_taken: List[str]
+    feedback: List[str]
 
-# ====== Database Layer ======
 DB_PATH = "healthcare.db"
 MEMORY_PATH = "patient_memory.json"
+MEMORY_LOCK = Lock()
 
-def fetch_all_lab_reports(batch_size: int = 50, offset: int = 0) -> List[Dict]:
-    conn = sqlite3.connect(DB_PATH)
-    cursor = conn.cursor()
-    cursor.execute("SELECT * FROM lab_reports LIMIT ? OFFSET ?", (batch_size, offset))
-    rows = cursor.fetchall()
-    cols = [col[0] for col in cursor.description]
-    conn.close()
-    return [dict(zip(cols, row)) for row in rows]
+# =================== DB Helpers ===================
+def fetch_all_lab_reports(batch_size=50, offset=0) -> List[Dict]:
+    try:
+        conn = sqlite3.connect(DB_PATH)
+        cursor = conn.cursor()
+        cursor.execute("SELECT * FROM lab_reports LIMIT ? OFFSET ?", (batch_size, offset))
+        rows = cursor.fetchall()
+        cols = [col[0] for col in cursor.description]
+        return [dict(zip(cols, row)) for row in rows]
+    except Exception as e:
+        print(f"❌ DB error fetching labs: {e}")
+        return []
+    finally:
+        conn.close()
 
 def fetch_all_doctors() -> List[Dict]:
-    conn = sqlite3.connect(DB_PATH)
-    cursor = conn.cursor()
-    cursor.execute("SELECT * FROM doctors")
-    rows = cursor.fetchall()
-    cols = [col[0] for col in cursor.description]
-    conn.close()
-    return [dict(zip(cols, row)) for row in rows]
-
-# ====== LLM Safe Call ======
-def safe_llm_invoke(prompt: str, llm_model) -> str:
     try:
-        response = llm_model.invoke([{"role": "user", "content": prompt}])
-        return response.content.strip()
+        conn = sqlite3.connect(DB_PATH)
+        cursor = conn.cursor()
+        cursor.execute("SELECT * FROM doctors")
+        rows = cursor.fetchall()
+        cols = [col[0] for col in cursor.description]
+        return [dict(zip(cols, row)) for row in rows]
     except Exception as e:
-        print(f"❌ LLM invocation error: {e}")
-        return "LLM unavailable"
+        print(f"❌ DB error fetching doctors: {e}")
+        return []
+    finally:
+        conn.close()
 
-# ====== LLM Patient Assessment ======
-def llm_assess_patients(patients: List[Dict], doctors: List[Dict], llm_model) -> Dict[str, Dict]:
-    if not patients:
-        return {}
-    prompt = f"""
-You are a medical reasoning assistant.
-Given the following patients and doctors, for each patient:
-1. Identify potential health risks from labs/symptoms.
-2. Suggest the most appropriate doctors (by name) for each risk if necessary.
-3. Return ONLY JSON in the format:
-
-{{
-    "UID_00001": {{"risks": ["risk1", "risk2"], "recommended_doctors": ["Dr. X", "Dr. Y"]}}
-}}
-
-Patients:
-{json.dumps(patients)}
-
-Doctors:
-{json.dumps(doctors)}
-"""
-    content = safe_llm_invoke(prompt, llm_model)
-    try:
-        return json.loads(content)
-    except:
-        return {}
-
-# ====== Summarization Agent ======
-def generate_summary(patient_state: PatientState) -> str:
-    try:
-        return generate_patient_summary_func(patient_state)
-    except Exception as e:
-        print(f"❌ Error generating summary: {e}")
-        return "Summary unavailable."
-
-# ====== Load/Save Memory ======
+# =================== Memory Helpers ===================
 def load_memory(path: str) -> Dict[str, PatientState]:
     if os.path.exists(path):
         with open(path, "r") as f:
@@ -95,154 +67,228 @@ def load_memory(path: str) -> Dict[str, PatientState]:
     return {}
 
 def save_memory(path: str, memory: Dict[str, PatientState]):
-    with open(path, "w") as f:
-        json.dump(memory, f, indent=2, sort_keys=True)
+    with MEMORY_LOCK:
+        with open(path, "w") as f:
+            json.dump(memory, f, indent=2, sort_keys=True)
 
-# ====== Extract Patient Name from Query ======
-def extract_patient_name(query: str) -> str:
-    query = query.strip()
-    
-    # Common patterns for patient queries
+# =================== Summarization ===================
+def generate_summary(patient_state: PatientState) -> str:
+    try:
+        return generate_patient_summary_func(patient_state)
+    except Exception as e:
+        print(f"❌ Summary error: {e}")
+        return "Summary unavailable."
+
+# =================== Feedback ===================
+def submit_feedback(patient_name: str, feedback_text: str, memory: Dict[str, PatientState]):
+    if not patient_name:
+        print("❌ No patient specified for feedback.")
+        return
+
+    all_names = [p["patient_name"] for p in memory.values()]
+    match = get_close_matches(patient_name, all_names, n=1, cutoff=0.6)
+    if not match:
+        print(f"❌ No patient found matching {patient_name}")
+        return
+
+    for pid, patient in memory.items():
+        if patient["patient_name"] == match[0]:
+            with MEMORY_LOCK:
+                patient.setdefault("feedback", []).append(feedback_text)
+                patient["summary"] = generate_summary(patient)
+            print(f"✅ Feedback stored for {match[0]}")
+            return
+
+# =================== Query Parsing ===================
+def extract_patient_name(query: str, memory: Dict[str, PatientState]) -> Optional[str]:
+    # Look for keywords first
     patterns = [
-        r"medical history of ([A-Z][a-z]+(?:\s[A-Z][a-z]+)*)",
-        r"patient report ([A-Z][a-z]+(?:\s[A-Z][a-z]+)*)",
-        r"how is ([A-Z][a-z]+(?:\s[A-Z][a-z]+)*)",
-        r"condition of ([A-Z][a-z]+(?:\s[A-Z][a-z]+)*)",
-        r"is ([A-Z][a-z]+(?:\s[A-Z][a-z]+)*) doing",  
-        r"is ([A-Z][a-z]+(?:\s[A-Z][a-z]+)*) ok",      
+        r"(?:how is|status of|update on|show report for|full report for|medical history of)\s+([A-Z][a-z]+(?:\s[A-Z][a-z]+)*)"
     ]
-    
-    for pattern in patterns:
-        match = re.search(pattern, query, flags=re.I)
+    for pat in patterns:
+        match = re.search(pat, query, re.IGNORECASE)
         if match:
-            return match.group(1).strip()
-    
-    # fallback: look for any sequence of capitalized words
-    match = re.search(r"([A-Z][a-z]+(?:\s[A-Z][a-z]+)*)", query)
-    return match.group(1).strip() if match else ""
+            name_candidate = match.group(1).strip()
+            # Fuzzy match against memory
+            all_names = [p["patient_name"] for p in memory.values()]
+            match_name = get_close_matches(name_candidate, all_names, n=1, cutoff=0.6)
+            if match_name:
+                return match_name[0]
+            return name_candidate
 
-# ====== Query-Time LLM Reasoning ======
-def llm_query_patient(name: str, memory: Dict[str, PatientState], llm_model, full_report: bool = False) -> str:
-    for patient in memory.values():
-        if patient["patient_name"].lower() == name.lower():
-            if full_report:
-                # Detailed report
-                prompt = f"""
-You are a clinical assistant. Provide a FULL medical report for {name}.
-Patient record:
-{json.dumps(patient, indent=2)}
+    # Fallback: check any patient name in query
+    for p in memory.values():
+        if p["patient_name"].lower() in query.lower():
+            return p["patient_name"]
+    return None
 
-Include:
-- Flagged risks
-- Lab highlights
-- Suggested next steps
-- Urgent attention needed
+def is_full_report(query: str) -> bool:
+    return any(k in query.lower() for k in ["medical history", "full report", "detailed report", "complete report"])
 
-Respond in readable plain text.
+def is_casual_query(query: str) -> bool:
+    return any(k in query.lower() for k in ["how is", "okay", "status", "info", "update on"])
+
+def is_critical_query(query: str) -> bool:
+    return any(k in query.lower() for k in ["critical patient", "patients at risk", "who is critical", "patients with risks"])
+
+# =================== LLM Patient Query ===================
+AGENT_PROMPT = """
+You are a clinical assistant AI. Your job is to respond to any patient query dynamically.
+Rules:
+1. Determine query type (casual, normal update, full report).
+2. Always include flagged risks, latest labs, and feedback if any.
+3. Include reasoning trace (steps) for normal/full queries.
+4. Never hallucinate data. Use memory/DB only.
+5. Provide critical patient list if asked.
 """
-            else:
-                # Concise update
-                prompt = f"""
-You are a clinical assistant. A doctor asks: "How is {name} doing?"
+
+def llm_query_patient(name: str, memory: Dict[str, PatientState], llm_model, full_report=False, casual=False) -> str:
+    patient = next((p for p in memory.values() if p["patient_name"].lower() == name.lower()), None)
+    if not patient:
+        return f"No records found for patient {name}"
+
+    patient_copy = dict(patient)
+    patient_copy["labs"] = [patient["labs"][-1]] if patient["labs"] else []
+
+    record = json.dumps(patient_copy, indent=2)
+    instructions = "Provide a concise summary (~4-6 lines with reasoning)."
+    if full_report:
+        instructions = "Provide FULL structured report including reasoning trace."
+    elif casual:
+        instructions = "Provide 1-2 line casual summary without reasoning."
+
+    prompt = f"""
+{AGENT_PROMPT}
+
+User request about patient {name}.
+Instructions: {instructions}
+
 Patient record:
-{json.dumps(patient, indent=2)}
-
-Provide a concise, 2-3 sentence update:
-- Current flagged risks
-- Lab highlights
-- Urgent concerns or next steps
+{record}
 """
-            return safe_llm_invoke(prompt, llm_model)
-    return f"No records found for patient {name}"
 
-# ====== Background Ingestion Loop ======
-def ingestion_loop(patient_memory: Dict[str, PatientState], processed_patients: Set[str], llm_model, doctors):
-    offset = 0
-    batch_size = 50
+    for attempt in range(3):
+        try:
+            response = safe_llm_invoke(prompt, llm_model)
+            if response:
+                return response
+        except Exception as e:
+            print(f"❌ LLM error: {e}, retrying ({attempt+1}/3)")
+            time.sleep(1)
+
+    return "LLM query failed."
+
+# =================== Critical Patient Tool ===================
+def get_critical_patients(memory: Dict[str, PatientState]) -> str:
+    critical_list = []
+    for p in memory.values():
+        if p["flagged_risks"]:
+            critical_list.append({
+                "name": p["patient_name"],
+                "id": p["patient_id"],
+                "risk": ", ".join(p["flagged_risks"])
+            })
+    if not critical_list:
+        return "No critical patients currently."
+    return json.dumps(critical_list, indent=2)
+
+# =================== Background Ingestion ===================
+def ingestion_loop(memory: Dict[str, PatientState], processed: Set[str], llm_model, doctors):
+    offset, batch_size = 0, 50
     while True:
-        patients_batch = fetch_all_lab_reports(batch_size=batch_size, offset=offset)
-        new_patients = [p for p in patients_batch if p.get("unique_id") not in processed_patients]
+        batch = fetch_all_lab_reports(batch_size, offset)
+        new_patients = [p for p in batch if p.get("unique_id") not in processed]
 
         if new_patients:
-            assessments = llm_assess_patients(new_patients, doctors, llm_model)
-            for lab_data in new_patients:
-                patient_id = lab_data.get("unique_id")
-                patient_name = lab_data.get("name", "Unknown")
-                assessment = assessments.get(patient_id, {})
+            prompt = f"Assess {len(new_patients)} patients, suggest flagged risks and recommended doctors."
+            try:
+                assessments = json.loads(safe_llm_invoke(prompt, llm_model) or "{}")
+            except json.JSONDecodeError:
+                assessments = {}
 
-                flagged_risks = assessment.get("risks", [])
-                recommended_doctors = assessment.get("recommended_doctors", [])
+            with MEMORY_LOCK:
+                for data in new_patients:
+                    pid, name = data.get("unique_id"), data.get("name", "Unknown")
+                    assessment = assessments.get(pid, {})
+                    flagged = assessment.get("risks", [])
+                    doctors_rec = assessment.get("recommended_doctors", [])
 
-                if patient_id in patient_memory:
-                    prev_state = patient_memory[patient_id]
-                    labs_history = prev_state["labs"] + [lab_data]
-                    flagged_risks = list(set(prev_state["flagged_risks"] + flagged_risks))
-                    actions_taken = prev_state["actions_taken"]
-                else:
-                    labs_history = [lab_data]
-                    actions_taken = []
+                    if pid in memory:
+                        prev = memory[pid]
+                        labs = prev["labs"] + [data]
+                        flagged = list(set(prev["flagged_risks"] + flagged))
+                        actions = prev["actions_taken"]
+                        feedback = prev.get("feedback", [])
+                    else:
+                        labs, actions, feedback = [data], [], []
 
-                patient_state: PatientState = {
-                    "patient_id": patient_id,
-                    "patient_name": patient_name,
-                    "labs": labs_history,
-                    "flagged_risks": flagged_risks,
-                    "summary": "",
-                    "actions_taken": actions_taken
-                }
+                    patient_state: PatientState = {
+                        "patient_id": pid,
+                        "patient_name": name,
+                        "labs": labs,
+                        "flagged_risks": flagged,
+                        "summary": "",
+                        "actions_taken": actions,
+                        "feedback": feedback
+                    }
+                    patient_state["summary"] = generate_summary(patient_state)
+                    for doc in doctors_rec:
+                        msg = f"Recommended doctor: {doc}"
+                        if msg not in patient_state["actions_taken"]:
+                            patient_state["actions_taken"].append(msg)
 
-                patient_state["summary"] = generate_summary(patient_state)
+                    memory[pid] = patient_state
+                    processed.add(pid)
 
-                for doc_name in recommended_doctors:
-                    action_msg = f"Recommended doctor: {doc_name}"
-                    if action_msg not in patient_state["actions_taken"]:
-                        patient_state["actions_taken"].append(action_msg)
+                save_memory(MEMORY_PATH, memory)
 
-                patient_memory[patient_id] = patient_state
-                processed_patients.add(patient_id)
-
-            save_memory(MEMORY_PATH, patient_memory)
             offset += batch_size
         else:
             offset = 0
+
         time.sleep(5)
 
-# ====== Main Console Loop ======
+# =================== Main Console ===================
 if __name__ == "__main__":
     llm_model = ChatGroq(model="openai/gpt-oss-20b", temperature=0)
     doctors = fetch_all_doctors()
-    patient_memory: Dict[str, PatientState] = load_memory(MEMORY_PATH)
-    processed_patients: Set[str] = set(patient_memory.keys())
+    memory: Dict[str, PatientState] = load_memory(MEMORY_PATH)
+    processed: Set[str] = set(memory.keys())
 
-    # Start background ingestion
-    ingestion_thread = threading.Thread(
-        target=ingestion_loop,
-        args=(patient_memory, processed_patients, llm_model, doctors),
-        daemon=True
-    )
-    ingestion_thread.start()
+    threading.Thread(target=ingestion_loop, args=(memory, processed, llm_model, doctors), daemon=True).start()
 
+    last_patient = None
     try:
         while True:
-            query = input("\nType a query (or 'exit' to quit): ").strip()
+            query = input("\nQuery (or exit): ").strip()
             if query.lower() == "exit":
                 break
 
-            name = extract_patient_name(query)
-            if not name:
-                print("❌ Could not extract patient name from query.")
+            if query.lower().startswith("feedback:"):
+                try:
+                    _, rest = query.split(":", 1)
+                    if "|" in rest:
+                        patient_name, fb = rest.split("|", 1)
+                        submit_feedback(patient_name.strip(), fb.strip(), memory)
+                        save_memory(MEMORY_PATH, memory)
+                    else:
+                        print("❌ Feedback must include patient name using '|', e.g., feedback: Sophia Martinez|Great care")
+                except Exception as e:
+                    print(f"❌ Invalid feedback: {e}")
                 continue
 
-            # Determine query type
-            if "medical history of" in query.lower() or "patient report" in query.lower():
-                print(llm_query_patient(name, patient_memory, llm_model, full_report=True))
-            elif "how is" in query.lower() or "condition of" in query.lower() or "is" in query.lower():
-                print(llm_query_patient(name, patient_memory, llm_model, full_report=False))
-            else:
-                # Generic fallback
-                print(f"✅ Noted your query: '{query}'. No patient report generated.")
+            if is_critical_query(query):
+                print(get_critical_patients(memory))
+                continue
 
-    except KeyboardInterrupt:
-        print("\n🛑 UPI Agent stopped by user.")
+            name = extract_patient_name(query, memory)
+            if name:
+                last_patient = name
+                full_report = is_full_report(query)
+                casual = is_casual_query(query)
+                print(llm_query_patient(name, memory, llm_model, full_report=full_report, casual=casual))
+            else:
+                print(f"✅ Noted: {query}")
+
     finally:
-        save_memory(MEMORY_PATH, patient_memory)
+        save_memory(MEMORY_PATH, memory)
